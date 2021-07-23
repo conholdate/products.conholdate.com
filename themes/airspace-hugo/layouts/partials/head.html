@@ -1,0 +1,56 @@
+<head>
+  <meta charset="utf-8">
+  
+  <!-- Mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Site verifications -->
+  <meta name="baidu-site-verification" content="cscU32Frqy">
+  <meta name="yandex-verification" content="d9c1d73d40212e63">
+  <meta name="google-site-verification" content="Yv-mmER0pOkm2mnmxQ_lg86EO9k-mkBwNVqkD-Hc6sU">
+  
+  <!-- Title -->
+  <title>{{ with .Params.head_title | markdownify }}{{ . }}{{ else }}{{ .Params.title | markdownify }}{{ end }}</title>
+  
+  <!-- Description -->
+  <meta name="description" content="{{ with .Params.head_description | markdownify }}{{ . }}{{ else }}{{ with .Params.description | markdownify }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
+  
+  <!-- opengraph & twitter -->
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image" content="{{ . | absURL }}"/>
+  {{ else }}
+  {{ with site.Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image" content="{{ . | absURL }}"/>
+  {{ end }}
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27946748-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-27946748-1');
+  </script>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  {{ $styles := slice (resources.Get "scss/style.scss") (resources.Get "scss/custom.scss") | resources.Concat "scss/bundled.scss" | toCSS | minify -}}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{{ `https://cms.admin.containerize.com/templates/conholdate/favicon.ico` | relURL }}">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="{{ `https://cms.admin.containerize.com/templates/conholdate/favicon.ico` | relURL }}">
+
+</head>

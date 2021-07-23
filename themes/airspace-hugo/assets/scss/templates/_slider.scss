@@ -1,0 +1,37 @@
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 170px 0 200px;
+  position: relative;
+  @include tablet {
+    background-attachment: scroll;
+    padding: 150px 0;
+    h1{
+      font-size: 35px;
+    }
+  }
+
+  .block {
+    color: #E3E3E4;
+    text-align: center;
+
+    h1 {
+      font-weight: 100;
+      font-size: 45px;
+      line-height: 60px;
+      letter-spacing: 10px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #b9b9b9;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 300;
+    }
+  }
+}

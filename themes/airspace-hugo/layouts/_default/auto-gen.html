@@ -1,0 +1,141 @@
+{{ define "main" }}
+
+<!-- ############ HEADER ############ -->
+{{ partial "page-title.html" . }}
+
+<!-- ############ SUB MENU ############ -->
+{{ with .Params.submenu }}
+{{ if .enable }}
+
+{{- partial "sub-menu.html" . -}}
+
+{{ end }}
+{{ end }}
+
+<!-- ############ ABOUT ############ -->
+{{ with .Params.about }}
+{{ if .enable }}
+<a id="about" class="anchor" name="about"></a>
+<section class="about bg-gray">
+    <div class="container section-default-padding">
+        <h2>{{ .title }}</h2>
+        <p class="mt-20">{{ .content | markdownify }}</p>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ STEPS ############ -->
+{{ with .Params.steps }}
+{{ if .enable }}
+<section class="steps">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>{{ .title_left }}</h2>
+                <p class="mt-20">{{ .content_left | markdownify }}</p>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <h2>{{ .title_right }}</h2>
+                <p class="mt-20">{{ .content_right | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="mt-40">{{ .code | markdownify }}</p>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ DEMOS ############ -->
+{{ with .Params.demos }}
+{{ if .enable }}
+<section class="demos bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <h2>{{ .title }}</h2>
+            <p class="mt-20">{{ .content | markdownify }}</p>
+        </div>
+        <div class="row democard-container mt-30">
+            <div class="col-sm-3 col-md-3">
+                <div class="democard">
+                    <i class="fas fa-cogs"></i>
+                    <p class="mt-10">No need to download GroupDocs API.</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="democard">
+                    <i class="fas fa-laptop-code"></i>
+                    <p class="mt-10">No need to write any code</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="democard">
+                    <i class="fas fa-bolt"></i>
+                    <p class="mt-10">Just upload the source file to have an instant display.</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="democard">
+                    <i class="fas fa-download"></i>
+                    <p class="mt-10">Get the download link to save the file on your machine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ ABOUT FORMAT ############ -->
+{{ with .Params.about_formats }}
+{{ if .enable }}
+<section class="about-format bg-gray">
+    <div class="container section-default-padding bg-white">
+        {{ $len := (len .format) }}
+        {{ range .format }}
+        <div class="col-sm-{{ div 12 $len }} col-md-{{ div 12 $len }}">
+            <i class="{{ .icon }}"></i>
+            <h2>{{ .title }}</h2>
+            <p>{{ .content | markdownify }}</p>
+            <a class="btn-small" href="{{ .link | relURL }}">Read More</a>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ MORE FORMATS ############ -->
+{{ with .Params.more_formats }}
+{{ if .enable }}
+<section class="more-formats">
+    <div class="container section-default-padding">
+        <div class="row">
+            <h2>{{ .title }}</h2>
+            <p>{{ .content | markdownify }}</p>
+        </div>
+        <div class="row formats mt-20">
+            {{ range .format }}
+            <div class="col-sm-3 col-md-3">
+                <h4><a href="{{ .link | relURL }}">{{ .name }}</a></h4>
+                <p>({{ .description }})</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ BACK 2 TOP ############ -->
+{{ with .Params.back_to_top }}
+{{ if .enable }}
+
+{{- partial "back2top.html" . -}}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

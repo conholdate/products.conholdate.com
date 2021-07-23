@@ -1,0 +1,222 @@
+{{ define "main" }}
+
+<!-- ############ HEADER ############ -->
+{{ partial "page-title.html" . }}
+
+<!-- ############ SUB MENU ############ -->
+{{ with .Params.submenu }}
+{{ if .enable }}
+
+{{- partial "sub-menu.html" (dict "context" . "platform" $.Params.platform "platform_tag" $.Params.platform_tag) -}}
+
+{{ end }}
+{{ end }}
+
+<!-- ############ OVERVIEW ############ -->
+{{ with .Params.overview }}
+{{ if .enable }}
+<a id="overview" class="anchor" name="overview"></a>
+<section class="overview bg-gray">
+    <div class="container row-default-padding">
+        <div class="row">
+            <p class="mt-30">{{ .content | markdownify }}</p>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ APIs ############ -->
+{{ with .Params.apis }}
+{{ if .enable }}
+
+<a id="apis" class="anchor" name="apis"></a>
+<section class="apis">
+    <div class="container section-default-padding">
+        {{ range .api }}
+        <div class="row">
+            <div class="section-title">
+                {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range .api_product }}
+            <div class="col-xs-12 col-sm-6 col-md-6 apis-container">
+                <h4>
+                    <a href="{{ .link | relURL }}">
+                        <img alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                        <div class="api-product">{{ .product | markdownify }}</div class="api-product">
+                        <div class="api-platform">{{ .platform | markdownify }}</div>
+                    </a>
+                </h4>
+                <p>{{ .content | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
+
+<!-- ############ PRODUCTS ############ -->
+{{ with .Params.products }}
+{{ if .enable }}
+<a id="products" class="anchor" name="products"></a>
+<section class="products bg-gray">
+    <div class="container section-default-padding">
+        <div class="row">
+            <div class="section-title">
+                {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+                {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range .product }}
+            <div class="col-xs-12 col-sm-6 col-md-6 product-item">
+                <div class="col-md-2">
+                    <a href="{{ .link | relURL }}">
+                        <img width="90px" height="90px" alt="{{ .img_alt | markdownify }}" data-src="{{ .image | relURL }}" src="{{ .image | relURL }}">
+                    </a>
+                </div>
+                <div class="col-md-10">
+                    <a href="{{ .link | relURL }}">
+                        <h4>{{ .name | markdownify }}</h4>
+                    </a>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ FEATURES ############ -->
+{{ with .Params.features }}
+{{ if .enable }}
+<a id="features" class="anchor" name="features"></a>
+<section class="features bg-gray">
+    <div class="container row-default-padding">
+        <div class="row">
+            <div class="section-title">
+                <h2>{{ .title | markdownify }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .feature }}
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature-item">
+                    <i class="{{ .icon }} fa-2x"></i>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="row">
+            {{ range .more_feature}}
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="more-feature-item">
+                    <h3>{{ .title | markdownify }}</h4>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ SUPPORT ############ -->
+{{ with .Params.support}}
+{{ if .enable }}
+<a id="support" class="anchor" name="support"></a>
+<section class="support section-default-padding bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Support and Learning Resources</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="product-item">
+                    <h3>Learning Resources</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://docs.conholdate.com">Documentation</a>
+                            </li>
+                            <li>
+                                <a href="https://conholdate.github.io">Source Code</a>
+                            </li>
+                            <li>
+                                <a href="https://apireference.conholdate.com">API References</a>
+                            </li>
+                            <li>
+                                <a href="https://products.conholdate.com/total#">Video Tutorials</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="product-item">
+                    <h3>Product Support</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://forum.conholdate.com/c/total">Free Support</a>
+                            </li>
+                            <li>
+                                <a href="https://helpdesk.conholdate.com">Paid Support</a>
+                            </li>
+                            <li>
+                                <a href="https://blog.conholdate.com">Blog</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="product-item">
+                    <h3>Why Conholdate.Total Product Family?</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://company.conholdate.com/customers">Customers List</a>
+                            </li>
+                            <li>
+                                <a href="https://company.conholdate.com/customers/success-stories">Success Stories</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row support-btns">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="https://downloads.conholdate.com" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Download Free Trial</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="https://purchase.conholdate.com/pricing/total" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-info"></i> Pricing Information</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ BACK 2 TOP ############ -->
+{{ with .Params.back_to_top }}
+{{ if .enable }}
+
+{{- partial "back2top.html" . -}}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

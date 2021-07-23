@@ -1,0 +1,18 @@
+<a id="top" class="anchor" name="top"></a>
+<section class="page-title bg-2" style="background-image: url('https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png'); background-position: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Title | markdownify }}</h1>
+          <p>{{ .Params.description | markdownify }}</p>
+          {{ with .Params.button}}
+            {{ if .enable }}
+              <a href="https://downloads.conholdate.com/{{ $.Params.product_tag }}/{{ $.Params.platform_tag }}" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Download Free Trial</a>
+            {{end}}
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

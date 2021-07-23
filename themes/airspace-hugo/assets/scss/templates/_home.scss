@@ -1,0 +1,49 @@
+.our-products {
+  text-align: center;
+  padding: 50px 0;
+
+  .product-item {
+    padding-bottom: 80px;
+
+    a:hover {
+      .product-btn-label {
+        color: $white;
+      }
+    }
+
+    i {
+      font-size: 60px;
+      color: $primary-color;
+    }
+
+    h4 {
+      padding-top: 15px;
+      margin: 0;
+      font-weight: 500;
+      /*text-transform: uppercase;*/
+    }
+
+    p {
+      padding-top: 10px;
+      margin: 0;
+      height: 90px;
+    }
+
+    .product-btn{
+      text-transform: none;
+      margin: 0px 5px;
+      width: 223px;
+    }
+    
+    .product-btn-label{
+      font-size: 11px;
+      color: $gray;
+    }
+    
+    .product-btn-platform{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+}

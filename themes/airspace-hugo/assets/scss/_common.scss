@@ -1,0 +1,293 @@
+body, html {
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+iframe {
+  border: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: $primary-color;
+}
+
+blockquote {
+  font-size: 18px;
+  border-color: $primary-color;
+  padding: 20px 40px;
+  text-align: left;
+  color: #777;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
+  box-shadow: none;
+  height: 45px;
+  outline: none;
+  font-size: 14px;
+
+  &:focus {
+    box-shadow: none;
+    border: 1px solid $primary-color;
+  }
+}
+
+// Button Style
+
+.btn-main {
+  background: $primary-color;
+  color: $white;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 14px 35px;
+  text-transform: uppercase;
+  border-radius: 0;
+  @include transition (all, 0.2s, ease);
+
+  &.btn-icon {
+    i {
+      font-size: 16px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  &:hover {
+    background: darken($primary-color, 20%);
+    color: $white;
+  }
+}
+
+.btn-secondary {
+  @extend .btn-main;
+  background: $secondary-color;
+
+  &:hover {
+    background: darken($secondary-color, 20%);
+  }
+}
+
+.btn-solid-border {
+  border: 1px solid $primary-color;
+  background: transparent;
+  color: $primary-color;
+
+  &:hover {
+    background: $primary-color;
+    color: $white;
+
+    span {
+      color: $white;
+    }
+  }
+}
+
+.btn-transparent {
+  @extend .btn-main;
+  background: transparent;
+  padding: 0;
+  color: $primary-color;
+
+  &:hover {
+    background: transparent;
+    color: $primary-color;
+  }
+}
+
+.btn-large {
+  padding: 20px 45px;
+
+  &.btn-icon {
+    i {
+      font-size: 16px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+}
+
+.btn-small {
+  @extend .btn-main;
+  padding: 10px 24px;
+  font-size: 12px;
+}
+
+.btn-round {
+  border-radius: 4px;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0;
+}
+
+.mt-10 {
+  margin-top: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.btn:focus {
+  color: #ddd;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+/* preloader */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-shadow {
+  background-color: $white;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, .08);
+  padding: 20px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-gray {
+  background-color: #f9f9f9;
+}
+
+.bg-darkgray {
+  background-color: #d6d6d6;
+}
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.bg-primary-dark {
+  background-color: darken($primary-color, 10%);
+}
+
+.bg-primary-darker {
+  background-color: darken($primary-color, 20%);
+}
+
+.bg-dark {
+  background-color: #202122;
+}
+
+.row-default-padding {
+  padding: 20px 30px;
+}
+
+.section-default-padding {
+  padding: 50px 30px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  p {
+    color: #666;
+    font-family: $primary-font;
+  }
+}
+
+.section-subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.page-title {
+  padding: 100px 0;
+  // @extend .overly;
+
+  .block {
+    text-align: center;
+
+    h1 {
+      color: $white;
+      font-weight: 200;
+      letter-spacing: 6px;
+      margin-top: 0;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: $white;
+    }
+  }
+}
+
+.overly {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1d192c;
+    opacity: 0.8;
+  }
+}
