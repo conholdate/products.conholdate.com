@@ -1,2 +1,142 @@
 // Put custom SCSS rules in this file
 // Documentation: https://sass-lang.com/documentation
+.text-center-xs {
+    text-align: center;
+}
+
+.text-left-xs {
+    text-align: left;
+}
+
+.text-right-xs {
+    text-align: right;
+}
+
+.mt-xs-0 {
+    margin-top: 0;
+}
+
+.mt-xs-1 {
+    margin-top: 10px;
+}
+
+.mt-xs-2 {
+    margin-top: 20px;
+}
+
+.mt-xs-3 {
+    margin-top: 30px;
+}
+
+.m-xs-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-center-sm {
+        text-align: center;
+    }
+
+    .text-left-sm {
+        text-align: left;
+    }
+    
+    .text-right-sm {
+        text-align: right;
+    }
+
+    .mt-sm-0 {
+        margin-top: 0;
+    }
+    
+    .mt-sm-1 {
+        margin-top: 10px;
+    }
+    
+    .mt-sm-2 {
+        margin-top: 20px;
+    }
+    
+    .mt-sm-3 {
+        margin-top: 30px;
+    }
+
+    .m-sm-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-center-md {
+        text-align: center;
+    }
+
+    .text-left-md {
+        text-align: left;
+    }
+    
+    .text-right-md {
+        text-align: right;
+    }
+
+    .mt-md-0 {
+        margin-top: 0;
+    }
+    
+    .mt-md-1 {
+        margin-top: 10px;
+    }
+    
+    .mt-md-2 {
+        margin-top: 20px;
+    }
+    
+    .mt-md-3 {
+        margin-top: 30px;
+    }
+
+    .m-md-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text-center-lg {
+        text-align: center;
+    }
+
+    .text-left-lg {
+        text-align: left;
+    }
+    
+    .text-right-lg {
+        text-align: right;
+    }
+
+    .mt-lg-0 {
+        margin-top: 0;
+    }
+    
+    .mt-lg-1 {
+        margin-top: 10px;
+    }
+    
+    .mt-lg-2 {
+        margin-top: 20px;
+    }
+    
+    .mt-lg-3 {
+        margin-top: 30px;
+    }
+
+    .m-lg-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
