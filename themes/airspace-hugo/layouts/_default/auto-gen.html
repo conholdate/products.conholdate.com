@@ -1,7 +1,22 @@
 {{ define "main" }}
 
 <!-- ############ HEADER ############ -->
-{{ partial "page-title.html" . }}
+
+<a id="top" class="anchor" name="top"></a>
+<section class="page-title bg-2" style="background-image: url('https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png'); background-position: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Title | markdownify }}</h1>
+          <p>{{ .Params.description | markdownify }}</p>
+              <a href="https://downloads.conholdate.com/{{ $.Params.product_tag }}/{{ $.Params.platform_tag }}" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- ############ SUB MENU ############ -->
 {{ with .Params.submenu }}
@@ -88,24 +103,6 @@
 {{ end }}
 {{ end }}
 
-<!-- ############ ABOUT FORMAT ############ -->
-{{ with .Params.about_formats }}
-{{ if .enable }}
-<section class="about-format bg-gray">
-    <div class="container section-default-padding bg-white">
-        {{ $len := (len .format) }}
-        {{ range .format }}
-        <div class="col-sm-{{ div 12 $len }} col-md-{{ div 12 $len }}">
-            <i class="{{ .icon }}"></i>
-            <h2>{{ .title }}</h2>
-            <p>{{ .content | markdownify }}</p>
-            <a class="btn-small" href="{{ .link | relURL }}">Read More</a>
-        </div>
-        {{ end }}
-    </div>
-</section>
-{{ end }}
-{{ end }}
 
 <!-- ############ MORE FORMATS ############ -->
 {{ with .Params.more_formats }}
@@ -124,6 +121,25 @@
             </div>
             {{ end }}
         </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ ABOUT FORMAT ############ -->
+{{ with .Params.about_formats }}
+{{ if .enable }}
+<section class="about-format">
+    <div class="container section-default-padding bg-white">
+        {{ $len := (len .format) }}
+        {{ range .format }}
+        <div class="col-sm-{{ div 12 $len }} col-md-{{ div 12 $len }}">
+            <i class="{{ .icon }}"></i>
+            <h2>{{ .title }}</h2>
+            <p>{{ .content | markdownify }}</p>
+            <a class="btn-small" href="{{ .link | relURL }}">Read More</a>
+        </div>
+        {{ end }}
     </div>
 </section>
 {{ end }}
