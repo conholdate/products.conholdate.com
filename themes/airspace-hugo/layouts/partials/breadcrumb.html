@@ -57,10 +57,12 @@
 								{{ $slugname = print (upper (index $formats 0 ) ) " to " (upper (index $formats 1 ) ) }}
 								{{ $anchortext = print $slugname " " (humanize $feature) }}
 							{{ end }}
+						{{ else if $feature }}
+							{{ $anchortext = print (upper $slug) " " (humanize $feature) }}
 						{{ end }}
-							{{ if not (in .name "404") }}
+						{{ if not (in $anchortext "404" )}}
 							<li><i class="fa fa-angle-right">&nbsp;</i> {{ $anchortext }}</li>
-							{{ end }}
+						{{ end }}
 						{{ end }}
 						
 					{{ end }}
