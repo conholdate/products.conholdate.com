@@ -1,117 +1,100 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-09-22T14:22:14+03:00
+layout: "autogen"
+date: 2021-10-02T14:22:14+03:00
 draft: false
-product_tag: total
-platform_tag: net
+path: "total/net/conversion/emlx-to-pdf/"
 
 ############################# Head ############################
-head_title: "Convert EMLX to PDF with Headers via C# .NET"
+head_title: "Convert EMLX to PDF via C# & .NET Core"
 head_description: ".NET APIs for Email to PDF Conversion with just a few lines of C# code"
 
 ############################# Header ############################
-title: "Convert EMLX to PDF with Email Headers"
-description: "Load & convert email messages to PDF via C# on all platforms supported by .NET Core"
+title: "Convert EMLX to PDF via C# & .NET Core"
+description: "Load & Convert Email Message Files to PDF in Your Apps"
 
 ############################# SubMenu ############################
 submenu:
     enable: false
 
-############################# About ############################
-about:
-    enable: false
-    title: "About GroupDocs.Total for .NET"
-    content: |
-        GroupDocs.Total for .NET is a suite of document manipulation APIs to perform powerful documents manipulation & automation features within your desktop solutions and web apps without requiring any other commercial application. It enables developers to add the functionalities (view, edit, annotate, convert, compare, e-sign, assemble, search, parse, merge, redact and classify) within PDF, Microsoft Office Word, Excel, PowerPoint, OneNote, Visio, Outlook, HTML, images, graphics, diagrams and 90+ other popular document formats.
-
-        GroupDocs.Total APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
-
-############################# Steps ############################
-steps:
+############################# Content ############################
+content:
     enable: true
-    title_left: "Convert EMLX to PDF with C# .NET"
-    content_left: |
-        -   Load the EMLX message file with ```MailMessage.Load``` method
-        -   Create an instance of ```MhtSaveOptions``` for output customization
-        -   Set to write message header with complete email addresses
-        -   Call ```MailMessage.Save``` method to save the message in MHTML format
-        -   Load MHTML from previous step in an instance of ```Document```
-        -   Call ```Document.Save``` method with ```SaveFormat.Pdf``` as 2nd parameter
-        -   Load the PDF in any application to view complete message as PDF
+    block:
+    - title_left: "Convert EMLX to PDF with C#"
+      content_left: |
+          -   Load the EML file in an instance of [MailMessage](https://apireference.aspose.com/email/net/aspose.email/mailmessage) via `Load` method
+          -   Create an instance of [MhtSaveOptions](https://apireference.aspose.com/email/net/aspose.email/mhtsaveoptions) for output customization
+          -   Call [MailMessage.Save](https://apireference.aspose.com/email/net/aspose.email/mailmessage/methods/save/index) method to save message in MHTML format
+          -   Load MHTML from previous step in an instance of [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main)
+          -   Call [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method with `SaveFormat.Pdf` as second parameter
+          -   Load the PDF in any application to view complete message as PDF
+          
+      title_right: "Get Started with .NET Core APIs"
+      content_right: |
+          You require `Aspose.Email` & `Aspose.Words` namespaces to run the code on Windows, Linux or macOS via Mono and Xamarin or .NET Framework. 
+          
+          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/) via `dotnet add package Conholdate.Total` directly in your workspace.
+          
+      code: |
+          ```cs {linenos=false}
+          // load message with an instance of MailMessage
+          var mailMsg = Aspose.Email.MailMessage.Load("message.emlx");
+          // create object of MhtSaveOptions for MTHML format conversion
+          var mhtSaveOptions = Aspose.Email.MhtSaveOptions.DefaultMhtml;
+          // convert & save the MTHML in MemoryStream
+          using (var stream = new System.IO.MemoryStream())
+          {
+              mailMsg.Save(stream, mhtSaveOptions);
+              // load the MHTML stream in an instance of Document
+              var doc = new Aspose.Words.Document(stream);
+              // save MHTML to PDF
+              doc.Save("output.pdf", SaveFormat.Pdf);
+          }
+          // load the resultant PDF in default application
+          System.Diagnostics.Process.Start("output.pdf");
+          ```
+    - title_left: "Convert EMLX Headers to PDF via C#"
+      content_left: |
+          -   Load the EMLX file in an instance of `MailMessage`
+          -   Create an instance of [MhtSaveOptions](https://apireference.aspose.com/email/net/aspose.email/mhtsaveoptions) for output customization
+          -   Set options to write message header with complete email addresses
+          -   Call `MailMessage.Save` method to write the message in MHTML format
+          -   Load MHTML in an instance of `Document`
+          -   Call `Document.Save` to save result in PDF format
         
-    title_right: "Get Started with .NET Core APIs"
-    content_right: |
-        The following piece of code requires `Aspose.Email` & `Aspose.Words` namespaces. You can get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/).
+      title_right: "Customize MHTML for Email Headers"
+      content_right: |
+          [MhtSaveOptions.MhtFormatOptions](https://apireference.aspose.com/email/net/aspose.email/mhtsaveoptions/properties/mhtformatoptions) defines additional options when saving in MHTML format. 
+          
+          It requires a value from [MhtFormatOptions](https://apireference.aspose.com/email/net/aspose.email/mhtformatoptions) enum such as `WriteCompleteEmailAddress` to show complete addresses from email header in MHTML then in resultant PDF.
+          
+      code: |
+          ```cs {linenos=false}
+          var mailMsg = Aspose.Email.MailMessage.Load("message.emlx");
 
-        EMLX to PDF conversion can be done on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
-        
-    code: |
-        ```cs {linenos=false}
-        // load message with an instance of MailMessage
-        var mailMsg = Aspose.Email.MailMessage.Load("message.emlx");
-        // create an instance of MhtSaveOptions for MTHML customization
-        var mhtSaveOptions = Aspose.Email.MhtSaveOptions.DefaultMhtml;
-        // set MhtSaveOptions to write headers with complete email addresses
-        mhtSaveOptions.MhtFormatOptions = Aspose.Email.MhtFormatOptions.WriteHeader | Aspose.Email.MhtFormatOptions.WriteCompleteEmailAddress;
-        // temporarily save the MTHML in MemoryStream
-        using (var stream = new System.IO.MemoryStream())
-        {
-            mailMsg.Save(stream, mhtSaveOptions);
+          // create an instance of MhtSaveOptions for MTHML customization
+          var mhtSaveOptions = Aspose.Email.MhtSaveOptions.DefaultMhtml;
+          // set MhtSaveOptions to write headers with complete email addresses
+          mhtSaveOptions.MhtFormatOptions = Aspose.Email.MhtFormatOptions.WriteHeader | Aspose.Email.MhtFormatOptions.WriteCompleteEmailAddress;
 
-            // load the MHTML stream in an instance of Document
-            var doc = new Aspose.Words.Document(stream);
-            doc.Save("output.pdf");
-        }
-        // load the resultant PDF in default application
-        System.Diagnostics.Process.Start("output.pdf");
-        ```
-        
-############################# Demos ############################
-demos:
-    enable: false
-    title: "Free Document Automation Apps"
-    content: |
-        Offline [GroupDocs.Total Apps](https://products.groupdocs.app/total) to view, convert, annotate, compare, sign, assemble, parse, classify, redact and search documents.  
-        The live demo has the following benefits
-        
+          // save the MTHML in MemoryStream
+          using (var stream = new System.IO.MemoryStream())
+          {
+              mailMsg.Save(stream, mhtSaveOptions);
+              // load the MHTML stream & save as PDF
+              var doc = new Aspose.Words.Document(stream);
+              doc.Save("output.pdf");
+          }
+          ```
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-email-o"
-          title: " About EMLX File Format"
-          content: |
-            The EMLX was developed by Apple to be used by Apple Email and Apple Mac OS X. EMLX file can also be viewed using any text editor because normally data is stored as plain text. Every EMLX file consists of three parts, bytecount on first line, email content in MIME format (headers, body, attachments) and Apple's property list (plist) with metadata.
-
-          link: "https://docs.fileformat.com/email/emlx/"
-
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    format: 
-        # format loop
-        - name: "OFT TO PDF"
-          link: "/total/net/convert-oft-to-pdf-with-email-headers/"
-          description: "Outlook File Template"
-
-          # format loop
-        - name: "PST TO PDF"
-          link: "/total/net/convert-pst-messages-to-pdf/"
-          description: "Outlook Personal Storage"
-
-        # format loop
-        - name: "MSG TO PDF"
-          link: "/total/net/convert-msg-to-pdf-with-email-headers/"
-          description: "Outlook Message Item File"
-
-        # format loop
-        - name: "EML TO PDF"
-          link: "/total/net/convert-eml-to-pdf-with-email-headers/"
-          description: "Email Message File"
-
+    auto: true
+    other_out_formats: OST PST MBOX OLM 
 ############################# Back to top ###############################
 back_to_top:
   enable: true
