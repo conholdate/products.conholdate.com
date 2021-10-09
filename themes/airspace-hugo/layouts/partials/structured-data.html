@@ -64,8 +64,8 @@
     "inLanguage": "en-US",
     "isFamilyFriendly": "true",
     "copyrightYear": "{{ .PublishDate.Format "2006" }}",
-    "headline": "{{ .Page.Params.title }}",
-    "description": "{{ .Page.Params.description }}",
+    "headline": "{{ replace .Page.Params.title "\u0026" "and"  }}",
+    "description": "{{ replace .Page.Params.description  "\u0026" "and"   }}",
     "author": {
         "@type": "Organization",
         "name": "Aspose Pty Ltd"
