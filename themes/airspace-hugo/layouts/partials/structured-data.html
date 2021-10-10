@@ -1,0 +1,124 @@
+{{ $base := "https://products.conholdate.com"}}
+
+{{ $dot := . }}
+{{ $dot.Scratch.Set "path" "" }}
+{{ $dot.Scratch.Set "breadcrumb" slice }}
+{{ $url := .RelPermalink }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "home" "position" 1 )) }}
+  {{ range $index, $element := split $url "/" }}
+    {{ $dot.Scratch.Add "path" $element }}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ if ne $element "" }}
+    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 1))) }}
+  {{ end }}
+{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+        "@type": "ListItem",
+        "position": {{ .position }},
+        "item": {
+          "@id": "{{ .url | absURL }}",
+          "name": "{{ title .name }}"
+        }
+    }{{ end }}]
+}
+</script>
+
+{{ $firstUrlElement := index (split .RelPermalink "/") 1 }}
+{{ $secondUrlElement := index (split .RelPermalink "/") 2 }}
+<script type = "application/ld+json" >
+{
+  "@context": "http://schema.org/",
+  "@type": "SoftwareApplication",
+  "name": "Conholdate.{{title $firstUrlElement}} for {{title $secondUrlElement}}",
+  "applicationCategory": "DeveloperApplication",
+  "image": [
+    "https://products.conholdate.com/images/conholdate_{{$firstUrlElement}}-for-{{$secondUrlElement}}.png"
+  ],
+  "description": "{{ if in .Page.Parent "net" }}.NET Core Libraries for File Format Automation{{ else }}.NET Core Libraries for File Format Automation{{ end }}",
+  "downloadUrl": "https://downloads.conholdate.com/{{ $firstUrlElement }}/{{ $secondUrlElement }}",
+  "releaseNotes": "https://docs.conholdate.com/{{ $secondUrlElement }}/",
+  "operatingSystem": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ]
+}
+</script> 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage"
+    },
+    "url": {{ .Permalink }},
+    "dateCreated": "{{ .PublishDate.Format "2006-01-02" }}",
+    "datePublished": "{{ .PublishDate.Format "2006-01-02" }}",
+    "dateModified": "{{ .Page.Lastmod.Format "2006-01-02" }}",
+    "inLanguage": "en-US",
+    "isFamilyFriendly": "true",
+    "copyrightYear": "{{ .PublishDate.Format "2006" }}",
+    "headline": "{{ replace .Page.Params.title "\u0026" "and"  }}",
+    "description": "{{ replace .Page.Params.description  "\u0026" "and"   }}",
+    "author": {
+        "@type": "Organization",
+        "name": "Aspose Pty Ltd"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Aspose Pty Ltd",
+        "logo": {
+        "@type": "ImageObject",
+        "url": "https://about.aspose.com/templates/aspose/img/svg/aspose-logo.svg",
+        "width": "",
+        "height": ""
+        }
+    }
+}
+</script> 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aspose Pty. Ltd.",
+  "url": "https://www.conholdate.com",
+  "logo": "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate-logo.svg",
+  "alternateName": "Aspose",
+  "sameAs": [
+    "https://www.aspose.com/",
+    "https://www.groupdocs.com/",
+    "https://www.aspose.cloud/",
+    "https://www.groupdocs.cloud/"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1 903 306 1676",
+      "contactType": "sales",
+      "areaServed": "US",
+      "availableLanguage": "en"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+44 141 628 8900",
+      "contactType": "sales",
+      "areaServed": "GB",
+      "availableLanguage": "en"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+61 2 8006 6987",
+      "contactType": "sales",
+      "areaServed": "AU",
+      "availableLanguage": "en"
+    }
+  ]
+}
+</script>

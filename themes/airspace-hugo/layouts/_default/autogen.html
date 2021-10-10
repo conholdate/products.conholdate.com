@@ -1,0 +1,187 @@
+{{ define "main" }}
+
+<!-- ############ Calculations ############ -->
+
+{{ $path := strings.TrimRight "/" .Page.Params.path }}
+{{ $segments := split $path "/" }}
+{{ $depth := len $segments }}
+{{ $family := index ($segments) 0 }}
+{{ $platform := index ($segments) 1 }}
+{{ $feature := index ($segments) 2 }}
+{{ $informat := "" }}
+{{ $outformat := "" }}
+{{ $slug := "" }}
+{{ $platformname := "" }}
+{{ if eq $platform "net"}}
+    {{ $platformname = ".NET" }}
+{{ else if eq $platform "java"}}
+    {{ $platformname = "Java" }}
+{{ end }}
+
+{{ if eq $feature "conversion" }}
+    {{ $slug = index ($segments) 3 }}
+    {{ $informat = index (split $slug "-to-") 0 }}
+    {{ $outformat = index (split $slug "-to-") 1 }} 
+{{ else }}
+    {{ $informat = index ($segments) (sub $depth 1) }}
+    {{ $slug = $informat }}
+{{ end }}
+{{ $informatdesc := "" }}
+{{ $informatlink := "" }}
+{{ $outformatdesc := "" }}
+{{ $outformatlink := "" }}
+{{ $formatname := "" }}
+{{ $colsize := 12 }}
+
+{{ $formats := site.Data.fileformats }}
+{{ range $formats }}
+  {{ if eq .format ( upper $informat)  }}
+    {{ $informatdesc = .description }}
+	{{ $informatlink = .link }}
+  {{ end }}
+  {{ if $outformat }}
+    {{ if eq .format ( upper $outformat)  }}
+        {{ $outformatdesc = .description }}
+        {{ $outformatlink = .link }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if and ($informat) ($outformat) }}
+    {{ $colsize = 6 }}
+{{ end }}
+
+{{ $formatname := "" }}
+
+<!-- ############ HEADER ############ -->
+<a id="top" class="anchor" name="top"></a>
+<section class="page-title bg-2" style="background: #439cda;background: linear-gradient(90deg,#439cda 0%,#286baf 100%)!important;margin-top: 0;color: #fff;text-align: center;padding-bottom: 45px">  <div class="container">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Title | markdownify }}</h1>
+          <p>{{ .Params.description | markdownify }}</p>
+          <a href="https://downloads.conholdate.com/{{ $.Params.product_tag }}/{{ $.Params.platform_tag }}" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ############ Content ############ -->
+{{ with .Params.content }}
+{{ if .enable }}
+{{ range .block }}
+<section class="steps">
+    <div class="container section-default-padding">
+        
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h2>{{ .title_left | markdownify }}</h2>
+                <p class="mt-20">{{ .content_left | markdownify }}</p>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <h2>{{ .title_right }}</h2>
+                <p class="mt-20">{{ .content_right | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="mt-40">{{ .code | markdownify }}</p>
+        </div>
+        
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<!-- ############ MORE FORMATS ############ -->
+{{ with .Params.more_formats }}
+{{ if .enable }}
+
+<section class="more-formats">
+    <div class="container section-default-padding">
+        <div class="row">
+            <h2>Popular {{ $feature | humanize }} Options</h2>
+        </div>
+        <div class="row formats mt-20">
+            {{ if .auto }}
+                {{ range site.RegularPages }}
+                {{ if  and (in .File.Dir $family) (in .File.Dir $platform ) ( in .File.Dir $feature )  (not ( in .File $slug)) }} 
+                {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
+                
+                <div class="col-sm-3 col-md-3">
+                    <h4>
+                    <a href="{{ .Permalink }}">Convert {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}{{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}{{ else }}{{ upper $pathsegment }}{{ end }}</a>
+                    </h4>
+                    {{ $format := (index (split $pathsegment.File "-to-") 0) }}
+                    {{ range $formats }}
+                        {{ if eq .format (upper (index (split $pathsegment.File "-to-") 0)) }}
+                            {{ $formatname = .name }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $formatname }}<p>({{ $formatname }})</p>{{ end }}
+                </div>
+                {{ end }}
+                {{ end }}
+            {{ else }}
+                {{ range (split .other_out_formats " ") }}     
+                    <div class="col-sm-3 col-md-3">
+                        <h4>
+                        {{ if eq $feature "conversion"}}
+                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} TO {{ upper . }}</a>
+                        {{ else }}
+                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
+                        {{ end }}
+                        </h4>
+                        {{ $format := . }}
+                        {{ range $formats }}
+                            {{ if eq .format $format }}
+                                {{ $formatname = .name }}
+                            {{ end }}
+                        {{ end }}
+                        {{ if $formatname }}<p>({{ $formatname }})</p>{{ end }}
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ ABOUT FORMAT ############ -->
+{{ with .Params.about_formats }}
+{{ if .enable }}
+<section class="about-format bg-white">
+    <div class="container section-default-padding bg-gray">
+            {{ if $informat }}
+            <div class="col-sm-{ $colsize }} col-md-{{ $colsize }}">
+                <h2>What is {{ upper $informat }} File Format?</h2>
+                <p>{{ $informatdesc | markdownify }}</p>
+                <a class="btn-small" href="{{ $informatlink | relURL }}">Read More</a>
+            </div>
+            {{ end }}
+            {{ if $outformat }}
+            <div class="col-sm-{ $colsize }} col-md-{{ $colsize }}">
+                <h2>What is {{ upper $outformat }} File Format?</h2>
+                <p>{{ $outformatdesc | markdownify }}</p>
+                <a class="btn-small" href="{{ $outformatlink | relURL }}">Read More</a>
+            </div>
+            {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- ############ BACK 2 TOP ############ -->
+{{ with .Params.back_to_top }}
+{{ if .enable }}
+
+{{- partial "back2top.html" . -}}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

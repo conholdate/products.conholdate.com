@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 {{- partial "head.html" . -}}
-
+{{- partial "structured-data.html" . -}}
 <body>
 	{{- partial "gtm.html" . -}}
+	{{- partial "breadcrumb.html" . -}}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
 </body>

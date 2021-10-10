@@ -1,0 +1,74 @@
+{{ if ne .RelPermalink "/" }}
+
+{{ $dot := . }}
+{{ $dot.Scratch.Set "path" "" }}
+{{ $dot.Scratch.Set "breadcrumb" slice }}
+{{ $url := .RelPermalink }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "home" "position" 1 )) }}
+  {{ range $index, $element := split $url "/" }}
+    {{ $dot.Scratch.Add "path" $element }}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ if ne $element "" }}
+    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 1))) }}
+  {{ end }}
+{{ end }}
+
+{{ $platforms := "" }}
+{{ $productname := "" }}
+{{ $feature := "" }}
+{{ $slug := "" }}
+{{ $slugname := "" }}
+
+<style>.bg-light-primary{background:#97d6ff;}.productbreadcrumbs li{list-style-type: none;}.productbreadcrumbs li{ padding:10px 0; display: inline-block; color:#333333;} .productbreadcrumbs a{ display: inline-block; color:#006bb0!important;}.productbreadcrumbs li i{margin:0 10px}@media(max-width:688px){.productbreadcrumbs{padding:0 20px!important}}</style>
+<div class="container-fluid bg-light-primary ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <ul class="d-flex align-items-center m-0 productbreadcrumbs p-0">
+                    <li><a href="/">Home</a></li>
+                    {{ range $.Scratch.Get "breadcrumb" }}
+						{{ $anchortext := "" }}
+						{{ if eq .position 2 }}
+							{{ $anchortext = print "Conholdate." ( humanize .name)  }}
+							{{ if (ne .position (len ( $dot.Scratch.Get "breadcrumb")))  }}
+							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ $anchortext }}</a></li>
+							{{ end }}
+						{{ else if eq .position 3 }}
+							{{ if eq .name "net" }}
+								{{ $anchortext = ".NET" }}
+							{{ else }}
+								{{ $anchortext = (.name | humanize ) }}
+							{{ end }}
+
+							{{ if ne .position (len ( $dot.Scratch.Get "breadcrumb") ) }}
+							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ $anchortext }}</a></li>
+							{{ end }}
+
+						{{ else if eq .position 4 }}
+							{{ $feature = .name }}
+							{{ $anchortext = (humanize $feature) }}
+						{{ end }}
+
+						{{ if eq .position (len ( $dot.Scratch.Get "breadcrumb") ) }}
+						{{ $slug = .name }}
+						{{ if in $slug "-to-" }}
+							{{ $formats := (split $slug "-to-") }}
+							{{ if eq (len $formats) 2 }}
+								{{ $slugname = print (upper (index $formats 0 ) ) " to " (upper (index $formats 1 ) ) }}
+								{{ $anchortext = print $slugname " " (humanize $feature) }}
+							{{ end }}
+						{{ else if $feature }}
+							{{ $anchortext = print (upper $slug) " " (humanize $feature) }}
+						{{ end }}
+						{{ if not (in $anchortext "404" )}}
+							<li><i class="fa fa-angle-right">&nbsp;</i> {{ $anchortext }}</li>
+						{{ end }}
+						{{ end }}
+						
+					{{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
