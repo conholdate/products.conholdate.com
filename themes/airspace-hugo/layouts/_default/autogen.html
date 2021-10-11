@@ -110,10 +110,14 @@
                 {{ range site.RegularPages }}
                 {{ if  and (in .File.Dir $family) (in .File.Dir $platform ) ( in .File.Dir $feature )  (not ( in .File $slug)) }} 
                 {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
-                
                 <div class="col-sm-3 col-md-3">
                     <h4>
-                    <a href="{{ .Permalink }}">Convert {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}{{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}{{ else }}{{ upper $pathsegment }}{{ end }}</a>
+                    <a href="{{ .Permalink }}">
+                        {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}
+                        Convert {{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}
+                        {{ else }}
+                        {{ upper $pathsegment.File }} {{ $feature | humanize }}
+                        {{ end }}</a>
                     </h4>
                     {{ $format := (index (split $pathsegment.File "-to-") 0) }}
                     {{ range $formats }}
@@ -178,10 +182,9 @@
 <!-- ############ BACK 2 TOP ############ -->
 {{ with .Params.back_to_top }}
 {{ if .enable }}
-
 {{- partial "back2top.html" . -}}
-
 {{ end }}
+
 {{ end }}
 
 {{ end }}
