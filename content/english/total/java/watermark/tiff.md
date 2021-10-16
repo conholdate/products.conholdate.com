@@ -134,26 +134,6 @@ more_formats:
           description: "Microsoft Visio Drawing"
 
         # format loop
-        - name: "Add Watermark to Project"
-          link: "https://products.conholdate.com/total/java/watermark/project/"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Add Watermark to Email"
-          link: "https://products.conholdate.com/total/java/watermark/email/"
-          description: "Email Files"
-
-        # format loop
-        - name: "Add Watermark to Web"
-          link: "https://products.conholdate.com/total/java/watermark/web/"
-          description: "Web Files"
-
-        # format loop
-        - name: "Add Watermark to One"
-          link: "https://products.conholdate.com/total/java/watermark/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
         - name: "Add Watermark to DOC"
           link: "https://products.conholdate.com/total/java/watermark/doc/"
           description: "Microsoft Word 97-2003 Document"
@@ -179,11 +159,6 @@ more_formats:
           description: "Rich Text Document"
 
         # format loop
-        - name: "Add Watermark to TXT"
-          link: "https://products.conholdate.com/total/java/watermark/txt/"
-          description: "Plain Text Document"
-
-        # format loop
         - name: "Add Watermark to XLS"
           link: "https://products.conholdate.com/total/java/watermark/xls/"
           description: "Microsoft Excel 95-2003 Workbook Worksheet"
@@ -202,11 +177,6 @@ more_formats:
         - name: "Add Watermark to XLTX"
           link: "https://products.conholdate.com/total/java/watermark/xltx/"
           description: "Excel Open XML Spreadsheet Template"
-
-        # format loop
-        - name: "Add Watermark to CSV"
-          link: "https://products.conholdate.com/total/java/watermark/csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "Add Watermark to PPT"
@@ -287,126 +257,6 @@ more_formats:
         - name: "Add Watermark to VSDX"
           link: "https://products.conholdate.com/total/java/watermark/vsdx/"
           description: "Microsoft Visio Drawing"
-        
-        # format loop
-        - name: "Add Watermark to MPP"
-          link: "https://products.conholdate.com/total/java/watermark/mpp/"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Add Watermark to MPT"
-          link: "https://products.conholdate.com/total/java/watermark/mpt/"
-          description: "Microsoft Project Template"
-
-        # format loop
-        - name: "Add Watermark to MPX"
-          link: "https://products.conholdate.com/total/java/watermark/mpx/"
-          description: "Microsoft Project Exchange File"
-
-        # format loop
-        - name: "Add Watermark to MSG"
-          link: "https://products.conholdate.com/total/java/watermark/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Add Watermark to EML"
-          link: "https://products.conholdate.com/total/java/watermark/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Add Watermark to EMLX"
-          link: "https://products.conholdate.com/total/java/watermark/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Add Watermark to PST"
-          link: "https://products.conholdate.com/total/java/watermark/pst/"
-          description: "Microsoft Outlook Personal Storage Table"
-
-        # format loop
-        - name: "Add Watermark to OST"
-          link: "https://products.conholdate.com/total/java/watermark/ost/"
-          description: "Microsoft Outlook Offline Storage Table"
-
-        # format loop
-        - name: "Add Watermark to HTML"
-          link: "https://products.conholdate.com/total/java/watermark/html/"
-          description: "HyperText Markup Language"
-        
-        # format loop
-        - name: "Add Watermark to MHTML"
-          link: "https://products.conholdate.com/total/java/watermark/mhtml/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Add Watermark to WMF"
-          link: "https://products.conholdate.com/total/java/watermark/wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "Add Watermark to EMF"
-          link: "https://products.conholdate.com/total/java/watermark/emf/"
-          description: "Windows Enhanced Metafile"
-
-        # format loop
-        - name: "Add Watermark to ZIP"
-          link: "https://products.conholdate.com/total/java/watermark/zip/"
-          description: "Archive file format"
-
-        # format loop
-        - name: "Add Watermark to RAR"
-          link: "https://products.conholdate.com/total/java/watermark/rar/"
-          description: "WinRAR Compressed Archive"
-
-        # format loop
-        - name: "Add Watermark to EPUB"
-          link: "https://products.conholdate.com/total/java/watermark/epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "Add Watermark to MOBI"
-          link: "https://products.conholdate.com/total/java/watermark/mobi/"
-          description: "Mobipocket e-book format"
-
-        # format loop
-        - name: "Add Watermark to DjVu"
-          link: "https://products.conholdate.com/total/java/watermark/djvu/"
-          description: "Deja Vu"
-
-        # format loop
-        - name: "Add Watermark to XML"
-          link: "https://products.conholdate.com/total/java/watermark/xml/"
-          description: "Text XML document"
-
-        # format loop
-        - name: "Add Watermark to PCL"
-          link: "https://products.conholdate.com/total/java/watermark/pcl/"
-          description: "Printer Command Language"
-        
-        # format loop
-        - name: "Add Watermark to PSD"
-          link: "https://products.conholdate.com/total/java/watermark/psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "Add Watermark to DWG"
-          link: "https://products.conholdate.com/total/java/watermark/dwg/"
-          description: "Autodesk Design Data Formats"
-
-        # format loop
-        - name: "Add Watermark to DWF"
-          link: "https://products.conholdate.com/total/java/watermark/dwf/"
-          description: "Autodesk Design Web Format"
-
-        # format loop
-        - name: "Add Watermark to DGN"
-          link: "https://products.conholdate.com/total/java/watermark/dgn/"
-          description: "MicroStation Design File"
-
-        # format loop
-        - name: "Add Watermark to DWT"
-          link: "https://products.conholdate.com/total/java/watermark/dwt/"
-          description: "AutoCAD Drawing Template"
 
 ############################# Back to top ###############################
 back_to_top:
