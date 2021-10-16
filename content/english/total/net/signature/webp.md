@@ -7,12 +7,12 @@ product_tag: total
 platform_tag: net
 
 ############################# Head ############################
-head_title: "Add Digital Signatures to FODP File Viewer in C#, VB.NET"
-head_description: "Digitally add signatures to an OpenDocument Flat XML Presentation file (FODP) and 100+ other file formats in C# .NET. View the signed file in HTML using Conholdate.Total for .NET APIs."
+head_title: "Add Digital Signatures to WebP File Viewer in C#, VB.NET"
+head_description: "Digitally add signatures to WebP Viewer documents and 170+ other file formats in C# .NET. View the signed file in HTML using Conholdate.Total for .NET APIs."
 
 ############################# Header ############################
-title: "Digitally Add Signatures to FODP Viewer"
-description: "Digitally sign and verify signatures in an OpenDocument Flat XML Presentation file (FODP) within your C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
+title: "Digitally Add Signatures to WebP Viewer"
+description: "Digitally sign and verify signatures in WebP Viewer documents within your C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -67,9 +67,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C# Code to Digitally Sign a FODP File"
+    title_left: "C# Code to Digitally Sign a WebP File"
     content_left: |
-        [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing an OpenDocument Flat XML Presentation file (FODP) with digital signatures using a few lines of C# .NET code.
+        [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing WebP Viewer applications with digital signatures using a few lines of C# .NET code.
 
         *   Instantiate **Signature** with input document
         *   Instantiate **DigitalSignOptions** object with certificate details
@@ -84,9 +84,9 @@ steps:
         
     code: |
         ```cs
-        // Add digital e-signatures to FODP file using GroupDocs.Signature API
-        // Instantiate Signature with input FODP document
-        using (Signature signature = new Signature("input.fodp"))
+        // Add digital e-signatures to WebP file using GroupDocs.Signature API
+        // Instantiate Signature with input WebP document
+        using (Signature signature = new Signature("input.webp"))
           {
             // initialize digital option with certificate file path
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -112,11 +112,11 @@ steps:
             };
 
           // Sign document to file
-          signature.Sign("output.fodp", options);
+          signature.Sign("output.webp", options);
 
           // Set options to view signed document as HTML
           HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources("output{0}.html");
-          try (Viewer viewer = new Viewer("output.fodp")) {
+          try (Viewer viewer = new Viewer("output.webp")) {
           viewer.view(viewOptions);
           }
         ```
@@ -134,12 +134,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
-          title: " About Presentation File Format"
+        - icon: "far fa-file-image-o"
+          title: " About WebP File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://docs.fileformat.com/image/webp/"
     
 ############################# More Formats ############################
 more_formats:
@@ -167,31 +167,6 @@ more_formats:
           description: "Image Files"
 
         # format loop
-        - name: "Add eSignatures to Visio"
-          link: "https://products.conholdate.com/total/net/signature/visio/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Add eSignatures to Project"
-          link: "https://products.conholdate.com/total/net/signature/project/"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Add eSignatures to Email"
-          link: "https://products.conholdate.com/total/net/signature/email/"
-          description: "Email Files"
-
-        # format loop
-        - name: "Add eSignatures to Web"
-          link: "https://products.conholdate.com/total/net/signature/web/"
-          description: "Web Files"
-
-        # format loop
-        - name: "Add eSignatures to One"
-          link: "https://products.conholdate.com/total/net/signature/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
         - name: "Add eSignatures to DOC"
           link: "https://products.conholdate.com/total/net/signature/doc/"
           description: "Microsoft Word 97-2003 Document"
@@ -212,16 +187,6 @@ more_formats:
           description: "Microsoft Word Template"
 
         # format loop
-        - name: "Add eSignatures to RTF"
-          link: "https://products.conholdate.com/total/net/signature/rtf/"
-          description: "Rich Text Document"
-
-        # format loop
-        - name: "Add eSignatures to TXT"
-          link: "https://products.conholdate.com/total/net/signature/txt/"
-          description: "Plain Text Document"
-
-        # format loop
         - name: "Add eSignatures to XLS"
           link: "https://products.conholdate.com/total/net/signature/xls/"
           description: "Microsoft Excel 95-2003 Workbook Worksheet"
@@ -240,11 +205,6 @@ more_formats:
         - name: "Add eSignatures to XLTX"
           link: "https://products.conholdate.com/total/net/signature/xltx/"
           description: "Excel Open XML Spreadsheet Template"
-
-        # format loop
-        - name: "Add eSignatures to CSV"
-          link: "https://products.conholdate.com/total/net/signature/csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "Add eSignatures to PPT"
@@ -302,149 +262,9 @@ more_formats:
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Add eSignatures to VSD"
-          link: "https://products.conholdate.com/total/net/signature/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Add eSignatures to VDX"
-          link: "https://products.conholdate.com/total/net/signature/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Add eSignatures to VSS"
-          link: "https://products.conholdate.com/total/net/signature/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Add eSignatures to VSSX"
-          link: "https://products.conholdate.com/total/net/signature/vssx/"
-          description: "Microsoft Visio Stencil"
-
-        # format loop
-        - name: "Add eSignatures to VSDX"
-          link: "https://products.conholdate.com/total/net/signature/vsdx/"
-          description: "Microsoft Visio Drawing"
-        
-        # format loop
-        - name: "Add eSignatures to MPP"
-          link: "https://products.conholdate.com/total/net/signature/mpp/"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Add eSignatures to MPT"
-          link: "https://products.conholdate.com/total/net/signature/mpt/"
-          description: "Microsoft Project Template"
-
-        # format loop
-        - name: "Add eSignatures to MPX"
-          link: "https://products.conholdate.com/total/net/signature/mpx/"
-          description: "Microsoft Project Exchange File"
-
-        # format loop
-        - name: "Add eSignatures to MSG"
-          link: "https://products.conholdate.com/total/net/signature/msg/"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Add eSignatures to EML"
-          link: "https://products.conholdate.com/total/net/signature/eml/"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Add eSignatures to EMLX"
-          link: "https://products.conholdate.com/total/net/signature/emlx/"
-          description: "Apple Mail E-mail File"
-
-        # format loop
-        - name: "Add eSignatures to PST"
-          link: "https://products.conholdate.com/total/net/signature/pst/"
-          description: "Microsoft Outlook Personal Storage Table"
-
-        # format loop
-        - name: "Add eSignatures to OST"
-          link: "https://products.conholdate.com/total/net/signature/ost/"
-          description: "Microsoft Outlook Offline Storage Table"
-
-        # format loop
-        - name: "Add eSignatures to HTML"
-          link: "https://products.conholdate.com/total/net/signature/html/"
-          description: "HyperText Markup Language"
-        
-        # format loop
-        - name: "Add eSignatures to MHTML"
-          link: "https://products.conholdate.com/total/net/signature/mhtml/"
-          description: "Mime HTML"
-
-        # format loop
-        - name: "Add eSignatures to WMF"
-          link: "https://products.conholdate.com/total/net/signature/wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "Add eSignatures to EMF"
-          link: "https://products.conholdate.com/total/net/signature/emf/"
-          description: "Windows Enhanced Metafile"
-
-        # format loop
-        - name: "Add eSignatures to ZIP"
-          link: "https://products.conholdate.com/total/net/signature/zip/"
-          description: "Archive file format"
-
-        # format loop
-        - name: "Add eSignatures to RAR"
-          link: "https://products.conholdate.com/total/net/signature/rar/"
-          description: "WinRAR Compressed Archive"
-
-        # format loop
-        - name: "Add eSignatures to EPUB"
-          link: "https://products.conholdate.com/total/net/signature/epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "Add eSignatures to MOBI"
-          link: "https://products.conholdate.com/total/net/signature/mobi/"
-          description: "Mobipocket e-book format"
-
-        # format loop
         - name: "Add eSignatures to DjVu"
           link: "https://products.conholdate.com/total/net/signature/djvu/"
           description: "Deja Vu"
-
-        # format loop
-        - name: "Add eSignatures to XML"
-          link: "https://products.conholdate.com/total/net/signature/xml/"
-          description: "Text XML document"
-
-        # format loop
-        - name: "Add eSignatures to PCL"
-          link: "https://products.conholdate.com/total/net/signature/pcl/"
-          description: "Printer Command Language"
-        
-        # format loop
-        - name: "Add eSignatures to PSD"
-          link: "https://products.conholdate.com/total/net/signature/psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "Add eSignatures to DWG"
-          link: "https://products.conholdate.com/total/net/signature/dwg/"
-          description: "Autodesk Design Data Formats"
-
-        # format loop
-        - name: "Add eSignatures to DWF"
-          link: "https://products.conholdate.com/total/net/signature/dwf/"
-          description: "Autodesk Design Web Format"
-
-        # format loop
-        - name: "Add eSignatures to DGN"
-          link: "https://products.conholdate.com/total/net/signature/dgn/"
-          description: "MicroStation Design File"
-
-        # format loop
-        - name: "Add eSignatures to DWT"
-          link: "https://products.conholdate.com/total/net/signature/dwt/"
-          description: "AutoCAD Drawing Template"
 
 ############################# Back to top ###############################
 back_to_top:
