@@ -4,7 +4,7 @@
 {{ $dot.Scratch.Set "path" "" }}
 {{ $dot.Scratch.Set "breadcrumb" slice }}
 {{ $url := .RelPermalink }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "home" "position" 1 )) }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "Products" "position" 1 )) }}
   {{ range $index, $element := split $url "/" }}
     {{ $dot.Scratch.Add "path" $element }}
     {{ $.Scratch.Add "path" "/" }}
@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-12 p-0">
                 <ul class="d-flex align-items-center m-0 productbreadcrumbs p-0">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Products</a></li>
                     {{ range $.Scratch.Get "breadcrumb" }}
 						{{ $anchortext := "" }}
 						{{ if eq .position 2 }}

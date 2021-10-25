@@ -4,7 +4,7 @@
 {{ $dot.Scratch.Set "path" "" }}
 {{ $dot.Scratch.Set "breadcrumb" slice }}
 {{ $url := .RelPermalink }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "home" "position" 1 )) }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "Products" "position" 1 )) }}
   {{ range $index, $element := split $url "/" }}
     {{ $dot.Scratch.Add "path" $element }}
     {{ $.Scratch.Add "path" "/" }}
@@ -22,7 +22,7 @@
         "position": {{ .position }},
         "item": {
           "@id": "{{ .url | absURL }}",
-          "name": "{{ title .name }}"
+          "name": "{{ if eq .name "net" }}.NET{{ else }}{{ title .name }}{{ end }}"
         }
     }{{ end }}]
 }
@@ -65,7 +65,7 @@
     "isFamilyFriendly": "true",
     "copyrightYear": "{{ .PublishDate.Format "2006" }}",
     "headline": "{{ replace .Page.Params.title "\u0026" "and"  }}",
-    "description": "{{ replace .Page.Params.description  "\u0026" "and"   }}",
+    "description": "{{ replace .Page.Params.description  "\u0026" "and"  }}",
     "author": {
         "@type": "Organization",
         "name": "Aspose Pty Ltd"
