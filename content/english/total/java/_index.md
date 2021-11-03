@@ -42,7 +42,7 @@ products:
           name: "Aspose.Total for Java"
           content: |
             Aspose.Total for Java is a package consisting of all Aspose for Java APIs. It enables you to create, manipulate, convert & render Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats within any Java application without installing Microsoft Office.
-          link: "https://products.aspose.com/total/java"
+          link: "https://products.aspose.com/total/java/"
 
         # product loop
         - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-java.png"
@@ -50,7 +50,7 @@ products:
           name: "GroupDocs.Total for Java"
           content: |
             GroupDocs.Total for Java is a compilation of every Java API offered by GroupDocs. It provides the ability to view, annotate, convert, compare, sign, watermark & edit most popular file formats within any Java application
-          link: "https://products.groupdocs.com/total/java"
+          link: "https://products.groupdocs.com/total/java/"
 
 ############################# Features ############################
 features:
