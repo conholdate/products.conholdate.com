@@ -23,4 +23,4 @@ script:
 - hugo --minify
 
 after_success:
-- travis_wait 25 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR
+- travis_wait 50 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR
