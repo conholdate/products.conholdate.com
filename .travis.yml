@@ -20,7 +20,7 @@ install:
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
 
 script:
-- hugo --minify
+- travis_wait 15 hugo --minify
 
 after_success:
-- travis_wait 50 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR
+- travis_wait 15 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR
