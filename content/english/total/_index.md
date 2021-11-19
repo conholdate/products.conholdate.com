@@ -10,7 +10,7 @@ head_description: ".NET and Java document manipulation and viewing APIs for Word
 
 ############################# Header ############################
 title: "Complete Set of File Format Manipulation APIs"
-description: "‎Perform document processing tasks on Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats, using our native APIs for .NET & Java.‎"
+description: "Perform document processing tasks on Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats, using our native APIs for .NET & Java."
 button:
   enable: true
 
