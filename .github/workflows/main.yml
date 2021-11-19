@@ -44,7 +44,7 @@ jobs:
         with:
           switches: -avzr --delete
           path: public/
-          remote_path: /home/fahadadeel/test/products.conholdate.com
+          remote_path: /var/www/products.conholdate.com/html
           remote_host: ${{ secrets.DEPLOY_HOSTNAME }}
           remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_user: ${{ secrets.DEPLOY_USERNAME }}
