@@ -49,3 +49,9 @@ languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
+
+[deployment]
+
+[[deployment.targets]]
+name = "Production"
+URL = "s3://products.conholdate.com/?region=us-west-2"
