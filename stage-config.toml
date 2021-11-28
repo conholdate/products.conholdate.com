@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "https://products.conholdate.com"
+baseURL = "https://products-qa.conholdate.com"
 title = "All of Aspose and GroupDocs APIs combined in Conholdate.Total suite"
 theme = "airspace-hugo"
 # Number of posts per page in list view
@@ -53,5 +53,5 @@ weight = 1
 [deployment]
 
 [[deployment.targets]]
-name = "Production"
-URL = "s3://products.conholdate.com/?region=us-west-2"
+name = "Stage"
+URL = "s3://products-qa.conholdate.com/?region=us-west-2"
