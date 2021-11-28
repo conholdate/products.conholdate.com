@@ -62,7 +62,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: ZIP TAR GZIP LZ RAR CPIO BZ2 XZ 7Z 7ZIP
+    other_out_formats: ZIP TAR LZ RAR BZ2 7Z
 ############################# Back to top ###############################
 back_to_top:
   enable: true
