@@ -33,25 +33,14 @@
 {{ $formatname := "" }}
 {{ $colsize := 12 }}
 
-{{ $formats := site.Data.fileformats }}
-{{ range $formats }}
-  {{ if eq .format ( upper $informat)  }}
-    {{ $informatdesc = .description }}
-	{{ $informatlink = .link }}
-  {{ end }}
-  {{ if $outformat }}
-    {{ if eq .format ( upper $outformat)  }}
-        {{ $outformatdesc = .description }}
-        {{ $outformatlink = .link }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+
 
 {{ if and ($informat) ($outformat) }}
     {{ $colsize = 6 }}
 {{ end }}
 
-{{ $formatname := "" }}
+
+
 
 <!-- ############ HEADER ############ -->
 <a id="top" class="anchor" name="top"></a>
@@ -90,7 +79,6 @@
             <br/>
             <script src="https://gist.github.com/{{.gisthash}}.js?file={{.gistfile}}"></script>
         </div>
-        
     </div>
 </section>
 {{ end }}
@@ -120,34 +108,50 @@
                         {{ upper $pathsegment.File }} {{ $feature | humanize }}
                         {{ end }}</a>
                     </h4>
-                    {{ $format := (index (split $pathsegment.File "-to-") 0) }}
-                    {{ range $formats }}
-                        {{ if eq .format (upper (index (split $pathsegment.File "-to-") 0)) }}
-                            {{ $formatname = .name }}
-                        {{ end }}
-                    {{ end }}
-                    {{ if $formatname }}<p>({{ $formatname }})</p>{{ end }}
                 </div>
                 {{ end }}
                 {{ end }}
-            {{ else }}
-                {{ range (split .other_out_formats " ") }}     
+            {{ else if and (ne .Page.Params.other_out_formats "") (ne .Page.Params.other_out_formats nil) }}
+                {{ $other_out_formats := (split .Page.Params.other_out_formats " ") }}
+                {{ $formatdetails := newScratch }}
+                {{ range site.Data.fileformats }}
+                    {{ if in $other_out_formats .format}}
+                        {{ $formatdetails.Set .format (index . "name") }}
+                    {{ end }}
+                {{ end }}
+                {{ range $other_out_formats }}     
                     <div class="col-sm-3 col-md-3">
                         <h4>
                         {{ if eq $feature "conversion"}}
-                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} TO {{ upper . }}</a>
+                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
                         {{ else }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
                         {{ end }}
                         </h4>
-                        {{ $format := . }}
-                        {{ range $formats }}
-                            {{ if eq .format $format }}
-                                {{ $formatname = .name }}
-                            {{ end }}
-                        {{ end }}
-                        {{ if $formatname }}<p>({{ $formatname }})</p>{{ end }}
+                        {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
                     </div>
+                {{ end }}
+            {{ else if .other_out_formats }}
+                {{ $other_out_formats := (split .other_out_formats " ") }}
+       
+                {{ $formatdetails := newScratch }}
+                {{ range site.Data.fileformats }}
+                    {{ if in $other_out_formats .format}}
+                        {{ $formatdetails.Add .format (index . "name") }}
+                    {{ end }}
+                {{ end }}
+
+                {{ range $other_out_formats }}     
+                <div class="col-sm-3 col-md-3">
+                    <h4>
+                    {{ if eq $feature "conversion"}}
+                    <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
+                    {{ else }}
+                    <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
+                    {{ end }}
+                    </h4>
+                    {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
+                </div>
                 {{ end }}
             {{ end }}
         </div>
@@ -159,6 +163,19 @@
 <!-- ############ ABOUT FORMAT ############ -->
 {{ with .Params.about_formats }}
 {{ if .enable }}
+    {{ $formats := site.Data.fileformats }}
+    {{ range $formats }}
+    {{ if eq .format ( upper $informat)  }}
+        {{ $informatdesc = .description }}
+        {{ $informatlink = .link }}
+    {{ end }}
+    {{ if $outformat }}
+        {{ if eq .format ( upper $outformat)  }}
+            {{ $outformatdesc = .description }}
+            {{ $outformatlink = .link }}
+        {{ end }}
+    {{ end }}
+    {{ end }}
 <section class="about-format bg-white">
     <div class="container section-default-padding bg-gray">
             {{ if $informat }}
