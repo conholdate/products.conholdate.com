@@ -123,8 +123,10 @@
                 {{ range $other_out_formats }}     
                     <div class="col-sm-3 col-md-3">
                         <h4>
-                        {{ if or (eq $feature "conversion")  (eq $feature "zip")}}
+                        {{ if eq $feature "conversion" }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
+                        {{ else if eq $feature "zip"}}
+                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}-to-{{ lower $outformat }}/">Convert {{ upper . }} to {{ upper $outformat }}</a>
                         {{ else }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
                         {{ end }}
@@ -144,11 +146,12 @@
                 {{ end }}
 
                 {{ range $other_out_formats }}
-          
                 <div class="col-sm-3 col-md-3">
                     <h4>
-                    {{ if or (eq $feature "conversion")  (eq $feature "zip")}}
+                    {{ if eq $feature "conversion" }}
                     <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
+                    {{ else if eq $feature "zip"}}
+                    <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}-to-{{ lower $outformat }}/">Convert {{ upper . }} to {{ upper $outformat }}</a>
                     {{ else }}
                     <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
                     {{ end }}
