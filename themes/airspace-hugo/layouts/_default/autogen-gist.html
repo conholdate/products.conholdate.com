@@ -18,7 +18,7 @@
     {{ $platformname = "Java" }}
 {{ end }}
 
-{{ if eq $feature "conversion" }}
+{{ if or (eq $feature "conversion") (eq $feature "zip")}}
     {{ $slug = index ($segments) 3 }}
     {{ $informat = index (split $slug "-to-") 0 }}
     {{ $outformat = index (split $slug "-to-") 1 }} 
@@ -101,7 +101,7 @@
                 {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
                 <div class="col-sm-3 col-md-3">
                     <h4>
-                    <a href="{{ .Permalink }}">
+                    <a href="{{ .RelPermalink }}">
                         {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}
                         Convert {{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}
                         {{ else }}
@@ -112,6 +112,7 @@
                 {{ end }}
                 {{ end }}
             {{ else if and (ne .Page.Params.other_out_formats "") (ne .Page.Params.other_out_formats nil) }}
+    
                 {{ $other_out_formats := (split .Page.Params.other_out_formats " ") }}
                 {{ $formatdetails := newScratch }}
                 {{ range site.Data.fileformats }}
@@ -122,7 +123,7 @@
                 {{ range $other_out_formats }}     
                     <div class="col-sm-3 col-md-3">
                         <h4>
-                        {{ if eq $feature "conversion"}}
+                        {{ if or (eq $feature "conversion")  (eq $feature "zip")}}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
                         {{ else }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
@@ -132,6 +133,7 @@
                     </div>
                 {{ end }}
             {{ else if .other_out_formats }}
+         
                 {{ $other_out_formats := (split .other_out_formats " ") }}
        
                 {{ $formatdetails := newScratch }}
@@ -141,10 +143,11 @@
                     {{ end }}
                 {{ end }}
 
-                {{ range $other_out_formats }}     
+                {{ range $other_out_formats }}
+          
                 <div class="col-sm-3 col-md-3">
                     <h4>
-                    {{ if eq $feature "conversion"}}
+                    {{ if or (eq $feature "conversion")  (eq $feature "zip")}}
                     <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
                     {{ else }}
                     <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
