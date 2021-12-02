@@ -23,6 +23,12 @@
     "description": "DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.",
     "link": "https://docs.fileformat.com/word-processing/docx/"
   },
+  "GZIP": {
+    "name": "GNU ZIP File",
+    "format": "GZIP",
+    "description": "Files with .gz extension are compressed files created with gzip compression application. It can contain multiple compressed files and is commonly used on UNIX and Linux systems. GZIP was introduced as a free utility for replacing the Compress program used in Unix systems. Such files can be opened and extracted with a several applications such as WinZip which is available on both Windows and MacOS. While the format is similar to ZIP compression in archiving, it differs in terms of compression applied to the archive instead of individual file.",
+    "link": "https://docs.fileformat.com/compression/gz/"
+  },
   "GPKG": {
     "name": "GeoPackage File",
     "format": "GPKG",
@@ -1970,6 +1976,12 @@
   "7Z": {
     "name": "7-Zip Compressed File",
     "format": "7Z",
+    "description": "7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. The format is now supported by a number of software applications such as 7-ZIP which is publicly available for download and usage to manipulate .7z files. Files with .7z extension have mime-type application/x-7z-compressed.",
+    "link": "https://docs.fileformat.com/compression/7z/"
+  },
+  "7-Zip": {
+    "name": "7-Zip Compressed File",
+    "format": "7-Zip",
     "description": "7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. The format is now supported by a number of software applications such as 7-ZIP which is publicly available for download and usage to manipulate .7z files. Files with .7z extension have mime-type application/x-7z-compressed.",
     "link": "https://docs.fileformat.com/compression/7z/"
   },
