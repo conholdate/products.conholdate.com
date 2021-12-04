@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "autogen"
+layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/merger/xls/"
@@ -25,12 +25,12 @@ content:
       content_left: |
           Join XLS files in C# .NET and add text or image watermarks to the single resultant document in .NET (C#, VB.NET, ASP.NET & .NET Core) applications.
 
-          -   Instantiate **Merger** with input XLS document
+          -   Instantiate **Merger** with input document
           -   Call **Join** method of **Merger** class instance and pass second source document path
           -   Call **Save** method of **Merger** class instance to save merged document
-          -   Instantiate **Watermarker** with merged XLS document as created above
+          -   Instantiate **Watermarker** with merged document as created above
           -   Create the **TextWatermark** object & set watermark properties
-          -   Add watermark and save watermarked XLS
+          -   Add watermark and save watermarked document
           
       title_right: "Source Document Information Extraction"
       content_right: |
@@ -38,52 +38,19 @@ content:
           
           Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [Nuget](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace.
           
-      code: |
-          ```cs {linenos=false}
-          // Merge XLS files using GroupDocs.Merger API
-          // Instantiate Merger with input XLS document
-          using (Merger merger = new Merger("input1.xls"))
-          {
-              // Call Join method of Merger class instance and pass second source document path
-              merger.Join("input2.xls");
+      gisthash: "b0bd7c35dc5a889a10fb5b032952710a"
+      gistfile: "join-multiple-pdf-documents-into-one-and-add-text-watermark.cs"
 
-              // Call Save method of Merger class instance to save merged document
-              merger.Save("merged.xls");
-          }
-
-          // Add text watermark to XLS document
-          // Instantiate Watermarker with merged XLS document created above
-          // GroupDocs.Merger created Output folder and save merged.xls there
-          // We will load merged.xls document from Output folder
-          using (Watermarker watermarker = new Watermarker("Output/merged.xls"))
-          {
-              // Initialize the Font to be used for watermark
-              Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-
-              // Create the TextWatermark object
-              TextWatermark watermark = new TextWatermark("my watermark", font);
-
-              // Set watermark properties
-              watermark.ForegroundColor = Color.Red;
-              watermark.BackgroundColor = Color.Blue;
-              watermark.TextAlignment = TextAlignment.Right;
-              watermark.Opacity = 0.5;
-
-              // Add watermark and save watermarked XLS
-              watermarker.Add(watermark);
-              watermarker.Save("output.xls");
-          }
-          ```
     - title_left: "Split XLS File & Add Watermarks in .NET"
       content_left: |
           Split a single XLS document to multiple independent documents and insert image or text watermarks to each of the splitted files using C# .NET.
 
+          -   Instantiate **Watermarker** with splitted document
+          -   Instantiate watermark font, create **TextWatermark** object & set watermark properties
+          -   Add watermark and save watermarked document
           -   Set output path where files will be saved after splitting
           -   Instantiate **SplitOptions** object with path of splitted file and number of pages to be splitted
-          -   Create **Merger** object with input XLS and split using **SplitOptions**
-          -   Instantiate **Watermarker** with splitted XLS
-          -   Create the **TextWatermark** object & set watermark properties
-          -   Add watermark and save watermarked XLS
+          -   Create **Merger** object with input document and split using **SplitOptions**
         
       title_right: "Image Representation of Document Pages"
       content_right: |
@@ -91,52 +58,9 @@ content:
 
           Join popular document file formats on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      code: |
-          ```cs {linenos=false}
-          // Set output path where files will be saved after splitting
-          string outputFolder = @"c:\output\";
+      gisthash: "d6abb787afd61e25cc82008968907d83"
+      gistfile: "add-watermark-to-a-single-document-and-split-the-document-to-multiple-documents.cs"
 
-          // Instantiate SplitOptions object with path of splitted file and number of pages to be splitted
-          SplitOptions splitOptions = new SplitOptions(outputFolder + "document_{0}.{1}", new int[] { 1, 2, 4 });
-
-          // Create Merger object with input XLS
-          using (Merger merger = new Merger("input.xls"))
-          {
-              // Split input XLS using SplitOptions
-              merger.Split(splitOptions);
-          }
-
-          // Get list of splitted files from output path
-          string[] files = Directory.GetFiles(outputFolder);
-          // Create counter that will be used for naming output files
-          int i = 0;
-
-          // Loop through all splitted files in the output folder
-          foreach(string file in files)
-          {
-              i++; // Increment counter
-
-              // Instantiate Watermarker with splitted XLS
-              using (Watermarker watermarker = new Watermarker(file))
-              {
-                  // Initialize the Font to be used for watermark
-                  Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-
-                  // Create the TextWatermark object
-                  TextWatermark watermark = new TextWatermark("my watermark", font);
-
-                  // Set watermark properties
-                  watermark.ForegroundColor = Color.Red;
-                  watermark.BackgroundColor = Color.Blue;
-                  watermark.TextAlignment = TextAlignment.Right;
-                  watermark.Opacity = 0.5;
-
-                  // Add watermark and save watermarked XLS
-                  watermarker.Add(watermark);
-                  watermarker.Save(string.Format("{0}output{1}.xls",outputFolder,i));
-              }
-          }
-          ```
 ############################# About Formats ############################
 about_formats:
     enable: false
