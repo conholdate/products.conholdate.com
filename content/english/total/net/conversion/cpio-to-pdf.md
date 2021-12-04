@@ -3,7 +3,7 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/net/zip/cpio-to-pdf/"
+path: "total/net/conversion/cpio-to-pdf/"
 
 ############################# Head ############################
 head_title: "Convert CPIO Files to PDF in C# VB.NET ASP.NET .NET Core"
@@ -53,16 +53,16 @@ content:
 
           Work with archiving files and folder on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      gisthash: "42ee14864d84aeae8619284450c3d628"
-      gistfile: "Examples-CSharp-WorkingWithPasswordProtectedArchives-PasswordPrtoectArchiveWithTraditionalPassword-PasswordPrtoectArchiveWithTraditionalPassword.cs"
+      gisthash: "3cfc76f062dcf3f332bd730104c779ba"
+      gistfile: "encrypt-zip-files-using-encryption-techniques.cs"
 ############################# About Formats ############################
 about_formats:
     enable: false
 ############################# More Formats ############################
 more_formats:
-    enable: true
+    enable: false
     auto: false
-    other_out_formats: ZIP TAR LZ RAR BZ2 7Z
+    other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z
 ############################# Back to top ###############################
 back_to_top:
   enable: true

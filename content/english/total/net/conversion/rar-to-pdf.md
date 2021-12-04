@@ -3,15 +3,15 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/net/zip/xz-to-pdf/"
+path: "total/net/conversion/rar-to-pdf/"
 
 ############################# Head ############################
-head_title: "Convert XZ Files to PDF in C# VB.NET ASP.NET .NET Core"
-head_description: "Dynamically convert archive XZ files to PDF document in C#, AP.NET, VB.NET & .NET Core applications. Encrypt archives, compress and decompress files and folders."
+head_title: "Convert RAR Files to PDF in C# VB.NET ASP.NET .NET Core"
+head_description: "Dynamically convert archive RAR files to PDF document in C#, AP.NET, VB.NET & .NET Core applications. Encrypt archives, compress and decompress files and folders."
 
 ############################# Header ############################
-title: "Convert XZ to PDF File in C# .NET"
-description: "Programmatically convert archived XZ files to PDF document in C#, AP.NET, VB.NET & .NET Core applications. The compressed archive files will be converted safely and securely to PDF."
+title: "Convert RAR to PDF File in C# .NET"
+description: "Programmatically convert archived RAR files to PDF document in C#, AP.NET, VB.NET & .NET Core applications. The compressed archive files will be converted safely and securely to PDF."
 
 ############################# SubMenu ############################
 submenu:
@@ -21,11 +21,11 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "XZ to PDF Conversion in C# .NET Core"
+    - title_left: "RAR to PDF Conversion in C# .NET Core"
       content_left: |
           
-          -   Create Archive instance with input XZ file
-          -   Extract contents of XZ file using **ExtractToDictionary** method of Archive
+          -   Create Archive instance with input RAR file
+          -   Extract contents of RAR file using **ExtractToDictionary** method of Archive
           -   Get the list of extracted files from unzipped directory using **Directory.GetFiles** method - Loop through each unzipped / extracted file
           -   Convert extracted file to PDF format using Convert method of **Converter** class in [GroupDocs.Conversion API](https://apireference.groupdocs.com/conversion/net)
           -   Keep the list of all converted PDF files - Create instance of **Merger** class in [GroupDocs.Merger API](https://apireference.groupdocs.com/merger/net) with first converted PDF file in the list
@@ -34,7 +34,7 @@ content:
           
       title_right: "Downloads & Installation Instructions"
       content_right: |
-          You require `Aspose.ZIP`, `GroupDocs.Conversion` & `GroupDocs.Merger` namespaces to to extract the files/contents within a XZ file and convert to a single PDF file format as output. The below code example supports archive files conversion between ZIP, TAR, RAR, GZIP, LZ, CPIO, BZ2, XZ and 7z formats. Explore other [.NET documents manipulation APIs](https://products.conholdate.com/total/net/) as offered by Conholdate.Total for .NET.
+          You require `Aspose.ZIP`, `GroupDocs.Conversion` & `GroupDocs.Merger` namespaces to to extract the files/contents within a RAR file and convert to a single PDF file format as output. The below code example supports archive files conversion between ZIP, TAR, RAR, GZIP, LZ, CPIO, BZ2, XZ and 7z formats. Explore other [.NET documents manipulation APIs](https://products.conholdate.com/total/net/) as offered by Conholdate.Total for .NET.
           
           Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [Nuget](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace.
           
@@ -53,16 +53,16 @@ content:
 
           Work with archiving files and folder on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      gisthash: "42ee14864d84aeae8619284450c3d628"
-      gistfile: "Examples-CSharp-WorkingWithPasswordProtectedArchives-PasswordPrtoectArchiveWithTraditionalPassword-PasswordPrtoectArchiveWithTraditionalPassword.cs"
+      gisthash: "3cfc76f062dcf3f332bd730104c779ba"
+      gistfile: "encrypt-zip-files-using-encryption-techniques.cs"
 ############################# About Formats ############################
 about_formats:
     enable: false
 ############################# More Formats ############################
 more_formats:
-    enable: true
+    enable: false
     auto: false
-    other_out_formats: ZIP TAR LZ RAR BZ2 7Z
+    other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z
 ############################# Back to top ###############################
 back_to_top:
   enable: true
