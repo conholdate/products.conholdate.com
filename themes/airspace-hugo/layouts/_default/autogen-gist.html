@@ -18,7 +18,7 @@
     {{ $platformname = "Java" }}
 {{ end }}
 
-{{ if or (eq $feature "conversion") (eq $feature "zip")}}
+{{ if eq $feature "conversion" }}
     {{ $slug = index ($segments) 3 }}
     {{ $informat = index (split $slug "-to-") 0 }}
     {{ $outformat = index (split $slug "-to-") 1 }} 
@@ -86,6 +86,8 @@
 {{ end }}
 
 <!-- ############ MORE FORMATS ############ -->
+{{ $other_in_formats := .Params.other_in_formats }}
+{{ $other_out_formats := .Params.other_out_formats }}
 {{ with .Params.more_formats }}
 {{ if .enable }}
 
@@ -97,23 +99,23 @@
         <div class="row formats mt-20">
             {{ if .auto }}
                 {{ range site.RegularPages }}
-                {{ if  and (in .File.Dir $family) (in .File.Dir $platform ) ( in .File.Dir $feature )  (not ( in .File $slug)) }} 
-                {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
-                <div class="col-sm-3 col-md-3">
-                    <h4>
-                    <a href="{{ .RelPermalink }}">
-                        {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}
-                        Convert {{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}
-                        {{ else }}
-                        {{ upper $pathsegment.File }} {{ $feature | humanize }}
-                        {{ end }}</a>
-                    </h4>
-                </div>
+                    {{ if  and (in .File.Dir $family) (in .File.Dir $platform ) ( in .File.Dir $feature )  (not ( in .File $slug)) }} 
+                    {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
+                    <div class="col-sm-3 col-md-3">
+                        <h4>
+                        <a href="{{ .RelPermalink }}">
+                            {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}
+                            Convert {{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}
+                            {{ else }}
+                            {{ upper $pathsegment.File }} {{ $feature | humanize }}
+                            {{ end }}</a>
+                        </h4>
+                    </div>
+                    {{ end }}
                 {{ end }}
-                {{ end }}
-            {{ else if and (ne .Page.Params.other_out_formats "") (ne .Page.Params.other_out_formats nil) }}
+            {{ else if and (ne $other_out_formats "") (ne $other_out_formats nil) }}
     
-                {{ $other_out_formats := (split .Page.Params.other_out_formats " ") }}
+                {{ $other_out_formats := (split $other_out_formats " ") }}
                 {{ $formatdetails := newScratch }}
                 {{ range site.Data.fileformats }}
                     {{ if in $other_out_formats .format}}
@@ -125,7 +127,26 @@
                         <h4>
                         {{ if eq $feature "conversion" }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower $informat }}-to-{{ lower . }}/">Convert {{ upper $informat }} to {{ upper . }}</a>
-                        {{ else if eq $feature "zip"}}
+                        {{ else }}
+                        <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>
+                        {{ end }}
+                        </h4>
+                        {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
+                    </div>
+                {{ end }}
+            {{ else if and (ne $other_in_formats "") (ne $other_in_formats nil) }}
+    
+                {{ $other_in_formats := (split $other_in_formats " ") }}
+                {{ $formatdetails := newScratch }}
+                {{ range site.Data.fileformats }}
+                    {{ if in $other_in_formats .format}}
+                        {{ $formatdetails.Set .format (index . "name") }}
+                    {{ end }}
+                {{ end }}
+                {{ range $other_in_formats }}     
+                    <div class="col-sm-3 col-md-3">
+                        <h4>
+                        {{ if eq $feature "conversion" }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}-to-{{ lower $outformat }}/">Convert {{ upper . }} to {{ upper $outformat }}</a>
                         {{ else }}
                         <a href="/{{ strings.TrimRight $slug $path }}{{ lower . }}/">{{ upper . }} {{ humanize $feature }}</a>

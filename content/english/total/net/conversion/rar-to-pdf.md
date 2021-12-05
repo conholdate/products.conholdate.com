@@ -4,7 +4,7 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/rar-to-pdf/"
-
+other_in_formats: "ZIP TAR GZIP LZ RAR BZ2 7Z"
 ############################# Head ############################
 head_title: "Convert RAR Files to PDF in C# VB.NET ASP.NET .NET Core"
 head_description: "Dynamically convert archive RAR files to PDF document in C#, AP.NET, VB.NET & .NET Core applications. Encrypt archives, compress and decompress files and folders."
@@ -60,9 +60,7 @@ about_formats:
     enable: false
 ############################# More Formats ############################
 more_formats:
-    enable: false
-    auto: false
-    other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z
+    enable: true
 ############################# Back to top ###############################
 back_to_top:
   enable: true
