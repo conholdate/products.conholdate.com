@@ -40,7 +40,7 @@ jobs:
         run: hugo --minify
         
       - name: Deploy zip to S3
-        run: hugo --config "./config.toml" deploy --target "Production" --maxDeletes -1
+        run: hugo deploy --config "./config.toml" --target "Production" --maxDeletes -1 --force
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
