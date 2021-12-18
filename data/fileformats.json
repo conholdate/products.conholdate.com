@@ -23,6 +23,18 @@
     "description": "DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.",
     "link": "https://docs.fileformat.com/word-processing/docx/"
   },
+  "WORD": {
+    "name": "Office 2007+ Word Document",
+    "format": "WORD",
+    "description": "DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.",
+    "link": "https://docs.fileformat.com/word-processing/docx/"
+  },
+  "EBOOK": {
+    "name": "eBook File Format",
+    "format": "EBOOK",
+    "description": "Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.",
+    "link": "https://docs.fileformat.com/ebook/epub/"
+  },
   "GZIP": {
     "name": "GNU ZIP File",
     "format": "GZIP",
@@ -1145,6 +1157,12 @@
     "description": "A file with .wma extension represents an audio file that is saved in the Advanced Systems Format (ASF) format. ASF is Microsoft&rsquo;s proprietary format that contains bitstreams encoded by Windows Media Audio 9. In addition to the the audio content, a WMA file also contains metadata objects such as title, album, artist, and genre of the track. WMA files are primarily used for streaming over the web similar to .mp3 files.",
     "link": "https://docs.fileformat.com/audio/wma/"
   },
+  "WEB": {
+    "name": "Web File Formats",
+    "format": "WEB",
+    "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).",
+    "link": "https://docs.fileformat.com/web/"
+  },
   "ASF": {
     "name": "Advanced Systems Format File",
     "format": "ASF",
@@ -1156,6 +1174,12 @@
     "format": "MJPEG",
     "description": "A file with .mjpeg (Motion JPEG) extension is a video file that is created by compressing an individual video frame as a JPEG image. It is different from the standard MPEG-1 and MPEG-2 file formats where the compression is interframes and is decided based on the prediction of contents in subsequent frames. MJPEG is supported by a wide range of applications that include web browsers, media players, digital cameras, webcams, streaming servers. Plug-ins are available for applications that want to make use of the MJPEG file format.",
     "link": "https://docs.fileformat.com/video/mjpeg/"
+  },
+  "IMAGE": {
+    "name": "Image File Formats",
+    "format": "JPEG",
+    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
+    "link": "https://docs.fileformat.com/image/"
   },
   "QT": {
     "name": "Apple QuickTime Movie",
@@ -1174,6 +1198,12 @@
     "format": "JPF",
     "description": "A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn&rsquo;t receive a warm reception due to the extensive usage of JPEG format. JPF files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.",
     "link": "https://docs.fileformat.com/image/jpf/"
+  },
+  "PHOTOSHOP": {
+    "name": "Adobe Photoshop File Formats",
+    "format": "PHOTOSHOP",
+    "description": "PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.",
+    "link": "https://docs.fileformat.com/image/psd/"
   },
   "JPX": {
     "name": "JPEG 2000 Image File",
@@ -1210,6 +1240,12 @@
     "format": "FODS",
     "description": "A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.",
     "link": "https://docs.fileformat.com/spreadsheet/fods/"
+  },
+  "EXCEL": {
+    "name": "Microsoft Excel Documents",
+    "format": "XLSX",
+    "description": "XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.",
+    "link": "https://docs.fileformat.com/spreadsheet/xlsx/"
   },
   "XLA": {
     "name": "Microsoft Excel Add-In File",
