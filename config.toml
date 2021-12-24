@@ -55,3 +55,12 @@ weight = 1
 [[deployment.targets]]
 name = "Production"
 URL = "s3://products.conholdate.com/?region=us-west-2"
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+#pattern = "^sitemap\\.xml$"
+#pattern = "^[a-z]\\.xml$"
+pattern = "^.+\\.(xml)$"
+contentType = "application/xml"
+gzip = true
+force = true
