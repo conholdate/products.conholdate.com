@@ -5,8 +5,8 @@ date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/image-to-ebook/"
 other_out_formats: "PDF Word eBook Excel Image Photoshop Web Email"
-ad_headline: "Convert IMAGE to EBOOK | .NET"
-ad_description: "Most Accurate IMAGE to EBOOK document Conversion solution for your .NET applications."
+ad_headline: "Convert IMAGE to EBOOK C#"
+ad_description: "Most Accurate IMAGE to EBOOK Conversion solution for your .NET applications"
 
 ############################# Head ############################
 head_title: "Convert IMAGE to EBOOK in C# VB.NET ASP.NET | Document Conversion"

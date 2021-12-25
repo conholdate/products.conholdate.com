@@ -5,8 +5,8 @@ date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/image-to-powerpoint/"
 other_out_formats: "PDF Word eBook Excel Image Photoshop Web Email"
-ad_headline: "Convert IMAGE to POWERPOINT | .NET"
-ad_description: "Most Accurate IMAGE to POWERPOINT document Conversion solution for your .NET applications."
+ad_headline: "Convert IMAGE to POWERPOINT C#"
+ad_description: "Most Accurate IMAGE to POWERPOINT Conversion solution for your .NET applications"
 
 ############################# Head ############################
 head_title: "Convert IMAGE to POWERPOINT in C# VB.NET ASP.NET | Document Conversion"
