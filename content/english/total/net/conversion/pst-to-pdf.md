@@ -1,140 +1,94 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-09-22T14:22:14+03:00
+layout: "autogen-gist"
+date: 2021-10-02T14:22:14+03:00
 draft: false
-product_tag: total
-platform_tag: net
+path: "total/net/conversion/pst-to-pdf/"
+other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
+ad_headline: "Convert PST to PDF | .NET"
+ad_description: "Most Accurate PST to PDF document Conversion solution for .NET applications."
 
 ############################# Head ############################
-head_title: "Convert PST Messages to PDF with Message Headers"
-head_description: ".NET APIs for PST to PDF Conversion with just a few lines of C# code"
+head_title: "Convert PST to PDF in C# VB.NET ASP.NET | Document Conversion"
+head_description: "Code example to convert PST to PDF and 100+ other file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted PDF document as HTML viewer."
 
 ############################# Header ############################
-title: "Convert PST Messages to PDF via .NET Core"
-description: "Load PST and convert each message to PDF with C#"
+title: "Convert PST to PDF in .NET & View as HTML"
+description: "Programmatically convert PST to PDF in C# .NET applications using flexible document conversion features to customize the resultant document. Convert the complete document from one file format to other or choose selective pages of a source document based on the page numbers or page ranges and easily convert to a supported document format."
 
 ############################# SubMenu ############################
 submenu:
     enable: false
 
-############################# About ############################
-about:
-    enable: false
-    title: "About GroupDocs.Total for .NET"
-    content: |
-        GroupDocs.Total for .NET is a suite of document manipulation APIs to perform powerful documents manipulation & automation features within your desktop solutions and web apps without requiring any other commercial application. It enables developers to add the functionalities (view, edit, annotate, convert, compare, e-sign, assemble, search, parse, merge, redact and classify) within PDF, Microsoft Office Word, Excel, PowerPoint, OneNote, Visio, Outlook, HTML, images, graphics, diagrams and 90+ other popular document formats.
-
-        GroupDocs.Total APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
-
-############################# Steps ############################
-steps:
+############################# Content ############################
+content:
     enable: true
-    title_left: "C# Convert PST Messages to PDF"
-    content_left: |
-        -   Load the PST file in an instance of `PersonalStorage` via its `FromFile` method
-        -   Access the PST folder with ```PersonalStorage.RootFolder.GetSubFolder``` method
-        -   Enumerate folder messages & store each message with `SaveMessageToStream`
-        -   Load message from steam using `MailMessage.Load` method
-        -   Call ```MailMessage.Save``` method with customized object of `MhtSaveOptions`
-        -   Load MHTML from previous step in an instance of ```Document```
-        -   Call ```Document.Save``` method with ```SaveFormat.Pdf``` as second parameter
-        
-    title_right: "Get Started with .NET Core APIs"
-    content_right: |
-        The namespaces required for the following piece of code are `Aspose.Email` & `Aspose.Words`. You can get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/).
+    block:
+    - title_left: "How to Convert PST to PDF in C#"
+      content_left: |
+          Follow these simple steps to convert PST to PDF in C# .NET. View the converted PDF document as HTML without using any external software.
 
-        PST to PDF can be done on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
-        
-    code: |
-        ```cs {linenos=false}
-        // load the PST file
-        using (var personalStorage = Aspose.Email.Storage.Pst.PersonalStorage.FromFile("sample.pst"))
-        {
-            // access the Inbox folder of PST
-            var inbox = personalStorage.RootFolder.GetSubFolder("myInbox");
-            // loop over all messages of Inbox folder
-            foreach (var messageInfo in inbox.EnumerateMessages())
-            {
-                using (MemoryStream streamMessage = new MemoryStream())
-                {
-                    // store the message in stream
-                    personalStorage.SaveMessageToStream(messageInfo.EntryIdString, streamMessage);
-                    // load message with an instance of MailMessage
-                    var mailMsg = Aspose.Email.MailMessage.Load(streamMessage);
-                    // create an instance of MhtSaveOptions for MTHML customization
-                    var mhtSaveOptions = Aspose.Email.MhtSaveOptions.DefaultMhtml;
-                    // set MhtSaveOptions to write headers with complete email addresses
-                    mhtSaveOptions.MhtFormatOptions = Aspose.Email.MhtFormatOptions.WriteHeader | Aspose.Email.MhtFormatOptions.WriteCompleteEmailAddress;
-                    using (var outstream = new System.IO.MemoryStream())
-                    {
-                        // temporarily save the MTHML in MemoryStream
-                        mailMsg.Save(outstream, mhtSaveOptions);
+          -   Create **Converter** object to convert PST document
+          -   Set the convert options for PDF format
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
+          -   Set options for HTML viewer
+          -   Create **Viewer** object to view converted PDF as HTML
+          
+      title_right: "Downloads & Installation Instructions"
+      content_right: |
+          You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert between a wide range of popular document types such as PDF, Microsoft Word, Excel, PowerPoint, Project, Outlook, HTML, diagrams and image file formats. Explore other [.NET APIs for Office documents](https://products.conholdate.com/total/net/) as offered by Conholdate.Total.
+          
+          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [Nuget](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "word-to-pdf-conversion.cs"
 
-                        // load the MHTML stream in an instance of Document
-                        var doc = new Aspose.Words.Document(outstream);
-                        doc.Save(messageInfo.EntryIdString + ".pdf", SaveFormat.Pdf);
-                    }
-                }
-            }
-        }
-        ```
+    - title_left: "Add Watermark to Converted PDF in C#"
+      content_left: |
+          Accurately convert documents (PST to PDF) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
+
+          -   Create **Converter** object to convert PST document
+          -   Create new instance of **WatermarkOptions** class
+          -   Specify watermark properties (color, width, text, image etc)
+          -   Instantiate the proper **ConvertOptions** class
+          -   Set **Watermark** property of the **ConvertOptions** instance
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
         
-############################# Demos ############################
-demos:
-    enable: false
-    title: "Free Document Automation Apps"
-    content: |
-        Offline [GroupDocs.Total Apps](https://products.groupdocs.app/total) to view, convert, annotate, compare, sign, assemble, parse, classify, redact and search documents.  
-        The live demo has the following benefits
-        
+      title_right: "Source Document Information Extraction"
+      content_right: |
+          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc. 
+
+          Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
+          
+      gisthash: "a15affe15284876ce010a315a09da1f0"
+      gistfile: "convert-word-to-pdf-and-add-text-watermark-to-converted-pdf.cs"
+
+    - title_left: "Convert Password Protected Word to PDF"
+      content_left: |
+          Password protected document conversion is made easier in .NET. Just add a few lines of C# code to precisely convert a password protected Word document to PDF file without using any external software.
+
+          -   Define Func **LoadOptions** and set password from document specific load options
+          -   Create **Converter** object to convert Word document
+          -   Instantiate **PdfConvertOptions** class
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
+          
+      title_right: "Load & Convert Remotely Located Documents"
+      content_right: |
+          Using Conholdate.Total for .NET – developers can load and convert documents from various remote locations and cloud document storage resources such as Amazon S3, Microsoft Azure Blob, FTP, local disk, stream or a simple URL. You just have to specify the method to obtain remotely located document stream and then pass it on to the Converter class as a constructor.
+          
+          Conholdate.Total for .NET APIs are native to Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later.
+          
+      gisthash: "3b7541492166a47d49ca85c55b531055"
+      gistfile: "convert-password-protected-word-to-pdf.cs"
+
 ############################# About Formats ############################
 about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-email-o"
-          title: " About PST File Format"
-          content: |
-            Microsoft programs use to store items like calendar events, contacts, and email messages in PST files for archiving purposes. User information is stored in folders of different types which can be password protected for the loading applications to apply password before viewing.
-
-          link: "https://docs.fileformat.com/email/pst/"
-
+    enable: false
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    format: 
-        # format loop
-        - name: "MSG TO PDF"
-          link: "/total/net/convert-msg-to-pdf-with-email-headers/"
-          description: "Outlook Message Item File"
-
-        # format loop
-        - name: "EMLX TO PDF"
-          link: "/total/net/convert-emlx-to-pdf-with-email-headers/"
-          description: "Apple Mail Message"
-
-        # format loop
-        - name: "EML TO PDF"
-          link: "/total/net/convert-eml-to-pdf-with-email-headers/"
-          description: "E-Mail Message"
-
-        # format loop
-        - name: "OST TO PDF"
-          link: "/total/net/convert-ost-messages-to-pdf/"
-          description: "Outlook Storage File"
-
-        # format loop
-        - name: "MBOX TO PDF"
-          link: "/total/net/convert-mbox-messages-to-pdf/"
-          description: "Apple Mail Message"
-
-        # format loop
-        - name: "OLM TO PDF"
-          link: "/total/net/convert-olm-messages-to-pdf/"
-          description: "Outlook Storage for macOS"
-
+    auto: false
+    other_out_formats: PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF
 ############################# Back to top ###############################
 back_to_top:
   enable: true

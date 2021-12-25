@@ -1,17 +1,20 @@
 ---
 ############################# Static ############################
-layout: "autogen"
+layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/ai-to-wmz/"
+other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
+ad_headline: "Convert AI to WMZ | .NET"
+ad_description: "Most Accurate AI to WMZ document Conversion solution for .NET applications."
 
 ############################# Head ############################
-head_title: "Convert AI to WMZ in C# VB.NET & View as HTML"
+head_title: "Convert AI to WMZ in C# VB.NET ASP.NET | Document Conversion"
 head_description: "Code example to convert AI to WMZ and 100+ other file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted WMZ document as HTML viewer."
 
 ############################# Header ############################
-title: "Convert AI to WMZ & View as HTML"
-description: "Programmatically convert AI to WMZ in .NET applications using flexible options to customize the resultant document. Convert the complete document or specific pages based on page numbers or selective page ranges using the .NET document conversion library."
+title: "Convert AI to WMZ in .NET & View as HTML"
+description: "Programmatically convert AI to WMZ in C# .NET applications using flexible document conversion features to customize the resultant document. Convert the complete document from one file format to other or choose selective pages of a source document based on the page numbers or page ranges and easily convert to a supported document format."
 
 ############################# SubMenu ############################
 submenu:
@@ -21,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "AI to WMZ Conversion in C# .NET"
+    - title_left: "How to Convert AI to WMZ in C#"
       content_left: |
-          AI to WMZ file conversion using C#. Add watermark and view the converted document as HTML without using any external software.
+          Follow these simple steps to convert AI to WMZ in C# .NET. View the converted WMZ document as HTML without using any external software.
 
           -   Create **Converter** object to convert AI document
           -   Set the convert options for WMZ format
@@ -31,34 +34,15 @@ content:
           -   Set options for HTML viewer
           -   Create **Viewer** object to view converted WMZ as HTML
           
-      title_right: "Convert Whole Document or Specific Pages"
+      title_right: "Downloads & Installation Instructions"
       content_right: |
           You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert between a wide range of popular document types such as PDF, Microsoft Word, Excel, PowerPoint, Project, Outlook, HTML, diagrams and image file formats. Explore other [.NET APIs for Office documents](https://products.conholdate.com/total/net/) as offered by Conholdate.Total.
           
           Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [Nuget](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace.
           
-      code: |
-          ```cs {linenos=false}
-          // Convert AI to WMZ using GroupDocs.Conversion API
-          // Create Converter object to convert AI document
-          using (Converter converter = new Converter("input.ai"))
-          {
-              // set the convert options for WMZ format
-              var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "word-to-pdf-conversion.cs"
 
-              // convert to WMZ format
-              converter.Convert("output.wmz", convertOptions);
-          }
-
-          // Set options for HTML viewer
-          HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources("output{0}.html");
-
-          // Create Viewer object to view converted WMZ as HTML
-          using (Viewer viewer = new Viewer("output.wmz"))
-          {
-              viewer.View(viewOptions);
-          }
-          ```
     - title_left: "Add Watermark to Converted WMZ in C#"
       content_left: |
           Accurately convert documents (AI to WMZ) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
@@ -76,31 +60,27 @@ content:
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      code: |
-          ```cs {linenos=false}
-          // Create Converter object to convert AI document
-          using (Converter converter = new Converter("input.ai"))
-          {
-              // Create new instance of WatermarkOptions class
-              WatermarkOptions watermark = new WatermarkOptions
-              {
-                  Text = "Sample watermark",
-                  Color = Color.Red,
-                  Width = 100,
-                  Height = 100,
-                  Background = true
-              };
+      gisthash: "a15affe15284876ce010a315a09da1f0"
+      gistfile: "convert-word-to-pdf-and-add-text-watermark-to-converted-pdf.cs"
 
-              // Instantiate the proper ConvertOptions class
-              PdfConvertOptions options = new PdfConvertOptions
-              {
-                  Watermark = watermark
-              };
+    - title_left: "Convert Password Protected Word to PDF"
+      content_left: |
+          Password protected document conversion is made easier in .NET. Just add a few lines of C# code to precisely convert a password protected Word document to PDF file without using any external software.
 
-              // convert to WMZ format
-              converter.Convert("output.wmz", options);
-          }
-          ```
+          -   Define Func **LoadOptions** and set password from document specific load options
+          -   Create **Converter** object to convert Word document
+          -   Instantiate **PdfConvertOptions** class
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
+          
+      title_right: "Load & Convert Remotely Located Documents"
+      content_right: |
+          Using Conholdate.Total for .NET – developers can load and convert documents from various remote locations and cloud document storage resources such as Amazon S3, Microsoft Azure Blob, FTP, local disk, stream or a simple URL. You just have to specify the method to obtain remotely located document stream and then pass it on to the Converter class as a constructor.
+          
+          Conholdate.Total for .NET APIs are native to Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later.
+          
+      gisthash: "3b7541492166a47d49ca85c55b531055"
+      gistfile: "convert-password-protected-word-to-pdf.cs"
+
 ############################# About Formats ############################
 about_formats:
     enable: false
