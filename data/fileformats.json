@@ -1243,9 +1243,9 @@
   },
   "EXCEL": {
     "name": "Microsoft Excel Documents",
-    "format": "XLSX",
-    "description": "XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.",
-    "link": "https://docs.fileformat.com/spreadsheet/xlsx/"
+    "format": "EXCEL",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
   },
   "XLA": {
     "name": "Microsoft Excel Add-In File",
