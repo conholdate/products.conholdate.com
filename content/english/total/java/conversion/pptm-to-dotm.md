@@ -1,17 +1,20 @@
 ---
 ############################# Static ############################
-layout: "autogen"
+layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/java/conversion/pptm-to-dotm/"
+other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
+ad_headline: "Java PPTM to DOTM Conversion"
+ad_description: "PPTM to DOTM document conversion API for Java | 100+ file formats supported"
 
 ############################# Head ############################
-head_title: "Convert PPTM to DOTM in Java - Sample Java Code"
+head_title: "Convert PPTM to DOTM in Java & J2SE Applications"
 head_description: "Java document conversion library to convert PPTM to DOTM and 100+ other file formats in Java & J2SE applications. View the Converted DOTM document as HTML viewer."
 
 ############################# Header ############################
 title: "Convert PPTM to DOTM in Java & View as HTML"
-description: "Programmatically convert PPTM to DOTM in Java & J2SE platforms using flexible document manipulation options to customize the resultant document. Convert the complete document or some specific pages based on page numbers or selective page ranges using Java document conversion library."
+description: "Programmatically convert PPTM to DOTM in Java & J2SE applications using flexible document manipulation options to customize the resultant document. Convert the complete document or some specific pages based on page numbers or selective page ranges using Java PPTM to DOTM conversion library."
 
 ############################# SubMenu ############################
 submenu:
@@ -21,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "PPTM to DOTM Conversion in Java"
+    - title_left: "How to Convert PPTM to DOTM in Java"
       content_left: |
-          Perform PPTM to DOTM file conversion in three simple steps using Java. View the converted document as HTML without any external software dependency.
+          Perform PPTM to DOTM file conversion in Java using three simple steps. View the converted document as HTML without any external software dependency.
 
           -   Create a new instance of **Converter** class and load the PPTM file
           -   Set **ConvertOptions** for the DOTM document type
@@ -31,34 +34,15 @@ content:
           -   Set options for HTML viewer
           -   Create **Viewer** object to view converted DOTM as HTML
           
-      title_right: "Convert Remotely Located Documents"
+      title_right: "Downloads & Installation Instructions"
       content_right: |
-          You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert between a wide range of popular document types such as PDF, Microsoft Word, Excel, PowerPoint, Project, Outlook, HTML, diagrams and image file formats. Explore other [Java APIs for Office documents](https://products.conholdate.com/total/java/) as offered by Conholdate.Total.
+          You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert between 100+ documents and image file formats such as PDF, Microsoft Word, Excel, PowerPoint, Project, Visio, Outlook, HTML and diagrams. Explore other [Java APIs for Office documents](https://products.conholdate.com/total/java/) as offered by Conholdate.Total.
           
-          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo) to add 'Conholdate.Total` directly in your workspace.
+          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo) to add `Conholdate.Total` directly in your workspace.
           
-      code: |
-          ```cs {linenos=false}
-          // Convert PPTM to DOTM using GroupDocs.Conversion API
-          // Load the source PPTM file to be converted
-          Converter converter = new Converter("input.pptm");
-
-          // Get the convert options ready for the target DOTM format
-          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-
-          // Convert to DOTM format
-          converter.convert("output.dotm", convertOptions);
-
-          // Create Viewer object to view the converted DOTM as HTML
-          try (Viewer viewer = new Viewer("output.dotm"))
-          {
-              // Set options for HTML viewer
-              HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources("output{0}.html");
-
-              // View converted DOTM as HTML
-              viewer.view(viewOptions);
-          }
-          ```
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "word-to-pdf-conversion.java"
+          
     - title_left: "Convert Password Protected PPTM to DOTM"
       content_left: |
           Accurately load and convert documents that are protected with a password within your Java based applications. The file format conversion API also supports rendering remote documents from different sources including S3, Blob, FTP, Stream, URL or a local disk.
@@ -73,21 +57,26 @@ content:
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using development environments such as NetBeans, IntelliJ IDEA and Eclipse.
           
-      code: |
-          ```cs {linenos=false}
-          // Load and convert password protected documents
-          WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
-          loadOptions.setPassword("12345");
+      gisthash: "35e23082b8fa43502d6784c38947eef1"
+      gistfile: "password-protected-word-document-to-pdf-conversion.java"
 
-          // Create an instance of Converter class and pass source document path and the load options delegate as a constructor parameters
-          Converter converter = new Converter("input.pptm", loadOptions);
+    - title_left: "Convert Specific Word Pages to PDF in Java"
+      content_left: |
+          Java document conversion API allows you to choose selected pages from the source document and accurately convert to the supported document format. The code example below shows how to convert the 1st and 4th pages of a Word document to the resultant PDF file.
 
-          // Instantiate PdfConvertOptions class
-          PdfConvertOptions options = new PdfConvertOptions();
+          -   Create a new instance of **Converter** class and load input (Word) document
+          -   Instantiate the proper **ConvertOptions** class e.g. (**PdfConvertOptions**, **WordProcessingConvertOptions**, **SpreadsheetConvertOptions** etc)
+          -   Set **setPages** property of the **ConvertOptions** instance and mention specific page number to be converted
+          -   Call **convert** method of **Converter** class instance and pass filename (PDF) for the converted document
+        
+      title_right: "Caching Converted Document Results"
+      content_right: |
+          In some cases, the converted document size is bigger and it takes time to be converted. The document conversion library offers the caching feature to efficiently manage such situations and speed up the repetitive conversion process. Enable the ICache interface to work with custom cache implementation using the extension point and control the cache conversion, as you prefer.
 
-          // Call convert method of Converter class instance and pass filename for the converted document and the instance of ConvertOptions from the previous step
-          converter.convert("output.dotm, options);
-          ```
+          The conversion result is saved to the local drive by default but any type of cache storage can be supported by implementing the appropriate interfaces such as Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+          
+      gisthash: "98e5756c4d2150212f5abd2eb2067059"
+      gistfile: "convert-specific-word-document-pages-to-pdf.java"
 ############################# About Formats ############################
 about_formats:
     enable: false
