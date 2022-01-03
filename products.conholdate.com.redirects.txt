@@ -1,1 +1,4 @@
-
+# redirecting old links
+rewrite ^/total/net/convert-emlx-to-pdf-with-email-headers/$ https://products.conholdate.com/total/net/conversion/emlx-to-pdf/ permanent;
+rewrite ^/total/net/convert-msg-to-pdf-with-email-headers/$ https://products.conholdate.com/total/net/conversion/msg-to-pdf/ permanent;
+rewrite ^/total/net/convert-mbox-messages-to-pdf/$ https://products.conholdate.com/total/net/conversion/mbox-to-pdf/ permanent;
