@@ -5,8 +5,8 @@ date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/zip-to-pdf/"
 other_in_formats: "ZIP TAR GZIP LZ RAR BZ2 7Z"
-ad_headline: "zip to pdf Conversion in .NET"
-ad_description: "Convert archive zip Files to pdf document in C# .NET Core Applications with capabilities to compress & decompress zip files."
+ad_headline: "Convert ZIP to PDF | C# .NET"
+ad_description: "Convert archive ZIP file to PDF in C# .NET Core – compress & decompress zip files."
 
 ############################# Head ############################
 head_title: "Convert ZIP Files to PDF in C# VB.NET ASP.NET .NET Core"
