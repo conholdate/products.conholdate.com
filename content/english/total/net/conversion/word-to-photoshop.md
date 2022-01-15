@@ -5,8 +5,8 @@ date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/word-to-photoshop/"
 other_out_formats: "PDF Word eBook Excel Image Photoshop Web"
-ad_headline: "Convert WORD to PHOTOSHOP | .NET"
-ad_description: "Most Accurate WORD to PHOTOSHOP document Conversion solution for your .NET applications."
+ad_headline: "Word to Photoshop Conversion"
+ad_description: "Most Accurate Word to Photoshop document Conversion solution for your .NET applications."
 
 ############################# Head ############################
 head_title: "Convert WORD to PHOTOSHOP in C# VB.NET ASP.NET | Document Conversion"

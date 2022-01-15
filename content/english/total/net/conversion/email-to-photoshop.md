@@ -4,9 +4,9 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/email-to-photoshop/"
-other_out_formats: "PDF Word eBook Excel Image Photoshop Web Email"
-ad_headline: "Convert EMAIL to PHOTOSHOP | .NET"
-ad_description: "Most Accurate EMAIL to PHOTOSHOP document Conversion solution for your .NET applications."
+other_out_formats: "PDF Word eBook Excel Image Photoshop Web"
+ad_headline: "Email to Photoshop Conversion"
+ad_description: "Most Accurate Email to Photoshop document Conversion solution for .NET applications."
 
 ############################# Head ############################
 head_title: "Convert EMAIL to PHOTOSHOP in C# VB.NET ASP.NET | Document Conversion"
@@ -70,7 +70,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF Word eBook Excel Image Photoshop Web Email
+    other_out_formats: PDF Word eBook Excel Image Photoshop Web
 ############################# Back to top ###############################
 back_to_top:
   enable: true

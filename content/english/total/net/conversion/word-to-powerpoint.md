@@ -5,8 +5,8 @@ date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/word-to-powerpoint/"
 other_out_formats: "PDF Word eBook Excel Image Photoshop Web"
-ad_headline: "Convert WORD to POWERPOINT | .NET"
-ad_description: "Most Accurate WORD to POWERPOINT document Conversion solution for your .NET applications."
+ad_headline: "Word to PowerPoint Conversion"
+ad_description: "Most Accurate Word to PowerPoint document Conversion solution for .NET applications."
 
 ############################# Head ############################
 head_title: "Convert WORD to POWERPOINT in C# VB.NET ASP.NET | Document Conversion"
