@@ -36,7 +36,7 @@ logo_width = "270px"
 description = "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."
 author = "Conholdate"
 # this image will be used as fallback if a page has no image of its own
-image = "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate-logo.svg"
+image = "https://cms.admin.containerize.com/templates/conholdate/img/logo.png"
 
 ################################# Cookies #####################################
 [params.cookies]
