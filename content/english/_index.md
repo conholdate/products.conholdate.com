@@ -23,17 +23,17 @@ product:
   description: ""
   product_item:
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-net.png?v2"
+    - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
       name: Conholdate.Total Product Family
-      link: "total"
+      link: "total/"
       content: "Enable your applications to manipulate more than 100 file formats. Includes all Aspose and GroupDocs products in a single suite."
       button_net:
         enable: true
         label: "Conholdate.Total"
-        link: "total/net"
+        link: "total/net/"
       button_java:
         enable: true
         label: "Conholdate.Total"
-        link: "total/java"
+        link: "total/java/"
         
 ---

@@ -8,7 +8,7 @@ banner:
   enable: true
   bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/code.jpg"
   bg_overlay: true
-  title: "API de format de fichier et de manipulation de documents"
+  title: "API de Format de Fichier et de Manipulation de Documents"
   content: "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."
   button:
     enable: true
@@ -23,17 +23,17 @@ product:
   description: ""
   product_item:
     # product item loop
-    - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-net.png?v2"
+    - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
       name: Conholdate.Total Famille de Produits
-      link: "fr/total"
+      link: "fr/total/"
       content: "Permettez à vos applications de manipuler plus de 100 formats de fichiers. Inclut tous les produits Aspose et GroupDocs dans une seule suite."
       button_net:
         enable: true
         label: "Conholdate.Total"
-        link: "fr/total/net"
+        link: "fr/total/net/"
       button_java:
         enable: true
         label: "Conholdate.Total"
-        link: "fr/total/java"
+        link: "fr/total/java/"
         
 ---

@@ -62,6 +62,9 @@
     other = 'Merger'
 [combine]
     other = 'Combine'
+# others
+[og_description]
+    other = "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."
 [404_message]
 other = "Sorry – this page does not seem to exist (anymore)."
 [go_home]

@@ -105,7 +105,7 @@
                 <h2>{{ .title | markdownify }}</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-wrap">
             {{ range .feature }}
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="feature-item">
@@ -204,6 +204,7 @@
         </div>
     </div>
 </section>
+<style>.d-wrap{display: flex;flex-flow: wrap;}</style>
 {{ end }}
 {{ end }}
 
@@ -215,5 +216,4 @@
 
 {{ end }}
 {{ end }}
-
 {{ end }}

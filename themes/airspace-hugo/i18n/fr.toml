@@ -63,6 +63,8 @@
 [combine]
     other = 'Combiner'
 # general
+[og_description]
+    other = "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."
 [404_message]
 other = "Siamo spiacenti, questa pagina sembra non esistere (più)."
 [go_home]
