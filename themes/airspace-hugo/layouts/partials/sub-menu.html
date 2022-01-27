@@ -12,18 +12,18 @@
             
             <div class="col-sm-5 col-md-5">
                 <ul class="nav nav-pills mb-hide">
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#support">Support</a></li>
-                    <li><a href="https://purchase.conholdate.com/pricing/total/{{ .platform_tag }}">Pricing</a></li>
+                    <!--<li><a href="#overview">{{ T "overview"}}</a></li>-->
+                    <li><a href="#products">{{ T "products"}}</a></li>
+                    <li><a href="#features">{{ T "features"}}</a></li>
+                    <li><a href="#support">{{ T "support"}}</a></li>
+                    <li><a href="https://purchase.conholdate.com/pricing/total/{{ .platform_tag }}">{{ T "pricing"}}</a></li>
                 </ul>
             </div>
             
             <div class="col-sm-4 col-md-4 text-center">
-                <a href="https://downloads.conholdate.com" class="btn btn-small btn-download animated fadeInUp"><i class="fas fa-arrow-down"></i> Download</a>
-                <a href="https://docs.conholdate.com/{{ .platform_tag }}" class="btn btn-small btn-learn animated fadeInUp"><i class="fas fa-file-alt"></i> Learn</a>
-                <a href="https://purchase.conholdate.com" class="btn btn-small btn-buy animated fadeInUp"><i class="fas fa-shopping-cart"></i> Buy</a>
+                <a href="https://downloads.conholdate.com" class="btn btn-small btn-download animated fadeInUp"><i class="fas fa-arrow-down"></i> {{ T "download"}}</a>
+                <a href="https://docs.conholdate.com/{{ .platform_tag }}" class="btn btn-small btn-learn animated fadeInUp"><i class="fas fa-file-alt"></i> {{ T "learn"}}</a>
+                <a href="https://purchase.conholdate.com" class="btn btn-small btn-buy animated fadeInUp"><i class="fas fa-shopping-cart"></i> {{ T "buy"}}</a>
             </div>
             
         </div>

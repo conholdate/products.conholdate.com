@@ -7,8 +7,27 @@ theme = "airspace-hugo"
 paginate = "4"
 # Post excerpt length
 summaryLength = "30"
+
+################################# Menus ##############################
+[params.menu]
+en = "conholdate-en"
+fr = "conholdate-fr"
+
+################################# Localization #########################
 # Disabled languages
 disableLanguages = []
+defaultContentLang = 'en'
+[languages]
+    [languages.en]
+        languageName = "English"
+        languageCode = "en"
+        contentDir = "content/english"
+        weight = 1
+    [languages.fr]
+        languageName = "Français"
+        languageCode = "fr"
+        contentDir = "content/french"
+        weight = 2
 
 ################################# Output formats ##############################
 # Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
@@ -42,25 +61,10 @@ image = "https://cms.admin.containerize.com/templates/conholdate/img/logo.png"
 [params.cookies]
 enable = false
 expire_days = 2
-
-################################# English translation #########################
-[languages.en]
-languageName = "English"
-languageCode = "en-US"
-contentDir = "content/english"
-weight = 1
-
+        
+################################# Deployment #########################
 [deployment]
 
 [[deployment.targets]]
 name = "Production"
 URL = "s3://products.conholdate.com/?region=us-west-2"
-
-[[deployment.matchers]]
-# Set custom content type for /sitemap.xml
-#pattern = "^sitemap\\.xml$"
-#pattern = "^[a-z]\\.xml$"
-pattern = "^.+\\.(xml)$"
-contentType = "application/xml"
-gzip = true
-force = true

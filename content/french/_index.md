@@ -1,39 +1,39 @@
 ---
 ############################# Head ############################
-head_title: "Conholdate Products"
-head_description: "All of Conholdate's .NET & Java Products"
+head_title: "Conholdate Produits"
+head_description: "Tous les produits .NET et Java de Conholdate"
 
 ############################### Banner ##############################
 banner:
   enable: true
   bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/code.jpg"
   bg_overlay: true
-  title: "File Format and Document Manipulation APIs"
-  content: "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."
+  title: "API de format de fichier et de manipulation de documents"
+  content: "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."
   button:
     enable: true
-    label: "Try Conholdate APIs for Free"
+    label: "Essayez Conholdate Gratuitement"
     link: "https://downloads.conholdate.com/"
 
 
 ############################# Products ############################
 product:
   enable: true
-  title: "Our Products"
+  title: "Nos Produits"
   description: ""
   product_item:
     # product item loop
     - image : "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-net.png?v2"
-      name: Conholdate.Total Product Family
-      link: "total"
-      content: "Enable your applications to manipulate more than 100 file formats. Includes all Aspose and GroupDocs products in a single suite."
+      name: Conholdate.Total Famille de Produits
+      link: "fr/total"
+      content: "Permettez à vos applications de manipuler plus de 100 formats de fichiers. Inclut tous les produits Aspose et GroupDocs dans une seule suite."
       button_net:
         enable: true
         label: "Conholdate.Total"
-        link: "total/net"
+        link: "fr/total/net"
       button_java:
         enable: true
         label: "Conholdate.Total"
-        link: "total/java"
+        link: "fr/total/java"
         
 ---

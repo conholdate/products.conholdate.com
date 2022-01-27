@@ -1,17 +1,22 @@
-{{ if ne .RelPermalink "/" }}
+{{ $other_languages := slice "fr" "de" }}
+{{ if not ($.Page.IsHome)}}
 
 {{ $dot := . }}
 {{ $dot.Scratch.Set "path" "" }}
 {{ $dot.Scratch.Set "breadcrumb" slice }}
 {{ $url := .RelPermalink }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "Products" "position" 1 )) }}
-  {{ range $index, $element := split $url "/" }}
+{{ $index := 0 }}
+  {{ range $element := split $url "/" }}
+	
     {{ $dot.Scratch.Add "path" $element }}
     {{ $.Scratch.Add "path" "/" }}
-    {{ if ne $element "" }}
-    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 1))) }}
+    {{ if and (ne $element "") (not (in $other_languages $element) ) }}
+		{{ $index = (add $index 1) }}	
+    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" $index )) }}
+
   {{ end }}
 {{ end }}
+
 
 {{ $platforms := "" }}
 {{ $productname := "" }}
@@ -25,28 +30,25 @@
         <div class="row">
             <div class="col-md-12 p-0">
                 <ul class="d-flex align-items-center m-0 productbreadcrumbs p-0">
-                    <li><a href="/">Products</a></li>
-                    {{ range $.Scratch.Get "breadcrumb" }}
+                    <li><a href="{{ T "home_url" }}">{{T "products"}}</a></li>
+                    {{ range $.Scratch.Get "breadcrumb" }}			
 						{{ $anchortext := "" }}
-						{{ if eq .position 2 }}
-							{{ $anchortext = print "Conholdate." ( humanize .name)  }}
+						{{ if eq .position 1 }}
 							{{ if (ne .position (len ( $dot.Scratch.Get "breadcrumb")))  }}
-							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ $anchortext }}</a></li>
+							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ print "Conholdate." ( humanize .name) }}</a></li>
 							{{ end }}
-						{{ else if eq .position 3 }}
+						{{ else if eq .position 2 }}
 							{{ if eq .name "net" }}
 								{{ $anchortext = ".NET" }}
-							{{ else }}
-								{{ $anchortext = (.name | humanize ) }}
+							{{ else if eq .name "java" }}
+								{{ $anchortext = "Java" }}
 							{{ end }}
 
 							{{ if ne .position (len ( $dot.Scratch.Get "breadcrumb") ) }}
 							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ $anchortext }}</a></li>
 							{{ end }}
-
-						{{ else if eq .position 4 }}
-							{{ $feature = .name }}
-							{{ $anchortext = (humanize $feature) }}
+						{{ else if eq .position 3 }}
+							{{ $feature = (T .name ) }}
 						{{ end }}
 
 						{{ if eq .position (len ( $dot.Scratch.Get "breadcrumb") ) }}

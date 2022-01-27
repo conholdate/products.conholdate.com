@@ -1,0 +1,69 @@
+# site wide
+[support_learning_resources]
+    other = "Ressources d'assistance et d'apprentissage"
+[support_learning]
+    other = "Ressources d'apprentissage"
+[documentation]
+    other = "Documentation"
+[source_code]
+    other = "Source Code"
+[api_references]
+    other = "Références API"
+[video_tutorials]
+    other = "Tutoriels Vidéos"
+[product_support]
+    other = "Support Produit"
+[free_support]
+    other = "Assistance Gratuite"
+[paid_support]
+    other = "Assistance Payante"
+[blog]
+    other = "Blog"
+[why_choose]
+    other = "Pourquoi Conholdate.Total Product Family?"
+[customer_list]
+    other = "Liste des Clients"
+[success_stories]
+    other = "Réussites"
+[download_free_trial]
+    other = "Télécharger la version d'essai gratuite"
+[pricing_information]
+    other = "Information sur les prix"
+[pricing]
+    other = "Tarification"
+[support]
+    other = "Soutien"
+[features]
+    other = "Caractéristiques"
+[overview]
+    other = "Aperçu"
+[buy]
+    other = "Acheter"
+[learn]
+    other = "Apprendre"
+[download]
+    other = "Scarica"
+[products]
+    other = "Prodotti"
+[popular]
+    other = 'Populaire'
+[options]
+    other = 'Choix'
+[home_url]
+    other = "/fr/"
+[to]
+    other = 'à'
+# features
+[conversion]
+    other = "Conversione"
+[convert]
+    other = 'Convertir'
+[merger]
+    other = "Fusione"
+[combine]
+    other = 'Combiner'
+# general
+[404_message]
+other = "Siamo spiacenti, questa pagina sembra non esistere (più)."
+[go_home]
+other = "Alla home page"

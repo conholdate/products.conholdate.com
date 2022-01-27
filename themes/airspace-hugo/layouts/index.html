@@ -8,11 +8,11 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+          {{ with .title }}<h1 style="text-transform: none;">{{ . | markdownify }}</h1>{{ end }}
           {{ with .content }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .button }}
           {{ if .enable }}
-          <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
+          <a href="{{ .link | relLangURL }}" style="text-transform: none;" class="btn btn-main animated fadeInUp">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>

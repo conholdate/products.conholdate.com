@@ -1,4 +1,67 @@
-# Regular translations
+# site wide
+[support_learning_resources]
+    other = 'Support and Learning Resources'
+[support_learning]
+    other = 'Learning Resources'
+[documentation]
+    other = 'Documentation'
+[source_code]
+    other = 'Source Code'
+[api_references]
+    other = 'API References'
+[video_tutorials]
+    other = 'Video Tutorials'
+[product_support]
+    other = 'Product Support'
+[free_support]
+    other = 'Free Support'
+[paid_support]
+    other = 'Paid Support'
+[blog]
+    other = 'Blog'
+[why_choose]
+    other = 'Why Conholdate.Total Product Family?'
+[customer_list]
+    other = 'Customers List'
+[success_stories]
+    other = 'Success Stories'
+[download_free_trial]
+    other = 'Download Free Trial'
+[pricing_information]
+    other = 'Pricing Information'
+[pricing]
+    other = 'Pricing'
+[support]
+    other = 'Support'
+[features]
+    other = 'Features'
+[overview]
+    other = 'Overview'
+[buy]
+    other = 'Buy'
+[learn]
+    other = 'Learn'
+[download]
+    other = 'Download'
+[products]
+    other = 'Products'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Popular'
+[options]
+    other = 'Options'
+[to]
+    other = 'to'
+# features
+[conversion]
+    other = 'Conversion'
+[convert]
+    other = 'Convert'
+[merger]
+    other = 'Merger'
+[combine]
+    other = 'Combine'
 [404_message]
 other = "Sorry – this page does not seem to exist (anymore)."
 [go_home]

@@ -8,7 +8,7 @@
           <p>{{ .Params.description | markdownify }}</p>
           {{ with .Params.button}}
             {{ if .enable }}
-              <a href="https://downloads.conholdate.com/{{ $.Params.product_tag }}/{{ $.Params.platform_tag }}" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Download Free Trial</a>
+              <a href="https://downloads.conholdate.com/{{ $.Params.product_tag }}/{{ $.Params.platform_tag }}" class="btn btn-main btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> {{ T "download_free_trial" }}</a>
             {{end}}
           {{end}}
         </div>
