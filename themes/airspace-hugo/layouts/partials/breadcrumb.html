@@ -56,7 +56,7 @@
 						{{ if in $slug "-to-" }}
 							{{ $formats := (split $slug "-to-") }}
 							{{ if eq (len $formats) 2 }}
-								{{ $slugname = print (upper (index $formats 0 ) ) " to " (upper (index $formats 1 ) ) }}
+								{{ $slugname = print (upper (index $formats 0 ) ) " " (T "to") " " (upper (index $formats 1 ) ) }}
 								{{ $anchortext = print $slugname " " (humanize $feature) }}
 							{{ end }}
 						{{ else if $feature }}
