@@ -1,15 +1,18 @@
-{{ $base := "https://products.conholdate.com"}}
+{{ $other_languages := slice "fr" "de" }}
 
 {{ $dot := . }}
 {{ $dot.Scratch.Set "path" "" }}
 {{ $dot.Scratch.Set "breadcrumb" slice }}
 {{ $url := .RelPermalink }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" "/" "name" "Products" "position" 1 )) }}
-  {{ range $index, $element := split $url "/" }}
+{{ $index := 0 }}
+  {{ range $element := split $url "/" }}
+	
     {{ $dot.Scratch.Add "path" $element }}
     {{ $.Scratch.Add "path" "/" }}
-    {{ if ne $element "" }}
-    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 1))) }}
+    {{ if and (ne $element "") (not (in $other_languages $element) ) }}
+		{{ $index = (add $index 1) }}	
+    	{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" $index )) }}
+
   {{ end }}
 {{ end }}
 
