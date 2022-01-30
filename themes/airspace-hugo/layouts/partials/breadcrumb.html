@@ -32,10 +32,10 @@
                 <ul class="d-flex align-items-center m-0 productbreadcrumbs p-0">
                     <li><a href="{{ T "home_url" }}">{{T "products"}}</a></li>
                     {{ range $.Scratch.Get "breadcrumb" }}			
-						{{ $anchortext := "" }}
+						{{ $anchortext := print "Conholdate." ( humanize .name) }}
 						{{ if eq .position 1 }}
 							{{ if (ne .position (len ( $dot.Scratch.Get "breadcrumb")))  }}
-							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ print "Conholdate." ( humanize .name) }}</a></li>
+							<li><i class="fa fa-angle-right">&nbsp;</i> <a href="{{ .url }}">{{ $anchortext }}</a></li>
 							{{ end }}
 						{{ else if eq .position 2 }}
 							{{ if eq .name "net" }}

@@ -15,7 +15,7 @@
 
   {{ end }}
 {{ end }}
-
+{{ if not ($.Page.IsHome)}}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -30,6 +30,7 @@
     }{{ end }}]
 }
 </script>
+{{ end }}
 
 {{ $firstUrlElement := index (split .RelPermalink "/") 1 }}
 {{ $secondUrlElement := index (split .RelPermalink "/") 2 }}
