@@ -58,8 +58,14 @@
     other = 'Conversion'
 [convert]
     other = 'Convert'
-[merger]
-    other = 'Merger'
+[signature]
+    other = 'Signature'
+[sign]
+    other = 'Sign'
+[watermark]
+    other = 'Watermark'
+[barcode]
+    other = 'Barcode'
 [combine]
     other = 'Combine'
 # others

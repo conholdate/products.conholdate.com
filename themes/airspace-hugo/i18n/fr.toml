@@ -58,6 +58,14 @@
     other = "Conversione"
 [convert]
     other = 'Convertir'
+[signature]
+    other = 'Signature'
+[sign]
+    other = 'Signe'
+[watermark]
+    other = 'Filigrane'
+[barcode]
+    other = 'Code à barre'
 [merger]
     other = "Fusione"
 [combine]
