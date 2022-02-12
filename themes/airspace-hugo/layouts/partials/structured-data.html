@@ -30,29 +30,7 @@
     }{{ end }}]
 }
 </script>
-{{ end }}
-
-{{ $firstUrlElement := index (split .RelPermalink "/") 1 }}
-{{ $secondUrlElement := index (split .RelPermalink "/") 2 }}
-<script type = "application/ld+json" >
-{
-  "@context": "http://schema.org/",
-  "@type": "SoftwareApplication",
-  "name": "Conholdate.{{title $firstUrlElement}} for {{title $secondUrlElement}}",
-  "applicationCategory": "DeveloperApplication",
-  "image": [
-    "https://products.conholdate.com/images/conholdate_{{$firstUrlElement}}-for-{{$secondUrlElement}}.png"
-  ],
-  "description": "{{ if in .Page.Parent "net" }}.NET Core Libraries for File Format Automation{{ else }}.NET Core Libraries for File Format Automation{{ end }}",
-  "downloadUrl": "https://downloads.conholdate.com/{{ $firstUrlElement }}/{{ $secondUrlElement }}",
-  "releaseNotes": "https://docs.conholdate.com/{{ $secondUrlElement }}/",
-  "operatingSystem": [
-    "Windows",
-    "Linux",
-    "macOS"
-  ]
-}
-</script> 
+{{ end }} 
 
 <script type="application/ld+json">
 {
