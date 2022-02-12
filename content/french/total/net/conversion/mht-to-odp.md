@@ -40,8 +40,8 @@ content:
           
           Obtenez les fichiers d'assemblage respectifs à partir des [téléchargements](https://downloads.conholdate.com/total/net) ou récupérez l'ensemble du package à partir de [Nuget](https://www.nuget.org/packages/Conholdate.Total/) pour ajouter "Conholdate.Total" directement dans votre espace de travail.
           
-      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
-      gistfile: "word-to-pdf-conversion.cs"
+      gisthash: "e1a86529e1c97d75d902b382bdb5e7f9"
+      gistfile: "conversion-word-en-pdf.cs"
 
     - title_left: "Ajouter un filigrane au ODP converti en C#"
       content_left: |
@@ -60,8 +60,8 @@ content:
 
           Convertissez les formats de fichiers de documents populaires sur différents systèmes d'exploitation tels que Windows, Linux ou macOS tout en utilisant des plates-formes telles que Windows Azure, Mono et Xamarin.
           
-      gisthash: "a15affe15284876ce010a315a09da1f0"
-      gistfile: "convert-word-to-pdf-and-add-text-watermark-to-converted-pdf.cs"
+      gisthash: "1b50a428b27632b65e97850e10b6551c"
+      gistfile: "convertir-word-to-pdf-et-ajouter-texte-filigrane-to-converted-pdf.cs"
 
     - title_left: "Convertir un Word protégé par mot de passe en PDF"
       content_left: |
@@ -78,8 +78,8 @@ content:
           
           Les API Conholdate.Total pour .NET sont natives pour Windows Forms, ASP.NET, WPF, WCF ou tout type d'application basée sur .NET Framework 2.0 ou version ultérieure.
           
-      gisthash: "3b7541492166a47d49ca85c55b531055"
-      gistfile: "convert-password-protected-word-to-pdf.cs"
+      gisthash: "96b04fde76a58bf60ff71274010c7fb0"
+      gistfile: "convertir-mot-protégé-par-mot-de-passe-en-pdf.cs"
 
 ############################# About Formats ############################
 about_formats:
