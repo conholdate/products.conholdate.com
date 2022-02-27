@@ -3,18 +3,18 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/net/signature/ppt/"
+path: "total/net/signature/image/"
 other_out_formats: "PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CMX BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT"
-ad_headline: "Digitally Sign PPT | .NET"
-ad_description: "Add, edit, search, verify & delete digital signatures from PPT in C# .NET"
+ad_headline: "Digitally Sign IMAGE | .NET"
+ad_description: "Add, edit, search, verify & delete digital signatures from IMAGE in C# .NET"
 
 ############################# Head ############################
-head_title: "Add Digital Signatures to PPT File Viewer in C#, VB.NET"
-head_description: "C# .NET Digital Signature API to add, edit, search, verify & delete digital signatures in a PPT file. Digitally sign documents with barcode, image, text, stamp, metadata, QR-code and form field signatures."
+head_title: "Add Digital Signatures to IMAGE File Viewer in C#, VB.NET"
+head_description: "C# .NET Digital Signature API to add, edit, search, verify & delete digital signatures in a IMAGE file. Digitally sign documents with barcode, image, text, stamp, metadata, QR-code and form field signatures."
 
 ############################# Header ############################
-title: "Sign PPT File with Digital Signatures in .NET"
-description: "Digitally sign and verify signatures in a PPT file and various other document formats within C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
+title: "Sign IMAGE File with Digital Signatures in .NET"
+description: "Digitally sign and verify signatures in a IMAGE file and various other document formats within C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Digitally Sign PPT Files in C#"
+    - title_left: "How to Digitally Sign IMAGE Files in C#"
       content_left: |
-          [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing PPT documents with digital signatures using a few lines of C# .NET code.
+          [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing IMAGE documents with digital signatures using a few lines of C# .NET code.
 
           -   Instantiate **Signature** with input document
           -   Instantiate **DigitalSignOptions** object with certificate details

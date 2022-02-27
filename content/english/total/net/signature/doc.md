@@ -1,153 +1,72 @@
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2021-06-29T14:22:14+03:00
+layout: "autogen-gist"
+date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/signature/doc/"
-product_tag: total
-platform_tag: net
+other_out_formats: "PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CMX BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT"
+ad_headline: "Digitally Sign DOC | .NET"
+ad_description: "Add, edit, search, verify & delete digital signatures from DOC in C# .NET"
 
 ############################# Head ############################
 head_title: "Add Digital Signatures to DOC File Viewer in C#, VB.NET"
-head_description: "Digitally add signatures to Word processing documents (DOC) and 100+ other file formats in C# .NET. View the signed file in HTML using Conholdate.Total for .NET APIs."
+head_description: "C# .NET Digital Signature API to add, edit, search, verify & delete digital signatures in a DOC file. Digitally sign documents with barcode, image, text, stamp, metadata, QR-code and form field signatures."
 
 ############################# Header ############################
-title: "Digitally Add Signatures to DOC Viewer"
-description: "Digitally sign and verify signatures in Word processing (DOC) file format within your C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/total"
+title: "Sign DOC File with Digital Signatures in .NET"
+description: "Digitally sign and verify signatures in a DOC file and various other document formats within C#, ASP.NET, VB.NET & Xamarin applications. Implement Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures in multiple forms by setting up customized text, font style, colors and adjusting advanced e-signatures properties in the document."
 
 ############################# SubMenu ############################
 submenu:
     enable: false
 
-    left:
-        img_alt: "GroupDocs.Total for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-total-net.png"
-        product: "GroupDocs.Total"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-total"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/total"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/buy"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com"
-        link_learn: "https://docs.groupdocs.com/total/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# About ############################
-about:
-    enable: false
-    title: "About GroupDocs.Total for .NET"
-    content: |
-        GroupDocs.Total for .NET is a suite of document manipulation APIs to perform powerful documents manipulation & automation features within your desktop solutions and web apps without requiring any other commercial application. It enables developers to add the functionalities (view, edit, annotate, convert, compare, e-sign, assemble, search, parse, merge, redact and classify) within PDF, Microsoft Office Word, Excel, PowerPoint, OneNote, Visio, Outlook, HTML, images, graphics, diagrams and 90+ other popular document formats.
-
-        GroupDocs.Total APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
-
-############################# Steps ############################
+############################# Content ############################
 content:
     enable: true
     block:
-    - title_left: "C# Code to Digitally Sign a DOC File"
+    - title_left: "How to Digitally Sign DOC Files in C#"
       content_left: |
-        [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing Word processing (DOC) documents with digital signatures using a few lines of C# .NET code.
+          [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) supports signing DOC documents with digital signatures using a few lines of C# .NET code.
 
-        *   Instantiate **Signature** with input document
-        *   Instantiate **DigitalSignOptions** object with certificate details
-        *   Call **Sign** method of **Signature** class and pass **DigitalSignOptions** to it
-        *   Set options to view signed document as HTML
-        
-      title_right: "System Requirements"
+          -   Instantiate **Signature** with input document
+          -   Instantiate **DigitalSignOptions** object with certificate details
+          -   Call **Sign** method of **Signature** class and pass **DigitalSignOptions** to it
+          -   Set options to view signed document as HTML
+          
+      title_right: "APIs Download & Installation Instructions"
       content_right: |
           The following piece of code requires `GroupDocs.Signature` & `GroupDocs.Viewer` namespaces. You can get the respective files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/).
-
+          
           Sign your digtial documents with Barcode, Text, Image, Metadata, QR Code, Form Field and stamp signatures on operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      code: |
-          ```cs
-          // Add digital e-signatures to Word Processing (DOC) file using GroupDocs.Signature API
-          // Instantiate Signature with input DOC document
-          using (Signature signature = new Signature("input.doc"))
-            {
-              // initialize digital option with certificate file path
-              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-              {
-                // certifiate password
-                Password = "1234567890",
+      gisthash: "95d923d0c843df75412574e6571f9534"
+      gistfile: "add-digital-signatures-to-pdf.cs"
 
-                // digital certificate details
-                Reason = "Sign",
-                Contact = "JohnSmith",
-                Location = "Office1",
+    - title_left: "Search Barcode Signatures in PDF File in C#"
+      content_left: |
+          Search a wide variety of e-signature types from a digitally signed PDF document by setting up advanced signatures manipulation options and search filters to get a list of electronic signatures that match with the search criterion.
 
-                // image appearance as digital certificate on document pages
-                ImageFilePath = "sample.jpg",
-
-                // Set signature size and alignmnet details
-                AllPages = true,
-                Width = 80,
-                Height = 60,
-                VerticalAlignment = VerticalAlignment.Bottom,
-                HorizontalAlignment = HorizontalAlignment.Right,
-                Margin = new Padding() {  Bottom = 10, Right = 10},
-              };
-
-            // Sign document to file
-            signature.Sign("output.doc", options);
-
-            // Set options to view signed document as HTML
-            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources("output{0}.html");
-            try (Viewer viewer = new Viewer("output.doc")) {
-            viewer.view(viewOptions);
-          }
-          ```
+          -   Instantiate **Signature** with input document
+          -   Instantiate **DigitalSearchOptions** object as per requirements and specified search options
+          -   Call Search method of Signature class instance and pass DigitalSearchOptions to it
         
-############################# Demos ############################
-demos:
-    enable: false
-    title: "Free Document Automation Apps"
-    content: |
-        Offline [GroupDocs.Total Apps](https://products.groupdocs.app/total) to view, convert, annotate, compare, sign, assemble, parse, classify, redact and search documents.  
-        The live demo has the following benefits
-        
+      title_right: "Sign, Verify, Update & Delete Signatures"
+      content_right: |
+          Using Conholdate.com APIs – developers can implement different signatures customization options to add and view e-signatures from a wide range of popular document file formats.
+          
+          Users can also search and verify some specific signatures from an already signed digital document; manipulate signatures based on size or textual content and delete any signatures from the same document.
+          
+      gisthash: "89f71572ba0f6f90697aa9a661ebcab0"
+      gistfile: "search-barcode-signatures-in-pdf-file.cs"
+
 ############################# About Formats ############################
 about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word-o"
-          title: " About Word DOC File Format"
-          content: |
-            Files with .doc extension represent documents generated by Microsoft Word or other word processing documents in binary file format. The extension was initially used for plain text documentation on several different operating systems. It can contain several different types of data such as images, formatted as well as plain text, graphs, charts, embedded objects, links, pages, page formatting, print settings and a lot others. The format was popular for all sorts of documentation due to the variety of options it offers to users for writing manuals, proposals, specifications, resumes, articles or any similar documents. The updated version of DOC is DOCX which is based on Office OpenXML whose specifications are openly available.
-
-          link: "https://docs.fileformat.com/word-processing/doc/"
-    
+    enable: false
 ############################# More Formats ############################
 more_formats:
     enable: true
-    auto: true
-
+    auto: false
+    other_out_formats: PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CDR BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT
 ############################# Back to top ###############################
 back_to_top:
   enable: true
