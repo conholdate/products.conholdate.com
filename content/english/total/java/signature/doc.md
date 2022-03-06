@@ -24,7 +24,7 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Signatures to DOC in Java"
+    - title_left: "How to Add Image Signatures to DOC"
       content_left: |
           Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a DOC document in Java. Add company logo, stamp icon or name using different colors and text effects.
 

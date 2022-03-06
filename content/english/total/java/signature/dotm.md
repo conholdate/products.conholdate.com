@@ -24,7 +24,7 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Signatures to DOTM in Java"
+    - title_left: "How to Add Image Signatures to DOTM"
       content_left: |
           Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a DOTM document in Java. Add company logo, stamp icon or name using different colors and text effects.
 

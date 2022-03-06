@@ -24,7 +24,7 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Signatures to TIFF in Java"
+    - title_left: "How to Add Image Signatures to TIFF"
       content_left: |
           Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a TIFF document in Java. Add company logo, stamp icon or name using different colors and text effects.
 

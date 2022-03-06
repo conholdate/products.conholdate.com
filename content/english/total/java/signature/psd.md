@@ -24,7 +24,7 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Signatures to PSD in Java"
+    - title_left: "How to Add Image Signatures to PSD"
       content_left: |
           Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a PSD document in Java. Add company logo, stamp icon or name using different colors and text effects.
 

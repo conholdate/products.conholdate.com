@@ -24,7 +24,7 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Signatures to XLSB in Java"
+    - title_left: "How to Add Image Signatures to XLSB"
       content_left: |
           Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a XLSB document in Java. Add company logo, stamp icon or name using different colors and text effects.
 
