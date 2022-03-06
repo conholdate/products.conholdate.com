@@ -1,17 +1,20 @@
 ---
 ############################# Static ############################
-layout: "autogen"
+layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/java/signature/tiff/"
+other_out_formats: "PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT"
+ad_headline: "Digitally Sign TIFF | Java"
+ad_description: "Add, edit, search, verify & delete digital signatures from TIFF in Java"
 
 ############################# Head ############################
 head_title: "Sign TIFF File with Text or Image Signatures in Java"
-head_description: "Java TIFF Signature API to add, edit, remove, verify and search digital signatures (text, image, metadata, QR-Code, stamp). View the signed TIFF file in HTML."
+head_description: "Java TIFF Signature API to add, edit, remove, verify and search digital signatures (text, image, metadata, QR-Code, stamp). View the signed BMP file in HTML."
 
 ############################# Header ############################
 title: "Sign TIFF File in Java & View in HTML"
-description: "Sign & secure TIFF files in Java applications using popular electronic signature types such as text, image, metadata, QR-Code, stamp and form field. Programmatically generate, update, delete, verify and search digital signatures in documents, images and various other file formats without Adobe Reader installed."
+description: "Sign & secure TIFF files in Java applications using popular electronic signature types such as text, image, metadata, QR-Code, stamp and form field. Programmatically generate, update, delete, verify and search digital signatures in TIFF documents, images and various other file formats without Adobe Reader installed."
 
 ############################# SubMenu ############################
 submenu:
@@ -21,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "Add Image Signatures to TIFF in Java"
+    - title_left: "How to Add Image Signatures to TIFF in Java"
       content_left: |
-          Insert custom image as an electronic signature to a TIFF document in Java. Add company logo, stamp icon or name using different colors and text effects.
+          Using [Conholdate.Total for Java](https://products.conholdate.com/total/java/) - insert custom image as an electronic signature to a TIFF document in Java. Add company logo, stamp icon or name using different colors and text effects.
 
           -   Create a new instance of [Signature](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature) class and pass input document to it
           -   Instantiate the [ImageSignOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.sign/ImageSignOptions) object and specify image signature options
@@ -31,39 +34,18 @@ content:
           -   Set options to view document as HTML
           -   Instantiate Viewer with output file
           
-      title_right: "Inserting Digital Signatures to TIFF"
+      title_right: "APIs Download & Installation Instructions"
       content_right: |
-          You require `GroupDocs.Signature` & `GroupDocs.Viewer` namespaces to digitally sign documents and generate a display in HTML, image or PDF format. Explore other [Java APIs for Office documents](https://products.conholdate.com/total/java/) as offered by Conholdate.Total.
+          You require `GroupDocs.Signature` & `GroupDocs.Viewer` namespaces to digitally sign documents in Java and view as HTML, image or in a PDF format. Explore other [Java APIs for Office documents](https://products.conholdate.com/total/java/) as offered by Conholdate.Total.
           
           Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo) to add 'Conholdate.Total` directly in your workspace.
           
-      code: |
-          ```cs {linenos=false}
-          Signature signature = new Signature("input.tiff")
+      gisthash: "5683d8243aa8c95ea15ab0e5763e0dcd"
+      gistfile: "add-image-signatures-to-pdf-files.java"
 
-          ImageSignOptions options = new ImageSignOptions("signature.jpg");
-
-          // set signature position
-          options.setLeft(100);
-          options.setTop(100);
-
-          // set page numbers
-          options.setPageNumber(1);
-
-          // sign document to file
-          signature.sign("output.tiff", options);
-
-          // Set options to view document as HTML
-          HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources("output{0}.html");
-
-          // Instantiate Viewer with output file
-          try (Viewer viewer = new Viewer("output.tiff")) {
-            viewer.view(options);
-            }
-          ```
     - title_left: "Add Text Signatures to TIFF in Java"
       content_left: |
-          Add customized text signature to a TIFF document using advanced text settings such as font color, size, name, text alignment and border adjustment.
+          Add customized text signature to a TIFF document in Java using advanced text settings such as font color, size, name, text alignment and border adjustment.
 
           -   Create a new instance of [Signature](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature) class and pass input document
           -   Instantiate the [TextSignOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.sign/TextSignOptions) object and specify text signature options
@@ -71,39 +53,19 @@ content:
         
       title_right: "Image Representation of Document Pages"
       content_right: |
-          Apply digital signatures and generate image representation of the signed document pages in PNG, JPG or BMP formats. You can easily preview the complete document as a whole or display some specific pages based on page numbers or page ranges.
+          Apply digital signatures to a wide range of document formats and generate the image representation of the already signed document pages in PNG, JPG or BMP formats. You can easily preview the complete document as a whole or choose to display some specific pages based on page numbers or page ranges.
           
-      code: |
-          ```cs {linenos=false}
-          Signature signature = new Signature("input.tiff");
+      gisthash: "9d0efb4c5571e50b2a088b3ab054192d"
+      gistfile: "add-text-signatures-to-pdf-files.java"
 
-          TextSignOptions options = new TextSignOptions("John Smith");
-
-          // set signature position
-          options.setLeft(100);
-          options.setTop(100);
-
-          // set signature rectangle
-          options.setWidth(100);
-          options.setHeight(30);
-
-          // set text color and Font
-          options.setForeColor(Color.RED);
-          SignatureFont signatureFont = new SignatureFont();
-          signatureFont.setSize(12);
-          signatureFont.setFamilyName("Comic Sans MS");
-          options.setFont(signatureFont);
-
-          // sign document to file
-          signature.sign("output.tiff", options);
-          ```
 ############################# About Formats ############################
 about_formats:
     enable: false
 ############################# More Formats ############################
 more_formats:
     enable: true
-    auto: true
+    auto: false
+    other_out_formats: PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT
 ############################# Back to top ###############################
 back_to_top:
   enable: true
