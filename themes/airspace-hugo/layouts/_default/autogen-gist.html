@@ -149,10 +149,10 @@
                     <div class="col-sm-3 col-md-3">
                         <h4>
                         {{ if eq $feature "conversion" }}
-                        {{ $absURL = print (strings.TrimRight (print $slug "/") $path) "/" (lower $informat) "-to-" (lower .) "/"}}
+                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" (lower $informat) "-to-" (lower .) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ T "convert"}} {{ upper $informat }} {{ T "to"}} {{ upper . }}</a>
                         {{ else }}
-                        {{ $absURL = print (strings.TrimRight (print $slug "/") $path) "/" ( lower . ) "/"}}
+                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" ( lower . ) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ upper . }} {{ T (index $verb $feature) }}</a>
                         {{ end }}
                         </h4>
