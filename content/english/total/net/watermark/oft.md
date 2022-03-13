@@ -3,18 +3,18 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/net/watermark/visio/"
+path: "total/net/watermark/oft/"
 other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio"
-ad_headline: "Add Watermark to VISIO | C#"
-ad_description: "Add, search, modify and remove watermarks from VISIO file in C# .NET"
+ad_headline: "Add Watermark to OFT | C#"
+ad_description: "Add, search, modify and remove watermarks from OFT file in C# .NET"
 
 ############################# Head ############################
-head_title: "Add Text or Image Watermark to VISIO in C# ASP.NET"
-head_description: "Add, search, modify and remove text or image watermark from a VISIO, Word, Excel, PowerPoint, diagram or image file within a C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono in your desktop, web or mobile application."
+head_title: "Add Text or Image Watermark to OFT in C# ASP.NET"
+head_description: "Add, search, modify and remove text or image watermark from a OFT, Word, Excel, PowerPoint, diagram or image file within a C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono in your desktop, web or mobile application."
 
 ############################# Header ############################
-title: "Add Watermark to VISIO Viewer in C# .NET"
-description: "Add watermark images to the VISIO document viewer applications that are developed within C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono platforms. Use advanced watermarks management methods to display, search, modify and remove various watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. You can easily display the watermarked file as an HTML, Image or PDF file inside your applications without using any additional software."
+title: "Add Watermark to OFT Viewer in C# .NET"
+description: "Add watermark images to the OFT document viewer applications that are developed within C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono platforms. Use advanced watermarks management methods to display, search, modify and remove various watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. You can easily display the watermarked file as an HTML, Image or PDF file inside your applications without using any additional software."
 
 ############################# SubMenu ############################
 submenu:

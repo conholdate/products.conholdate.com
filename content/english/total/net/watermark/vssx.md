@@ -1,253 +1,76 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-09-22T14:22:14+03:00
+layout: "autogen-gist"
+date: 2021-10-02T14:22:14+03:00
 draft: false
-product_tag: total
-platform_tag: net
+path: "total/net/watermark/vssx/"
+other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio"
+ad_headline: "Add Watermark to VSSX | C#"
+ad_description: "Add, search, modify and remove watermarks from VSSX file in C# .NET"
 
 ############################# Head ############################
-head_title: "Add Watermark to VSSX Viewer in C#, ASP.NET, VB.NET, Xamarin"
-head_description: "Add image watermark to VSSX file viewer applications in C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono in your desktop, web or mobile applications."
+head_title: "Add Text or Image Watermark to VSSX in C# ASP.NET"
+head_description: "Add, search, modify and remove text or image watermark from a VSSX, Word, Excel, PowerPoint, diagram or image file within a C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono in your desktop, web or mobile application."
 
 ############################# Header ############################
 title: "Add Watermark to VSSX Viewer in C# .NET"
-description: "Add watermark image to VSSX document viewer applications in C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono platforms. Display the watermarked file in HTML, Image or PDF format inside your applications without using any additional software."
+description: "Add watermark images to the VSSX document viewer applications that are developed within C#, ASP.NET, VB.NET, .NET Core, Xamarin and Mono platforms. Use advanced watermarks management methods to display, search, modify and remove various watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. You can easily display the watermarked file as an HTML, Image or PDF file inside your applications without using any additional software."
 
 ############################# SubMenu ############################
 submenu:
     enable: false
 
-############################# About ############################
-about:
-    enable: false
-    title: "About GroupDocs.Total for .NET"
-    content: |
-        GroupDocs.Total for .NET is a suite of document manipulation APIs to perform powerful documents manipulation & automation features within your desktop solutions and web apps without requiring any other commercial application. It enables developers to add the functionalities (view, edit, annotate, convert, compare, e-sign, assemble, search, parse, merge, redact and classify) within PDF, Microsoft Office Word, Excel, PowerPoint, OneNote, Visio, Outlook, HTML, images, graphics, diagrams and 90+ other popular document formats.
-
-        GroupDocs.Total APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
-
-############################# Steps ############################
-steps:
+############################# Content ############################
+content:
     enable: true
-    title_left: "Insert Watermarks to VSSX File in .NET"
-    content_left: |
-        [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) makes it easy for .NET developers to work with adding image watermarks to their document viewer applications by implementing a few easy steps.
+    block:
+    - title_left: "Add Image Watermark to PDF File in .NET"
+      content_left: |
+          [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) makes it easy for .NET developers to add image watermarks to their document viewer applications by adding a few easy steps.
 
-        *   Instantiate **Watermarker** with input VSSX document
-        *   Use watermark image path as constructor parameter of **ImageWatermark** class
-        *   Set the watermark size and alignment
-        *   Add watermark to the **watermarker** and create output document
-        *   Instantiate **Viewer** with output document
-        *   Set options to view document as HTML
-        
-    title_right: "Get Started with .NET Core APIs"
-    content_right: |
-        The following piece of code requires `GroupDocs.Watermark` & `GroupDocs.Viewer` namespaces. You can get the respective files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/).
+          -   Instantiate **Watermarker** with input document format
+          -   Use watermark image path as constructor parameter of **ImageWatermark** class
+          -   Set the watermark size and alignment
+          -   Add watermark to the **watermarker** and create output document
+          -   Instantiate **Viewer** with output document
+          -   Set options to view document as HTML
+          
+      title_right: "APIs Download & Installation Instructions"
+      content_right: |
+          The below code example requires `GroupDocs.Watermark` & `GroupDocs.Viewer` namespaces to insert image watermark to the document and display it as an HTML file on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
+          
+          Get the respective files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace. Explore other [.NET APIs for Office documents](https://products.conholdate.com/total/net/) as offered by Conholdate.Total.
+          
+      gisthash: "655c316366548f2d74110b3336913832"
+      gistfile: "insert-image-watermark-to-pdf.cs"
 
-        Insert image watermark to VSSX on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
-        
-    code: |
-        ```cs {linenos=false}
-        // Add image watermark to VSSX in C# .NET
-        // Instantiate Watermarker with input VSSX document
-        using (Watermarker watermarker = new Watermarker("input.vssx"))
-          {
-            // Use watermark image path as constructor parameter of ImageWatermark class
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-              // Set watermark size and alignment
-              watermark.Width = 150;
-              watermark.Height = 150;
-              watermark.HorizontalAlignment = HorizontalAlignment.Right;
-              watermark.VerticalAlignment = VerticalAlignment.Top;
+    - title_left: "Add Text Watermark to PDF File in .NET"
+      content_left: |
+          The below code example demonstrates how to add text watermark into a PDF document using a few lines of C# code. It will insert watermark to all the pages of the supported document formats.
 
-              //Add watermark to the watermarker and generate output document
-              watermarker.Add(watermark);
-              watermarker.Save("output.vssx");
-            }
-          }
+          -   Instantiate **Watermarker** with input PDF document
+          -   Initialize the **Font** to be used for watermark
+          -   Create the **TextWatermark** object
+          -   Set watermark properties (alignment, color etc)
+          -   Add watermark to the watermarker and generate output document
         
-        // View watermarked VSSX file using GroupDocs.Viewer API
-        // Instantiate Viewer with output document
-        using (Viewer viewer = new Viewer("output.vssx"))
-          {
-            // Set options to view document as HTML
-            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources("output{0}.html");
-            viewer.View(options);
-          }
-        ```
-        
-############################# Demos ############################
-demos:
-    enable: false
-    title: "Free Document Automation Apps"
-    content: |
-        Offline [GroupDocs.Total Apps](https://products.groupdocs.app/total) to view, convert, annotate, compare, sign, assemble, parse, classify, redact and search documents.  
-        The live demo has the following benefits
-        
+      title_right: "Add, Search, Modify & Remove Watermarks"
+      content_right: |
+          The .NET Watermark API offers a powerful watermarks management solution and allows you to search all possible watermarks as present on the source document. It can also detect the watermarks that are already added by the third party tools or software. You can easily modify the text or image within the found watermarks and remove all or any particular watermark from the document that is previously added.
+
+          The supported watermark types include XObject, Artifact, Annotation, Shape, text and image.
+          
+      gisthash: "a7ed65fc41e058ea08854530444ce267"
+      gistfile: "insert-text-watermark-to-pdf.cs"
+
 ############################# About Formats ############################
 about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-image-o"
-          title: " About VSSX File Format"
-          content: |
-            Files with .vssx extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. Microsoft Visio also provides the capability to convert Visio files to different file formats such as PNG, BMP, PDF and others. It is available for both Windows and Mac OS.
-
-          link: "https://docs.fileformat.com/image/vssx/"
-
+    enable: false
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Image Watermarks to Other Document Format Viewers"
-    format: 
-        # format loop
-        - name: "Add Watermark to PDF"
-          link: "https://products.conholdate.com/total/net/watermark/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add Watermark to Word"
-          link: "https://products.conholdate.com/total/net/watermark/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add Watermark to Excel"
-          link: "https://products.conholdate.com/total/net/watermark/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Add Watermark to Image"
-          link: "https://products.conholdate.com/total/net/watermark/image/"
-          description: "Image Files"
-
-        # format loop
-        - name: "Add Watermark to DOC"
-          link: "https://products.conholdate.com/total/net/watermark/doc/"
-          description: "Microsoft Word 97-2003 Document"
-
-        # format loop
-        - name: "Add Watermark to DOCX"
-          link: "https://products.conholdate.com/total/net/watermark/docx/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add Watermark to DOT"
-          link: "https://products.conholdate.com/total/net/watermark/dot/"
-          description: "Microsoft Word 97-2003 Template"
-
-        # format loop
-        - name: "Add Watermark to DOTX"
-          link: "https://products.conholdate.com/total/net/watermark/dotx/"
-          description: "Microsoft Word Template"
-
-        # format loop
-        - name: "Add Watermark to RTF"
-          link: "https://products.conholdate.com/total/net/watermark/rtf/"
-          description: "Rich Text Document"
-
-        # format loop
-        - name: "Add Watermark to XLS"
-          link: "https://products.conholdate.com/total/net/watermark/xls/"
-          description: "Microsoft Excel 95-2003 Workbook Worksheet"
-
-        # format loop
-        - name: "Add Watermark to XLSX"
-          link: "https://products.conholdate.com/total/net/watermark/xlsx/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Add Watermark to XLT"
-          link: "https://products.conholdate.com/total/net/watermark/xlt/"
-          description: "Microsoft Excel 97-2003 Worksheet Template"
-
-        # format loop
-        - name: "Add Watermark to XLTX"
-          link: "https://products.conholdate.com/total/net/watermark/xltx/"
-          description: "Excel Open XML Spreadsheet Template"
-
-        # format loop
-        - name: "Add Watermark to PPT"
-          link: "https://products.conholdate.com/total/net/watermark/ppt/"
-          description: "Microsoft PowerPoint 97-2003 Presentation"
-
-        # format loop
-        - name: "Add Watermark to PPTX"
-          link: "https://products.conholdate.com/total/net/watermark/pptx/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Add Watermark to PPS"
-          link: "https://products.conholdate.com/total/net/watermark/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add Watermark to PPSX"
-          link: "https://products.conholdate.com/total/net/watermark/ppsx/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Add Watermark to POT"
-          link: "https://products.conholdate.com/total/net/watermark/pot/"
-          description: "Microsoft PowerPoint Template"
-        
-        # format loop
-        - name: "Add Watermark to POTX"
-          link: "https://products.conholdate.com/total/net/watermark/potx/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Add Watermark to BMP"
-          link: "https://products.conholdate.com/total/net/watermark/bmp/"
-          description: "Bitmap Picture"
-
-        # format loop
-        - name: "Add Watermark to GIF"
-          link: "https://products.conholdate.com/total/net/watermark/gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add Watermark to JPEG"
-          link: "https://products.conholdate.com/total/net/watermark/jpeg/"
-          description: "Joint Photographic Experts Group"
-
-        # format loop
-        - name: "Add Watermark to PNG"
-          link: "https://products.conholdate.com/total/net/watermark/png/"
-          description: "Portable Network Graphics"
-
-        # format loop
-        - name: "Add Watermark to TIFF"
-          link: "https://products.conholdate.com/total/net/watermark/tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add Watermark to VSD"
-          link: "https://products.conholdate.com/total/net/watermark/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Add Watermark to VDX"
-          link: "https://products.conholdate.com/total/net/watermark/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Add Watermark to VSS"
-          link: "https://products.conholdate.com/total/net/watermark/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Add Watermark to VSSX"
-          link: "https://products.conholdate.com/total/net/watermark/vssx/"
-          description: "Microsoft Visio Stencil"
-
-        # format loop
-        - name: "Add Watermark to VSDX"
-          link: "https://products.conholdate.com/total/net/watermark/vsdx/"
-          description: "Microsoft Visio Drawing"
-
+    auto: false
+    other_out_formats: PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio
 ############################# Back to top ###############################
 back_to_top:
   enable: true
