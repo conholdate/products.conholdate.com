@@ -96,7 +96,7 @@ about_formats:
 
 ############################# More Formats ############################
 more_formats:
-    enable: true
+    enable: false
     title: "Other Supported Conversions"
     format: 
         # format loop
