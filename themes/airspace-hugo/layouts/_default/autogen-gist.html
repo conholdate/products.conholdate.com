@@ -160,7 +160,6 @@
                     </div>
                 {{ end }}
             {{ else if and (ne $other_in_formats "") (ne $other_in_formats nil) }}
-    
                 {{ $other_in_formats := (split $other_in_formats " ") }}
                 {{ $formatdetails := newScratch }}
                 {{ range site.Data.fileformats }}
@@ -173,10 +172,10 @@
                     <div class="col-sm-3 col-md-3">
                         <h4>
                         {{ if eq $feature "conversion" }}
-                        {{ $absURL = print (strings.TrimRight $slug $path) ( lower . ) "-to-" (lower $outformat) "/"}}
+                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" (lower . ) "-to-" (lower $outformat ) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ T "convert"}} {{ upper . }} {{ T "to"}} {{ upper $outformat }}</a>
                         {{ else }}
-                        {{ $absURL = print (strings.TrimRight $slug $path ) ( lower . ) "/"}}
+                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" ( lower . ) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ upper . }} {{ T (index $verb $feature) }}</a>
                         {{ end }}
                         </h4>

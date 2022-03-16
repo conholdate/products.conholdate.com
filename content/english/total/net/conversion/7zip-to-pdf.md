@@ -63,7 +63,7 @@ about_formats:
     enable: false
 ############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     auto: false
     other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z
 ############################# Back to top ###############################
