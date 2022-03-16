@@ -70,6 +70,34 @@
     other = "Fusione"
 [combine]
     other = 'Combiner'
+[merge_files]
+    other = 'Fusionner les fichiers {{.}}'
+[annotate_files]
+    other = "Annotez {{ . }} Des dossiers"
+[view_files]
+    other = "Voir {{ . }} Des dossiers"
+[compare_files]
+    other = "Comparez {{ . }} Des dossiers"
+[sign_files]
+    other = "Signer {{ . }} Des dossiers"
+[assemble_files]
+    other = "Produire {{ . }} Des dossiers"
+[inspect_files]
+    other = "Modifier les métadonnées de {{ . }}"
+[search_files]
+    other = "Retrouver dans {{ . }} Des dossiers"
+[watermark_files]
+    other = "Ajouter un filigrane à {{ . }}"
+[edit_files]
+    other = "Éditer {{ . }} Des dossiers"
+[redact_files]
+    other = "Caviarder {{ . }} Des dossiers"
+[split_files]
+    other = "Diviser {{ . }} Des dossiers"
+[compress_files]
+    other = "Compresser {{ . }} Des dossiers"
+ [parse_files]
+    other = "Analyser {{ . }} Des dossiers"
 # general
 [og_description]
     other = "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."

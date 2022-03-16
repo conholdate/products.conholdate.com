@@ -98,20 +98,20 @@
 {{ with .Params.more_formats }}
 {{ if .enable }}
     {{ $verb := dict 
-        "annotation" "annotate" 
-        "viewer" "view" 
-        "comparison" "compare" 
-        "signature" "sign" 
-        "assembly" "generate" 
-        "metadata" "inspect" 
-        "search" "find" 
-        "watermark" "watermark" 
-        "editor" "edit" 
-        "merger" "combine" 
-        "redaction" "redact" 
-        "splitter" "split"
-        "compress" "compress"
-        "Parser" "Parse" 
+        "annotation" "annotate_files" 
+        "viewer" "view_files" 
+        "comparison" "compare_files" 
+        "signature" "sign_files" 
+        "assembly" "assemble_files" 
+        "metadata" "inspect_files" 
+        "search" "search_files" 
+        "watermark" "watermark_files" 
+        "editor" "edit_files" 
+        "merger" "merge_files" 
+        "redaction" "redact_files" 
+        "splitter" "split_files"
+        "compress" "compress_files"
+        "Parser" "parse_files" 
     }}
 
 <section class="more-formats">
@@ -153,7 +153,7 @@
                         <a href="{{ $absURL | absURL }}">{{ T "convert"}} {{ upper $informat }} {{ T "to"}} {{ upper . }}</a>
                         {{ else }}
                         {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" ( lower . ) "/"}}
-                        <a href="{{ $absURL | absURL }}">{{ upper . }} {{ T (index $verb $feature) }}</a>
+                        <a href="{{ $absURL | absURL }}">{{ T (index $verb $feature) . }}</a>
                         {{ end }}
                         </h4>
                         {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
@@ -176,7 +176,7 @@
                         <a href="{{ $absURL | absURL }}">{{ T "convert"}} {{ upper . }} {{ T "to"}} {{ upper $outformat }}</a>
                         {{ else }}
                         {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" ( lower . ) "/"}}
-                        <a href="{{ $absURL | absURL }}">{{ upper . }} {{ T (index $verb $feature) }}</a>
+                        <a href="{{ $absURL | absURL }}">{{ T (index $verb $feature) . }}</a>
                         {{ end }}
                         </h4>
                         {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}

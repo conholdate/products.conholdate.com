@@ -66,8 +66,37 @@
     other = 'Watermark'
 [barcode]
     other = 'Barcode'
-[combine]
-    other = 'Combine'
+[merger]
+    other = 'Merger'
+# feature details
+[merge_files]
+    other = 'Merge {{ . }} Files'
+[annotate_files]
+    other = "Annotate {{ . }} Files"
+[view_files]
+    other = "View {{ . }} Files"
+[compare_files]
+    other = "Compare {{ . }} Files"
+[sign_files]
+    other = "Sign {{ . }} Files"
+[assemble_files]
+    other = "Generate {{ . }} Files"
+[inspect_files]
+    other = "Edit Metadata of {{ . }} Files"
+[search_files]
+    other = "Find in {{ . }} Files"
+[watermark_files]
+    other = "Add Watermark to {{ . }} Files"
+[edit_files]
+    other = "Edit {{ . }} Files"
+[redact_files]
+    other = "Redact {{ . }} Files"
+[split_files]
+    other = "Split {{ . }} Files"
+[compress_files]
+    other = "Compress {{ . }} Files"
+ [parse_files]
+    other = "Parse {{ . }} Files"
 # others
 [og_description]
     other = "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."
