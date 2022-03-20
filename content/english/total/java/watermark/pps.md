@@ -4,7 +4,7 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/java/watermark/pps/"
-other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio"
+other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF TXT XLS XLSM XLSX XLSB XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF TIF WEBP VSD VDX VDW VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio Spreadsheet Worksheet Presentation"
 ad_headline: "Watermark PPS File | Java"
 ad_description: "Add, search, modify & remove watermarks from PPS file in Java"
 
@@ -70,7 +70,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio
+    other_out_formats: PDF DOC DOCX DOCM DOT DOTM DOTX RTF TXT XLS XLSM XLSX XLSB XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF TIF WEBP VSD VDX VDW VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio Spreadsheet Worksheet Presentation
 ############################# Back to top ###############################
 back_to_top:
   enable: true
