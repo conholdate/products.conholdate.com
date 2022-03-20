@@ -3,18 +3,18 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/java/watermark/png/"
+path: "total/java/watermark/msg/"
 other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio"
-ad_headline: "Watermark PNG File | Java"
-ad_description: "Add, search, modify & remove watermarks from PNG file in Java"
+ad_headline: "Watermark MSG File | Java"
+ad_description: "Add, search, modify & remove watermarks from MSG file in Java"
 
 ############################# Head ############################
-head_title: "Watermark PNG File in Java – Add, Edit, Search, Remove Watermark"
-head_description: "Watermark a PNG document in Java. Add, edit, search and delete text or image watermark from a PNG, Word, Excel, PowerPoint, diagram or image file within Java and J2SE in your desktop, web or mobile applications."
+head_title: "Watermark MSG File in Java – Add, Edit, Search, Remove Watermark"
+head_description: "Watermark a MSG document in Java. Add, edit, search and delete text or image watermark from a MSG, Word, Excel, PowerPoint, diagram or image file within Java and J2SE in your desktop, web or mobile applications."
 
 ############################# Header ############################
-title: "Add Text & Image Watermark to PNG in Java"
-description: "Add an image or text watermark to a PNG document viewer application, built on Java and J2SE platforms. Display the watermarked file in HTML, Image or PDF format inside the applications without using any additional software. Use a smart set of watermarks management and manipulation methods to add, edit, search and delete all popular watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. The .NET watermark API also allows viewing the watermarked file as HTML, Image or a PDF file inside any Java based application."
+title: "Add Text & Image Watermark to MSG in Java"
+description: "Add an image or text watermark to a MSG document viewer application, built on Java and J2SE platforms. Display the watermarked file in HTML, Image or PDF format inside the applications without using any additional software. Use a smart set of watermarks management and manipulation methods to add, edit, search and delete all popular watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. The .NET watermark API also allows viewing the watermarked file as HTML, Image or a PDF file inside any Java based application."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,11 +24,11 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Add Image Watermark to PNG in Java"
+    - title_left: "How to Add Image Watermark to MSG in Java"
       content_left: |
-          [Conholdate.Total for Java](https://products.conholdate.com/total/java/) makes it easier for java programmers to add image watermarks to their PNG document viewer applications by adding a few easy steps.
+          [Conholdate.Total for Java](https://products.conholdate.com/total/java/) makes it easier for java programmers to add image watermarks to their MSG document viewer applications by adding a few easy steps.
 
-          -   Instantiate **FileInputStream** Object with input PNG document
+          -   Instantiate **FileInputStream** Object with input MSG document
           -   Instantiate **Watermarker** object using the stream object created above
           -   Use watermark image path as constructor parameter of **ImageWatermark** class
           -   Set the watermark size and alignment
@@ -45,11 +45,11 @@ content:
       gisthash: "9fa88c2b755cc9ff8944cd0c4005b889"
       gistfile: "insert-image-watermark-to-pdf.java"
 
-    - title_left: "How to Add Text Watermark to PNG in Java"
+    - title_left: "How to Add Text Watermark to MSG in Java"
       content_left: |
-          This Java code example demonstrates how to add text watermark to a PNG document using a few simple lines of Java code. The watermark will be added to all the pages of the source document.
+          This Java code example demonstrates how to add text watermark to a MSG document using a few simple lines of Java code. The watermark will be added to all the pages of the source document.
 
-          -   Instantiate **Watermarker** with input PNG document
+          -   Instantiate **Watermarker** with input MSG document
           -   Initialize **TextWatermarker** with watermark text, font size and style
           -   Set watermark properties (alignment, color etc)
           -   Add watermark to the **watermarker** and generate output document

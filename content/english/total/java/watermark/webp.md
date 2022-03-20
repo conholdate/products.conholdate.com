@@ -1,263 +1,76 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-09-22T14:22:14+03:00
+layout: "autogen-gist"
+date: 2021-10-02T14:22:14+03:00
 draft: false
-product_tag: total
-platform_tag: java
+path: "total/java/watermark/webp/"
+other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio"
+ad_headline: "Watermark WEBP File | Java"
+ad_description: "Add, search, modify & remove watermarks from WEBP file in Java"
 
 ############################# Head ############################
-head_title: "Add Watermark to WebP Viewer in Java & J2SE"
-head_description: "Add image watermark to WebP file viewer applications using Java & J2SE in your desktop, web or mobile applications."
+head_title: "Watermark WEBP File in Java – Add, Edit, Search, Remove Watermark"
+head_description: "Watermark a WEBP document in Java. Add, edit, search and delete text or image watermark from a WEBP, Word, Excel, PowerPoint, diagram or image file within Java and J2SE in your desktop, web or mobile applications."
 
 ############################# Header ############################
-title: "Add Watermark to WebP Viewer in Java"
-description: "Add watermark image to WebP document viewer applications in Java and J2SE platforms. Display the watermarked file in HTML, Image or PDF format inside your applications without using any additional software."
+title: "Add Text & Image Watermark to WEBP in Java"
+description: "Add an image or text watermark to a WEBP document viewer application, built on Java and J2SE platforms. Display the watermarked file in HTML, Image or PDF format inside the applications without using any additional software. Use a smart set of watermarks management and manipulation methods to add, edit, search and delete all popular watermark types from PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, diagrams, email attachments and image file formats. The .NET watermark API also allows viewing the watermarked file as HTML, Image or a PDF file inside any Java based application."
 
 ############################# SubMenu ############################
 submenu:
     enable: false
 
-############################# About ############################
-about:
-    enable: false
-    title: "About GroupDocs.Total for .NET"
-    content: |
-        GroupDocs.Total for .NET is a suite of document manipulation APIs to perform powerful documents manipulation & automation features within your desktop solutions and web apps without requiring any other commercial application. It enables developers to add the functionalities (view, edit, annotate, convert, compare, e-sign, assemble, search, parse, merge, redact and classify) within PDF, Microsoft Office Word, Excel, PowerPoint, OneNote, Visio, Outlook, HTML, images, graphics, diagrams and 90+ other popular document formats.
-
-        GroupDocs.Total APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
-
-############################# Steps ############################
-steps:
+############################# Content ############################
+content:
     enable: true
-    title_left: "Insert Watermarks to WebP File in Java"
-    content_left: |
-        [Conholdate.Total for Java](https://products.conholdate.com/total/java/) makes it easy for Java developers to work with adding image watermarks to their document viewer applications by implementing a few easy steps.
+    block:
+    - title_left: "How to Add Image Watermark to WEBP in Java"
+      content_left: |
+          [Conholdate.Total for Java](https://products.conholdate.com/total/java/) makes it easier for java programmers to add image watermarks to their WEBP document viewer applications by adding a few easy steps.
 
-        *   Instantiate **FileInputStream** Object with input WebP document
-        *   Instantiate **Watermarker** object using the stream object created above
-        *   Use watermark image path as constructor parameter of **ImageWatermark** class
-        *   Set the watermark size and alignment
-        *   Add watermark to the **watermarker** and create output file
-        *   Set options to view document as HTML
-        *   Instantiate **Viewer** with output document
+          -   Instantiate **FileInputStream** Object with input WEBP document
+          -   Instantiate **Watermarker** object using the stream object created above
+          -   Use watermark image path as constructor parameter of **ImageWatermark** class
+          -   Set the watermark size and alignment
+          -   Add watermark to the **watermarker** and create output file
+          -   Set options to view document as HTML
+          -   Instantiate **Viewer** with output document
+          
+      title_right: "APIs Download & Installation Instructions"
+      content_right: |
+          The below Java code example requires `GroupDocs.Watermark` & `GroupDocs.Viewer` namespaces to insert, modify, find and remove image watermarks from the supported file formats. You can add document viewer capabilities within your applications to display the watermarked document as an HTML file on different operating systems such as Windows, Linux (Ubuntu, OpenSUSE, CentOS and others) or macOS while using platforms such as Microsoft Windows and Azure.
+          
+          Get the respective files from [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo/com/conholdate/conholdate-total) to add 'Conholdate.Total` directly in your workspace. Explore other [Java APIs for Office documents](https://products.conholdate.com/total/java/) as offered by Conholdate.Total.
+          
+      gisthash: "9fa88c2b755cc9ff8944cd0c4005b889"
+      gistfile: "insert-image-watermark-to-pdf.java"
+
+    - title_left: "How to Add Text Watermark to WEBP in Java"
+      content_left: |
+          This Java code example demonstrates how to add text watermark to a WEBP document using a few simple lines of Java code. The watermark will be added to all the pages of the source document.
+
+          -   Instantiate **Watermarker** with input WEBP document
+          -   Initialize **TextWatermarker** with watermark text, font size and style
+          -   Set watermark properties (alignment, color etc)
+          -   Add watermark to the **watermarker** and generate output document
         
-    title_right: "System Requirements"
-    content_right: |
-        The following piece of code requires `GroupDocs.Watermark` & `GroupDocs.Viewer` namespaces. You can get the respective files from the [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo/com/conholdate/conholdate-total).
+      title_right: "Add, Find, Edit & Delete Custom Watermarks"
+      content_right: |
+          Conholdate.Total for Java offers a unique set of features to add custom watermarks to supported images and document formats. Perform watermark search operation to find all possible types of watermarks that are already added to the source document by any third party tool or software. You can easily modify the text or image within the found watermarks and remove all or any particular watermark of your choice from the document.
 
-        Insert image watermark to WebP on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
-        
-    code: |
-        ```cs {linenos=false}
-        // Add image watermark to WebP in Java
-        // Instantiate FileInputStream Object with input file
-        FileInputStream stream = new FileInputStream("input.webp");
+          The supported watermark types include XObject, Artifact, Annotation, Shape, text, image, header and footer.
+          
+      gisthash: "ecd2c1b6a7134033ed8e79ef1ec3a327"
+      gistfile: "insert-text-watermark-to-pdf.java"
 
-        // Instantiate Watermarker object using the stream object created above
-        Watermarker watermarker = new Watermarker(stream);
-
-        // Use watermark image path as constructor parameter of ImageWatermark class
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-
-        // Set image watermark alignment 
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
-
-        //Add watermark to the watermarker and generate output file
-        watermarker.add(watermark);
-        watermarker.save("output.webp");
-
-        // Close Watermark, Watermarker and FileInputStream objects
-        watermark.close();
-        watermarker.close();
-        stream.close();
-
-        // View watermarked WebP file using GroupDocs.Viewer API
-        // Set options to view document as HTML
-        HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources("output{0}.html");
-
-        // Instantiate Viewer with output file
-        try (Viewer viewer = new Viewer("output.webp")) {
-          viewer.view(options);
-          }
-        ```
-        
-############################# Demos ############################
-demos:
-    enable: false
-    title: "Free Document Automation Apps"
-    content: |
-        Offline [GroupDocs.Total Apps](https://products.groupdocs.app/total) to view, convert, annotate, compare, sign, assemble, parse, classify, redact and search documents.  
-        The live demo has the following benefits
-        
 ############################# About Formats ############################
 about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-image-o"
-          title: " About WebP File Format"
-          content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
-
-          link: "https://docs.fileformat.com/image/webp/"
-
+    enable: false
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Image Watermarks to Other Document Format Viewers"
-    format: 
-        # format loop
-        - name: "Add Watermark to PDF"
-          link: "https://products.conholdate.com/total/java/watermark/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add Watermark to Word"
-          link: "https://products.conholdate.com/total/java/watermark/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add Watermark to Excel"
-          link: "https://products.conholdate.com/total/java/watermark/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Add Watermark to Image"
-          link: "https://products.conholdate.com/total/java/watermark/image/"
-          description: "Image Files"
-
-        # format loop
-        - name: "Add Watermark to Visio"
-          link: "https://products.conholdate.com/total/java/watermark/visio/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Add Watermark to DOC"
-          link: "https://products.conholdate.com/total/java/watermark/doc/"
-          description: "Microsoft Word 97-2003 Document"
-
-        # format loop
-        - name: "Add Watermark to DOCX"
-          link: "https://products.conholdate.com/total/java/watermark/docx/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add Watermark to DOT"
-          link: "https://products.conholdate.com/total/java/watermark/dot/"
-          description: "Microsoft Word 97-2003 Template"
-
-        # format loop
-        - name: "Add Watermark to DOTX"
-          link: "https://products.conholdate.com/total/java/watermark/dotx/"
-          description: "Microsoft Word Template"
-
-        # format loop
-        - name: "Add Watermark to RTF"
-          link: "https://products.conholdate.com/total/java/watermark/rtf/"
-          description: "Rich Text Document"
-
-        # format loop
-        - name: "Add Watermark to XLS"
-          link: "https://products.conholdate.com/total/java/watermark/xls/"
-          description: "Microsoft Excel 95-2003 Workbook Worksheet"
-
-        # format loop
-        - name: "Add Watermark to XLSX"
-          link: "https://products.conholdate.com/total/java/watermark/xlsx/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Add Watermark to XLT"
-          link: "https://products.conholdate.com/total/java/watermark/xlt/"
-          description: "Microsoft Excel 97-2003 Worksheet Template"
-
-        # format loop
-        - name: "Add Watermark to XLTX"
-          link: "https://products.conholdate.com/total/java/watermark/xltx/"
-          description: "Excel Open XML Spreadsheet Template"
-
-        # format loop
-        - name: "Add Watermark to PPT"
-          link: "https://products.conholdate.com/total/java/watermark/ppt/"
-          description: "Microsoft PowerPoint 97-2003 Presentation"
-
-        # format loop
-        - name: "Add Watermark to PPTX"
-          link: "https://products.conholdate.com/total/java/watermark/pptx/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Add Watermark to PPS"
-          link: "https://products.conholdate.com/total/java/watermark/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add Watermark to PPSX"
-          link: "https://products.conholdate.com/total/java/watermark/ppsx/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Add Watermark to POT"
-          link: "https://products.conholdate.com/total/java/watermark/pot/"
-          description: "Microsoft PowerPoint Template"
-        
-        # format loop
-        - name: "Add Watermark to POTX"
-          link: "https://products.conholdate.com/total/java/watermark/potx/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Add Watermark to BMP"
-          link: "https://products.conholdate.com/total/java/watermark/bmp/"
-          description: "Bitmap Picture"
-
-        # format loop
-        - name: "Add Watermark to GIF"
-          link: "https://products.conholdate.com/total/java/watermark/gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add Watermark to JPEG"
-          link: "https://products.conholdate.com/total/java/watermark/jpeg/"
-          description: "Joint Photographic Experts Group"
-
-        # format loop
-        - name: "Add Watermark to PNG"
-          link: "https://products.conholdate.com/total/java/watermark/png/"
-          description: "Portable Network Graphics"
-
-        # format loop
-        - name: "Add Watermark to TIFF"
-          link: "https://products.conholdate.com/total/java/watermark/tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add Watermark to VSD"
-          link: "https://products.conholdate.com/total/java/watermark/vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Add Watermark to VDX"
-          link: "https://products.conholdate.com/total/java/watermark/vdx/"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Add Watermark to VSS"
-          link: "https://products.conholdate.com/total/java/watermark/vss/"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Add Watermark to VSSX"
-          link: "https://products.conholdate.com/total/java/watermark/vssx/"
-          description: "Microsoft Visio Stencil"
-
-        # format loop
-        - name: "Add Watermark to VSDX"
-          link: "https://products.conholdate.com/total/java/watermark/vsdx/"
-          description: "Microsoft Visio Drawing"
-
+    auto: false
+    other_out_formats: PDF DOC DOCX DOCM DOT DOTM DOTX RTF XLS XLSM XLSX XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio
 ############################# Back to top ###############################
 back_to_top:
   enable: true
