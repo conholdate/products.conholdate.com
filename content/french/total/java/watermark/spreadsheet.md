@@ -3,18 +3,18 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "fr/total/java/watermark/vtx/"
+path: "fr/total/java/watermark/spreadsheet/"
 other_out_formats: "PDF DOC DOCX DOCM DOT DOTM DOTX RTF TXT XLS XLSM XLSX XLSB XLT XLTM XLTX PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM EML EMLX OFT MSG ODT BMP GIF JPEG JP2 PNG TIFF TIF WEBP VSD VDX VDW VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX JPG Word Excel Image Visio Spreadsheet Worksheet Presentation"
-ad_headline: "Fichier VTX de filigrane | Java"
-ad_description: "Ajouter, rechercher, modifier et supprimer des filigranes du fichier VTX en Java"
+ad_headline: "Fichier SPREADSHEET de filigrane | Java"
+ad_description: "Ajouter, rechercher, modifier et supprimer des filigranes du fichier SPREADSHEET en Java"
 
 ############################# Head ############################
-head_title: "Fichier VTX de filigrane en Java - Ajouter, modifier, rechercher, supprimer le filigrane"
-head_description: "Ajouter un filigrane à un document VTX en Java. Ajoutez, modifiez, recherchez et supprimez un filigrane de texte ou d'image à partir d'un fichier VTX, Word, Excel, PowerPoint, diagramme ou image dans Java et J2SE dans vos applications de bureau, Web ou mobiles."
+head_title: "Fichier SPREADSHEET de filigrane en Java - Ajouter, modifier, rechercher, supprimer le filigrane"
+head_description: "Ajouter un filigrane à un document SPREADSHEET en Java. Ajoutez, modifiez, recherchez et supprimez un filigrane de texte ou d'image à partir d'un fichier SPREADSHEET, Word, Excel, PowerPoint, diagramme ou image dans Java et J2SE dans vos applications de bureau, Web ou mobiles."
 
 ############################# Header ############################
-title: "Ajouter un filigrane de texte et d'image à VTX en Java"
-description: "Ajoutez un filigrane d'image ou de texte à une application de visualisation de documents VTX, basée sur les plates-formes Java et J2SE. Affichez le fichier filigrané au format HTML, Image ou PDF dans les applications sans utiliser de logiciel supplémentaire. Utilisez un ensemble intelligent de méthodes de gestion et de manipulation des filigranes pour ajouter, modifier, rechercher et supprimer tous les types de filigranes courants des documents PDF, Microsoft Word, des feuilles de calcul Excel, des présentations PowerPoint, des diagrammes, des pièces jointes aux e-mails et des formats de fichiers image. L'API de filigrane .NET permet également de visualiser le fichier filigrané au format HTML, Image ou PDF dans n'importe quelle application basée sur Java."
+title: "Ajouter un filigrane de texte et d'image à SPREADSHEET en Java"
+description: "Ajoutez un filigrane d'image ou de texte à une application de visualisation de documents SPREADSHEET, basée sur les plates-formes Java et J2SE. Affichez le fichier filigrané au format HTML, Image ou PDF dans les applications sans utiliser de logiciel supplémentaire. Utilisez un ensemble intelligent de méthodes de gestion et de manipulation des filigranes pour ajouter, modifier, rechercher et supprimer tous les types de filigranes courants des documents PDF, Microsoft Word, des feuilles de calcul Excel, des présentations PowerPoint, des diagrammes, des pièces jointes aux e-mails et des formats de fichiers image. L'API de filigrane .NET permet également de visualiser le fichier filigrané au format HTML, Image ou PDF dans n'importe quelle application basée sur Java."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,11 +24,11 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "Comment ajouter un filigrane d'image à VTX en Java"
+    - title_left: "Comment ajouter un filigrane d'image à SPREADSHEET en Java"
       content_left: |
-          [Conholdate.Total pour Java](https://products.conholdate.com/total/java/) permet aux programmeurs Java d'ajouter plus facilement des filigranes d'image à leurs applications de visualisation de documents VTX en ajoutant quelques étapes simples.
+          [Conholdate.Total pour Java](https://products.conholdate.com/total/java/) permet aux programmeurs Java d'ajouter plus facilement des filigranes d'image à leurs applications de visualisation de documents SPREADSHEET en ajoutant quelques étapes simples.
 
-          -   Instancier l'objet **FileInputStream** avec le document VTX d'entrée
+          -   Instancier l'objet **FileInputStream** avec le document SPREADSHEET d'entrée
           -   Instanciez l'objet **Watermarker** à l'aide de l'objet de flux créé ci-dessus
           -   Utiliser le chemin de l'image du filigrane comme paramètre constructeur de la classe **ImageWatermark**
           -   Définir la taille et l'alignement du filigrane
@@ -45,11 +45,11 @@ content:
       gisthash: "9fa88c2b755cc9ff8944cd0c4005b889"
       gistfile: "insert-image-watermark-to-pdf.java"
 
-    - title_left: "Comment ajouter un filigrane de texte à VTX en Java"
+    - title_left: "Comment ajouter un filigrane de texte à SPREADSHEET en Java"
       content_left: |
-          Cet exemple de code Java montre comment ajouter un filigrane de texte à un document VTX à l'aide de quelques lignes simples de code Java. Le filigrane sera ajouté à toutes les pages du document source.
+          Cet exemple de code Java montre comment ajouter un filigrane de texte à un document SPREADSHEET à l'aide de quelques lignes simples de code Java. Le filigrane sera ajouté à toutes les pages du document source.
 
-          -   Instanciez **Watermarker** avec le document VTX d'entrée
+          -   Instanciez **Watermarker** avec le document SPREADSHEET d'entrée
           -   Initialiser **TextWatermarker** avec le texte du filigrane, la taille de la police et le style
           -   Définir les propriétés du filigrane (alignement, couleur, etc.)
           -   Ajoutez un filigrane au **filigrane** et générez le document de sortie
