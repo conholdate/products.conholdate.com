@@ -24,10 +24,16 @@
     "link": "https://docs.fileformat.com/word-processing/docx/"
   },
   "WORD": {
-    "name": "Office 2007+ Word Document",
-    "format": "WORD",
-    "description": "DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.",
-    "link": "https://docs.fileformat.com/word-processing/docx/"
+    "name": "Word Processing Files",
+    "format": "DOCX",
+    "description": "A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.",
+    "link": "https://docs.fileformat.com/word-processing/"
+  },
+  "Word": {
+    "name": "Word Processing Files",
+    "format": "DOCX",
+    "description": "A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.",
+    "link": "https://docs.fileformat.com/word-processing/"
   },
   "EBOOK": {
     "name": "eBook File Format",
@@ -1247,6 +1253,36 @@
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
+  "Excel": {
+    "name": "Microsoft Excel Documents",
+    "format": "EXCEL",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
+  "SPREADSHEET": {
+    "name": "Microsoft Excel Documents",
+    "format": "XLSX",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
+  "Spreadsheet": {
+    "name": "Microsoft Excel Documents",
+    "format": "XLSX",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
+  "WORKSHEET": {
+    "name": "Microsoft Excel Documents",
+    "format": "XLSX",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
+  "Worksheet": {
+    "name": "Microsoft Excel Documents",
+    "format": "XLSX",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
   "XLA": {
     "name": "Microsoft Excel Add-In File",
     "format": "XLA",
@@ -1733,6 +1769,18 @@
     "description": "Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.",
     "link": "https://docs.fileformat.com/presentation/pptx/"
   },
+  "PRESENTATION": {
+    "name": "Presentation Formats",
+    "format": "PPTX",
+    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
+    "link": "https://docs.fileformat.com/presentation/"
+  },
+  "Presentation": {
+    "name": "Presentation Formats",
+    "format": "PPTX",
+    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
+    "link": "https://docs.fileformat.com/presentation/"
+  },
   "RA": {
     "name": "RealAudio File",
     "format": "RA",
@@ -1931,6 +1979,12 @@
     "description": "XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.",
     "link": "https://docs.fileformat.com/spreadsheet/xlsx/"
   },
+  "Excel": {
+    "name": "Excel Spreadsheet",
+    "format": "XLSX",
+    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
+    "link": "https://docs.fileformat.com/spreadsheet/"
+  },
   "XLT": {
     "name": "Excel 97 - 2003 Template",
     "format": "XLT",
@@ -2002,6 +2056,18 @@
     "format": "JPEG",
     "description": "A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.",
     "link": "https://docs.fileformat.com/image/jpeg/"
+  },
+  "JPG": {
+    "name": "Joint Photographic Expert Group Image",
+    "format": "JPG",
+    "description": "A JPG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.",
+    "link": "https://docs.fileformat.com/image/jpeg/"
+  },
+  "IMAGE": {
+    "name": "Image File Formats",
+    "format": "JPEG",
+    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
+    "link": "https://docs.fileformat.com/image/"
   },
   "JPM": {
     "name": "",
@@ -2987,6 +3053,12 @@
     "description": "TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.",
     "link": "https://docs.fileformat.com/image/tiff/"
   },
+  "TIF": {
+    "name": "Tagged Image File Format",
+    "format": "TIF",
+    "description": "TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.",
+    "link": "https://docs.fileformat.com/image/tiff/"
+  },
   "TNEF": {
     "name": "Transport Neutral Encapsulation Format",
     "format": "TNEF",
@@ -3082,6 +3154,18 @@
     "format": "VSDX",
     "description": "Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.",
     "link": "https://docs.fileformat.com/image/vsdx/"
+  },
+  "VISIO": {
+    "name": "Visio Drawing Formats",
+    "format": "VSDX",
+    "description": "Microsfot Visio comes as part of Microsoft Office suite and is used for diagramming and vector drawing applications. It is used to create several different types of diagrams including flow charts, UML diagrams, network diagrams, and alot of others. Visio file formats include file types such as VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM file format that is saved to disc when user creates a project in Microsoft Visio and saves it to disc. Following is a list of Publisher File Formats.",
+    "link": "https://docs.fileformat.com/visio/"
+  },
+  "Visio": {
+    "name": "Visio Drawing Formats",
+    "format": "VSDX",
+    "description": "Microsfot Visio comes as part of Microsoft Office suite and is used for diagramming and vector drawing applications. It is used to create several different types of diagrams including flow charts, UML diagrams, network diagrams, and alot of others. Visio file formats include file types such as VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM file format that is saved to disc when user creates a project in Microsoft Visio and saves it to disc. Following is a list of Publisher File Formats.",
+    "link": "https://docs.fileformat.com/visio/"
   },
   "VSS": {
     "name": "Visio Stencil File",
@@ -3390,6 +3474,12 @@
     "link": "https://docs.fileformat.com/compression/"
   },
   "IMAGE": {
+    "name": "Image Files",
+    "format": "IMAGE",
+    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
+    "link": "https://docs.fileformat.com/image/"
+  },
+  "Image": {
     "name": "Image Files",
     "format": "IMAGE",
     "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
