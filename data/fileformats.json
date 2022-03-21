@@ -1255,31 +1255,31 @@
   },
   "Excel": {
     "name": "Microsoft Excel Documents",
-    "format": "EXCEL",
+    "format": "Excel",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
   "SPREADSHEET": {
     "name": "Microsoft Excel Documents",
-    "format": "XLSX",
+    "format": "SPREADSHEET",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
   "Spreadsheet": {
     "name": "Microsoft Excel Documents",
-    "format": "XLSX",
+    "format": "Spreadsheet",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
   "WORKSHEET": {
     "name": "Microsoft Excel Documents",
-    "format": "XLSX",
+    "format": "WORKSHEET",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
   "Worksheet": {
     "name": "Microsoft Excel Documents",
-    "format": "XLSX",
+    "format": "Worksheet",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
@@ -1771,13 +1771,13 @@
   },
   "PRESENTATION": {
     "name": "Presentation Formats",
-    "format": "PPTX",
+    "format": "PRESENTATION",
     "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
     "link": "https://docs.fileformat.com/presentation/"
   },
   "Presentation": {
     "name": "Presentation Formats",
-    "format": "PPTX",
+    "format": "Presentation",
     "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
     "link": "https://docs.fileformat.com/presentation/"
   },
@@ -3157,13 +3157,13 @@
   },
   "VISIO": {
     "name": "Visio Drawing Formats",
-    "format": "VSDX",
+    "format": "VISIO",
     "description": "Microsfot Visio comes as part of Microsoft Office suite and is used for diagramming and vector drawing applications. It is used to create several different types of diagrams including flow charts, UML diagrams, network diagrams, and alot of others. Visio file formats include file types such as VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM file format that is saved to disc when user creates a project in Microsoft Visio and saves it to disc. Following is a list of Publisher File Formats.",
     "link": "https://docs.fileformat.com/visio/"
   },
   "Visio": {
     "name": "Visio Drawing Formats",
-    "format": "VSDX",
+    "format": "Visio",
     "description": "Microsfot Visio comes as part of Microsoft Office suite and is used for diagramming and vector drawing applications. It is used to create several different types of diagrams including flow charts, UML diagrams, network diagrams, and alot of others. Visio file formats include file types such as VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM file format that is saved to disc when user creates a project in Microsoft Visio and saves it to disc. Following is a list of Publisher File Formats.",
     "link": "https://docs.fileformat.com/visio/"
   },
@@ -3481,7 +3481,7 @@
   },
   "Image": {
     "name": "Image Files",
-    "format": "IMAGE",
+    "format": "Image",
     "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
     "link": "https://docs.fileformat.com/image/"
   },
