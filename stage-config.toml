@@ -68,7 +68,7 @@ expire_days = 2
 [deployment]
 
 [[deployment.targets]]
-name = "Production"
+name = "Stage"
 URL = "s3://products-qa.conholdate.com/?region=us-west-2"
 
 [[deployment.matchers]]

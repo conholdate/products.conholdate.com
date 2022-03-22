@@ -29,7 +29,7 @@
   function SwitchLanguage(lng)
   {
     var currentPath= location.href.substr(0, location.href.length - 2);
-    if(currentPath.indexOf('{{ .Site.BaseURL }}')>1 )
+    if(currentPath.indexOf('{{ site.BaseURL }}')>1 )
     {
       if(lng=='en')
         window.location.href =  window.location.protocol.concat( "//",location.hostname, window.location.pathname.slice(3))
