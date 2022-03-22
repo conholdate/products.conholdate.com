@@ -22,11 +22,13 @@ defaultContentLang = 'en'
         languageName = "English"
         languageCode = "en"
         contentDir = "content/english"
+        flag = "flag-us"
         weight = 1
     [languages.fr]
         languageName = "Français"
         languageCode = "fr"
         contentDir = "content/french"
+        flag = "flag-fr"
         weight = 2
 
 ################################# Output formats ##############################
@@ -61,19 +63,16 @@ image = "https://cms.admin.containerize.com/templates/conholdate/img/logo.png"
 [params.cookies]
 enable = false
 expire_days = 2
-
-################################# Deployment ################################
-
+        
+################################# Deployment #########################
 [deployment]
 
 [[deployment.targets]]
-name = "Stage"
+name = "Production"
 URL = "s3://products-qa.conholdate.com/?region=us-west-2"
 
 [[deployment.matchers]]
 # Set custom content type for /sitemap.xml
-#pattern = "^sitemap\\.xml$"
-#pattern = "^[a-z]\\.xml$"
 pattern = "^.+\\.(xml)$"
 contentType = "application/xml"
 gzip = true

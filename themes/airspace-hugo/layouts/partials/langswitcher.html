@@ -1,0 +1,24 @@
+<div class="lang-selector" id="locale" style="display:none!important">
+    {{- if .IsPage }}
+        {{- if .IsTranslated -}}
+            <a href="#">{{- .Lang | title -}} <em class="langcaret"></em></a>
+            <ul>
+                {{- range .Translations -}}
+                    <li><a href="{{- .Permalink -}}" data-title="{{- .Lang | title -}}" class="langmenu"><em class="flag {{.Language.Params.flag }}"> </em> {{.Language.LanguageName}} <span></span></a></li>
+                {{- end -}}
+            </ul>
+        {{- end -}}
+    {{- else }}
+        <a href="#">{{- .Lang | title -}} <em class="langcaret"></em></a>
+        {{- $lang:= .Lang}}
+        {{- with $.Site.Home.AllTranslations }}
+        <ul>
+            {{- range . -}}
+                {{- if ne $lang .Lang }}  
+                    <li><a href="{{- .Permalink -}}" data-title="{{- .Lang | title -}}" class="langmenu"><em class="flag {{.Language.Params.flag }}"> </em> {{.Language.LanguageName}} <span></span></a></li>
+                {{- end}}
+            {{- end -}}
+        </ul>
+        {{- end }}
+    {{- end }}
+</div>
