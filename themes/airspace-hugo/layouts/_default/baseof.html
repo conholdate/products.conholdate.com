@@ -3,7 +3,7 @@
 {{- partial "head.html" . -}}
 {{- partial "structured-data.html" . -}}
 <body>
-	{{- partial "gtm.html" . -}}
+	{{ if not (in .Site.BaseURL "products-qa") }}{{- partial "gtm.html" . -}}{{ end }}
 	{{- partial "breadcrumb.html" . -}}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
