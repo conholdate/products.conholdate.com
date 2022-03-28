@@ -6,3 +6,5 @@ rewrite ^\/total\/(net|java)\/(?:conversi|convers|conver)\/(.*)\/$ https://produ
 rewrite ^\/fr\/total\/(net|java)\/(?:conversi|convers|conver)\/(.*)\/$ https://products.conholdate.com/fr/total/$1/conversion/$2/ permanent;
 rewrite ^\/total\/(net|java)\/conversion\/(?<product>[a-zA-Z]+)-to-(?:\k<product>)\/ https://products.conholdate.com/total/$1/conversion/$2-to-pdf/ permanent;
 rewrite ^\/fr\/total\/(net|java)\/conversion\/(?<product>[a-zA-Z]+)-to-(?:\k<product>)\/ https://products.conholdate.com/fr/total/$1/conversion/$2-to-pdf/ permanent;
+rewrite ^\/fr\/total\/(net|java)\/signatur\/(.*)\/$ https://products.conholdate.com/fr/total/$1/signature/$2/ permanent;
+rewrite ^\/total\/(net|java)\/signatur\/(.*)\/$ https://products.conholdate.com/total/$1/signature/$2/ permanent;
