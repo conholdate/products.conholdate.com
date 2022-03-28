@@ -96,8 +96,10 @@
     other = "Diviser {{ . }} Des dossiers"
 [compress_files]
     other = "Compresser {{ . }} Des dossiers"
- [parse_files]
+[parse_files]
     other = "Analyser {{ . }} Des dossiers"
+[barcode_files]
+    other = "Ajouter un code-barres à {{ . }}"
 # general
 [og_description]
     other = "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."

@@ -95,8 +95,10 @@
     other = "Split {{ . }} Files"
 [compress_files]
     other = "Compress {{ . }} Files"
- [parse_files]
+[parse_files]
     other = "Parse {{ . }} Files"
+[barcode_files]
+    other = "Add Barcode to {{ . }} Files"
 # others
 [og_description]
     other = "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."

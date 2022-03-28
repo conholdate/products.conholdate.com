@@ -111,7 +111,8 @@
         "redaction" "redact_files" 
         "splitter" "split_files"
         "compress" "compress_files"
-        "Parser" "parse_files" 
+        "Parser" "parse_files"
+        "barcode" "barcode_files" 
     }}
 
 <section class="more-formats">
@@ -138,6 +139,7 @@
                 {{ end }}
             {{ else if and (ne $other_out_formats "") (ne $other_out_formats nil) }}
                 {{ $other_out_formats := (split $other_out_formats " ") }}
+
                 {{ $formatdetails := newScratch }}
                 {{ range site.Data.fileformats }}
                     {{ if in $other_out_formats .format}}
@@ -152,7 +154,7 @@
                         {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" (lower $informat) "-to-" (lower .) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ T "convert"}} {{ upper $informat }} {{ T "to"}} {{ upper . }}</a>
                         {{ else }}
-                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) "/" ( lower . ) "/"}}
+                        {{ $absURL = print (strings.TrimSuffix (print $slug "/") $path) ( lower . ) "/"}}
                         <a href="{{ $absURL | absURL }}">{{ T (index $verb $feature) . }}</a>
                         {{ end }}
                         </h4>
