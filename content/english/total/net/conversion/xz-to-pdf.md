@@ -4,7 +4,7 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/xz-to-pdf/"
-other_in_formats: "ZIP TAR GZIP LZ RAR BZ2 7Z"
+other_in_formats: "ZIP TAR GZIP LZ RAR BZ2 7Z CPIO XZ 7ZIP"
 ad_headline: "Convert XZ to PDF | C# .NET"
 ad_description: "Convert archive XZ file to PDF in C# .NET Core – compress & decompress zip files."
 
@@ -65,7 +65,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z
+    other_out_formats: ZIP TAR GZIP LZ RAR BZ2 7Z CPIO XZ 7ZIP
 ############################# Back to top ###############################
 back_to_top:
   enable: true
