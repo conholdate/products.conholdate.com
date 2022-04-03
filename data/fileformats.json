@@ -36,10 +36,22 @@
     "link": "https://docs.fileformat.com/word-processing/"
   },
   "EBOOK": {
-    "name": "eBook File Format",
+    "name": "eBook File Formats",
     "format": "EBOOK",
-    "description": "Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.",
-    "link": "https://docs.fileformat.com/ebook/epub/"
+    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
+    "link": "https://docs.fileformat.com/ebook/"
+  },
+  "EBook": {
+    "name": "eBook File Formats",
+    "format": "EBook",
+    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
+    "link": "https://docs.fileformat.com/ebook/"
+  },
+  "eBook": {
+    "name": "eBook File Formats",
+    "format": "eBook",
+    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
+    "link": "https://docs.fileformat.com/ebook/"
   },
   "GZIP": {
     "name": "GNU ZIP File",
@@ -1211,6 +1223,12 @@
     "description": "PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.",
     "link": "https://docs.fileformat.com/image/psd/"
   },
+  "Photoshop": {
+    "name": "Adobe Photoshop File Formats",
+    "format": "Photoshop",
+    "description": "PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.",
+    "link": "https://docs.fileformat.com/image/psd/"
+  },
   "JPX": {
     "name": "JPEG 2000 Image File",
     "format": "JPX",
@@ -1248,7 +1266,7 @@
     "link": "https://docs.fileformat.com/spreadsheet/fods/"
   },
   "EXCEL": {
-    "name": "Microsoft Excel Documents",
+    "name": "Excel File Formatsf",
     "format": "EXCEL",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
@@ -1757,6 +1775,18 @@
     "description": "OGG is an Ogg Vorbis Compressed Audio File that is saved with the .ogg extension. OGG files are used for storing audio data and can include artist and track information and metadata as well. OGG is a free and open container format that is maintained by Xiph.Org Foundation.",
     "link": "https://docs.fileformat.com/audio/ogg/"
   },
+  "POWERPOINT": {
+    "name": "Presentation Files",
+    "format": "POWERPOINT",
+    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
+    "link": "https://docs.fileformat.com/presentation/"
+  },
+  "PowerPoint": {
+    "name": "Presentation Files",
+    "format": "PowerPoint",
+    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
+    "link": "https://docs.fileformat.com/presentation/"
+  },
   "PPT": {
     "name": "Microsoft PowerPoint 97-2003",
     "format": "PPT",
@@ -2039,6 +2069,12 @@
     "description": "A file with .zip extension is an archive that can hold one or more files or directories. The archive can have compression applied to the included files in order to reduce the ZIP file size. ZIP file format was made public back in February 1989 by Phil Katz for achieving archiving of files and folders. The format was made part of PKZIP utility, created by PKWARE, Inc. Right after the availability of available specifications, many companies made ZIP file format part of their software utilities including Microsoft (since Windows 7), Apple (Mac OS X ) and many others.",
     "link": "https://docs.fileformat.com/compression/zip/"
   },
+  "XZ": {
+    "name": "Compressed Archove File",
+    "format": "XZ",
+    "description": "XZ is a compressed file format that utilizes the LZMA2 compression algorithm. It was designed as a replacement for the popular gzip and bzip2 formats, and offers a number of advantages over these older standards. XZ files are well-supported across many platforms, and can be decompressed quickly and easily. While they are not as common as ZIP or RAR files, XZ archives can be used to store large amounts of data without sacrificing compression quality. If you need to compress or decompress large files, the XZ file extension is worth considering.",
+    "link": "https://docs.fileformat.com/compression/xz/"
+  },
   "ZL": {
     "name": "Zlib Compressed File",
     "format": "ZL",
@@ -2084,6 +2120,18 @@
   "7-Zip": {
     "name": "7-Zip Compressed File",
     "format": "7-Zip",
+    "description": "7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. The format is now supported by a number of software applications such as 7-ZIP which is publicly available for download and usage to manipulate .7z files. Files with .7z extension have mime-type application/x-7z-compressed.",
+    "link": "https://docs.fileformat.com/compression/7z/"
+  },
+  "7-ZIP": {
+    "name": "7-Zip Compressed File",
+    "format": "7-ZIP",
+    "description": "7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. The format is now supported by a number of software applications such as 7-ZIP which is publicly available for download and usage to manipulate .7z files. Files with .7z extension have mime-type application/x-7z-compressed.",
+    "link": "https://docs.fileformat.com/compression/7z/"
+  },
+  "7ZIP": {
+    "name": "7-Zip Compressed File",
+    "format": "7ZIP",
     "description": "7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. The format is now supported by a number of software applications such as 7-ZIP which is publicly available for download and usage to manipulate .7z files. Files with .7z extension have mime-type application/x-7z-compressed.",
     "link": "https://docs.fileformat.com/compression/7z/"
   },
@@ -3556,6 +3604,18 @@
     "format": "WEB",
     "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.",
     "link": "https://docs.fileformat.com/web/"
+  },
+  "Web": {
+    "name": "Web Files",
+    "format": "Web",
+    "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.",
+    "link": "https://docs.fileformat.com/web/"
+  },
+  "CPIO": {
+    "name": "File Archive Format",
+    "format": "CPIO",
+    "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.",
+    "link": "https://docs.fileformat.com/compression/rpm/"
   },
   "WORD-PROCESSING": {
     "name": "word Processing Files",
