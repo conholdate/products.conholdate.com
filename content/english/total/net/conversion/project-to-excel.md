@@ -4,7 +4,7 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/project-to-excel/"
-other_out_formats: "PDF Word eBook Excel Image Photoshop Web Email"
+other_out_formats: "PDF Word eBook Excel Image Web Email Photoshop PowerPoint"
 ad_headline: "Convert PROJECT to EXCEL | .NET"
 ad_description: "Most Accurate PROJECT to EXCEL document Conversion solution for your .NET applications."
 
@@ -13,7 +13,7 @@ head_title: "Convert PROJECT to EXCEL in C# VB.NET ASP.NET | Document Conversion
 head_description: "Code example to convert PROJECT to EXCEL and 100+ other file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted EXCEL document as HTML viewer."
 
 ############################# Header ############################
-title: "Convert PROJECT to EXCEL in C# & View as HTML"
+title: "Convert PROJECT to EXCEL in C#"
 description: "Programmatically convert PROJECT to EXCEL in C# .NET applications using flexible document conversion features to customize the resultant document. Convert the complete document from one file format to other or choose selective pages of a source document based on the page numbers or page ranges and easily convert to a supported document format."
 
 ############################# SubMenu ############################
@@ -24,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "PROJECT to EXCEL Conversion in C# .NET"
+    - title_left: "PROJECT to EXCEL Conversion"
       content_left: |
-          Follow these simple steps to convert PROJECT to EXCEL in C# .NET. View the converted EXCEL document as HTML without using any external software.
+          Follow these simple steps for PROJECT to EXCEL conversion in C# .NET. View the converted EXCEL document as HTML without using any external software.
 
           -   Create **Converter** object to convert PROJECT document
           -   Set the convert options for EXCEL format
@@ -43,9 +43,9 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "word-to-pdf-conversion.cs"
 
-    - title_left: "Add Watermark to Converted EXCEL in C#"
+    - title_left: "Add Watermark to EXCEL File in C#"
       content_left: |
-          Accurately convert documents (PROJECT to EXCEL) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
+          Accurately convert documents (PROJECT to EXCEL) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET code.
 
           -   Create **Converter** object to convert PROJECT document
           -   Create new instance of **WatermarkOptions** class
@@ -70,7 +70,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF Word eBook Excel Image Photoshop Web Email
+    other_out_formats: PDF Word eBook Excel Image Web Email Photoshop PowerPoint
 ############################# Back to top ###############################
 back_to_top:
   enable: true

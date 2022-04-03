@@ -4,16 +4,16 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/image-to-web/"
-other_out_formats: "PDF Word eBook Excel Image Photoshop Web Email"
-ad_headline: "Convert IMAGE to WEB C#"
-ad_description: "Most Accurate IMAGE to WEB Conversion solution for your .NET applications"
+other_out_formats: "PDF Word eBook Excel Image Web Email Photoshop PowerPoint"
+ad_headline: "Convert IMAGE to WEB | .NET"
+ad_description: "Most Accurate IMAGE to WEB document Conversion solution for your .NET applications."
 
 ############################# Head ############################
 head_title: "Convert IMAGE to WEB in C# VB.NET ASP.NET | Document Conversion"
 head_description: "Code example to convert IMAGE to WEB and 100+ other file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted WEB document as HTML viewer."
 
 ############################# Header ############################
-title: "Convert IMAGE to WEB in C# & View as HTML"
+title: "Convert IMAGE to WEB in C#"
 description: "Programmatically convert IMAGE to WEB in C# .NET applications using flexible document conversion features to customize the resultant document. Convert the complete document from one file format to other or choose selective pages of a source document based on the page numbers or page ranges and easily convert to a supported document format."
 
 ############################# SubMenu ############################
@@ -24,9 +24,9 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "IMAGE to WEB Conversion in C# .NET"
+    - title_left: "IMAGE to WEB Conversion"
       content_left: |
-          Follow these simple steps to convert IMAGE to WEB in C# .NET. View the converted WEB document as HTML without using any external software.
+          Follow these simple steps for IMAGE to WEB conversion in C# .NET. View the converted WEB document as HTML without using any external software.
 
           -   Create **Converter** object to convert IMAGE document
           -   Set the convert options for WEB format
@@ -43,9 +43,9 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "word-to-pdf-conversion.cs"
 
-    - title_left: "Add Watermark to Converted WEB in C#"
+    - title_left: "Add Watermark to WEB File in C#"
       content_left: |
-          Accurately convert documents (IMAGE to WEB) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
+          Accurately convert documents (IMAGE to WEB) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET code.
 
           -   Create **Converter** object to convert IMAGE document
           -   Create new instance of **WatermarkOptions** class
@@ -70,7 +70,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF Word eBook Excel Image Photoshop Web Email
+    other_out_formats: PDF Word eBook Excel Image Web Email Photoshop PowerPoint
 ############################# Back to top ###############################
 back_to_top:
   enable: true
