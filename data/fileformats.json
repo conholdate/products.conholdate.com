@@ -23,32 +23,14 @@
     "description": "DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.",
     "link": "https://docs.fileformat.com/word-processing/docx/"
   },
-  "WORD": {
-    "name": "Word Processing Files",
-    "format": "WORD",
-    "description": "A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.",
-    "link": "https://docs.fileformat.com/word-processing/"
-  },
   "Word": {
     "name": "Word Processing Files",
     "format": "Word",
     "description": "A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.",
     "link": "https://docs.fileformat.com/word-processing/"
   },
-  "EBOOK": {
-    "name": "eBook File Formats",
-    "format": "EBOOK",
-    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
-    "link": "https://docs.fileformat.com/ebook/"
-  },
-  "EBook": {
-    "name": "eBook File Formats",
-    "format": "EBook",
-    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
-    "link": "https://docs.fileformat.com/ebook/"
-  },
   "eBook": {
-    "name": "eBook File Formats",
+    "name": "eBook File Format",
     "format": "eBook",
     "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
     "link": "https://docs.fileformat.com/ebook/"
@@ -1175,12 +1157,6 @@
     "description": "A file with .wma extension represents an audio file that is saved in the Advanced Systems Format (ASF) format. ASF is Microsoft&rsquo;s proprietary format that contains bitstreams encoded by Windows Media Audio 9. In addition to the the audio content, a WMA file also contains metadata objects such as title, album, artist, and genre of the track. WMA files are primarily used for streaming over the web similar to .mp3 files.",
     "link": "https://docs.fileformat.com/audio/wma/"
   },
-  "WEB": {
-    "name": "Web File Formats",
-    "format": "WEB",
-    "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).",
-    "link": "https://docs.fileformat.com/web/"
-  },
   "ASF": {
     "name": "Advanced Systems Format File",
     "format": "ASF",
@@ -1193,9 +1169,9 @@
     "description": "A file with .mjpeg (Motion JPEG) extension is a video file that is created by compressing an individual video frame as a JPEG image. It is different from the standard MPEG-1 and MPEG-2 file formats where the compression is interframes and is decided based on the prediction of contents in subsequent frames. MJPEG is supported by a wide range of applications that include web browsers, media players, digital cameras, webcams, streaming servers. Plug-ins are available for applications that want to make use of the MJPEG file format.",
     "link": "https://docs.fileformat.com/video/mjpeg/"
   },
-  "IMAGE": {
-    "name": "Image File Formats",
-    "format": "JPEG",
+  "Image": {
+    "name": "Graphic Files",
+    "format": "Image",
     "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
     "link": "https://docs.fileformat.com/image/"
   },
@@ -1265,27 +1241,9 @@
     "description": "A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.",
     "link": "https://docs.fileformat.com/spreadsheet/fods/"
   },
-  "EXCEL": {
-    "name": "Excel File Formatsf",
-    "format": "EXCEL",
-    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
-    "link": "https://docs.fileformat.com/spreadsheet/"
-  },
-  "Excel": {
-    "name": "Microsoft Excel Documents",
-    "format": "Excel",
-    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
-    "link": "https://docs.fileformat.com/spreadsheet/"
-  },
   "SPREADSHEET": {
     "name": "Microsoft Excel Documents",
     "format": "SPREADSHEET",
-    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
-    "link": "https://docs.fileformat.com/spreadsheet/"
-  },
-  "Spreadsheet": {
-    "name": "Microsoft Excel Documents",
-    "format": "Spreadsheet",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
@@ -1799,18 +1757,6 @@
     "description": "Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.",
     "link": "https://docs.fileformat.com/presentation/pptx/"
   },
-  "PRESENTATION": {
-    "name": "Presentation Formats",
-    "format": "PRESENTATION",
-    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
-    "link": "https://docs.fileformat.com/presentation/"
-  },
-  "Presentation": {
-    "name": "Presentation Formats",
-    "format": "Presentation",
-    "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.",
-    "link": "https://docs.fileformat.com/presentation/"
-  },
   "RA": {
     "name": "RealAudio File",
     "format": "RA",
@@ -2011,7 +1957,7 @@
   },
   "Excel": {
     "name": "Excel Spreadsheet",
-    "format": "XLSX",
+    "format": "Excel",
     "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).",
     "link": "https://docs.fileformat.com/spreadsheet/"
   },
@@ -2098,12 +2044,6 @@
     "format": "JPG",
     "description": "A JPG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.",
     "link": "https://docs.fileformat.com/image/jpeg/"
-  },
-  "IMAGE": {
-    "name": "Image File Formats",
-    "format": "JPEG",
-    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
-    "link": "https://docs.fileformat.com/image/"
   },
   "JPM": {
     "name": "",
@@ -3521,18 +3461,6 @@
     "description": "File Compression is the process to reduce the size of one or more files. It shrinks big files into much smaller ones by removing unneeded data. The compressed file archive makes it easier to send and back up large files or groups of files. Moreover, such files make downloading faster easier and allow more data to be stored on removable media. There are various compression formats. Below we are going to discuss the most popular Compression File Formats and the most recommended software that uses it.",
     "link": "https://docs.fileformat.com/compression/"
   },
-  "IMAGE": {
-    "name": "Image Files",
-    "format": "IMAGE",
-    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
-    "link": "https://docs.fileformat.com/image/"
-  },
-  "Image": {
-    "name": "Image Files",
-    "format": "Image",
-    "description": "An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.",
-    "link": "https://docs.fileformat.com/image/"
-  },
   "3D": {
     "name": "3D Files",
     "format": "3D",
@@ -3545,23 +3473,11 @@
     "description": "You must be familiar with PPTX and PPT extension files, these are Presentation file formats that store collection of records to accommodate presentation data such as: slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS.",
     "link": "https://docs.fileformat.com/presentation/"
   },
-  "SPREADSHEET": {
-    "name": "Spreadsheet Files",
-    "format": "SPREADSHEET",
-    "description": "A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell&rsquo;s value when referenced cell values change.",
-    "link": "https://docs.fileformat.com/spreadsheet/"
-  },
   "DATABASE": {
     "name": "Database Files",
     "format": "DATABASE",
     "description": "A database is a collection of data that is organized in tables and maintained on a computer storage device and accessed electronically. Relational databases store data in database tables that are linked to each other via formal design and modeling techniques. Data in a database is analyzed using Database Management System (DBMS) that is the main source of interaction with end users, applications and the database itself.",
     "link": "https://docs.fileformat.com/database/"
-  },
-  "EBOOK": {
-    "name": "Ebook Files",
-    "format": "EBOOK",
-    "description": "Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).",
-    "link": "https://docs.fileformat.com/ebook/"
   },
   "PAGE-DESCRIPTION-LANGUAGE": {
     "name": "PDL Files",
@@ -3569,9 +3485,9 @@
     "description": "Following is a list of common Page Layout formats along with their file extensions.",
     "link": "https://docs.fileformat.com/page-description-language/"
   },
-  "EMAIL": {
+  "Email": {
     "name": "Email Files",
-    "format": "EMAIL",
+    "format": "Email",
     "description": "Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.",
     "link": "https://docs.fileformat.com/email/"
   },
@@ -3599,14 +3515,8 @@
     "description": "Everyone is familiar of videos that we daily watch on media devices such as Televisions, Cinema screens, and social media channels such as Facebook, Twitter, YouTube and many others. But have you ever wondered how these videos are saved and the formats in which these can be uploaded for viewing? What is the best file format for your video to be hosted on different storage media? Video file formats comprise of a number of different video types for storing videos and to be used for various purpose. Populate Video file formats that you may have come across include AVI, MOV, WMV, M4V, and MP4.",
     "link": "https://docs.fileformat.com/video/"
   },
-  "WEB": {
-    "name": "Web Files",
-    "format": "WEB",
-    "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.",
-    "link": "https://docs.fileformat.com/web/"
-  },
   "Web": {
-    "name": "Web Files",
+    "name": "Web File Formats",
     "format": "Web",
     "description": "It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.",
     "link": "https://docs.fileformat.com/web/"
