@@ -1,0 +1,110 @@
+# site wide
+[support_learning_resources]
+    other = '支持和学习资源'
+[support_learning]
+    other = '学习资源'
+[documentation]
+    other = '文档'
+[source_code]
+    other = '源代码'
+[api_references]
+    other = 'API 参考'
+[video_tutorials]
+    other = '视频教程'
+[product_support]
+    other = '产品支持'
+[free_support]
+    other = '免费支持'
+[paid_support]
+    other = '付费支持'
+[blog]
+    other = '博客'
+[why_choose]
+    other = '为什么选择 Conholdate.Total 产品系列？'
+[customer_list]
+    other = '客户名单'
+[success_stories]
+    other = '成功的故事'
+[download_free_trial]
+    other = '下载免费试用版'
+[pricing_information]
+    other = '定价信息'
+[pricing]
+    other = '价钱'
+[support]
+    other = '支持'
+[features]
+    other = '特征'
+[overview]
+    other = '概述'
+[buy]
+    other = '买'
+[learn]
+    other = '学习'
+[download]
+    other = '下载'
+[products]
+    other = '产品'
+[home_url]
+    other = '/'
+[popular]
+    other = '受欢迎的'
+[options]
+    other = '选项'
+[to]
+    other = '到'
+# features
+[conversion]
+    other = '转换'
+[convert]
+    other = '转变'
+[signature]
+    other = '签名'
+[sign]
+    other = '标志'
+[watermark]
+    other = '水印'
+[barcode]
+    other = '条码'
+[merger]
+    other = '合并'
+[combine]
+    other = '结合'
+# feature details
+[merge_files]
+    other = '合并 {{ . }} 文件'
+[annotate_files]
+    other = "注释 {{ 。 }} 文件"
+[view_files]
+    other = "看法 {{ 。 }} 文件"
+[compare_files]
+    other = "比较 {{ 。 }} 文件"
+[sign_files]
+    other = "标志 {{ 。 }} 文件"
+[assemble_files]
+    other = "产生 {{ 。 }} 文件"
+[inspect_files]
+    other = "编辑 {{ 的元数据。 }} 文件"
+[search_files]
+    other = "在 {{ 中查找。 }} 文件"
+[watermark_files]
+    other = "将水印添加到 {{ 。 }} 文件"
+[edit_files]
+    other = "编辑 {{ 。 }} 文件"
+[redact_files]
+    other = "编辑 {{ . }} 文件"
+[split_files]
+    other = "分裂 {{ 。 }} 文件"
+[compress_files]
+    other = "压缩 {{ 。 }} 文件"
+[parse_files]
+    other = "解析 {{ . }} 文件"
+[barcode_files]
+    other = "将条形码添加到 {{ 。 }} 文件"
+# others
+[og_description]
+    other = "使您的应用程序能够处理适用于所有主要平台的 Word、Excel、PDF、PowerPoint、Outlook 和 100 多种其他文件格式。"
+[404_message]
+other = "抱歉——这个页面似乎不存在（不再存在）。"
+[go_home]
+other = "到主页"
