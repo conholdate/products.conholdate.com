@@ -9,3 +9,4 @@ rewrite ^\/fr\/total\/(net|java)\/conversion\/(?<product>[a-zA-Z]+)-to-(?:\k<pro
 rewrite ^\/fr\/total\/(net|java)\/signatur\/(.*)\/$ https://products.conholdate.com/fr/total/$1/signature/$2/ permanent;
 rewrite ^\/total\/(net|java)\/signatur\/(.*)\/$ https://products.conholdate.com/total/$1/signature/$2/ permanent;
 rewrite ^\/total\/(net|java)\/merg\/(.*)\/$ https://products.conholdate.com/total/$1/merger/$2/ permanent;
+rewrite ^/total/net/zip/zip-to-pdf/$ https://products.conholdate.com/total/net/conversion/zip-to-pdf/ permanent;
