@@ -64,6 +64,8 @@
   {{ $menu := ""}}
   {{ if eq .Site.LanguageCode "fr" }}
     {{ $menu = site.Params.menu.fr}}
+  {{ else if eq .Site.LanguageCode "zh" }}
+    {{ $menu = site.Params.menu.zh}}
   {{ else }}
     {{ $menu = site.Params.menu.en}}
   {{ end }}
