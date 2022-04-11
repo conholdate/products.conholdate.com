@@ -37,7 +37,7 @@ content:
           
       title_right: "API 下载和安装说明"
       content_right: |
-          您需要 `GroupDocs.Merger` 和 `GroupDocs.Watermark` 命名空间来执行 PDF、Microsoft Office、HTML、OpenDocument 和许多其他文档格式中的单个和多个文档合并操作。探索 Conholdate.Total 提供的其他 [.NET APIs for Office 文档](https://products.conholdate.com/total/net/)。
+          您需要 `GroupDocs.Merger` 和 `GroupDocs.Watermark` 命名空间来执行 PDF、Microsoft Office、HTML、OpenDocument 和许多其他文档格式中的单个和多个文档合并操作。探索 Conholdate.Total 提供的其他 [.NET APIs for Office 文档](https://products.conholdate.com/zh/total/net/)。
           
           从 [downloads](https://downloads.conholdate.com/total/net) 获取相应的程序集文件或从 [Nuget](https://www.nuget.org/packages/Conholdate.Total) 获取整个包/) 直接在您的工作区中添加“Conholdate.Total”。
           
