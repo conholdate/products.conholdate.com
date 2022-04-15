@@ -45,7 +45,7 @@ products:
           link: "https://products.aspose.com/total/java/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-java.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-java.png"
           img_alt: "GroupDocs.Total for Java"
           name: "GroupDocs.Total for Java"
           content: |
