@@ -43,7 +43,7 @@ products:
           link: "https://products.aspose.com/total/net/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-net.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-net.png"
           img_alt: "GroupDocs.Total for .NET"
           name: "GroupDocs.Total for .NET"
           content: "GroupDocs.Total for .NET comprises of APIs that can be used to develop .NET applications having the ability to view, convert, annotate, compare, sign, assemble, edit, search and parse most commonly used document formats.‎"
