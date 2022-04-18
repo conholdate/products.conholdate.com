@@ -74,37 +74,37 @@
 [merge_files]
     other = '合并 {{ . }} 文件'
 [annotate_files]
-    other = "注释 {{ 。 }} 文件"
+    other = "注释 {{ . }} 文件"
 [view_files]
-    other = "看法 {{ 。 }} 文件"
+    other = "看法 {{ . }} 文件"
 [compare_files]
-    other = "比较 {{ 。 }} 文件"
+    other = "比较 {{ . }} 文件"
 [sign_files]
-    other = "标志 {{ 。 }} 文件"
+    other = "标志 {{ . }} 文件"
 [assemble_files]
-    other = "产生 {{ 。 }} 文件"
+    other = "产生 {{ . }} 文件"
 [inspect_files]
     other = "编辑 {{ 的元数据。 }} 文件"
 [search_files]
     other = "在 {{ 中查找。 }} 文件"
 [watermark_files]
-    other = "将水印添加到 {{ 。 }} 文件"
+    other = "将水印添加到 {{ . }} 文件"
 [edit_files]
-    other = "编辑 {{ 。 }} 文件"
+    other = "编辑 {{ . }} 文件"
 [redact_files]
     other = "编辑 {{ . }} 文件"
 [split_files]
-    other = "分裂 {{ 。 }} 文件"
+    other = "分裂 {{ . }} 文件"
 [compress_files]
-    other = "压缩 {{ 。 }} 文件"
+    other = "压缩 {{ . }} 文件"
 [parse_files]
     other = "解析 {{ . }} 文件"
 [barcode_files]
-    other = "将条形码添加到 {{ 。 }} 文件"
+    other = "将条形码添加到 {{ . }} 文件"
 # others
 [og_description]
     other = "使您的应用程序能够处理适用于所有主要平台的 Word、Excel、PDF、PowerPoint、Outlook 和 100 多种其他文件格式。"
 [404_message]
-other = "抱歉——这个页面似乎不存在（不再存在）。"
+other = "抱歉——这个页面似乎不存在（不再存在）."
 [go_home]
 other = "到主页"
