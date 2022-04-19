@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Ресурсы поддержки и обучения'
+[support_learning]
+    other = 'Образовательные ресурсы'
+[documentation]
+    other = 'Документация'
+[source_code]
+    other = 'Исходный код'
+[api_references]
+    other = 'Ссылки на API'
+[video_tutorials]
+    other = 'Видеоуроки'
+[product_support]
+    other = 'Поддержка продукта'
+[free_support]
+    other = 'Бесплатная поддержка'
+[paid_support]
+    other = 'Платная поддержка'
+[blog]
+    other = 'Блог'
+[why_choose]
+    other = 'Почему Conholdate.Total Product Family?'
+[customer_list]
+    other = 'Список клиентов'
+[success_stories]
+    other = 'Истории успеха'
+[download_free_trial]
+    other = 'Скачать бесплатную пробную версию'
+[pricing_information]
+    other = 'Информация о ценах'
+[pricing]
+    other = 'Цены'
+[support]
+    other = 'Поддерживать'
+[features]
+    other = 'Функции'
+[overview]
+    other = 'Обзор'
+[buy]
+    other = 'Купить'
+[learn]
+    other = 'Учиться'
+[download]
+    other = 'Скачать'
+[products]
+    other = 'Товары'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Популярный'
+[options]
+    other = 'Опции'
+[to]
+    other = 'к'
+# features
+[conversion]
+    other = 'Преобразование'
+[convert]
+    other = 'Перерабатывать'
+[signature]
+    other = 'Подпись'
+[sign]
+    other = 'Знак'
+[watermark]
+    other = 'Водяной знак'
+[barcode]
+    other = 'Штрих-код'
+[merger]
+    other = 'Слияние'
+# feature details
+[merge_files]
+    other = 'Объединить {{ . }} Файлы'
+[annotate_files]
+    other = "Аннотировать {{ . }} Файлы"
+[view_files]
+    other = "Вид {{ . }} Файлы"
+[compare_files]
+    other = "Сравнивать {{ . }} Файлы"
+[sign_files]
+    other = "Знак {{ . }} Файлы"
+[assemble_files]
+    other = "Сгенерировать {{ . }} Файлы"
+[inspect_files]
+    other = "Изменить метаданные {{ . }} Файлы"
+[search_files]
+    other = "Найти в {{ . }} Файлы"
+[watermark_files]
+    other = "Добавить водяной знак в {{ . }} Файлы"
+[edit_files]
+    other = "Редактировать {{ . }} Файлы"
+[redact_files]
+    other = "Изменить {{ . }} Файлы"
+[split_files]
+    other = "Расколоть {{ . }} Файлы"
+[compress_files]
+    other = "Сжать {{ . }} Файлы"
+[parse_files]
+    other = "Разобрать {{ . }} Файлы"
+[barcode_files]
+    other = "Добавить штрих-код в {{ . }} Файлы"
+# others
+[og_description]
+    other = "Позвольте вашим приложениям работать с Word, Excel, PDF, PowerPoint, Outlook и более чем 100 другими форматами файлов для всех основных платформ."
+[404_message]
+other = "Извините, похоже, что этой страницы больше не существует."
+[go_home]
+other = "На главную страницу"

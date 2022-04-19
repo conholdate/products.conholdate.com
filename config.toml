@@ -13,6 +13,7 @@ summaryLength = "30"
 en = "conholdate-en"
 fr = "conholdate-fr"
 zh = "conholdate-zh"
+ru = "conholdate-ru"
 
 ################################# Localization #########################
 # Disabled languages
@@ -32,11 +33,17 @@ defaultContentLang = 'en'
         flag = "flag-fr"
         weight = 2
     [languages.zh]
-        languageName = "chinese"
+        languageName = "中国人"
         languageCode = "zh"
         contentDir = "content/chinese"
         flag = "flag-zh"
         weight = 3
+    [languages.ru]
+        languageName = "Русский"
+        languageCode = "ru"
+        contentDir = "content/russian"
+        flag = "flag-ru"
+        weight = 4
 
 ################################# Output formats ##############################
 # Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
