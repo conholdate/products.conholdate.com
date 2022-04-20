@@ -36,14 +36,14 @@ products:
 
     product:
         # product loop
-        - image: "https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/total/272x272/aspose_total-for-net-min.png"
+        - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-net.svg"
           img_alt: "Aspose.Total for .NET"
           name: "Aspose.Total for .NET"
           content: "Aspose.Total for .NET 提供完整范围的 .NET API，使开发人员能够在 .NET 应用程序中创建、操作、打印和转换 Word、Excel、PDF、PowerPoint、Outlook 和 100 多种其他文件格式。"
           link: "https://products.aspose.com/zh/total/net/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-net.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-net.svg"
           img_alt: "GroupDocs.Total for .NET"
           name: "GroupDocs.Total for .NET"
           content: "GroupDocs.Total for .NET 包含可用于开发 .NET 应用程序的 API，这些应用程序能够查看、转换、注释、比较、签名、组装、编辑、搜索和解析最常用的文档格式。"

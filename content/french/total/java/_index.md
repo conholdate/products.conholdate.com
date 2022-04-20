@@ -37,7 +37,7 @@ products:
 
     product:
         # product loop
-        - image: "https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/total/272x272/aspose_total-for-java-min.png"
+        - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-java.svg"
           img_alt: "Aspose.Total pour Java"
           name: "Aspose.Total for Java"
           content: |
@@ -45,7 +45,7 @@ products:
           link: "https://products.aspose.com/total/java/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-java.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-java.svg"
           img_alt: "GroupDocs.Total pour Java"
           name: "GroupDocs.Total for Java"
           content: |

@@ -36,14 +36,14 @@ products:
 
     product:
         # product loop
-        - image: "https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/total/272x272/aspose_total-for-net-min.png"
+        - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-net.svg"
           img_alt: "Aspose.Total pour .NET"
           name: "Aspose.Total for .NET"
           content: "Aspose.Total pour .NET offre une gamme complète d'API .NET permettant aux développeurs de créer, manipuler, imprimer et convertir Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers dans des applications .NET."
           link: "https://products.aspose.com/total/net/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-total-net.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-net.svg"
           img_alt: "GroupDocs.Total pour .NET"
           name: "GroupDocs.Total for .NET"
           content: "GroupDocs.Total pour .NET comprend des API qui peuvent être utilisées pour développer des applications .NET ayant la capacité de visualiser, convertir, annoter, comparer, signer, assembler, modifier, rechercher et analyser les formats de document les plus couramment utilisés."

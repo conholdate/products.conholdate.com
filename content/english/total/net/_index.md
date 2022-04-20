@@ -36,17 +36,17 @@ products:
 
     product:
         # product loop
-        - image: "https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/total/272x272/aspose_total-for-net-min.png"
+        - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-net.svg"
           img_alt: "Aspose.Total for .NET"
           name: "Aspose.Total for .NET"
-          content: "Aspose.Total for .NET offers a complete range of .NET APIs enabling the developers to create, manipulate, print & convert Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats in .NET applications.‎"
+          content: "Aspose.Total for .NET offers a complete range of .NET APIs enabling the developers to create, manipulate, print & convert Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats in .NET applications."
           link: "https://products.aspose.com/total/net/"
 
         # product loop
-        - image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/90x90/groupdocs-total-net.png"
+        - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-net.svg"
           img_alt: "GroupDocs.Total for .NET"
           name: "GroupDocs.Total for .NET"
-          content: "GroupDocs.Total for .NET comprises of APIs that can be used to develop .NET applications having the ability to view, convert, annotate, compare, sign, assemble, edit, search and parse most commonly used document formats.‎"
+          content: "GroupDocs.Total for .NET comprises of APIs that can be used to develop .NET applications having the ability to view, convert, annotate, compare, sign, assemble, edit, search and parse most commonly used document formats."
           link: "https://products.groupdocs.com/total/net/"
 
 ############################# Features ############################
