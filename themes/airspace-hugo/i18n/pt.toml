@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Recursos de Suporte e Aprendizagem'
+[support_learning]
+    other = 'Recursos de aprendizagem'
+[documentation]
+    other = 'Documentação'
+[source_code]
+    other = 'Código fonte'
+[api_references]
+    other = 'Referências de API'
+[video_tutorials]
+    other = 'Tutoriais em vídeo'
+[product_support]
+    other = 'Suporte ao produto'
+[free_support]
+    other = 'Suporte gratuito'
+[paid_support]
+    other = 'Suporte pago'
+[blog]
+    other = 'Blogue'
+[why_choose]
+    other = 'Por que Família de Produtos Conholdate.Total?'
+[customer_list]
+    other = 'Lista de clientes'
+[success_stories]
+    other = 'Histórias de sucesso'
+[download_free_trial]
+    other = 'Baixar Teste Gratuito'
+[pricing_information]
+    other = 'Informações sobre preços'
+[pricing]
+    other = 'Preços'
+[support]
+    other = 'Apoio, suporte'
+[features]
+    other = 'Recursos'
+[overview]
+    other = 'Visão geral'
+[buy]
+    other = 'Comprar'
+[learn]
+    other = 'Aprender'
+[download]
+    other = 'Download'
+[products]
+    other = 'Produtos'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Popular'
+[options]
+    other = 'Opções'
+[to]
+    other = 'para'
+# features
+[conversion]
+    other = 'Conversão'
+[convert]
+    other = 'Converter'
+[signature]
+    other = 'Assinatura'
+[sign]
+    other = 'Sinal'
+[watermark]
+    other = 'Marca d'água'
+[barcode]
+    other = 'Código de barras'
+[merger]
+    other = 'Fusão'
+# feature details
+[merge_files]
+    other = 'Mesclar arquivos {{ . }}'
+[annotate_files]
+    other = "Anotar arquivos {{ . }}"
+[view_files]
+    other = "Visualizar arquivos {{ . }}"
+[compare_files]
+    other = "Comparar arquivos {{ . }}"
+[sign_files]
+    other = "Assinar arquivos {{ . }}"
+[assemble_files]
+    other = "Gerar arquivos {{ . }}"
+[inspect_files]
+    other = "Editar metadados de arquivos {{ . }}"
+[search_files]
+    other = "Localizar em arquivos {{ . }}"
+[watermark_files]
+    other = "Adicionar marca d'água a arquivos {{ . }}"
+[edit_files]
+    other = "Editar arquivos {{ . }}"
+[redact_files]
+    other = "Redigir arquivos {{ . }}"
+[split_files]
+    other = "Dividir arquivos {{ . }}"
+[compress_files]
+    other = "Compactar arquivos {{ . }}"
+[parse_files]
+    other = "Analisar arquivos {{ . }}"
+[barcode_files]
+    other = "Adicionar código de barras a arquivos {{ . }}"
+# others
+[og_description]
+    other = "Habilite seus aplicativos para manipular Word, Excel, PDF, PowerPoint, Outlook e mais de 100 outros formatos de arquivo para todas as principais plataformas."
+[404_message]
+other = "Desculpe – esta página parece não existir (mais)."
+[go_home]
+other = "Para a página inicial"

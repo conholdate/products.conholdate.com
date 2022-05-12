@@ -71,35 +71,35 @@
 [combine]
     other = 'Combiner'
 [merge_files]
-    other = 'Fusionner les fichiers {{.}}'
+    other = 'Fusionner des fichiers {{ . }}'
 [annotate_files]
-    other = "Annotez {{ . }} Des dossiers"
+    other = "Annoter des fichiers {{ . }}"
 [view_files]
-    other = "Voir {{ . }} Des dossiers"
+    other = "Afficher les fichiers {{ . }}"
 [compare_files]
-    other = "Comparez {{ . }} Des dossiers"
+    other = "Comparer les fichiers {{ . }}"
 [sign_files]
-    other = "Signer {{ . }} Des dossiers"
+    other = "Signer des fichiers {{ . }}"
 [assemble_files]
-    other = "Produire {{ . }} Des dossiers"
+    other = "Générer des fichiers {{ . }}"
 [inspect_files]
-    other = "Modifier les métadonnées de {{ . }}"
+    other = "Modifier les métadonnées des fichiers {{ . }}"
 [search_files]
-    other = "Retrouver dans {{ . }} Des dossiers"
+    other = "Rechercher dans les fichiers {{ . }}"
 [watermark_files]
-    other = "Ajouter un filigrane à {{ . }}"
+    other = "Ajouter un filigrane aux fichiers {{ . }}"
 [edit_files]
-    other = "Éditer {{ . }} Des dossiers"
+    other = "Modifier des fichiers {{ . }}"
 [redact_files]
-    other = "Caviarder {{ . }} Des dossiers"
+    other = "Masquer les fichiers {{ . }}"
 [split_files]
-    other = "Diviser {{ . }} Des dossiers"
+    other = "Fractionner des fichiers {{ . }}"
 [compress_files]
-    other = "Compresser {{ . }} Des dossiers"
+    other = "Compresser les fichiers {{ . }}"
 [parse_files]
-    other = "Analyser {{ . }} Des dossiers"
+    other = "Analyser des fichiers {{ . }}"
 [barcode_files]
-    other = "Ajouter un code-barres à {{ . }}"
+    other = "Ajouter un code-barres aux fichiers {{ . }}"
 # general
 [og_description]
     other = "Permettez à vos applications de manipuler Word, Excel, PDF, PowerPoint, Outlook et plus de 100 autres formats de fichiers pour toutes les principales plateformes."

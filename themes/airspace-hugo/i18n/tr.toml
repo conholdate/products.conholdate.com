@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Destek ve Öğrenme Kaynakları'
+[support_learning]
+    other = 'Öğrenme Kaynakları'
+[documentation]
+    other = 'belgeler'
+[source_code]
+    other = 'Kaynak kodu'
+[api_references]
+    other = 'API Referansları'
+[video_tutorials]
+    other = 'Video Eğitimleri'
+[product_support]
+    other = 'Ürün desteği'
+[free_support]
+    other = 'Ücretsiz Destek'
+[paid_support]
+    other = 'Ücretli Destek'
+[blog]
+    other = 'Blog'
+[why_choose]
+    other = 'Neden Conholdate.Total Ürün Ailesi?'
+[customer_list]
+    other = 'Müşteri Listesi'
+[success_stories]
+    other = 'Başarı Öyküleri'
+[download_free_trial]
+    other = 'Ücretsiz deneme sürümünü indirin'
+[pricing_information]
+    other = 'Fiyatlandırma bilgisi'
+[pricing]
+    other = 'fiyatlandırma'
+[support]
+    other = 'Destek olmak'
+[features]
+    other = 'Özellikler'
+[overview]
+    other = 'genel bakış'
+[buy]
+    other = 'Satın almak'
+[learn]
+    other = 'Öğrenmek'
+[download]
+    other = 'İndirmek'
+[products]
+    other = 'Ürünler'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Popüler'
+[options]
+    other = 'Seçenekler'
+[to]
+    other = 'ile'
+# features
+[conversion]
+    other = 'Dönüştürmek'
+[convert]
+    other = 'Dönüştürmek'
+[signature]
+    other = 'İmza'
+[sign]
+    other = 'İşaret'
+[watermark]
+    other = 'Filigran'
+[barcode]
+    other = 'Barkod'
+[merger]
+    other = 'birleşme'
+# feature details
+[merge_files]
+    other = '{{ . }} Dosyalarını Birleştir'
+[annotate_files]
+    other = "{{ . }} Dosyalarına Açıklama Ekleyin"
+[view_files]
+    other = "{{ . }} Dosyalarını Görüntüle"
+[compare_files]
+    other = "{{ . }} Dosyalarını Karşılaştırın"
+[sign_files]
+    other = "{{ . }} Dosyalarını İmzala"
+[assemble_files]
+    other = "{{ . }} Dosyaları Oluştur"
+[inspect_files]
+    other = "{{ . }} Dosyalarının Meta Verilerini Düzenle"
+[search_files]
+    other = "{{ . }} Dosyalarında Bul"
+[watermark_files]
+    other = "{{ . }} Dosyalarına Filigran Ekleme"
+[edit_files]
+    other = "{{ . }} Dosyalarını Düzenle"
+[redact_files]
+    other = "{{ . }} Dosyalarını Düzenleyin"
+[split_files]
+    other = "{{ . }} Dosyalarını Böl"
+[compress_files]
+    other = "{{ . }} Dosyalarını Sıkıştır"
+[parse_files]
+    other = "{{ . }} Dosyalarını Ayrıştırma"
+[barcode_files]
+    other = "{{ . }} Dosyalarına Barkod Ekleyin"
+# others
+[og_description]
+    other = "Uygulamalarınızın tüm büyük platformlar için Word, Excel, PDF, PowerPoint, Outlook ve 100'den fazla diğer dosya biçimini değiştirmesini sağlayın."
+[404_message]
+other = "Üzgünüz – bu sayfa görünmüyor (artık)."
+[go_home]
+other = "ana sayfaya"

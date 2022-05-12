@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Recursos de apoyo y aprendizaje'
+[support_learning]
+    other = 'Recursos de aprendizaje'
+[documentation]
+    other = 'Documentación'
+[source_code]
+    other = 'Código fuente'
+[api_references]
+    other = 'Referencias de API'
+[video_tutorials]
+    other = 'Tutoriales en vídeo'
+[product_support]
+    other = 'Soporte de producto'
+[free_support]
+    other = 'Soporte gratuito'
+[paid_support]
+    other = 'Soporte pagado'
+[blog]
+    other = 'Blog'
+[why_choose]
+    other = '¿Por qué Conholdate.Total Product Family?'
+[customer_list]
+    other = 'Lista de clientes'
+[success_stories]
+    other = 'Historias de éxito'
+[download_free_trial]
+    other = 'Descargue prueba gratis'
+[pricing_information]
+    other = 'Información de precio'
+[pricing]
+    other = 'Precios'
+[support]
+    other = 'Apoyo'
+[features]
+    other = 'Características'
+[overview]
+    other = 'Visión de conjunto'
+[buy]
+    other = 'Comprar'
+[learn]
+    other = 'Aprender'
+[download]
+    other = 'Descargar'
+[products]
+    other = 'productos'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Popular'
+[options]
+    other = 'Opciones'
+[to]
+    other = 'para'
+# features
+[conversion]
+    other = 'Conversión'
+[convert]
+    other = 'Convertir'
+[signature]
+    other = 'Firma'
+[sign]
+    other = 'Señal'
+[watermark]
+    other = 'Filigrana'
+[barcode]
+    other = 'Código de barras'
+[merger]
+    other = 'Fusión'
+# feature details
+[merge_files]
+    other = 'Combinar archivos {{ . }}'
+[annotate_files]
+    other = "Anotar archivos {{ . }}"
+[view_files]
+    other = "Ver archivos {{ . }}"
+[compare_files]
+    other = "Comparar archivos {{ . }}"
+[sign_files]
+    other = "Firmar archivos {{ . }}"
+[assemble_files]
+    other = "Generar archivos {{ . }}"
+[inspect_files]
+    other = "Editar metadatos de archivos {{ . }}"
+[search_files]
+    other = "Buscar en archivos {{ . }}"
+[watermark_files]
+    other = "Agregar marca de agua a archivos {{ . }}"
+[edit_files]
+    other = "Editar archivos {{ . }}"
+[redact_files]
+    other = "Redactar archivos {{ . }}"
+[split_files]
+    other = "Dividir archivos {{ . }}"
+[compress_files]
+    other = "Comprimir archivos {{ . }}"
+[parse_files]
+    other = "Analizar archivos {{ . }}"
+[barcode_files]
+    other = "Agregar código de barras a archivos {{ . }}"
+# others
+[og_description]
+    other = "Permita que sus aplicaciones manipulen Word, Excel, PDF, PowerPoint, Outlook y más de otros 100 formatos de archivo para las principales plataformas."
+[404_message]
+other = "Lo sentimos, esta página no parece existir (ya)."
+[go_home]
+other = "A la página de inicio"

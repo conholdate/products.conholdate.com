@@ -84,9 +84,9 @@
 [assemble_files]
     other = "产生 {{ . }} 文件"
 [inspect_files]
-    other = "编辑 {{ 的元数据。 }} 文件"
+    other = "编辑 {{ . }} 文件的元数据"
 [search_files]
-    other = "在 {{ 中查找。 }} 文件"
+    other = "在 {{ . }} 文件中查找"
 [watermark_files]
     other = "将水印添加到 {{ . }} 文件"
 [edit_files]

@@ -14,6 +14,11 @@ en = "conholdate-en"
 fr = "conholdate-fr"
 zh = "conholdate-zh"
 ru = "conholdate-ru"
+tr = "conholdate-tr"
+pt = "conholdate-pt"
+ar = "conholdate-ar"
+es = "conholdate-es"
+ja = "conholdate-ja"
 
 ################################# Localization #########################
 # Disabled languages
@@ -44,6 +49,36 @@ defaultContentLang = 'en'
         contentDir = "content/russian"
         flag = "flag-ru"
         weight = 4
+    [languages.tr]
+        languageName = "Türkçe"
+        languageCode = "tr"
+        contentDir = "content/turkish"
+        flag = "flag-tr"
+        weight = 5
+    [languages.pt]
+        languageName = "Português"
+        languageCode = "pt"
+        contentDir = "content/portuguese"
+        flag = "flag-pt"
+        weight = 6
+    [languages.ar]
+        languageName = "عربي"
+        languageCode = "ar"
+        contentDir = "content/arabic"
+        flag = "flag-ar"
+        weight = 7
+    [languages.es]
+        languageName = "Español"
+        languageCode = "es"
+        contentDir = "content/spanish"
+        flag = "flag-es"
+        weight = 8
+    [languages.ja]
+        languageName = "日本"
+        languageCode = "ja"
+        contentDir = "content/japanese"
+        flag = "flag-ja"
+        weight = 9
 
 ################################# Output formats ##############################
 # Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats

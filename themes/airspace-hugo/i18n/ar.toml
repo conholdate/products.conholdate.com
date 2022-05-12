@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'مصادر الدعم والتعلم'
+[support_learning]
+    other = 'مصادر التعلم'
+[documentation]
+    other = 'توثيق'
+[source_code]
+    other = 'مصدر الرمز'
+[api_references]
+    other = 'مراجع API'
+[video_tutorials]
+    other = 'دروس الفيديو'
+[product_support]
+    other = 'دعم المنتج'
+[free_support]
+    other = 'دعم مجاني'
+[paid_support]
+    other = 'دعم مدفوع'
+[blog]
+    other = 'مدونة او مذكرة'
+[why_choose]
+    other = 'لماذا Conholdate.Total المنتجات؟'
+[customer_list]
+    other = 'قائمة العملاء'
+[success_stories]
+    other = 'قصص نجاح'
+[download_free_trial]
+    other = 'تحميل النسخة التجريبية المجانية'
+[pricing_information]
+    other = 'معلومات التسعير'
+[pricing]
+    other = 'التسعير'
+[support]
+    other = 'يدعم'
+[features]
+    other = 'سمات'
+[overview]
+    other = 'ملخص'
+[buy]
+    other = 'يشتري'
+[learn]
+    other = 'يتعلم'
+[download]
+    other = 'تحميل'
+[products]
+    other = 'منتجات'
+[home_url]
+    other = '/'
+[popular]
+    other = 'جمع'
+[options]
+    other = 'خيارات'
+[to]
+    other = 'ل'
+# features
+[conversion]
+    other = 'تحويلات'
+[convert]
+    other = 'يتحول'
+[signature]
+    other = 'التوقيع'
+[sign]
+    other = 'وقع'
+[watermark]
+    other = 'علامة مائية'
+[barcode]
+    other = 'الرمز الشريطي'
+[merger]
+    other = 'الاندماج'
+# feature details
+[merge_files]
+    other = 'دمج ملفات {{ . }}'
+[annotate_files]
+    other = "علق ملفات {{ . }}"
+[view_files]
+    other = "عرض ملفات {{ . }}"
+[compare_files]
+    other = "قارن ملفات {{ . }}"
+[sign_files]
+    other = "توقيع ملفات {{ . }}"
+[assemble_files]
+    other = "توليد ملفات {{ . }}"
+[inspect_files]
+    other = "تحرير البيانات الأولية لملفات {{ . }}"
+[search_files]
+    other = "ابحث في ملفات {{ . }}"
+[watermark_files]
+    other = "أضف علامة مائية إلى ملفات {{ . }}"
+[edit_files]
+    other = "تحرير ملفات {{ . }}"
+[redact_files]
+    other = "تنقيح ملفات {{ . }}"
+[split_files]
+    other = "تقسيم ملفات {{ . }}"
+[compress_files]
+    other = "ضغط ملفات {{ . }}"
+[parse_files]
+    other = "تحليل ملفات {{ . }}"
+[barcode_files]
+    other = "أضف الباركود إلى ملفات {{ . }}"
+# others
+[og_description]
+    other = "قم بتمكين تطبيقاتك من معالجة Word و Excel و PDF و PowerPoint و Outlook وأكثر من 100 تنسيق ملف آخر لجميع الأنظمة الأساسية الرئيسية."
+[404_message]
+other = "عذرًا - يبدو أن هذه الصفحة غير موجودة (بعد الآن)."
+[go_home]
+other = "إلى الصفحة الرئيسية"

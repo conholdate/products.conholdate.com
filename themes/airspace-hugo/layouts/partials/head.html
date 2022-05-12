@@ -69,6 +69,16 @@
     {{ $menu = site.Params.menu.zh}}
   {{ else if eq .Site.LanguageCode "ru" }}
     {{ $menu = site.Params.menu.ru}}
+  {{ else if eq .Site.LanguageCode "tr" }}
+    {{ $menu = site.Params.menu.tr}}
+  {{ else if eq .Site.LanguageCode "pt" }}
+    {{ $menu = site.Params.menu.pt}}
+  {{ else if eq .Site.LanguageCode "ar" }}
+    {{ $menu = site.Params.menu.ar}}
+  {{ else if eq .Site.LanguageCode "es" }}
+    {{ $menu = site.Params.menu.es}}
+  {{ else if eq .Site.LanguageCode "ja" }}
+    {{ $menu = site.Params.menu.ja}}
   {{ else }}
     {{ $menu = site.Params.menu.en}}
   {{ end }}

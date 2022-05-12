@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'サポートおよび学習リソース'
+[support_learning]
+    other = '学習リソース'
+[documentation]
+    other = 'ドキュメンテーション'
+[source_code]
+    other = 'ソースコード'
+[api_references]
+    other = 'APIリファレンス'
+[video_tutorials]
+    other = 'ビデオチュートリアル'
+[product_support]
+    other = '製品サポート'
+[free_support]
+    other = '無料サポート'
+[paid_support]
+    other = '有料サポート'
+[blog]
+    other = 'ブログ'
+[why_choose]
+    other = 'なぜConholdate.Total製品ファミリーなのか？'
+[customer_list]
+    other = '顧客リスト'
+[success_stories]
+    other = 'サクセスストーリー'
+[download_free_trial]
+    other = '無料トライアルをダウンロード'
+[pricing_information]
+    other = '価格情報'
+[pricing]
+    other = '価格設定'
+[support]
+    other = 'サポート'
+[features]
+    other = '特徴'
+[overview]
+    other = '概要'
+[buy]
+    other = '買う'
+[learn]
+    other = '学び'
+[download]
+    other = 'ダウンロード'
+[products]
+    other = '製品'
+[home_url]
+    other = '/'
+[popular]
+    other = '人気'
+[options]
+    other = 'オプション'
+[to]
+    other = 'に'
+# features
+[conversion]
+    other = '変換'
+[convert]
+    other = '変換'
+[signature]
+    other = 'サイン'
+[sign]
+    other = 'サイン'
+[watermark]
+    other = '透かし'
+[barcode]
+    other = 'バーコード'
+[merger]
+    other = '合併'
+# feature details
+[merge_files]
+    other = '{{ . }}ファイルをマージする'
+[annotate_files]
+    other = "{{ . }}ファイルに注釈を付ける"
+[view_files]
+    other = "{{ . }}ファイルを表示"
+[compare_files]
+    other = "{{ . }}ファイルを比較する"
+[sign_files]
+    other = "{{ . }}ファイルに署名する"
+[assemble_files]
+    other = "{{ . }}ファイルを生成する"
+[inspect_files]
+    other = "{{ . }}ファイルのメタデータを編集する"
+[search_files]
+    other = "{{ . }}ファイルで検索"
+[watermark_files]
+    other = "{{ . }}ファイルに透かしを追加する"
+[edit_files]
+    other = "{{ . }}ファイルを編集する"
+[redact_files]
+    other = "{{ . }}ファイルを編集する"
+[split_files]
+    other = "{{ . }}ファイルを分割する"
+[compress_files]
+    other = "{{ . }}ファイルを圧縮する"
+[parse_files]
+    other = "{{ . }}ファイルを解析する"
+[barcode_files]
+    other = "{{ . }}ファイルにバーコードを追加する"
+# others
+[og_description]
+    other = "アプリケーションがWord、Excel、PDF、PowerPoint、Outlook、およびすべての主要なプラットフォーム用の100を超える他のファイル形式を操作できるようにします。"
+[404_message]
+other = "申し訳ありませんが、このページは（もう）存在しないようです。"
+[go_home]
+other = "ホームページへ"
