@@ -1,7 +1,7 @@
 ---
 ############################# Head ############################
-head_title: "Conholdate Products"
-head_description: "All of Conholdate's .NET & Java Products"
+head_title: "Conholdate .NET & Java APIs for Document & Images Processing"
+head_description: "All of Conholdate .NET & Java libraries for Documents and Images file formats as supported by Aspose and GroupDocs."
 
 ############################### Banner ##############################
 banner:

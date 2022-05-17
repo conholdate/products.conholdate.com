@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Support og læringsressourcer'
+[support_learning]
+    other = 'Læringsressourcer'
+[documentation]
+    other = 'Dokumentation'
+[source_code]
+    other = 'Kildekode'
+[api_references]
+    other = 'API-referencer'
+[video_tutorials]
+    other = 'Video tutorials'
+[product_support]
+    other = 'Produktsupport'
+[free_support]
+    other = 'Gratis support'
+[paid_support]
+    other = 'Betalt support'
+[blog]
+    other = 'Blog'
+[why_choose]
+    other = 'Hvorfor Conholdate.Total produktfamilie?'
+[customer_list]
+    other = 'Kundeliste'
+[success_stories]
+    other = 'Succeshistorier'
+[download_free_trial]
+    other = 'Download gratis prøveversion'
+[pricing_information]
+    other = 'Prisoplysninger'
+[pricing]
+    other = 'Prissætning'
+[support]
+    other = 'Support'
+[features]
+    other = 'Funktioner'
+[overview]
+    other = 'Oversigt'
+[buy]
+    other = 'Købe'
+[learn]
+    other = 'Lære'
+[download]
+    other = 'Hent'
+[products]
+    other = 'Produkter'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Populær'
+[options]
+    other = 'Muligheder'
+[to]
+    other = 'til'
+# features
+[conversion]
+    other = 'Konvertering'
+[convert]
+    other = 'Konvertere'
+[signature]
+    other = 'Underskrift'
+[sign]
+    other = 'Skilt'
+[watermark]
+    other = 'Vandmærke'
+[barcode]
+    other = 'Stregkode'
+[merger]
+    other = 'Fusion'
+# feature details
+[merge_files]
+    other = 'Flet {{ . }}-filer'
+[annotate_files]
+    other = "Anmærk {{ . }}-filer"
+[view_files]
+    other = "Se {{ . }}-filer"
+[compare_files]
+    other = "Sammenlign {{ . }}-filer"
+[sign_files]
+    other = "Signer {{ . }}-filer"
+[assemble_files]
+    other = "Generer {{ . }}-filer"
+[inspect_files]
+    other = "Rediger metadata for {{ . }}-filer"
+[search_files]
+    other = "Find i {{ . }}-filer"
+[watermark_files]
+    other = "Føj vandmærke til {{ . }}-filer"
+[edit_files]
+    other = "Rediger {{ . }}-filer"
+[redact_files]
+    other = "Rediger {{ . }}-filer"
+[split_files]
+    other = "Opdel {{ . }}-filer"
+[compress_files]
+    other = "Komprimer {{ . }}-filer"
+[parse_files]
+    other = "Parse {{ . }}-filer"
+[barcode_files]
+    other = "Tilføj stregkode til {{ . }}-filer"
+# others
+[og_description]
+    other = "Giv dine programmer mulighed for at manipulere Word, Excel, PDF, PowerPoint, Outlook og mere end 100 andre filformater til alle større platforme."
+[404_message]
+other = "Beklager – denne side ser ikke ud til at eksistere (længere)."
+[go_home]
+other = "Til startsiden"

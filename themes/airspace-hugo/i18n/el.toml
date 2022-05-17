@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Πόροι υποστήριξης και μάθησης'
+[support_learning]
+    other = 'Πόροι μάθησης'
+[documentation]
+    other = 'Τεκμηρίωση'
+[source_code]
+    other = 'Πηγαίος κώδικας'
+[api_references]
+    other = 'Αναφορές API'
+[video_tutorials]
+    other = 'Εκπαιδευτικά βίντεο'
+[product_support]
+    other = 'Υποστήριξη προιόντος'
+[free_support]
+    other = 'Δωρεάν Υποστήριξη'
+[paid_support]
+    other = 'Υποστήριξη επί πληρωμή'
+[blog]
+    other = 'Ιστολόγιο'
+[why_choose]
+    other = 'Γιατί Conholdate.Total Οικογένεια προϊόντων;'
+[customer_list]
+    other = 'Λίστα Πελατών'
+[success_stories]
+    other = 'Ιστορίες επιτυχίας'
+[download_free_trial]
+    other = 'Κατεβάστε δωρεάν δοκιμή'
+[pricing_information]
+    other = 'Πληροφορίες τιμολόγησης'
+[pricing]
+    other = 'Τιμολόγηση'
+[support]
+    other = 'Υποστήριξη'
+[features]
+    other = 'Χαρακτηριστικά'
+[overview]
+    other = 'ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ'
+[buy]
+    other = 'Αγορά'
+[learn]
+    other = 'Μαθαίνω'
+[download]
+    other = 'Κατεβάστε'
+[products]
+    other = 'Προϊόντα'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Δημοφιλής'
+[options]
+    other = 'Επιλογές'
+[to]
+    other = 'προς την'
+# features
+[conversion]
+    other = 'Μετατροπή'
+[convert]
+    other = 'Μετατρέπω'
+[signature]
+    other = 'Υπογραφή'
+[sign]
+    other = 'Σημάδι'
+[watermark]
+    other = 'Στάθμη ύδατος'
+[barcode]
+    other = 'Barcode'
+[merger]
+    other = 'Συγχώνευση'
+# feature details
+[merge_files]
+    other = 'Συγχώνευση αρχείων {{ . }}'
+[annotate_files]
+    other = "Σημειώστε αρχεία {{ . }}"
+[view_files]
+    other = "Προβολή αρχείων {{ . }}"
+[compare_files]
+    other = "Συγκρίνετε αρχεία {{ . }}"
+[sign_files]
+    other = "Υπογραφή αρχείων {{ . }}"
+[assemble_files]
+    other = "Δημιουργήστε αρχεία {{ . }}"
+[inspect_files]
+    other = "Επεξεργασία μεταδεδομένων αρχείων {{ . }}"
+[search_files]
+    other = "Εύρεση σε αρχεία {{ . }}"
+[watermark_files]
+    other = "Προσθήκη υδατογραφήματος σε αρχεία {{ . }}"
+[edit_files]
+    other = "Επεξεργασία αρχείων {{ . }}"
+[redact_files]
+    other = "Διορθώστε τα αρχεία {{ . }}"
+[split_files]
+    other = "Διαχωρισμός αρχείων {{ . }}"
+[compress_files]
+    other = "Συμπίεση αρχείων {{ . }}"
+[parse_files]
+    other = "Ανάλυση αρχείων {{ . }}"
+[barcode_files]
+    other = "Προσθήκη γραμμικού κώδικα σε αρχεία {{ . }}"
+# others
+[og_description]
+    other = "Επιτρέψτε στις εφαρμογές σας να χειρίζονται Word, Excel, PDF, PowerPoint, Outlook και περισσότερες από 100 άλλες μορφές αρχείων για όλες τις μεγάλες πλατφόρμες."
+[404_message]
+other = "Λυπούμαστε – αυτή η σελίδα δεν φαίνεται να υπάρχει (πια)."
+[go_home]
+other = "Στην αρχική σελίδα"

@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Support- och lärresurser'
+[support_learning]
+    other = 'Lärresurser'
+[documentation]
+    other = 'Dokumentation'
+[source_code]
+    other = 'Källkod'
+[api_references]
+    other = 'API-referenser'
+[video_tutorials]
+    other = 'Video Tutorials'
+[product_support]
+    other = 'Produktsupport'
+[free_support]
+    other = 'Gratis support'
+[paid_support]
+    other = 'Betald support'
+[blog]
+    other = 'Blogg'
+[why_choose]
+    other = 'Varför Conholdate.Total produktfamilj?'
+[customer_list]
+    other = 'Kundlista'
+[success_stories]
+    other = 'Framgångsberättelser'
+[download_free_trial]
+    other = 'Ladda ner gratis provversion'
+[pricing_information]
+    other = 'Prisinformation'
+[pricing]
+    other = 'Prissättning'
+[support]
+    other = 'Stöd'
+[features]
+    other = 'Funktioner'
+[overview]
+    other = 'Översikt'
+[buy]
+    other = 'köpa'
+[learn]
+    other = 'Lära sig'
+[download]
+    other = 'Ladda ner'
+[products]
+    other = 'Produkter'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Populär'
+[options]
+    other = 'alternativ'
+[to]
+    other = 'till'
+# features
+[conversion]
+    other = 'Omvandling'
+[convert]
+    other = 'Konvertera'
+[signature]
+    other = 'Signatur'
+[sign]
+    other = 'Tecken'
+[watermark]
+    other = 'Vattenstämpel'
+[barcode]
+    other = 'Streckkod'
+[merger]
+    other = 'Fusion'
+# feature details
+[merge_files]
+    other = 'Slå samman {{ . }}-filer'
+[annotate_files]
+    other = "Anteckna {{ . }}-filer"
+[view_files]
+    other = "Visa {{ . }}-filer"
+[compare_files]
+    other = "Jämför {{ . }}-filer"
+[sign_files]
+    other = "Signera {{ . }}-filer"
+[assemble_files]
+    other = "Skapa {{ . }}-filer"
+[inspect_files]
+    other = "Redigera metadata för {{ . }}-filer"
+[search_files]
+    other = "Hitta i {{ . }}-filer"
+[watermark_files]
+    other = "Lägg till vattenstämpel till {{ . }}-filer"
+[edit_files]
+    other = "Redigera {{ . }}-filer"
+[redact_files]
+    other = "Redigera {{ . }}-filer"
+[split_files]
+    other = "Dela {{ . }}-filer"
+[compress_files]
+    other = "Komprimera {{ . }}-filer"
+[parse_files]
+    other = "Analysera {{ . }}-filer"
+[barcode_files]
+    other = "Lägg till streckkod till {{ . }}-filer"
+# others
+[og_description]
+    other = "Gör det möjligt för dina applikationer att manipulera Word, Excel, PDF, PowerPoint, Outlook och mer än 100 andra filformat för alla större plattformar."
+[404_message]
+other = "Tyvärr – den här sidan verkar inte existera (längre)."
+[go_home]
+other = "Till startsidan"

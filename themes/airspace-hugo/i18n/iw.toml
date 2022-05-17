@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'משאבי תמיכה ולמידה'
+[support_learning]
+    other = 'משאבי למידה'
+[documentation]
+    other = 'תיעוד'
+[source_code]
+    other = 'קוד מקור'
+[api_references]
+    other = 'הפניות ל-API'
+[video_tutorials]
+    other = 'הדרכות וידאו'
+[product_support]
+    other = 'תמיכת מוצר'
+[free_support]
+    other = 'תמיכה חינם'
+[paid_support]
+    other = 'תמיכה בתשלום'
+[blog]
+    other = 'בלוג'
+[why_choose]
+    other = 'למה משפחת מוצרי Conholdate.Total?'
+[customer_list]
+    other = 'רשימת לקוחות'
+[success_stories]
+    other = 'סיפורי הצלחה'
+[download_free_trial]
+    other = 'הורד גרסת ניסיון בחינם'
+[pricing_information]
+    other = 'מידע בנוגע למחיר'
+[pricing]
+    other = 'תמחור'
+[support]
+    other = 'תמיכה'
+[features]
+    other = 'מאפיינים'
+[overview]
+    other = 'סקירה כללית'
+[buy]
+    other = 'לִקְנוֹת'
+[learn]
+    other = 'לִלמוֹד'
+[download]
+    other = 'הורד'
+[products]
+    other = 'מוצרים'
+[home_url]
+    other = '/'
+[popular]
+    other = 'פופולרי'
+[options]
+    other = 'אפשרויות'
+[to]
+    other = 'ל'
+# features
+[conversion]
+    other = 'הֲמָרָה'
+[convert]
+    other = 'להמיר'
+[signature]
+    other = 'חֲתִימָה'
+[sign]
+    other = 'סִימָן'
+[watermark]
+    other = 'סימן מים'
+[barcode]
+    other = 'ברקוד'
+[merger]
+    other = 'מיזוג'
+# feature details
+[merge_files]
+    other = 'מיזוג קבצי {{ . }}'
+[annotate_files]
+    other = "הערה לקבצי {{ . }}"
+[view_files]
+    other = "הצג קבצי {{ . }}"
+[compare_files]
+    other = "השווה קבצי {{ . }}"
+[sign_files]
+    other = "חתום על קבצי {{ . }}"
+[assemble_files]
+    other = "צור קבצי {{ . }}"
+[inspect_files]
+    other = "ערוך מטא נתונים של קבצי {{ . }}"
+[search_files]
+    other = "מצא בקבצי {{ . }}"
+[watermark_files]
+    other = "הוסף סימן מים לקובצי {{ . }}"
+[edit_files]
+    other = "ערוך קבצי {{ . }}"
+[redact_files]
+    other = "עריכת קבצי {{ . }}"
+[split_files]
+    other = "פיצול קבצי {{ . }}"
+[compress_files]
+    other = "דחוס קבצי {{ . }}"
+[parse_files]
+    other = "ניתוח קבצי {{ . }}"
+[barcode_files]
+    other = "הוסף ברקוד לקבצי {{ . }}"
+# others
+[og_description]
+    other = "אפשר ליישומים שלך לתפעל את Word, Excel, PDF, PowerPoint, Outlook ועוד יותר מ-100 פורמטי קבצים אחרים עבור כל הפלטפורמות העיקריות."
+[404_message]
+other = "מצטער - נראה שהדף הזה לא קיים (יותר)."
+[go_home]
+other = "לדף הבית"

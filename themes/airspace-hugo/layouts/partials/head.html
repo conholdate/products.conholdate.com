@@ -79,6 +79,18 @@
     {{ $menu = site.Params.menu.es}}
   {{ else if eq .Site.LanguageCode "ja" }}
     {{ $menu = site.Params.menu.ja}}
+  {{ else if eq .Site.LanguageCode "de" }}
+    {{ $menu = site.Params.menu.de}}
+  {{ else if eq .Site.LanguageCode "sv" }}
+    {{ $menu = site.Params.menu.sv}}
+  {{ else if eq .Site.LanguageCode "it" }}
+    {{ $menu = site.Params.menu.it}}
+  {{ else if eq .Site.LanguageCode "da" }}
+    {{ $menu = site.Params.menu.da}}
+  {{ else if eq .Site.LanguageCode "el" }}
+    {{ $menu = site.Params.menu.el}}
+  {{ else if eq .Site.LanguageCode "iw" }}
+    {{ $menu = site.Params.menu.iw}}
   {{ else }}
     {{ $menu = site.Params.menu.en}}
   {{ end }}

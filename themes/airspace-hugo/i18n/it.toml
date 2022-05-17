@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Supporto e risorse per lapprendimento'
+[support_learning]
+    other = 'Risorse di apprendimento'
+[documentation]
+    other = 'Documentazione'
+[source_code]
+    other = 'Codice sorgente'
+[api_references]
+    other = 'Riferimenti API'
+[video_tutorials]
+    other = 'Video tutorial'
+[product_support]
+    other = 'Supporto al prodotto'
+[free_support]
+    other = 'Supporto gratuito'
+[paid_support]
+    other = 'Supporto a pagamento'
+[blog]
+    other = 'Blog'
+[why_choose]
+    other = 'Perché la famiglia di prodotti Conholdate.Total?'
+[customer_list]
+    other = 'Elenco clienti'
+[success_stories]
+    other = 'Storie di successo'
+[download_free_trial]
+    other = 'Scarica la prova gratuita'
+[pricing_information]
+    other = 'Informazioni sui prezzi'
+[pricing]
+    other = 'Prezzo'
+[support]
+    other = 'Supporto'
+[features]
+    other = 'Caratteristiche'
+[overview]
+    other = 'Panoramica'
+[buy]
+    other = 'Acquistare'
+[learn]
+    other = 'Imparare'
+[download]
+    other = 'Scarica'
+[products]
+    other = 'Prodotti'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Popolare'
+[options]
+    other = 'Opzioni'
+[to]
+    other = 'a'
+# features
+[conversion]
+    other = 'Conversione'
+[convert]
+    other = 'Convertire'
+[signature]
+    other = 'Firma'
+[sign]
+    other = 'Cartello'
+[watermark]
+    other = 'Filigrana'
+[barcode]
+    other = 'Codice a barre'
+[merger]
+    other = 'Fusione'
+# feature details
+[merge_files]
+    other = 'Unisci file {{ . }}'
+[annotate_files]
+    other = "Annota i file {{ . }}"
+[view_files]
+    other = "Visualizza file {{ . }}"
+[compare_files]
+    other = "Confronta i file {{ . }}"
+[sign_files]
+    other = "Firma file {{ . }}"
+[assemble_files]
+    other = "Genera file {{ . }}"
+[inspect_files]
+    other = "Modifica i metadati dei file {{ . }}"
+[search_files]
+    other = "Trova nei file {{ . }}"
+[watermark_files]
+    other = "Aggiungi filigrana ai file {{ . }}"
+[edit_files]
+    other = "Modifica file {{ . }}"
+[redact_files]
+    other = "Redigere file {{ . }}"
+[split_files]
+    other = "Dividi file {{ . }}"
+[compress_files]
+    other = "Comprimi file {{ . }}"
+[parse_files]
+    other = "Analizza file {{ . }}"
+[barcode_files]
+    other = "Aggiungi codice a barre ai file {{ . }}"
+# others
+[og_description]
+    other = "Consenti alle tue applicazioni di manipolare Word, Excel, PDF, PowerPoint, Outlook e più di 100 altri formati di file per tutte le principali piattaforme."
+[404_message]
+other = "Siamo spiacenti, questa pagina sembra non esistere (più)."
+[go_home]
+other = "Alla home page"

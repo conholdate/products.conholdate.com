@@ -1,0 +1,108 @@
+# site wide
+[support_learning_resources]
+    other = 'Support und Lernressourcen'
+[support_learning]
+    other = 'Lernmittel'
+[documentation]
+    other = 'Dokumentation'
+[source_code]
+    other = 'Quellcode'
+[api_references]
+    other = 'API-Referenzen'
+[video_tutorials]
+    other = 'Videoanleitungen'
+[product_support]
+    other = 'Produkt Support'
+[free_support]
+    other = 'Kostenlose Unterstützung'
+[paid_support]
+    other = 'Bezahlte Unterstützung'
+[blog]
+    other = 'Bloggen'
+[why_choose]
+    other = 'Warum die Produktfamilie Conholdate.Total?'
+[customer_list]
+    other = 'Kundenliste'
+[success_stories]
+    other = 'Erfolgsgeschichten'
+[download_free_trial]
+    other = 'Download kostenlose Testversion'
+[pricing_information]
+    other = 'Preisinformationen'
+[pricing]
+    other = 'Preisgestaltung'
+[support]
+    other = 'Unterstützung'
+[features]
+    other = 'Merkmale'
+[overview]
+    other = 'Überblick'
+[buy]
+    other = 'Besorgen'
+[learn]
+    other = 'Lernen'
+[download]
+    other = 'Download'
+[products]
+    other = 'Produkte'
+[home_url]
+    other = '/'
+[popular]
+    other = 'Beliebt'
+[options]
+    other = 'Optionen'
+[to]
+    other = 'zu'
+# features
+[conversion]
+    other = 'Wandlung'
+[convert]
+    other = 'Konvertieren'
+[signature]
+    other = 'Unterschrift'
+[sign]
+    other = 'Schild'
+[watermark]
+    other = 'Wasserzeichen'
+[barcode]
+    other = 'Strichcode'
+[merger]
+    other = 'Zusammenschluss'
+# feature details
+[merge_files]
+    other = '{{ . }}-Dateien zusammenführen'
+[annotate_files]
+    other = "{{ . }}-Dateien mit Anmerkungen versehen"
+[view_files]
+    other = "{{ . }}-Dateien zusammenführen-Dateien anzeigen"
+[compare_files]
+    other = "Vergleichen Sie {{ . }}-Dateien zusammenführen-Dateien"
+[sign_files]
+    other = "Signieren Sie {{ . }}-Dateien zusammenführen-Dateien"
+[assemble_files]
+    other = "Generieren Sie {{ . }}-Dateien zusammenführen-Dateien"
+[inspect_files]
+    other = "Metadaten von {{ . }}-Dateien zusammenführen-Dateien bearbeiten"
+[search_files]
+    other = "Suchen Sie in {{ . }}-Dateien zusammenführen-Dateien"
+[watermark_files]
+    other = "Wasserzeichen zu {{ . }}-Dateien zusammenführen-Dateien hinzufügen"
+[edit_files]
+    other = "{{ . }}-Dateien zusammenführen-Dateien bearbeiten"
+[redact_files]
+    other = "{{ . }}-Dateien zusammenführen-Dateien schwärzen"
+[split_files]
+    other = "{{ . }}-Dateien zusammenführen-Dateien aufteilen"
+[compress_files]
+    other = "{{ . }}-Dateien zusammenführen-Dateien komprimieren"
+[parse_files]
+    other = "Analysieren Sie {{ . }}-Dateien zusammenführen-Dateien"
+[barcode_files]
+    other = "Barcode zu {{ . }}-Dateien zusammenführen-Dateien hinzufügen"
+# others
+[og_description]
+    other = "Ermöglichen Sie Ihren Anwendungen, Word, Excel, PDF, PowerPoint, Outlook und mehr als 100 andere Dateiformate für alle wichtigen Plattformen zu bearbeiten."
+[404_message]
+other = "Entschuldigung – diese Seite scheint nicht (mehr) zu existieren."
+[go_home]
+other = "Zur Startseite"
