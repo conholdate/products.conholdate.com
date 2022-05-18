@@ -3,18 +3,18 @@
 layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
-path: "total/net/conversion/dot-to-potm/"
+path: "total/net/conversion/dot-to-xlam/"
 other_out_formats: "PDF DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPS PPSX PPSM POT POTX PPTM POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD FODP JPG"
-ad_headline: "Convert DOT to POTM | .NET"
-ad_description: "Most Accurate DOT to POTM document Conversion solution for your .NET applications."
+ad_headline: "Convert DOT to XLAM | .NET"
+ad_description: "Most Accurate DOT to XLAM document Conversion solution for your .NET applications."
 
 ############################# Head ############################
-head_title: "Convert DOT to POTM in C# ASP.NET | .NET Word Document Conversion"
-head_description: ".NET Word processing documents conversion API. Convert DOT to POTM and 100+ other images and file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted POTM document as HTML viewer."
+head_title: "Convert DOT to XLAM in C# ASP.NET | .NET Word Document Conversion"
+head_description: ".NET Word processing documents conversion API. Convert DOT to XLAM and 100+ other images and file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted XLAM document as HTML viewer."
 
 ############################# Header ############################
-title: "Convert Word Files (DOT) to POTM in C# .NET"
-description: "Programmatically convert DOT (Word files) to POTM in C# VB.NET & ASP.NET applications using flexible documents conversion features that allow you to customize the resultant document appearance. Convert all popular Word processing document formats to Excel spreadsheets, PowerPoint presentations, PDF, Photoshop, eBook, web and image file formats. The native .NET conversion API offers multiple document conversion options to convert the whole document or choose specific pages of the source document file based on the selective page numbers or page ranges and easily convert to a supported document format."
+title: "Convert Word Files (DOT) to XLAM in C# .NET"
+description: "Programmatically convert DOT (Word files) to XLAM in C# VB.NET & ASP.NET applications using flexible documents conversion features that allow you to customize the resultant document appearance. Convert all popular Word processing document formats to Excel spreadsheets, PowerPoint presentations, PDF, Photoshop, eBook, web and image file formats. The native .NET conversion API offers multiple document conversion options to convert the whole document or choose specific pages of the source document file based on the selective page numbers or page ranges and easily convert to a supported document format."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,15 +24,15 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "How to Convert DOT to POTM in C# .NET"
+    - title_left: "How to Convert DOT to XLAM in C# .NET"
       content_left: |
-          Follow these simple steps for DOT to POTM conversion in .NET. View the converted POTM document as it is or render and display it as HTML without using any external software.
+          Follow these simple steps for DOT to XLAM conversion in .NET. View the converted XLAM document as it is or render and display it as HTML without using any external software.
 
           -   Create **Converter** object to convert DOT document
-          -   Set the convert options for POTM format
-          -   Call **Convert** method of **Converter** class instance for conversion to POTM
+          -   Set the convert options for XLAM format
+          -   Call **Convert** method of **Converter** class instance for conversion to XLAM
           -   Set options for HTML viewer
-          -   Create **Viewer** object to view converted POTM as HTML
+          -   Create **Viewer** object to view converted XLAM as HTML
           
       title_right: "Downloads & Installation Instructions"
       content_right: |
@@ -43,16 +43,16 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "word-to-pdf-conversion.cs"
 
-    - title_left: "Add Text or Image Watermark to POTM in C#"
+    - title_left: "Add Text or Image Watermark to XLAM in C#"
       content_left: |
-          Accurately convert documents (DOT to POTM) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
+          Accurately convert documents (DOT to XLAM) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
 
           -   Create **Converter** object to convert DOT document
           -   Create new instance of **WatermarkOptions** class
           -   Specify watermark properties (color, width, text, image etc)
           -   Instantiate the proper **ConvertOptions** class
           -   Set **Watermark** property of the **ConvertOptions** instance
-          -   Call **Convert** method of **Converter** class instance for conversion to POTM
+          -   Call **Convert** method of **Converter** class instance for conversion to XLAM
         
       title_right: "Source Document Information Extraction"
       content_right: |
