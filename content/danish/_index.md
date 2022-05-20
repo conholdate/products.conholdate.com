@@ -25,7 +25,7 @@ product:
     # product item loop
     - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
       name: Conholdate.Total produktfamilie
-      link: "total/"
+      link: "da/total/"
       content: "Aktiver dine applikationer til at manipulere mere end 100 filformater. Indeholder alle Aspose- og GroupDocs-produkter i en enkelt suite."
       button_net:
         enable: true

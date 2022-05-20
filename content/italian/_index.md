@@ -25,7 +25,7 @@ product:
     # product item loop
     - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
       name: Famiglia di prodotti Conholdate.Total
-      link: "total/"
+      link: "it/total/"
       content: "Consenti alle tue applicazioni di manipolare più di 100 formati di file. Include tutti i prodotti Aspose e GroupDocs in un'unica suite."
       button_net:
         enable: true
