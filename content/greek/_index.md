@@ -1,39 +1,39 @@
 ---
 ############################# Head ############################
-head_title: "Conholdate .NET & Java APIs for Document & Images Processing"
-head_description: "All of Conholdate .NET & Java libraries for Documents and Images file formats as supported by Aspose and GroupDocs."
+head_title: "Συγκεντρώστε .NET & Java API για Επεξεργασία Εγγράφων και Εικόνων"
+head_description: "Όλες οι μορφές αρχείων Conholdate .NET & Java για έγγραφα και εικόνες, όπως υποστηρίζονται από το Aspose και το GroupDocs."
 
 ############################### Banner ##############################
 banner:
   enable: true
   bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/code.jpg"
   bg_overlay: true
-  title: "File Format and Document Manipulation APIs"
-  content: "Enable your applications to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats for all major platforms."
+  title: "Μορφή αρχείου και API χειρισμού εγγράφων"
+  content: "Επιτρέψτε στις εφαρμογές σας να χειρίζονται Word, Excel, PDF, PowerPoint, Outlook και περισσότερες από 100 άλλες μορφές αρχείων για όλες τις μεγάλες πλατφόρμες."
   button:
     enable: true
-    label: "Try Conholdate APIs for Free"
+    label: "Δοκιμάστε τα Conholdate API δωρεάν"
     link: "https://downloads.conholdate.com/"
 
 
 ############################# Products ############################
 product:
   enable: true
-  title: "Our Products"
+  title: "Τα προϊόντα μας"
   description: ""
   product_item:
     # product item loop
     - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
-      name: Conholdate.Total Product Family
+      name: Οικογένεια προϊόντων Conholdate.Total
       link: "total/"
-      content: "Enable your applications to manipulate more than 100 file formats. Includes all Aspose and GroupDocs products in a single suite."
+      content: "Επιτρέψτε στις εφαρμογές σας να χειρίζονται περισσότερες από 100 μορφές αρχείων. Περιλαμβάνει όλα τα προϊόντα Aspose και GroupDocs σε μια ενιαία σουίτα."
       button_net:
         enable: true
         label: "Conholdate.Total"
-        link: "total/net/"
+        link: "el/total/net/"
       button_java:
         enable: true
         label: "Conholdate.Total"
-        link: "total/java/"
+        link: "el/total/java/"
         
 ---

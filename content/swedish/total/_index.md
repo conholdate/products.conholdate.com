@@ -5,12 +5,12 @@ date: 2021-04-27T09:31:06+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET Java Document Manipulation APIs for File Management Systems"
-head_description: ".NET and Java document manipulation and viewing APIs for Word Excel PowerPoint Outlook HTML PDF. Add Imaging Barcode and OCR features to .NET or Java applications."
+head_title: ".NET Java-dokumenthantering API:er för filhanteringssystem"
+head_description: ".NET och Java dokumentmanipulation och visning av API:er för Word Excel PowerPoint Outlook HTML PDF. Lägg till Imaging Barcode och OCR-funktioner i .NET- eller Java-applikationer."
 
 ############################# Header ############################
-title: "Complete Set of File Format Manipulation APIs"
-description: "Perform document processing tasks on Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats, using our native APIs for .NET & Java."
+title: "Komplett uppsättning av API:er för filformatsmanipulation"
+description: "Utför dokumentbearbetningsuppgifter i Word, Excel, PDF, PowerPoint, Outlook och mer än 100 andra filformat med hjälp av våra inbyggda API:er för .NET och Java."
 button:
   enable: true
 
@@ -20,25 +20,25 @@ apis:
 
   api:
     # api loop
-    - title: "Conholdate.Total Product Family Includes"
-      link: "https://products.conholdate.com/total/"
-      label: "View All On Premise APIs"
+    - title: "Conholdate.Total produktfamilj inkluderar"
+      link: "https://products.conholdate.com/sv/total/"
+      label: "Visa alla On Premise API:er"
       api_product:
         # api_product loop
-        - link: "/total/net/"
-          img_alt: "Conholdate.Total for .NET"
+        - link: "/sv/total/net/"
+          img_alt: "Conholdate.Total för .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Total for"
+          product: "Conholdate.Totalt för"
           platform: ".NET"
-          content: "Target Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later."
+          content: "Inrikta dig på Windows Forms, ASP.NET, WPF, WCF eller någon typ av applikation baserad på .NET Framework 2.0 eller senare."
 
         # api_product loop
-        - link: "/total/java/"
-          img_alt: "Conholdate.Total for Java"
+        - link: "/sv/total/java/"
+          img_alt: "Conholdate.Total för Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Total for"
+          product: "Conholdate.Totalt för"
           platform: "Java"
-          content: "Native Java APIs for the desktop, web or any kind of application based on Java SE or EE."
+          content: "Inbyggda Java API:er för skrivbordet, webben eller någon form av applikation baserad på Java SE eller EE."
 
 ############################# Support ############################
 support:

@@ -5,12 +5,12 @@ date: 2021-04-27T09:31:06+03:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET Java Document Manipulation APIs for File Management Systems"
-head_description: ".NET and Java document manipulation and viewing APIs for Word Excel PowerPoint Outlook HTML PDF. Add Imaging Barcode and OCR features to .NET or Java applications."
+head_title: "Έγγραφο Java .NET Manipulation APIs για συστήματα διαχείρισης αρχείων"
+head_description: "Διαχείριση εγγράφων .NET και Java και προβολή API για Word Excel PowerPoint Outlook HTML PDF. Προσθέστε δυνατότητες Barcode απεικόνισης και OCR σε εφαρμογές .NET ή Java."
 
 ############################# Header ############################
-title: "Complete Set of File Format Manipulation APIs"
-description: "Perform document processing tasks on Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats, using our native APIs for .NET & Java."
+title: "Πλήρες σύνολο API χειρισμού μορφής αρχείου"
+description: "Εκτελέστε εργασίες επεξεργασίας εγγράφων σε Word, Excel, PDF, PowerPoint, Outlook και σε περισσότερες από 100 άλλες μορφές αρχείων, χρησιμοποιώντας τα εγγενή μας API για .NET & Java."
 button:
   enable: true
 
@@ -20,25 +20,25 @@ apis:
 
   api:
     # api loop
-    - title: "Conholdate.Total Product Family Includes"
-      link: "https://products.conholdate.com/total/"
-      label: "View All On Premise APIs"
+    - title: "Conholdate.Total οικογένεια προϊόντων"
+      link: "https://products.conholdate.com/el/total/"
+      label: "Προβολή όλων On Premise API"
       api_product:
         # api_product loop
-        - link: "/total/net/"
-          img_alt: "Conholdate.Total for .NET"
+        - link: "/el/total/net/"
+          img_alt: "Conholdate.Σύνολο για .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Total for"
+          product: "Conholdate.Σύνολο για"
           platform: ".NET"
-          content: "Target Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later."
+          content: "Στοχεύστε τα Windows Forms, ASP.NET, WPF, WCF ή οποιονδήποτε τύπο εφαρμογής που βασίζεται σε .NET Framework 2.0 ή μεταγενέστερη έκδοση."
 
         # api_product loop
-        - link: "/total/java/"
-          img_alt: "Conholdate.Total for Java"
+        - link: "/el/total/java/"
+          img_alt: "Conholdate.Σύνολο για Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Total for"
+          product: "Conholdate.Σύνολο για"
           platform: "Java"
-          content: "Native Java APIs for the desktop, web or any kind of application based on Java SE or EE."
+          content: "Native Java API για επιτραπέζιους υπολογιστές, web ή οποιοδήποτε είδος εφαρμογής που βασίζεται σε Java SE ή EE."
 
 ############################# Support ############################
 support:
