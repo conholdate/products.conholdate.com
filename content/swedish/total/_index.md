@@ -28,7 +28,7 @@ apis:
         - link: "/sv/total/net/"
           img_alt: "Conholdate.Total för .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Totalt för"
+          product: "Conholdate.Total for"
           platform: ".NET"
           content: "Inrikta dig på Windows Forms, ASP.NET, WPF, WCF eller någon typ av applikation baserad på .NET Framework 2.0 eller senare."
 
@@ -36,7 +36,7 @@ apis:
         - link: "/sv/total/java/"
           img_alt: "Conholdate.Total för Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Totalt för"
+          product: "Conholdate.Total for"
           platform: "Java"
           content: "Inbyggda Java API:er för skrivbordet, webben eller någon form av applikation baserad på Java SE eller EE."
 

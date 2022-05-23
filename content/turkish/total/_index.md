@@ -28,7 +28,7 @@ apis:
         - link: "/total/net/"
           img_alt: ".NET için Conholdate.Total"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Toplam için"
+          product: "Conholdate.Total for"
           platform: ".NET"
           content: "Windows Forms, ASP.NET, WPF, WCF veya .NET Framework 2.0 veya sonraki sürümlerine dayalı herhangi bir uygulama türünü hedefleyin."
 
@@ -36,7 +36,7 @@ apis:
         - link: "/total/java/"
           img_alt: "Java için Conholdate.Total"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Toplam için"
+          product: "Conholdate.Total for"
           platform: "Java"
           content: "Masaüstü, web veya Java SE veya EE'ye dayalı herhangi bir uygulama türü için yerel Java API'leri."
 

@@ -28,7 +28,7 @@ apis:
         - link: "/total/net/"
           img_alt: "Conholdate.Total para .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conhold.Total para"
+          product: "Conhold.Total for"
           platform: ".NET"
           content: "Destina-se a Windows Forms, ASP.NET, WPF, WCF ou qualquer tipo de aplicativo baseado em .NET Framework 2.0 ou posterior."
 
@@ -36,7 +36,7 @@ apis:
         - link: "/total/java/"
           img_alt: "Conholdate.Total para Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conhold.Total para"
+          product: "Conhold.Total for"
           platform: "Java"
           content: "APIs Java nativas para desktop, web ou qualquer tipo de aplicativo baseado em Java SE ou EE."
 

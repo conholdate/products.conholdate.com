@@ -28,7 +28,7 @@ apis:
         - link: "/ru/total/net/"
           img_alt: "Conholdate.Total для .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Total для"
+          product: "Conholdate.Total for"
           platform: ".NET"
           content: "Ориентируйтесь на Windows Forms, ASP.NET, WPF, WCF или приложения любого типа на основе .NET Framework 2.0 или более поздней версии."
 
@@ -36,7 +36,7 @@ apis:
         - link: "/ru/total/java/"
           img_alt: "Conholdate.Total для Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Total для"
+          product: "Conholdate.Total for"
           platform: "Java"
           content: "Собственные API-интерфейсы Java для настольных компьютеров, Интернета или любых приложений на основе Java SE или EE."
 

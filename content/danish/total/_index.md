@@ -26,17 +26,17 @@ apis:
       api_product:
         # api_product loop
         - link: "/da/total/net/"
-          img_alt: "Conholdate.I alt for .NET"
+          img_alt: "Conholdate.Total for .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.I alt for"
+          product: "Conholdate.Total for"
           platform: ".NET"
           content: "Målret mod Windows Forms, ASP.NET, WPF, WCF eller enhver form for applikation baseret på .NET Framework 2.0 eller nyere."
 
         # api_product loop
         - link: "/da/total/java/"
-          img_alt: "Conholdate.I alt for Java"
+          img_alt: "Conholdate.Total for Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.I alt for"
+          product: "Conholdate.Total for"
           platform: "Java"
           content: "Native Java API'er til desktop, web eller enhver form for applikation baseret på Java SE eller EE."
 

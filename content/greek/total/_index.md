@@ -28,7 +28,7 @@ apis:
         - link: "/el/total/net/"
           img_alt: "Conholdate.Σύνολο για .NET"
           image: "/images/conholdate_total-for-net.png"
-          product: "Conholdate.Σύνολο για"
+          product: "Conholdate.Total for"
           platform: ".NET"
           content: "Στοχεύστε τα Windows Forms, ASP.NET, WPF, WCF ή οποιονδήποτε τύπο εφαρμογής που βασίζεται σε .NET Framework 2.0 ή μεταγενέστερη έκδοση."
 
@@ -36,7 +36,7 @@ apis:
         - link: "/el/total/java/"
           img_alt: "Conholdate.Σύνολο για Java"
           image: "/images/conholdate_total-for-java.png"
-          product: "Conholdate.Σύνολο για"
+          product: "Conholdate.Total for"
           platform: "Java"
           content: "Native Java API για επιτραπέζιους υπολογιστές, web ή οποιοδήποτε είδος εφαρμογής που βασίζεται σε Java SE ή EE."
 
