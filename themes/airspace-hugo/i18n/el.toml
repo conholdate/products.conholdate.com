@@ -46,7 +46,7 @@
 [products]
     other = 'Προϊόντα'
 [home_url]
-    other = '/'
+    other = '/el/'
 [popular]
     other = 'Δημοφιλής'
 [options]

@@ -46,7 +46,7 @@
 [products]
     other = 'Produkter'
 [home_url]
-    other = '/'
+    other = '/da/'
 [popular]
     other = 'Populær'
 [options]

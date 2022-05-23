@@ -46,7 +46,7 @@
 [products]
     other = 'Товары'
 [home_url]
-    other = '/'
+    other = '/ru/'
 [popular]
     other = 'Популярный'
 [options]

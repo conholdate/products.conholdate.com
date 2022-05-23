@@ -46,7 +46,7 @@
 [products]
     other = '製品'
 [home_url]
-    other = '/'
+    other = '/ja/'
 [popular]
     other = '人気'
 [options]

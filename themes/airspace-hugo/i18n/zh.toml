@@ -46,7 +46,7 @@
 [products]
     other = '产品'
 [home_url]
-    other = '/'
+    other = '/zh/'
 [popular]
     other = '受欢迎的'
 [options]

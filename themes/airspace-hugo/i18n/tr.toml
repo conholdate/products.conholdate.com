@@ -46,7 +46,7 @@
 [products]
     other = 'Ürünler'
 [home_url]
-    other = '/'
+    other = '/tr/'
 [popular]
     other = 'Popüler'
 [options]

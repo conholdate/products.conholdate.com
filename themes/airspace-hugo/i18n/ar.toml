@@ -46,7 +46,7 @@
 [products]
     other = 'منتجات'
 [home_url]
-    other = '/'
+    other = '/ar/'
 [popular]
     other = 'جمع'
 [options]

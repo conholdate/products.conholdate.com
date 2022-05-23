@@ -46,7 +46,7 @@
 [products]
     other = 'productos'
 [home_url]
-    other = '/'
+    other = '/es/'
 [popular]
     other = 'Popular'
 [options]

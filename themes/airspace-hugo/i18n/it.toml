@@ -46,7 +46,7 @@
 [products]
     other = 'Prodotti'
 [home_url]
-    other = '/'
+    other = '/it/'
 [popular]
     other = 'Popolare'
 [options]
