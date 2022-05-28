@@ -1,25 +1,94 @@
 ---
-title: Open Source {{$4_2}} Parsing Library for PHP – Parse & Extract {{$4_2}} Data
-description: {{$4_2}}Parser – An open source, free PHP API for parsing {{$4_2}} files. Parse {{$4_2}} & extract {{$4_2}} elements (text, images, metadata) inside PHP applications.
-keywords: {{$4_2}} Parser, {{$4_2}} library, parse {{$4_2}} files, PHP APIs ,  PHP {{$4_2}} programming, parse {{$4_2}} Elements, parse {{$4_2}} objects,  Extract {{$4_2}} Elements,  PHP  {{$4_2}} Library, Open Source {{$4_2}} Library, Extract {{$4_2}} metadata, compressed {{$4_2}}  support, octal content encoding, Hexa content encoding
+############################# Static ############################
+layout: "autogen-gist"
+date: 2021-10-02T14:22:14+03:00
 draft: false
-weight: 7
+path: "ru/total/net/conversion/xlsx-to-gif/"
+other_out_formats: "PDF DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPS PPSX PPSM POT POTX PPTM POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD XML JSON DICOM FODP JPG"
+ad_headline: "Конвертировать XLSX в GIF | .NET"
+ad_description: "Наиболее точное решение для преобразования документов XLSX в GIF для приложений .NET."
 
+############################# Head ############################
+head_title: "Преобразование Excel XLSX в GIF в C# ASP.NET | Преобразование документов .NET"
+head_description: "API преобразования форматов электронных таблиц Excel .NET. Преобразование XLSX в GIF и более 100 других форматов файлов изображений и документов в приложениях .NET (C#, VB.NET, ASP.NET и .NET Core)."
 
+############################# Header ############################
+title: "Преобразование файла Excel (XLSX) в GIF в C# .NET"
+description: "Используйте собственный API конвертера документов Excel для преобразования XLSX в GIF в приложениях C# VB.NET и ASP.NET. Работайте с гибкими функциями преобразования документов, чтобы настроить внешний вид результирующего документа. Точное преобразование всех популярных форматов листов Excel в документы Word, презентации PowerPoint, PDF, Photoshop, электронные книги, веб-файлы и файлы изображений и обратно. Преобразуйте весь документ или выберите определенные страницы исходного файла документа на основе выбранных номеров страниц или диапазонов страниц и легко конвертируйте в поддерживаемый формат документа."
 
-ProductName: {{$4_2}}Parser  
-Githublink: https://github.com/smalot/{{$4_2}}parser
-ListingPage_Short_Description: A standalone PHP library that provides various tools to read and extract data from a {{$4_2}} file.
-ListingPage_Product_Small_Image: listing-image.png 
+############################# SubMenu ############################
+submenu:
+    enable: false
 
+############################# Content ############################
+content:
+    enable: true
+    block:
+    - title_left: "Как преобразовать XLSX в GIF на C# .NET"
+      content_left: |
+          Выполните следующие простые шаги для преобразования XLSX в GIF в .NET. Просматривайте преобразованный документ GIF как есть или визуализируйте и отображайте его как HTML без использования какого-либо внешнего программного обеспечения.
+
+          -   Создайте объект **Converter** для преобразования документа XLSX
+          -   Установите параметры преобразования для формата GIF
+          -   Вызов метода **Convert** экземпляра класса **Converter** для преобразования в GIF
+          -   Установить параметры для просмотра HTML
+          -   Создайте объект **Viewer** для просмотра преобразованного GIF в формате HTML.
+          
+      title_right: "Инструкции по загрузке и установке"
+      content_right: |
+          Пространства имен `GroupDocs.Conversion` и `GroupDocs.Viewer` необходимы для преобразования форматов файлов Word в широкий спектр изображений и типов документов, таких как PDF, Microsoft Office (Word, Excel, PowerPoint, Project, Outlook), OpenDocument, HTML и Схемы САПР. Изучите другие [API .NET для документов Office](https://products.conholdate.com/ru/total/net/), предлагаемые Conholdate.Total.
+          
+          Получите соответствующие файлы сборки из [загрузок](https://downloads.conholdate.com/total/net) или загрузите весь пакет из [Nuget](https://www.nuget.org/packages/Conholdate.Total/), чтобы добавить `Conholdate.Total для .NET` прямо в вашу рабочую область.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-conversion.cs"
+
+    - title_left: "Добавить водяной знак текста или изображения в GIF на C#"
+      content_left: |
+          Точно преобразовывайте документы (XLSX в GIF) точно так же, как исходный файл, и применяйте текстовые или графические водяные знаки к преобразованным страницам документа с помощью C# .NET.
+
+          -   Создайте объект **Converter** для преобразования документа XLSX
+          -   Создайте новый экземпляр класса **WatermarkOptions**.
+          -   Укажите свойства водяного знака (цвет, ширина, текст, изображение и т. д.)
+          -   Создайте правильный класс **ConvertOptions**
+          -   Задайте свойство **Водяной знак** экземпляра **ConvertOptions**.
+          -   Вызов метода **Convert** экземпляра класса **Converter** для преобразования в GIF
+        
+      title_right: "Извлечение информации из исходного документа"
+      content_right: |
+          Функция извлечения информации о документах не только позволяет получить основную информацию об исходном файле документа, но также поддерживает извлечение некоторой ценной информации, специфичной для формата файла, такой как даты начала и окончания проекта в файле Microsoft Project, любые ограничения печати документа PDF, список папок, заключенных в файле данных Outlook и т. д.
+
+          Преобразование популярных форматов файлов документов в различных операционных системах, таких как Windows, Linux или macOS, при использовании таких платформ, как Windows Azure, Mono и Xamarin.
+          
+      gisthash: "a15affe15284876ce010a315a09da1f0"
+      gistfile: "convert-word-to-pdf-and-add-text-watermark-to-converted-pdf.cs"
+
+    - title_left: "Преобразование файла JSON в Excel в C# .NET"
+      content_left: |
+          Преобразование файла JSON в файл Excel в .NET стало проще благодаря Conholdate.Total для API .NET. Используйте файл JSON в качестве источника данных и точно преобразуйте его в формат файла электронной таблицы Excel, добавив несколько строк кода C # без использования какого-либо внешнего программного обеспечения.
+
+          -   Создайте объект **Converter** для преобразования файла JSON.
+          -   Создайте экземпляр класса **SpreadsheetConvertOptions**
+          -   Вызовите метод **Convert** экземпляра класса **Converter** для преобразования в XLSX.
+          
+      title_right: "Загрузка и преобразование удаленных документов"
+      content_right: |
+          Используя Conholdate.Total для .NET, разработчики могут загружать и преобразовывать документы из различных удаленных мест и ресурсов облачного хранилища документов, таких как Amazon S3, Microsoft Azure Blob, FTP, локальный диск, поток или простой URL-адрес. Вам просто нужно указать метод для получения удаленного потока документов, а затем передать его классу Converter в качестве конструктора.
+          
+          API-интерфейсы Conholdate.Total для .NET являются родными для Windows Forms, ASP.NET, WPF, WCF или любого типа приложений на основе .NET Framework 2.0 или более поздней версии.
+          
+      gisthash: "7864dd1c0c16ca647722d18664d5c84a"
+      gistfile: "json-to-excel-spreadsheet-conversion.cs"
+
+############################# About Formats ############################
+about_formats:
+    enable: false
+############################# More Formats ############################
+more_formats:
+    enable: true
+    auto: false
+    other_out_formats: PDF DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPS PPSX PPSM POT POTX PPTM POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD XML JSON DICOM FODP JPG
+############################# Back to top ###############################
+back_to_top:
+  enable: true
 ---
-
-{{< SinglePage/PageLayout/wrapper >}}
-{{< SinglePage/PageHeader/header-text
-Header_Image="header-image.png"
-Image_H2_Text="Free PHP API allows Developers to Parse {{$4_2}} Files, Extract Data & Elements from {{$4_2}}."
-Image_Tag_Text=""
-Image_Alt_Text=" "
-Image_title_Text=""
-Header_H1_Text="Open Source PHP Library for Parsing {{$4_2}} Files"
-Header_H2_Text="Free PHP API allows Developers to Parse {{$4_2}} Files, Extract Data & Elements from {{$4_2}}." >}}
