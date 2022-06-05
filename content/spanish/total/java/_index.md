@@ -10,12 +10,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java Document Manipulation APIs - Create Edit Convert View Annotate Documents"
-head_description: "Java document manipulation APIs for Word Excel PowerPoint Outlook HTML PDF Image 3D formats. Add Barcode & OCR features to your Java applications."
+head_title: "API de manipulación de documentos de Java: crear, editar, convertir, ver, anotar documentos"
+head_description: "API de manipulación de documentos Java para formatos de imagen 3D de Word Excel PowerPoint Outlook HTML PDF. Agregue funciones de código de barras y OCR a sus aplicaciones Java."
 
 ############################# Header ############################
-title: "Java APIs for Office documents"
-description: "Create, manipulate, convert, compare, search, sign & view Word, Excel, PowerPoint, Outlook, Visio, PDF, and more than 100 other file formats in Java."
+title: "API de Java para documentos de Office"
+description: "Cree, manipule, convierta, compare, busque, firme y visualice Word, Excel, PowerPoint, Outlook, Visio, PDF y más de otros 100 formatos de archivo en Java."
 button:
     enable: true
 
@@ -27,59 +27,59 @@ submenu:
 overview:
     enable: true
     content: |
-      Conholdate.Total for Java combines all file format APIs for Java as a single package that are offered by Aspose & GroupDocs. It empowers the developers to create, edit, print, view, annotate, compare, sign, automate, search & convert between a wide range of popular document formats within any Java (J2SE, J2EE, J2ME) applications.
+      Conholdate.Total para Java combina todas las API de formato de archivo para Java en un solo paquete que ofrecen Aspose y GroupDocs. Permite a los desarrolladores crear, editar, imprimir, ver, anotar, comparar, firmar, automatizar, buscar y convertir entre una amplia gama de formatos de documentos populares dentro de cualquier aplicación Java (J2SE, J2EE, J2ME).
 
 ############################# Products ############################
 products:
     enable: true
-    title: "Products"
-    description: "Conholdate.Total for Java includes the following document manipulation APIs for Java:"
+    title: "productos"
+    description: "Conholdate.Total para Java incluye las siguientes API de manipulación de documentos para Java:"
 
     product:
         # product loop
         - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-java.svg"
-          img_alt: "Aspose.Total for Java"
+          img_alt: "Aspose.Total para Java"
           name: "Aspose.Total for Java"
           content: |
-            Aspose.Total for Java is a package consisting of all Aspose for Java APIs. It enables you to create, manipulate, convert & render Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats within any Java application without installing Microsoft Office.
-          link: "https://products.aspose.com/total/java/"
+            Aspose.Total para Java es un paquete que consta de todas las API de Aspose para Java. Le permite crear, manipular, convertir y renderizar Word, Excel, PDF, PowerPoint, Outlook y más de 100 formatos de archivo dentro de cualquier aplicación Java sin instalar Microsoft Office.
+          link: "https://products.aspose.com/es/total/java/"
 
         # product loop
         - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-java.svg"
-          img_alt: "GroupDocs.Total for Java"
+          img_alt: "GroupDocs.Total para Java"
           name: "GroupDocs.Total for Java"
           content: |
-            GroupDocs.Total for Java is a compilation of every Java API offered by GroupDocs. It provides the ability to view, annotate, convert, compare, sign, watermark & edit most popular file formats within any Java application
-          link: "https://products.groupdocs.com/total/java/"
+            GroupDocs.Total para Java es una compilación de todas las API de Java que ofrece GroupDocs. Brinda la capacidad de ver, anotar, convertir, comparar, firmar, marcar con marca de agua y editar los formatos de archivo más populares dentro de cualquier aplicación Java.
+          link: "https://products.groupdocs.com/es/total/java/"
 
 ############################# Features ############################
 features:
     enable: true
-    title: "API Features"
+    title: "Características de la API"
 
     more_feature:
       # more_feature_loop
-      - title: "Process a Multitude of File Formats"
+      - title: "Procese una multitud de formatos de archivo"
         content: |
-          Conholdate.Total for Java allows you to build an incredibly versatile file processing system capable of handling many popular file formats. You can easily open, create, modify and even inter-convert file formats of following types.
+          Conholdate.Total para Java le permite construir un sistema de procesamiento de archivos increíblemente versátil capaz de manejar muchos formatos de archivo populares. Puede abrir, crear, modificar e incluso convertir entre sí fácilmente formatos de archivo de los siguientes tipos.
 
-          * Microsoft Word documents 
-          * Microsoft Excel spreadsheets
-          * Microsoft PowerPoint presentations
-          * Microsoft Outlook message and storage files
-          * Microsoft Project files
-          * Microsoft Visio files
-          * Microsoft OneNote files
-          * Adobe PDF documents
-          * OpenOffice documents
-          * Raster & Vector image files
-          * 3D & CAD files
-          * HTML files
+          * Documentos de Microsoft Word
+          * Hojas de cálculo de Microsoft Excel
+          * presentaciones de microsoft powerpoint
+          * Archivos de almacenamiento y mensajes de Microsoft Outlook
+          * archivos de proyecto de Microsoft
+          * Archivos de Microsoft Visio
+          * Archivos de Microsoft OneNote
+          * Documentos PDF de Adobe
+          * Documentos de OpenOffice
+          * Archivos de imagen rasterizados y vectoriales
+          * Archivos 3D y CAD
+          * archivos HTML
 
       # more_feature_loop
-      - title: "Microsoft Office Automation – Not Needed"
+      - title: "Automatización de Microsoft Office: no es necesario"
         content: |
-          Conholdate.Total for Java is built using managed code that does not need Microsoft Office or any other tool in order to work with any of the supported file formats. It is a perfect Microsoft Office automation alternative in terms of supported features, security, stability, scalability, speed and price.
+          Conholdate.Total para Java está construido usando código administrado que no necesita Microsoft Office ni ninguna otra herramienta para trabajar con cualquiera de los formatos de archivo admitidos. Es una alternativa perfecta de automatización de Microsoft Office en términos de funciones compatibles, seguridad, estabilidad, escalabilidad, velocidad y precio.
 
 ############################# Support ############################
 support:

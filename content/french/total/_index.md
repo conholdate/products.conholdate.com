@@ -20,7 +20,7 @@ apis:
 
   api:
     # api loop
-    - title: "Conholdate.Total Product Family Includes"
+    - title: "La famille de produits Conholdate.Total comprend"
       link: "https://products.conholdate.com/fr/total/"
       label: "Afficher toutes les API High Code"
       api_product:
