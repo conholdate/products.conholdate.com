@@ -26,7 +26,7 @@ apis:
       api_product:
         # api_product loop
         - link: "/iw/total/net/"
-          img_alt: "Conholdate.סה"כ Total .NET"
+          img_alt: "Conholdate.Total עבור NET"
           image: "/images/conholdate_total-for-net.png"
           product: "Conholdate.Total for"
           platform: ".NET"
@@ -34,7 +34,7 @@ apis:
 
         # api_product loop
         - link: "/iw/total/java/"
-          img_alt: "Conholdate.סה"כ Total Java"
+          img_alt: "Conholdate.Total עבור Java"
           image: "/images/conholdate_total-for-java.png"
           product: "Conholdate.Total for"
           platform: "Java"
