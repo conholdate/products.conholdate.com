@@ -21,11 +21,11 @@ apis:
   api:
     # api loop
     - title: "Conholdate.Total عائلة المنتج تشمل"
-      link: "https://products.conholdate.com/total/"
+      link: "https://products.conholdate.com/ar/total/"
       label: "عرض الكل On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/total/net/"
+        - link: "/ar/total/net/"
           img_alt: "Conholdate.Total for .NET"
           image: "/images/conholdate_total-for-net.png"
           product: "Conholdate.Total for"
@@ -33,7 +33,7 @@ apis:
           content: "الهدف Windows Forms أو ASP.NET أو WPF أو WCF أو أي نوع من التطبيقات يعتمد على .NET Framework 2.0 أو أحدث."
 
         # api_product loop
-        - link: "/total/java/"
+        - link: "/ar/total/java/"
           img_alt: "Conholdate.Total for Java"
           image: "/images/conholdate_total-for-java.png"
           product: "Conholdate.Total for"

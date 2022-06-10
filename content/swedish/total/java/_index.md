@@ -39,7 +39,7 @@ products:
         # product loop
         - image: "https://www.aspose.cloud/templates/aspose/img/products/total/aspose_total-for-java.svg"
           img_alt: "Aspose.Total för Java"
-          name: "Aspose.Total för Java"
+          name: "Aspose.Total for Java"
           content: |
             Aspose.Total för Java är ett paket som består av alla Aspose for Java API:er. Det låter dig skapa, manipulera, konvertera och återge Word, Excel, PDF, PowerPoint, Outlook och mer än 100 andra filformat i alla Java-program utan att installera Microsoft Office.
           link: "https://products.aspose.com/sv/total/java/"
@@ -47,7 +47,7 @@ products:
         # product loop
         - image: "https://www.groupdocs.cloud/templates/groupdocs/img/products/total/border/groupdocs-total-java.svg"
           img_alt: "GroupDocs.Total för Java"
-          name: "GroupDocs.Total för Java"
+          name: "GroupDocs.Total for Java"
           content: |
             GroupDocs.Total för Java är en sammanställning av alla Java API som erbjuds av GroupDocs. Det ger möjligheten att visa, kommentera, konvertera, jämföra, signera, vattenstämpla och redigera de mest populära filformaten i alla Java-applikationer.
           link: "https://products.groupdocs.com/sv/total/java/"

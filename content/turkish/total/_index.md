@@ -21,11 +21,11 @@ apis:
   api:
     # api loop
     - title: "Conholdate.Total Ürün Ailesi İçeriği"
-      link: "https://products.conholdate.com/total/"
+      link: "https://products.conholdate.com/tr/total/"
       label: "Tüm Şirket İçi API'leri Görüntüle"
       api_product:
         # api_product loop
-        - link: "/total/net/"
+        - link: "/tr/total/net/"
           img_alt: ".NET için Conholdate.Total"
           image: "/images/conholdate_total-for-net.png"
           product: "Conholdate.Total for"
@@ -33,7 +33,7 @@ apis:
           content: "Windows Forms, ASP.NET, WPF, WCF veya .NET Framework 2.0 veya sonraki sürümlerine dayalı herhangi bir uygulama türünü hedefleyin."
 
         # api_product loop
-        - link: "/total/java/"
+        - link: "/tr/total/java/"
           img_alt: "Java için Conholdate.Total"
           image: "/images/conholdate_total-for-java.png"
           product: "Conholdate.Total for"

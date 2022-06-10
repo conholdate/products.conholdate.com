@@ -25,15 +25,15 @@ product:
     # product item loop
     - image : "https://cms.admin.containerize.com/templates/conholdate/img/svg/conholdate_total.svg"
       name: Conholdate.Total Ürün Ailesi
-      link: "total/"
+      link: "tr/total/"
       content: "Uygulamalarınızın 100'den fazla dosya biçimini işlemesini sağlayın. Tüm Aspose ve GroupDocs ürünlerini tek bir pakette içerir."
       button_net:
         enable: true
         label: "Conholdate.Total"
-        link: "total/net/"
+        link: "tr/total/net/"
       button_java:
         enable: true
         label: "Conholdate.Total"
-        link: "total/java/"
+        link: "tr/total/java/"
         
 ---
