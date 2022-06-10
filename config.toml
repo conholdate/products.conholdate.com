@@ -47,7 +47,7 @@ defaultContentLang = 'en'
         languageName = "中国人"
         languageCode = "zh"
         contentDir = "content/chinese"
-        flag = "flag-zh"
+        flag = "flag-cn"
         weight = 3
     [languages.ru]
         languageName = "Русский"
@@ -71,7 +71,7 @@ defaultContentLang = 'en'
         languageName = "عربي"
         languageCode = "ar"
         contentDir = "content/arabic"
-        flag = "flag-ar"
+        flag = "flag-sa"
         weight = 7
     [languages.es]
         languageName = "Español"
@@ -83,7 +83,7 @@ defaultContentLang = 'en'
         languageName = "日本"
         languageCode = "ja"
         contentDir = "content/japanese"
-        flag = "flag-ja"
+        flag = "flag-jp"
         weight = 9
     [languages.de]
         languageName = "Deutsch"
@@ -95,7 +95,7 @@ defaultContentLang = 'en'
         languageName = "Svenska"
         languageCode = "sv"
         contentDir = "content/swedish"
-        flag = "flag-sv"
+        flag = "flag-se"
         weight = 11
     [languages.it]
         languageName = "Italiano"
@@ -107,19 +107,19 @@ defaultContentLang = 'en'
         languageName = "Dansk"
         languageCode = "da"
         contentDir = "content/danish"
-        flag = "flag-da"
+        flag = "flag-dk"
         weight = 13
     [languages.el]
         languageName = "Ελληνικά"
         languageCode = "el"
         contentDir = "content/greek"
-        flag = "flag-el"
+        flag = "flag-gr"
         weight = 14
     [languages.iw]
         languageName = "עִברִית"
         languageCode = "iw"
         contentDir = "content/hebrew"
-        flag = "flag-iw"
+        flag = "flag-il"
         weight = 15
 
 ################################# Output formats ##############################
