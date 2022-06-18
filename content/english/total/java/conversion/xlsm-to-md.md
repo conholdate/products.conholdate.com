@@ -49,11 +49,11 @@ content:
 
           -   Create new instance of **Converter** class and pass source document path
           -   Instantiate the proper **ConvertOptions** class e.g. (PdfConvertOptions, WordProcessingConvertOptions, SpreadsheetConvertOptions etc)
-          -   Call **convert** method of **Converter** class instance and pass filename for the converted document
+          -   Call **Convert** method of **Converter** class instance and pass filename for the converted document
         
       title_right: "Source Document Information Extraction"
       content_right: |
-          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc. 
+          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc.
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using development environments such as NetBeans, IntelliJ IDEA and Eclipse.
           
@@ -68,7 +68,7 @@ content:
           -   Instantiate the proper **ConvertOptions** class e.g. (PdfConvertOptions, WordProcessingConvertOptions, SpreadsheetConvertOptions etc)
           -   Set **Watermark** property of the **ConvertOptions** instance
           -   Specify watermark properties (color, width, text, height etc)
-          -   Call Convert method of Converter class instance for conversion to PDF
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
         
       title_right: "Caching Converted Document Results"
       content_right: |
