@@ -9,11 +9,11 @@ ad_headline: "Java EXCEL to TXT Conversion"
 ad_description: "EXCEL to TXT document conversion API for Java | 100+ file formats supported"
 
 ############################# Head ############################
-head_title: "Convert Excel EXCEL to TXT via Java Spreadsheet Conversion APIs"
-head_description: "100% native Java documents conversion library to convert Excel spreadsheet EXCEL to TXT and 100+ other image and document file formats in Java applications."
+head_title: "Convert EXCEL to TXT via Java Spreadsheet Conversion APIs"
+head_description: "100% native Java documents conversion library to convert Excel spreadsheet to TXT and 100+ other image and document file formats in Java applications."
 
 ############################# Header ############################
-title: "Convert Excel EXCEL To TXT In Java"
+title: "Convert EXCEL To TXT In Java"
 description: "Using native Excel documents conversion library – convert EXCEL to TXT and 100+ other file formats in any type of Java based applications with utmost accuracy. Work with an advanced set of document conversion features to remain in command and customize the appearance of the converted documents as per your liking. Programmatically convert all popular Excel worksheet formats to and from Word documents, PowerPoint presentations, PDF, Photoshop, eBook, web and image file formats without using any external API or software. Working with the Java Excel conversion API, easily convert the whole document at once or choose specific pages of the source document based on the selective page ranges or different page numbers to convert easily to a supported document format."
 
 ############################# SubMenu ############################
@@ -49,11 +49,11 @@ content:
 
           -   Create new instance of **Converter** class and pass source document path
           -   Instantiate the proper **ConvertOptions** class e.g. (PdfConvertOptions, WordProcessingConvertOptions, SpreadsheetConvertOptions etc)
-          -   Call **convert** method of **Converter** class instance and pass filename for the converted document
+          -   Call **Convert** method of **Converter** class instance and pass filename for the converted document
         
       title_right: "Source Document Information Extraction"
       content_right: |
-          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc. 
+          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc.
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using development environments such as NetBeans, IntelliJ IDEA and Eclipse.
           
@@ -68,7 +68,7 @@ content:
           -   Instantiate the proper **ConvertOptions** class e.g. (PdfConvertOptions, WordProcessingConvertOptions, SpreadsheetConvertOptions etc)
           -   Set **Watermark** property of the **ConvertOptions** instance
           -   Specify watermark properties (color, width, text, height etc)
-          -   Call Convert method of Converter class instance for conversion to PDF
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF
         
       title_right: "Caching Converted Document Results"
       content_right: |
