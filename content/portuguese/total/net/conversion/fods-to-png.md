@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Converter Excel para PDF/Word/HTML/PPTX em C#"
+      content_left: |
+          Converta suas planilhas do Excel para outros formatos de documentos populares, como PDF, HTML, apresentações do PowerPoint e formatos de arquivo de processamento de texto usando o código C# .NET. Carregue a pasta de trabalho do Excel de origem e salve-a como um documento convertido em algum outro formato de documento.
+
+          -   Crie o objeto **Converter** e passe o arquivo Excel de origem para ele
+          -   Instancie a classe **ConvertOptions** adequada, por exemplo (**PdfConvertOptions** para conversão para PDF, **WordProcessingConvertOptions** para conversão para formatos Word, **MarkupConvertOptions** para conversão para HTML, **PresentationConvertOptions** para conversão para formatos PowerPoint)
+          -   Chame o método **Convert** da instância de classe **Converter** para conversão para PDF/HTML/PPTX ou formato de documento Word
+          
+      title_right: "Convertendo arquivos protegidos por senha"
+      content_right: |
+          Em alguns casos, o tamanho do documento convertido é maior e leva tempo para ser convertido. Por padrão, o documento convertido em cache é salvo na unidade local, mas o [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) oferece recurso de implementação de cache personalizado usando a interface iCache para gerenciar com eficiência a conversão de cache resulta do seu jeito. Ele acelera o processo geral de conversão repetitiva.
+          
+          A [biblioteca de conversão .NET Excel](https://products.groupdocs.com/conversion/net/) também suporta a conversão de e para arquivos protegidos por senha e a compactação dos resultados da conversão para ZIP, RAR, 7Z, TAR, GZ e BZ2 formatos de arquivo.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Adicionar marca d'água de texto ou imagem ao PNG em C #"
       content_left: |
           Converta documentos com precisão (FODS para PNG) exatamente como o arquivo original e aplique marcas d'água de texto ou imagem às páginas do documento convertido usando C# .NET.

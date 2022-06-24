@@ -38,10 +38,27 @@ content:
       content_right: |
           Vous avez besoin des espaces de noms `GroupDocs.Conversion` et `GroupDocs.Viewer` pour convertir les formats de fichiers Word en une large gamme d'images et de types de documents tels que PDF, Microsoft Office (Word, Excel, PowerPoint, Project, Outlook), OpenDocument, HTML et Schémas CAO. Découvrez d'autres [API .NET pour les documents Office](https://products.conholdate.com/fr/total/net/) proposées par Conholdate.Total.
           
-          Obtenez les fichiers d'assemblage respectifs à partir des [téléchargements] (https://downloads.conholdate.com/total/net) ou récupérez l'ensemble du package à partir de [Nuget] (https://www.nuget.org/packages/Conholdate.Total/) pour ajouter `Conholdate.Total for .NET` directement dans votre espace de travail.
+          Obtenez les fichiers d'assemblage respectifs à partir des [téléchargements](https://downloads.conholdate.com/total/net) ou récupérez l'ensemble du package à partir de [Nuget](https://www.nuget.org/packages/Conholdate.Total/) pour ajouter `Conholdate.Total for .NET` directement dans votre espace de travail.
           
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
+
+    - title_left: "Convertir Excel en PDF/Word/HTML/PPTX en C#"
+      content_left: |
+          Convertissez vos feuilles de calcul Excel en d'autres formats de documents populaires tels que PDF, HTML, présentations PowerPoint et formats de fichiers de traitement de texte à l'aide du code C# .NET. Chargez le classeur Excel source et enregistrez-le en tant que document converti dans un autre format de document.
+
+          -   Créez un objet **Converter** et transmettez-lui le fichier Excel source
+          -   Instanciez la classe **ConvertOptions** appropriée, par ex. (**PdfConvertOptions** pour la conversion au format PDF, **WordProcessingConvertOptions** pour la conversion au format Word, **MarkupConvertOptions** pour la conversion au format HTML, **PresentationConvertOptions** pour la conversion au format PowerPoint)
+          -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion au format de document PDF/HTML/PPTX ou Word
+          
+      title_right: "Conversion d'archives protégées par mot de passe"
+      content_right: |
+          Dans certains cas, la taille du document converti est plus grande et la conversion prend du temps. Par défaut, le document converti en cache est enregistré sur le lecteur local, mais [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) offre une fonctionnalité de mise en œuvre de cache personnalisée à l'aide de l'interface iCache pour gérer efficacement résultats de la conversion du cache à votre manière. Il accélère le processus de conversion répétitif global.
+          
+          La [bibliothèque de conversion .NET Excel](https://products.groupdocs.com/conversion/net/) prend également en charge la conversion vers et depuis des archives protégées par mot de passe et la compression des résultats de conversion en ZIP, RAR, 7Z, TAR, GZ et BZ2 formats d'archives.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
 
     - title_left: "Ajouter un texte ou un filigrane d'image à PPSX en C #"
       content_left: |

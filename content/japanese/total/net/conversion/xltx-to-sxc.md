@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "C＃でExcelをPDF/Word/HTML/PPTXに変換する"
+      content_left: |
+          Excelスプレッドシートを、C＃.NETコードを使用して、PDF、HTML、PowerPointプレゼンテーション、ワードプロセッシングファイル形式などの他の一般的なドキュメント形式に変換します。ソースExcelブックをロードし、変換されたドキュメントとして他のドキュメント形式で保存します。
+
+          -   **Converter**オブジェクトを作成し、それにソースExcelファイルを渡します
+          -   適切な**ConvertOptions**クラスをインスタンス化します。 （PDFへの変換用の**PdfConvertOptions**、Word形式への変換用の**WordProcessingConvertOptions**、HTMLへの変換用の**MarkupConvertOptions**、PowerPoint形式への変換用の**PresentationConvertOptions**）
+          -   PDF / HTML / PPTXまたはWord文書形式に変換するには、**Converter**クラスインスタンスの**Convert**メソッドを呼び出します
+          
+      title_right: "パスワードで保護されたアーカイブの変換"
+      content_right: |
+          場合によっては、変換されたドキュメントサイズが大きくなり、変換に時間がかかることがあります。デフォルトでは、キャッシュされた変換済みドキュメントはローカルドライブに保存されますが、[Conholdate.Total for .NET](https://products.conholdate.com/total/net/) は、iCacheインターフェイスを使用して効率的に管理するカスタムキャッシュ実装機能を提供しますキャッシュ変換は独自の方法で行われます。これにより、反復的な変換プロセス全体が高速化されます。
+          
+          [.NET Excel変換ライブラリ](https://products.groupdocs.com/conversion/net/) は、パスワードで保護されたアーカイブとの間の変換、および変換結果のZIP、RAR、7Z、TAR、GZ、BZ2への圧縮もサポートしています。アーカイブ形式。
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "C＃のSXCにテキストまたは画像の透かしを追加する"
       content_left: |
           ドキュメント（XLTXからSXC）を元のファイルとまったく同じように正確に変換し、C＃.NETを使用して、変換されたドキュメントページにテキストまたは画像の透かしを適用します。
