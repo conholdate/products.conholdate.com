@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Convert Excel to PDF/Word/HTML/PPTX in C#"
+      content_left: |
+          Convert your Excel spreadsheets to other popular documents formats such as PDF, HTML, PowerPoint presentations and Word processing file formats using C# .NET code. Load the source Excel workbook and save it as a converted document in some other document format.
+
+          -   Create **Converter** object and pass source Excel file to it
+          -   Instantiate the proper **ConvertOptions** class e.g. (**PdfConvertOptions** for conversion to PDF, **WordProcessingConvertOptions** for conversion to Word formats, **MarkupConvertOptions** for conversion to HTML, **PresentationConvertOptions** for conversion to PowerPoint formats)
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF/HTML/PPTX or Word document format
+          
+      title_right: "Converting Password Protected Archives"
+      content_right: |
+          In some cases, the converted document size is bigger and it takes time to be converted. By default, the cached converted document are saved to the local drive, but [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) offers custom cache implementation feature using iCache interface to efficiently manage cache conversion results in your own way. It speeds up the overall repetitive conversion process.
+          
+          The [.NET Excel conversion library](https://products.groupdocs.com/conversion/net/) also supports converting to and from password protected archives and compressing the conversion results to ZIP, RAR, 7Z, TAR, GZ and BZ2 archive formats.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Add Text or Image Watermark to MHT in C#"
       content_left: |
           Accurately convert documents (XLSM to MHT) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.

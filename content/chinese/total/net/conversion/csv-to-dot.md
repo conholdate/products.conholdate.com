@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "在 C# 中將 Excel 轉換為 PDF/Word/HTML/PPTX"
+      content_left: |
+          使用 C# .NET 代碼將您的 Excel 電子表格轉換為其他流行的文檔格式，例如 PDF、HTML、PowerPoint 演示文稿和文字處理文件格式。加載源 Excel 工作簿並將其另存為其他文檔格式的轉換文檔。
+
+          -   創建 **Converter** 對象並將源 Excel 文件傳遞給它
+          -   實例化正確的 **ConvertOptions** 類，例如（**PdfConvertOptions** 用於轉換為 PDF，**WordProcessingConvertOptions** 用於轉換為 Word 格式，**MarkupConvertOptions** 用於轉換為 HTML，**PresentationConvertOptions** 用於轉換為 PowerPoint 格式）
+          -   調用**Converter**類實例的**Convert**方法轉換為PDF/HTML/PPTX或Word文檔格式
+          
+      title_right: "轉換受密碼保護的檔案"
+      content_right: |
+          在某些情況下，轉換後的文檔尺寸更大，轉換需要時間。默認情況下，緩存轉換後的文檔保存到本地驅動器，但是[Conholdate.Total for .NET](https://products.conholdate.com/total/net/)提供了使用iCache接口的自定義緩存實現功能，以有效管理以您自己的方式緩存轉換結果。它加快了整個重複轉換過程。
+          
+          [.NET Excel 轉換庫](https://products.groupdocs.com/conversion/net/) 還支持與受密碼保護的檔案相互轉換，並將轉換結果壓縮為 ZIP、RAR、7Z、TAR、GZ 和 BZ2存檔格式。
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "在 C# 中將文本或圖像水印添加到 DOT"
       content_left: |
           準確地將文檔（CSV 到 DOT）轉換為原始文件，並使用 C# .NET 將文本或圖像水印應用於轉換後的文檔頁面。
