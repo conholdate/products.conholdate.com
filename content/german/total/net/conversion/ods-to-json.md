@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Konvertieren Sie Excel in C# in PDF/Word/HTML/PPTX"
+      content_left: |
+          Konvertieren Sie Ihre Excel-Tabellen mithilfe von C# .NET-Code in andere gängige Dokumentformate wie PDF, HTML, PowerPoint-Präsentationen und Textverarbeitungsdateiformate. Laden Sie die Excel-Quellarbeitsmappe und speichern Sie sie als konvertiertes Dokument in einem anderen Dokumentformat.
+
+          -   **Converter**-Objekt erstellen und die Excel-Quelldatei daran übergeben
+          -   Instanziieren Sie die richtige Klasse **ConvertOptions**, z. (**PdfConvertOptions** für die Konvertierung in PDF, **WordProcessingConvertOptions** für die Konvertierung in Word-Formate, **MarkupConvertOptions** für die Konvertierung in HTML, **PresentationConvertOptions** für die Konvertierung in PowerPoint-Formate)
+          -   Rufen Sie die **Convert**-Methode der **Converter**-Klasseninstanz für die Konvertierung in das PDF/HTML/PPTX- oder Word-Dokumentformat auf
+          
+      title_right: "Konvertieren passwortgeschützter Archive"
+      content_right: |
+          In einigen Fällen ist das konvertierte Dokument größer und die Konvertierung dauert einige Zeit. Standardmäßig wird das zwischengespeicherte konvertierte Dokument auf dem lokalen Laufwerk gespeichert, aber [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) bietet eine benutzerdefinierte Cache-Implementierungsfunktion mithilfe der iCache-Schnittstelle zur effizienten Verwaltung Zwischenspeichern Sie Konvertierungsergebnisse auf Ihre eigene Weise. Es beschleunigt den gesamten sich wiederholenden Konvertierungsprozess.
+          
+          Die [.NET Excel-Konvertierungsbibliothek](https://products.groupdocs.com/conversion/net/) unterstützt auch die Konvertierung in und aus passwortgeschützten Archiven und die Komprimierung der Konvertierungsergebnisse in ZIP, RAR, 7Z, TAR, GZ und BZ2 Archivformate.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Hinzufügen von Text- oder Bildwasserzeichen zu JSON in C#"
       content_left: |
           Konvertieren Sie Dokumente genau wie die Originaldatei (ODS in JSON) und wenden Sie mithilfe von C# .NET Text- oder Bildwasserzeichen auf die konvertierten Dokumentseiten an.

@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Excel'i C# ile PDF/Word/HTML/PPTX'e Dönüştür"
+      content_left: |
+          C# .NET kodunu kullanarak Excel elektronik tablolarınızı PDF, HTML, PowerPoint sunumları ve Word işleme dosya biçimleri gibi diğer popüler belge biçimlerine dönüştürün. Kaynak Excel çalışma kitabını yükleyin ve başka bir belge biçiminde dönüştürülmüş bir belge olarak kaydedin.
+
+          -   **Converter** nesnesi oluşturun ve kaynak Excel dosyasını ona iletin
+          -   Uygun **ConvertOptions** sınıfını örnekleyin, ör. (**PDF'ye dönüştürme için **PdfConvertOptions**, Word biçimlerine dönüştürme için **WordProcessingConvertOptions**, HTML'ye dönüştürme için **MarkupConvertOptions**, PowerPoint biçimlerine dönüştürme için **PresentationConvertOptions**)
+          -   PDF/HTML/PPTX veya Word belge formatına dönüştürmek için **Converter** sınıfı örneğinin **Convert** yöntemini çağırın
+          
+      title_right: "Parola Korumalı Arşivleri Dönüştürme"
+      content_right: |
+          Bazı durumlarda dönüştürülen belge boyutu daha büyüktür ve dönüştürülmesi zaman alır. Varsayılan olarak, önbelleğe alınan dönüştürülmüş belge yerel sürücüye kaydedilir, ancak [Conholdate.Total for .NET](https://products.conholdate.com/total/net/), verimli bir şekilde yönetmek için iCache arabirimini kullanarak özel önbellek uygulama özelliği sunar önbellek dönüştürme, kendi yönteminizle sonuçlanır. Genel tekrarlayan dönüştürme sürecini hızlandırır.
+          
+          [.NET Excel dönüştürme kitaplığı](https://products.groupdocs.com/conversion/net/) ayrıca parola korumalı arşivlere ve arşivlerden dönüştürmeyi ve dönüştürme sonuçlarını ZIP, RAR, 7Z, TAR, GZ ve BZ2'ye sıkıştırmayı da destekler arşiv biçimleri.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "C# ile PPTM'ye Metin veya Görüntü Filigranı Ekleme"
       content_left: |
           Belgeleri (XLSB'den PPTM'ye) tam olarak orijinal dosya gibi doğru bir şekilde dönüştürün ve C# .NET kullanarak dönüştürülen belge sayfalarına metin veya görüntü filigranları uygulayın.

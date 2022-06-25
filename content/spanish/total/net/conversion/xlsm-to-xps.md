@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Convierta Excel a PDF/Word/HTML/PPTX en C#"
+      content_left: |
+          Convierta sus hojas de cálculo de Excel a otros formatos de documentos populares, como PDF, HTML, presentaciones de PowerPoint y formatos de archivo de procesamiento de texto usando código C# .NET. Cargue el libro de Excel de origen y guárdelo como un documento convertido en algún otro formato de documento.
+
+          -   Cree un objeto **Converter** y pásele el archivo fuente de Excel
+          -   Cree una instancia de la clase **ConvertOptions** adecuada, p. (**PdfConvertOptions** para conversión a PDF, **WordProcessingConvertOptions** para conversión a formatos de Word, **MarkupConvertOptions** para conversión a HTML, **PresentationConvertOptions** para conversión a formatos de PowerPoint)
+          -   Llame al método **Convert** de la instancia de la clase **Converter** para la conversión a formato de documento PDF/HTML/PPTX o Word
+          
+      title_right: "Conversión de archivos protegidos por contraseña"
+      content_right: |
+          En algunos casos, el tamaño del documento convertido es mayor y lleva tiempo convertirlo. De manera predeterminada, el documento convertido en caché se guarda en la unidad local, pero [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) ofrece una función de implementación de caché personalizada mediante la interfaz iCache para administrar de manera eficiente resultados de conversión de caché a su manera. Acelera el proceso general de conversión repetitiva.
+          
+          La [biblioteca de conversión de .NET Excel](https://products.groupdocs.com/conversion/net/) también admite la conversión hacia y desde archivos protegidos con contraseña y la compresión de los resultados de la conversión a ZIP, RAR, 7Z, TAR, GZ y BZ2. formatos de archivo.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Agregar marca de agua de texto o imagen a XPS en C#"
       content_left: |
           Convierta con precisión documentos (XLSM a XPS) exactamente como el archivo original y aplique marcas de agua de texto o imagen a las páginas del documento convertido usando C# .NET.
