@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Konvertera Excel till PDF/Word/HTML/PPTX i C#"
+      content_left: |
+          Konvertera dina Excel-kalkylblad till andra populära dokumentformat som PDF, HTML, PowerPoint-presentationer och ordbehandlingsfilformat med C# .NET-kod. Ladda källarbetsboken för Excel och spara den som ett konverterat dokument i något annat dokumentformat.
+
+          -   Skapa ett **Converter**-objekt och skicka Excel-källfilen till det
+          -   Instantiera rätt **ConvertOptions**-klass, t.ex. (**PdfConvertOptions** för konvertering till PDF, **WordProcessingConvertOptions** för konvertering till Word-format, **MarkupConvertOptions** för konvertering till HTML, **PresentationConvertOptions** för konvertering till PowerPoint-format)
+          -   Anropa **Convert** för klassinstansen **Converter** för konvertering till PDF/HTML/PPTX- eller Word-dokumentformat
+          
+      title_right: "Konvertera lösenordsskyddade arkiv"
+      content_right: |
+          I vissa fall är den konverterade dokumentstorleken större och det tar tid att konvertera. Som standard sparas det cachade konverterade dokumentet på den lokala enheten, men [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) erbjuder anpassad cacheimplementeringsfunktion som använder iCache-gränssnittet för att effektivt hantera cachekonvertering resulterar på ditt eget sätt. Det påskyndar den övergripande repetitiva konverteringsprocessen.
+          
+          [.NET Excel-konverteringsbiblioteket](https://products.groupdocs.com/conversion/net/) stöder även konvertering till och från lösenordsskyddade arkiv och komprimering av konverteringsresultaten till ZIP, RAR, 7Z, TAR, GZ och BZ2 arkivformat.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Lägg till text eller bildvattenstämpel till POT i C#"
       content_left: |
           Konvertera dokument (XLTM till POT) exakt som originalfilen och använd text- eller bildvattenstämplar på de konverterade dokumentsidorna med C# .NET.
