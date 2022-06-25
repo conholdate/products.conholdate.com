@@ -43,6 +43,23 @@ content:
       gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
       gistfile: "excel-to-pdf-conversion.cs"
 
+    - title_left: "Konverter Excel til PDF/Word/HTML/PPTX i C#"
+      content_left: |
+          Konverter dine Excel-regneark til andre populære dokumentformater såsom PDF, HTML, PowerPoint-præsentationer og tekstbehandlingsfilformater ved hjælp af C# .NET-kode. Indlæs Excel-kildeprojektmappen og gem den som et konverteret dokument i et andet dokumentformat.
+
+          -   Opret **Converter**-objekt og send Excel-kildefilen til det
+          -   Instantiér den rigtige **ConvertOptions**-klasse, f.eks. (**PdfConvertOptions** for konvertering til PDF, **WordProcessingConvertOptions** for konvertering til Word-formater, **MarkupConvertOptions** for konvertering til HTML, **PresentationConvertOptions** for konvertering til PowerPoint-formater)
+          -   Kald **Convert**-metoden for **Converter**-klasseinstansen til konvertering til PDF/HTML/PPTX- eller Word-dokumentformat
+          
+      title_right: "Konvertering af adgangskodebeskyttede arkiver"
+      content_right: |
+          I nogle tilfælde er den konverterede dokumentstørrelse større, og det tager tid at blive konverteret. Som standard gemmes det cachelagrede konverterede dokument på det lokale drev, men [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) tilbyder brugerdefineret cacheimplementeringsfunktion ved hjælp af iCache-grænsefladen til effektiv administration cachekonvertering resulterer på din egen måde. Det fremskynder den overordnede gentagne konverteringsproces.
+          
+          [.NET Excel-konverteringsbiblioteket](https://products.groupdocs.com/conversion/net/) understøtter også konvertering til og fra adgangskodebeskyttede arkiver og komprimering af konverteringsresultaterne til ZIP, RAR, 7Z, TAR, GZ og BZ2 arkivformater.
+          
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.cs"
+
     - title_left: "Tilføj tekst eller billedvandmærke til DIF i C#"
       content_left: |
           Konverter dokumenter (EXCEL til DIF) nøjagtigt som den originale fil, og anvend tekst- eller billedvandmærker på de konverterede dokumentsider ved hjælp af C# .NET.
