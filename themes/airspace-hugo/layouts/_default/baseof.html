@@ -2,7 +2,7 @@
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 {{- partial "head.html" . -}}
 {{- partial "structured-data.html" . -}}
-<body>
+<body {{ if eq .Page.Lang "ar" }}class="rtlang"{{end}}>
 	{{ if not (in .Site.BaseURL "products-qa") }}{{- partial "gtm.html" . -}}{{ end }}
 	{{- partial "breadcrumb.html" . -}}
 	{{- block "main" . }}{{- end }}
