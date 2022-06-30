@@ -14,7 +14,6 @@
 {{ $depth := len $segments }}
 
 {{ if eq .Site.LanguageCode "en"}}
-
     {{ $family = index ($segments) 0 }}
     {{ $platform = index ($segments) 1 }}
     {{ $feature = index ($segments) 2 }}
@@ -26,7 +25,6 @@
         {{ $informat = index ($segments) (sub $depth 1) }}
         {{ $slug = $informat }}
     {{ end }}
-   
 {{ else }}
     {{ $family = index ($segments) 1 }}
     {{ $platform = index ($segments) 2 }}
@@ -47,6 +45,7 @@
     {{ $platformname = "Java" }}
 {{ end }}
 
+{{ $formats := site.Data.fileformats }}
 
 <!-- ############ HEADER ############ -->
 <a id="top" class="anchor" name="top"></a>
@@ -139,14 +138,8 @@
                 {{ end }}
             {{ else if and (ne $other_out_formats "") (ne $other_out_formats nil) }}
                 {{ $other_out_formats := (split $other_out_formats " ") }}
-
-                {{ $formatdetails := newScratch }}
-                {{ range site.Data.fileformats }}
-                    {{ if in $other_out_formats .format}}
-                        {{ $formatdetails.Set .format (index . "name") }}
-                    {{ end }}
-                {{ end }}
-                {{ range $other_out_formats }}     
+                {{ range $other_out_formats }}
+                    {{ $formatdetails := (index $formats .) }}
                     {{ $absURL := ""}}
                     <div class="col-sm-3 col-md-3">
                         <h4>
@@ -158,18 +151,13 @@
                         <a href="{{ $absURL | absURL }}">{{ T (index $verb $feature) . }}</a>
                         {{ end }}
                         </h4>
-                        {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
+                        {{ if ne $formatdetails nil }}<p>({{ (index $formatdetails "name") }})</p>{{ end }}
                     </div>
                 {{ end }}
             {{ else if and (ne $other_in_formats "") (ne $other_in_formats nil) }}
                 {{ $other_in_formats := (split $other_in_formats " ") }}
-                {{ $formatdetails := newScratch }}
-                {{ range site.Data.fileformats }}
-                    {{ if in $other_in_formats .format}}
-                        {{ $formatdetails.Set .format (index . "name") }}
-                    {{ end }}
-                {{ end }}
                 {{ range $other_in_formats }}
+                    {{ $formatdetails := (index $formats .) }}
                     {{ $absURL := ""}}
                     <div class="col-sm-3 col-md-3">
                         <h4>
@@ -181,7 +169,7 @@
                         <a href="{{ $absURL | absURL }}">{{ T (index $verb $feature) . }}</a>
                         {{ end }}
                         </h4>
-                        {{ if (ne ($formatdetails.Get .) nil) }}<p>({{ ($formatdetails.Get .) }})</p>{{ end }}
+                        {{ if ne $formatdetails nil }}<p>({{ (index $formatdetails "name") }})</p>{{ end }}
                     </div>
                 {{ end }}
             
