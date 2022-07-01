@@ -4,17 +4,17 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/conversion/pdf-to-csv/"
-other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
+other_out_formats: "DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD DICOM FODP JPG"
 ad_headline: "Convert PDF to CSV | .NET"
 ad_description: "Most Accurate PDF to CSV document Conversion solution for your .NET applications."
 
 ############################# Head ############################
-head_title: "Convert PDF to CSV in C# VB.NET ASP.NET | Document Conversion"
-head_description: "Code example to convert PDF to CSV and 100+ other file formats in .NET (C#, VB.NET, ASP.NET & .NET Core) applications. Display the Converted CSV document as HTML viewer."
+head_title: "Convert PDF to CSV in C# .NET – Fast PDF Conversion"
+head_description: "Fast & secure PDF to CSV conversion in .NET & Mono frameworks – Convert PDF to CSV and 100+ other file formats in any type of C#, VB.NET, ASP.NET & .NET Core application."
 
 ############################# Header ############################
-title: "Convert PDF to CSV in .NET & View as HTML"
-description: "Programmatically convert PDF to CSV in C# .NET applications using flexible document conversion features to customize the resultant document. Convert the complete document from one file format to other or choose selective pages of a source document based on the page numbers or page ranges and easily convert to a supported document format."
+title: "Convert PDF to CSV In C# .NET"
+description: "Convert PDF to CSV in C# .NET applications using flexible document conversion features to customize the appearance of the converted document format. Accurately convert from PDF files to Word processing document, Excel spreadsheet, PowerPoint presentation, Photoshop, eBook, web and image file formats. Convert the whole document or choose specific pages of the PDF file based on the selective page numbers or page ranges and easily convert to a wide range of supported document formats."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,53 +24,69 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "PDF to CSV Conversion in C# .NET"
+    - title_left: "How to Convert PDF to CSV in C# .NET"
       content_left: |
-          Follow these simple steps to convert PDF to CSV in C# .NET. View the converted CSV document as HTML without using any external software.
+          Follow these simple steps for PDF to CSV conversion in .NET. View the converted document as it is or render and display it as HTML without using any external software.
 
           -   Create **Converter** object to convert PDF document
           -   Set the convert options for CSV format
           -   Call **Convert** method of **Converter** class instance for conversion to CSV
           -   Set options for HTML viewer
-          -   Create **Viewer** object to view converted CSV as HTML
+          -   Create **Viewer** object to view converted document as HTML
           
       title_right: "Downloads & Installation Instructions"
       content_right: |
-          You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert between a wide range of popular document types such as PDF, Microsoft Word, Excel, PowerPoint, Project, Outlook, HTML, diagrams and image file formats. Explore other [.NET APIs for Office documents](https://products.conholdate.com/total/net/) as offered by Conholdate.Total.
+          You require `GroupDocs.Conversion` & `GroupDocs.Viewer` namespaces to convert PDF files to a wide range of images and document types such as Microsoft Office (Word, Excel, PowerPoint, Project, Outlook), OpenDocument, HTML and CAD diagrams. Explore other [.NET APIs for Office documents](https://products.conholdate.com/total/net/) as offered by Conholdate.Total.
           
-          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [Nuget](https://www.nuget.org/packages/Conholdate.Total/) to add 'Conholdate.Total` directly in your workspace.
+          Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/net) or fetch the whole package from [NuGet](https://www.nuget.org/packages/Conholdate.Total/) to add `Conholdate.Total for .NET` directly in your workspace.
           
-      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
-      gistfile: "word-to-pdf-conversion.cs"
+      gisthash: "d2247f969461c42ed50a02e53e93953a"
+      gistfile: "pdf-to-word-conversion-and-html-viewer.cs"
 
-    - title_left: "Add Watermark to Converted CSV in C#"
+    - title_left: "Convert PDF to Word Documents in .NET"
       content_left: |
-          Accurately convert documents (PDF to CSV) exactly as the original file and apply text or image watermarks to the converted document pages using C# .NET.
+          It gets easier to convert from PDF to a Word document in C# .NET applications with Conholdate.Total APIs. The PDF file transforms to a Word (DOCX) file with document formatting as the source file. You can easily edit the content such as text, tables, images and lists from the converted Word document.
 
-          -   Create **Converter** object to convert PDF document
-          -   Create new instance of **WatermarkOptions** class
-          -   Specify watermark properties (color, width, text, image etc)
-          -   Instantiate the proper **ConvertOptions** class
-          -   Set **Watermark** property of the **ConvertOptions** instance
-          -   Call **Convert** method of **Converter** class instance for conversion to CSV
+          -   Create **Converter** class object and pass source **PDF** file to it
+          -   Call the **Convert** method of the **Converter** object
+          -   Specify **DOCX** as the desired output format by passing **WordProcessingConvertOptions** object to it
+          -   Call **Convert** method of **Converter** class instance for conversion to **DOCX**
+          
+      title_right: "Converting Password Protected Archives"
+      content_right: |
+          In some cases, the converted document size is bigger and it takes time to be converted. By default, the cached converted document are saved to the local drive, but [Conholdate.Total for .NET](https://products.conholdate.com/total/net/) offers custom cache implementation feature using iCache interface to efficiently manage cache conversion results in your own way. It speeds up the overall repetitive conversion process.
+          
+          The [.NET PDF conversion library](https://products.groupdocs.com/conversion/net/) also supports converting to and from password protected archives and compressing the conversion results to ZIP, RAR, 7Z, TAR, GZ and BZ2 archive formats.
+          
+      gisthash: "d2247f969461c42ed50a02e53e93953a"
+      gistfile: "pdf-to-word-conversion.cs"
+
+    - title_left: "Convert PDF to Excel in C# .NET"
+      content_left: |
+          Turn PDF to Excel spreadsheets using a few lines of C# .NET code. The contents of a PDF file are converted into rows and columns of an Excel worksheet that can be edited easily as you may require. A PDF file can be converted into these spreadsheet formats (XLS, XLSX, XLSM, XLSB, XLTX, XLT), OpenDocument (ODS, OTS) and Apple iWork Numbers.
+
+          -   Create **Converter** class object and pass source **PDF** file to it
+          -   Call the **Convert** method of the **Converter** object
+          -   Specify **XLSX** as the desired output format by passing **SpreadsheetConvertOptions** object to it
+          -   Call **Convert** method of **Converter** class instance for conversion to **XLSX**
         
       title_right: "Source Document Information Extraction"
       content_right: |
-          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc. 
+          The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc.
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using platforms such as Windows Azure, Mono and Xamarin.
           
-      gisthash: "a15affe15284876ce010a315a09da1f0"
-      gistfile: "convert-word-to-pdf-and-add-text-watermark-to-converted-pdf.cs"
+      gisthash: "d2247f969461c42ed50a02e53e93953a"
+      gistfile: "pdf-to-excel-conversion.cs"
 
-    - title_left: "Convert Password Protected Word to PDF"
+    - title_left: "Convert PDF to PowerPoint in C# .NET"
       content_left: |
-          Password protected document conversion is made easier in .NET. Just add a few lines of C# code to precisely convert a password protected Word document to PDF file without using any external software.
+          Converting PDF to PowerPoint (PPT, PPTX) slides is faster with Conholdate.Total for .NET APIs. Once converted, you can easily edit the PowerPoint presentations and slides in Microsoft PowerPoint.
 
-          -   Define Func **LoadOptions** and set password from document specific load options
-          -   Create **Converter** object to convert Word document
-          -   Instantiate **PdfConvertOptions** class
-          -   Call **Convert** method of **Converter** class instance for conversion to PDF
+          -   Create **Converter** class object and pass source **PDF** file to it
+          -   Call the **Convert** method of the **Converter** object
+          -   Specify **PPTX** as the desired output format by passing **PresentationConvertOptions** object to it
+          -   Call **Convert** method of **Converter** class instance for conversion to **PPTX**
           
       title_right: "Load & Convert Remotely Located Documents"
       content_right: |
@@ -78,8 +94,27 @@ content:
           
           Conholdate.Total for .NET APIs are native to Windows Forms, ASP.NET, WPF, WCF or any type of application based on .NET Framework 2.0 or later.
           
-      gisthash: "3b7541492166a47d49ca85c55b531055"
-      gistfile: "convert-password-protected-word-to-pdf.cs"
+      gisthash: "d2247f969461c42ed50a02e53e93953a"
+      gistfile: "pdf-to-powerpoint-conversion.cs"
+
+    - title_left: "Convert PDF to Images in .NET"
+      content_left: |
+          Convert PDF to image formats such as JPG, PNG, GIF, BMP, TIFF and many others with a precised image quality and resolution. Transform entire PDF file or choose from some selected pages to convert into the images.
+
+          -   Create **Converter** class object and pass source **PDF** file to it
+          -   Call the **Convert** method of the **Converter** object
+          -   Declare **SavePageStream** delegate to save converted document page into stream
+          -   Specify **PNG** as the desired output format by passing **ImageConvertOptions** object to it
+          -   Call **Convert** method of **Converter** class instance for conversion to **PNG**
+          
+      title_right: "Add Text or Image Watermarks to Documents"
+      content_right: |
+          Accurately convert documents exactly as the original file and apply text or image watermarks to the converted document pages. Stamp the watermarks smartly using a handful set of watermark options to manage font, color, width, height, rotation angle, transparency and placing the watermark in the background of the document pages.
+          
+          The auto-detection of the source document format is another useful feature to retrieve the file extension itself in some cases where the source file is presented in the form of bytes stream. Developers can also get a complete list of all supported conversion formats when converting one document to another file format by calling GetPossibleConversions method of Converter object.
+          
+      gisthash: "d2247f969461c42ed50a02e53e93953a"
+      gistfile: "pdf-to-image-conversion.cs"
 
 ############################# About Formats ############################
 about_formats:
@@ -88,7 +123,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF
+    other_out_formats: DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD DICOM FODP JPG
 ############################# Back to top ###############################
 back_to_top:
   enable: true
