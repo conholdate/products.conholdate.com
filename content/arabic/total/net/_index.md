@@ -465,7 +465,7 @@ features:
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "دعم وظيفة "تعقب التغييرات" في Microsoft Word أثناء مقارنة ملفات Word"
+        content: "دعم وظيفة تعقب التغييرات في Microsoft Word أثناء مقارنة ملفات Word"
 
       # feature loop
       - icon: "fas fa-code"
