@@ -4,17 +4,17 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/java/conversion/pdf-to-dot/"
-other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
-ad_headline: "Java PDF to DOT Conversion"
-ad_description: "PDF to DOT document conversion API for Java | 100+ file formats supported"
+other_out_formats: "DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD DICOM FODP JPG"
+ad_headline: "Convert PDF to DOT | Java"
+ad_description: "Most Accurate PDF to DOT document Conversion solution for Java applications."
 
 ############################# Head ############################
-head_title: "Convert PDF to DOT in Java & J2SE Applications"
-head_description: "Java document conversion library to convert PDF to DOT and 100+ other file formats in Java & J2SE applications. View the Converted DOT document as HTML viewer."
+head_title: "Convert PDF to DOT in Java – PDF Conversion API"
+head_description: "Convert PDF to DOT in Java applications. Fast & accurate PDF to DOT conversion API for Java to convert PDF to documents, images and 100+ other file formats."
 
 ############################# Header ############################
-title: "Convert PDF to DOT in Java & View as HTML"
-description: "Programmatically convert PDF to DOT in Java & J2SE applications using flexible document manipulation options to customize the resultant document. Convert the complete document or some specific pages based on page numbers or selective page ranges using Java PDF to DOT conversion library."
+title: "Convert PDF to DOT In Java Applications"
+description: "Convert PDF files to DOT in Java applications using flexible document conversion features to manipulate the appearance of the converted document format. Easily convert the whole document at once or choose specific pages of the PDF file based on the selective page numbers or page ranges and convert to a wide range of supported document formats such as Word processing documents, Excel spreadsheets, PowerPoint presentations, Photoshop, eBook, web and images."
 
 ############################# SubMenu ############################
 submenu:
@@ -26,10 +26,10 @@ content:
     block:
     - title_left: "How to Convert PDF to DOT in Java"
       content_left: |
-          Perform PDF to DOT file conversion in Java using three simple steps. View the converted document as HTML without any external software dependency.
+          Perform PDF files to DOT file conversion in Java using three simple steps. Using the below code example – view the converted document as it is or render it further to view as an HTML file without installing any external software.
 
           -   Create a new instance of **Converter** class and load the PDF file
-          -   Set **ConvertOptions** for the DOT document type
+          -   Set **ConvertOptions** for the DOT file type
           -   Call **Convert** method of **Converter** class instance for conversion to DOT
           -   Set options for HTML viewer
           -   Create **Viewer** object to view converted DOT as HTML
@@ -40,34 +40,33 @@ content:
           
           Get the respective assembly files from the [downloads](https://downloads.conholdate.com/total/java) or fetch the whole package from [Maven](https://repository.conholdate.com/webapp/#/artifacts/browse/tree/General/repo) to add `Conholdate.Total` directly in your workspace.
           
-      gisthash: "675fd7fb45acf595fd9f872593eb2899"
-      gistfile: "word-to-pdf-conversion.java"
-          
-    - title_left: "Convert Password Protected PDF to DOT"
-      content_left: |
-          Accurately load and convert documents that are protected with a password within your Java based applications. The file format conversion API also supports rendering remote documents from different sources including S3, Blob, FTP, Stream, URL or a local disk.
+      gisthash: "1b2b5b5a97415ef538ac358347f27174"
+      gistfile: "pdf-to-word-conversion-in-java-and-html-viewer.java"
 
-          -   Create new instance of **Converter** class and pass source document path
-          -   Instantiate the proper **ConvertOptions** class e.g. (**PdfConvertOptions**, **WordProcessingConvertOptions**, **SpreadsheetConvertOptions** etc.)
-          -   Call **convert** method of **Converter** class instance and pass filename for the converted document
-        
+    - title_left: "Convert PDF to Word Documents in Java"
+      content_left: |
+          It gets easier to convert from PDF to a Word document in Java based applications with Conholdate.Total APIs. The PDF file transforms perfectly to a Word (DOCX) file and supports an additional set of document formatting features to customize the layout of the output file to match your needs. You can easily edit the content such as text, tables, images and lists from the converted Word document.
+
+          -   Create a new instance of **Converter** class and load **PDF** as input file
+          -   Instantiate **WordProcessingConvertOptions** as the convert option
+          -   Call **Convert** method of **Converter** class instance for conversion to **DOCX**
+          
       title_right: "Source Document Information Extraction"
       content_right: |
           The documents information extraction feature not only allows getting the basic information about the source document file but it also supports extracting some valuable file-format specific information such as project start and end dates of a Microsoft Project file, any printing restrictions on a PDF document, list of folders enclosed in an Outlook data file etc. 
 
           Convert popular document file formats on different operating systems such as Windows, Linux or macOS while using development environments such as NetBeans, IntelliJ IDEA and Eclipse.
           
-      gisthash: "35e23082b8fa43502d6784c38947eef1"
-      gistfile: "password-protected-word-document-to-pdf-conversion.java"
+      gisthash: "1b2b5b5a97415ef538ac358347f27174"
+      gistfile: "pdf-to-word-conversion.java"
 
-    - title_left: "Convert Specific Word Pages to PDF in Java"
+    - title_left: "Convert PDF to Excel in Java"
       content_left: |
-          Java document conversion API allows you to choose selected pages from the source document and accurately convert to the supported document format. The code example below shows how to convert the 1st and 4th pages of a Word document to the resultant PDF file.
+          Turn PDF to Excel spreadsheets using a few lines of Java code. The contents of a PDF file are converted into rows and columns of an Excel worksheet that can be edited easily as you may require. A PDF file can be converted into these spreadsheet formats (XLS, XLSX, XLSM, XLSB, XLTX, XLT), OpenDocument (ODS, OTS) and Apple iWork Numbers.
 
-          -   Create a new instance of **Converter** class and load input (Word) document
-          -   Instantiate the proper **ConvertOptions** class e.g. (**PdfConvertOptions**, **WordProcessingConvertOptions**, **SpreadsheetConvertOptions** etc)
-          -   Set **setPages** property of the **ConvertOptions** instance and mention specific page number to be converted
-          -   Call **convert** method of **Converter** class instance and pass filename (PDF) for the converted document
+          -   Create a new instance of **Converter** class and load **PDF** as input file
+          -   Instantiate **SpreadsheetConvertOptions** as the convert option
+          -   Call **Convert** method of **Converter** class instance for conversion to **XLSX**
         
       title_right: "Caching Converted Document Results"
       content_right: |
@@ -75,8 +74,44 @@ content:
 
           The conversion result is saved to the local drive by default but any type of cache storage can be supported by implementing the appropriate interfaces such as Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
           
-      gisthash: "98e5756c4d2150212f5abd2eb2067059"
-      gistfile: "convert-specific-word-document-pages-to-pdf.java"
+      gisthash: "1b2b5b5a97415ef538ac358347f27174"
+      gistfile: "pdf-to-excel-conversion.java"
+
+    - title_left: "Convert PDF to PowerPoint in Java"
+      content_left: |
+          Converting PDF to PowerPoint (PPT, PPTX) slides is faster with Conholdate.Total for Java APIs. Once converted, you can easily edit the PowerPoint presentations and slides in Microsoft PowerPoint.
+
+          -   Create a new instance of **Converter** class and load **PDF** as input file
+          -   Instantiate **PresentationConvertOptions** as the convert option
+          -   Call **Convert** method of **Converter** class instance for conversion to **PPTX**
+          
+      title_right: "Load & Convert Remotely Located Documents"
+      content_right: |
+          Using Conholdate.Total for Java – developers can load and convert documents from various remote locations and cloud document storage resources such as Amazon S3, Microsoft Azure Blob, FTP, local disk, stream or a simple URL. You just have to specify the method to obtain remotely located document stream and then pass it on to the Converter class as a constructor.
+          
+          The [Java PDF conversion library](https://products.groupdocs.com/conversion/java/) also supports loading and converting documents that are protected with a password within your Java based applications.
+          
+      gisthash: "1b2b5b5a97415ef538ac358347f27174"
+      gistfile: "pdf-to-powerpoint-conversion.java"
+
+    - title_left: "Convert PDF to Images in Java"
+      content_left: |
+          Convert PDF to image formats such as JPG, PNG, GIF, BMP, TIFF and many others with a precised image quality and resolution. Transform entire PDF file or choose from some selected pages to convert into the images.
+
+          -   Create a new instance of **Converter** class and load **PDF** as input file
+          -   Declare **SavePageStream** delegate to save converted document page into stream
+          -   Specify **JPG** as the desired output format by passing **ImageConvertOptions** object to it
+          -   Call **Convert** method of **Converter** class instance for conversion to **JPG**
+          
+      title_right: "Add Text or Image Watermarks to Documents"
+      content_right: |
+          Accurately convert documents exactly as the original file and apply text or image watermarks to the converted document pages. Stamp the watermarks smartly using a handful set of watermark options to manage font, color, width, height, rotation angle, transparency and placing the watermark in the background of the document pages.
+          
+          The auto-detection of the source document format is another useful feature to retrieve the file extension itself in some cases where the source file is presented in the form of bytes stream. Developers can also get a complete list of all supported conversion formats when converting one document to another file format by calling **GetPossibleConversions** method of Converter object.
+          
+      gisthash: "1b2b5b5a97415ef538ac358347f27174"
+      gistfile: "pdf-to-image-conversion.java"
+
 ############################# About Formats ############################
 about_formats:
     enable: false
@@ -84,7 +119,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF
+    other_out_formats: DOC DOCX DOCM DOT DOTX DOTM TXT RTF HTML HTM MHTML MHT XLS XLSX XLSM XLSB XLT XLTX XLTM XLAM CSV TSV DIF SXC FODS PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVG SVGZ XPS TEX DCM WMF EMF BMP PNG GIF JPEG TIFF ICO WEBP JP2 TGA PSB PSD EPUB MD DICOM FODP JPG
 ############################# Back to top ###############################
 back_to_top:
   enable: true
