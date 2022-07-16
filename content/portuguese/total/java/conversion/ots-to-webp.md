@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Converter Excel para PDF/Word/HTML/PPTX"
+      content_left: |
+          Converta sua planilha do Excel para outros formatos de documentos populares, como PDF, HTML, apresentações do PowerPoint e formatos de arquivo de processamento de texto em Java. Carregue o arquivo de planilha do Excel de origem (XLS, XLSX) e salve-o como um documento convertido em uma variedade de formatos de arquivo suportados.
+
+          -   Crie uma nova instância da classe **Converter** e carregue **XLSX** como arquivo de entrada
+          -   Instancie a classe **ConvertOptions** adequada, por exemplo (**PdfConvertOptions** para conversão para PDF, **WordProcessingConvertOptions** para conversão para formatos Word, **MarkupConvertOptions** para conversão para HTML, **PresentationConvertOptions** para conversão para formatos PowerPoint)
+          -   Chame o método **Convert** da instância da classe **Converter** para conversão para o formato PDF/HTML/PPTX ou DOCX
+          
+      title_right: "Converter todo o documento ou páginas específicas"
+      content_right: |
+          Usar a API de conversão de documentos para Java é muito simples e independente de plataforma, pois não requer a instalação de nenhum aplicativo externo, como o Microsoft Office, para realizar conversões do Excel para outros formatos de arquivo. Escolha uma lista de páginas desejadas com base em números de página variados ou converta um intervalo consecutivo de páginas em um dos formatos de documento suportados.
+          
+          Carregue documentos de origem usando opções estendidas para gerenciar comentários, anotações, marcas d'água e senhas em documentos protegidos durante o processo de conversão de arquivos. Você também pode personalizar a aparência dos documentos convertidos usando um conjunto flexível de recursos de manipulação de documentos.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Converter OTS protegido por senha para WEBP"
       content_left: |

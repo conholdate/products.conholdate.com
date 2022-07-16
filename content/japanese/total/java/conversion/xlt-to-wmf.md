@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "ExcelをPDF/Word/HTML/PPTXに変換する"
+      content_left: |
+          Excelワークシートを、PDF、HTML、PowerPointプレゼンテーション、Javaのワードプロセッシングファイル形式など、他の一般的なドキュメント形式に変換します。ソースExcelスプレッドシート（​​XLS、XLSX）ファイルをロードし、サポートされているさまざまなファイル形式で変換されたドキュメントとして保存します。
+
+          -   **Converter**クラスの新しいインスタンスを作成し、**XLSX**を入力ファイルとしてロードします
+          -   適切な**ConvertOptions**クラスをインスタンス化します。 （PDFへの変換用の**PdfConvertOptions**、Word形式への変換用の**WordProcessingConvertOptions**、HTMLへの変換用の**MarkupConvertOptions**、PowerPoint形式への変換用の**PresentationConvertOptions**）
+          -   PDF / HTML / PPTXまたはDOCX文書形式に変換するには、**Converter**クラスインスタンスの**Convert**メソッドを呼び出します
+          
+      title_right: "ドキュメント全体または特定のページを変換する"
+      content_right: |
+          Java用のドキュメント変換APIの使用は、Excelから他のファイル形式への変換を実行するために、Microsoft Officeなどの外部アプリケーションをインストールする必要がないため、非常にシンプルでプラットフォームに依存しません。さまざまなページ番号に基づいて目的のページのリストを選択するか、連続するページ範囲をサポートされているドキュメント形式の1つに変換します。
+          
+          拡張オプションを使用してソースドキュメントをロードし、ファイル変換プロセス中に保護されたドキュメント内のコメント、注釈、透かし、およびパスワードを管理します。柔軟なドキュメント操作機能のセットを使用して、変換されたドキュメントの外観をカスタマイズすることもできます。
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "パスワードで保護されたXLTをWMFに変換する"
       content_left: |
