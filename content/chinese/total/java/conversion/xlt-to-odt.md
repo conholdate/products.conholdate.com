@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "將 Excel 轉換為 PDF/Word/HTML/PPTX"
+      content_left: |
+          將您的 Excel 工作表轉換為其他流行的文檔格式，例如 PDF、HTML、PowerPoint 演示文稿和 Java 中的文字處理文件格式。加載源 Excel 電子表格（XLS、XLSX）文件並將其另存為各種受支持文件格式的轉換文檔。
+
+          -   創建 **Converter** 對象並將源 Excel 文件傳遞給它
+          -   實例化正確的 **ConvertOptions** 類，例如（**PdfConvertOptions** 用於轉換為 PDF，**WordProcessingConvertOptions** 用於轉換為 Word 格式，**MarkupConvertOptions** 用於轉換為 HTML，**PresentationConvertOptions** 用於轉換為 PowerPoint 格式）
+          -   調用**Converter**類實例的**Convert**方法轉換為PDF/HTML/PPTX或DOCX文檔格式
+          
+      title_right: "轉換整個文檔或特定頁面"
+      content_right: |
+          使用 Java 文檔轉換 API 非常簡單且獨立於平台，因為它不需要安裝任何外部應用程序（例如 Microsoft Office）來執行從 Excel 到其他文件格式的轉換。根據不同的頁碼選擇所需頁面的列表，或將連續的頁面範圍轉換為一種受支持的文檔格式。
+          
+          使用擴展選項加載源文檔，以在文件轉換過程中管理受保護文檔中的註釋、註釋、水印和密碼。您還可以使用一組靈活的文檔操作功能自定義轉換後文檔的外觀。
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "將受密碼保護的 XLT 轉換為 ODT"
       content_left: |

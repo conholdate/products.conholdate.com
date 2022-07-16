@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Convert Excel to PDF/Word/HTML/PPTX"
+      content_left: |
+          Convert your Excel worksheet to other popular documents formats such as PDF, HTML, PowerPoint presentations and Word processing file formats in Java. Load the source Excel spreadsheet (XLS, XLSX) file and save it as a converted document in a variety of supported file formats.
+
+          -   Create new instance of **Converter** class and load **XLSX** as input file
+          -   Instantiate the proper **ConvertOptions** class e.g. (**PdfConvertOptions** for conversion to PDF, **WordProcessingConvertOptions** for conversion to Word formats, **MarkupConvertOptions** for conversion to HTML, **PresentationConvertOptions** for conversion to PowerPoint formats)
+          -   Call **Convert** method of **Converter** class instance for conversion to PDF/HTML/PPTX or DOCX format
+        
+      title_right: "Convert Whole Document or Specific Pages"
+      content_right: |
+          Using documents conversion API for Java is very simple and platform independent as it does not require any external applications such as Microsoft Office to be installed to perform conversions from Excel to other file formats. Choose a list of desired pages based on varied page numbers or convert a consecutive range of pages to one of the supported document formats.
+
+          Load source documents using extended options to manage comments, annotations, watermarks and passwords within protected documents during the file conversion process. You can also customize the appearance of the converted documents using a flexible set of document manipulation features.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Convert Password Protected XLS to SVG"
       content_left: |

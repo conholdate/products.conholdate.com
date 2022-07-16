@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Convertir Excel en PDF/Word/HTML/PPTX"
+      content_left: |
+          Convertissez vos feuilles de calcul Excel en d'autres formats de documents populaires tels que PDF, HTML, présentations PowerPoint et formats de fichiers de traitement de texte à l'aide du code Java. Chargez le classeur Excel source et enregistrez-le en tant que document converti dans un autre format de document.
+
+          -   Créez un objet **Converter** et transmettez-lui le fichier XLSX source
+          -   Instanciez la classe **ConvertOptions** appropriée, par ex. (**PdfConvertOptions** pour la conversion au format PDF, **WordProcessingConvertOptions** pour la conversion au format Word, **MarkupConvertOptions** pour la conversion au format HTML, **PresentationConvertOptions** pour la conversion au format PowerPoint)
+          -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion au format de document PDF/HTML/PPTX ou DOCX
+          
+      title_right: "Convertir un document entier ou des pages spécifiques"
+      content_right: |
+          L'utilisation de l'API de conversion de documents pour Java est très simple et indépendante de la plate-forme car elle ne nécessite l'installation d'aucune application externe telle que Microsoft Office pour effectuer des conversions d'Excel vers d'autres formats de fichiers. Choisissez une liste de pages souhaitées en fonction de numéros de page variés ou convertissez une série de pages consécutives dans l'un des formats de document pris en charge.
+          
+          Chargez les documents source à l'aide d'options étendues pour gérer les commentaires, les annotations, les filigranes et les mots de passe dans les documents protégés pendant le processus de conversion des fichiers. Vous pouvez également personnaliser l'apparence des documents convertis à l'aide d'un ensemble flexible de fonctionnalités de manipulation de documents.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Convertir FODS protégé par mot de passe en POTX"
       content_left: |
