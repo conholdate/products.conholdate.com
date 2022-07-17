@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Konverter Excel til PDF/Word/HTML/PPTX"
+      content_left: |
+          Konverter dit Excel-regneark til andre populære dokumentformater såsom PDF, HTML, PowerPoint-præsentationer og tekstbehandlingsfilformater i Java. Indlæs kildefilen til Excel-regneark (XLS, XLSX), og gem den som et konverteret dokument i en række understøttede filformater.
+
+          -   Opret en ny forekomst af **Converter**-klassen og indlæs **XLSX** som inputfil
+          -   Instantiér den rigtige **ConvertOptions**-klasse, f.eks. (**PdfConvertOptions** for konvertering til PDF, **WordProcessingConvertOptions** for konvertering til Word-formater, **MarkupConvertOptions** for konvertering til HTML, **PresentationConvertOptions** for konvertering til PowerPoint-formater)
+          -   Kald **Convert**-metoden for **Converter**-klasseinstansen til konvertering til PDF/HTML/PPTX- eller DOCX-dokumentformat
+          
+      title_right: "Konverter hele dokumentet eller specifikke sider"
+      content_right: |
+          Brug af dokumentkonverterings-API til Java er meget simpelt og platformsuafhængigt, da det ikke kræver nogen eksterne applikationer som Microsoft Office, der skal installeres for at udføre konverteringer fra Excel til andre filformater. Vælg en liste over ønskede sider baseret på forskellige sidetal, eller konverter et fortløbende udvalg af sider til et af de understøttede dokumentformater.
+          
+          Indlæs kildedokumenter ved hjælp af udvidede muligheder for at administrere kommentarer, anmærkninger, vandmærker og adgangskoder i beskyttede dokumenter under filkonverteringsprocessen. Du kan også tilpasse udseendet af de konverterede dokumenter ved hjælp af et fleksibelt sæt dokumentmanipulationsfunktioner.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Konverter adgangskodebeskyttet XLSB til XLSM"
       content_left: |
