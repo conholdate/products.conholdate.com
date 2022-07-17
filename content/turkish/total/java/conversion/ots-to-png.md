@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Excel'i PDF/Word/HTML/PPTX'e Dönüştür"
+      content_left: |
+          Excel çalışma sayfanızı Java'daki PDF, HTML, PowerPoint sunumları ve Word işleme dosya biçimleri gibi diğer popüler belge biçimlerine dönüştürün. Kaynak Excel elektronik tablosu (XLS, XLSX) dosyasını yükleyin ve desteklenen çeşitli dosya biçimlerinde dönüştürülmüş bir belge olarak kaydedin.
+
+          -   Yeni bir **Converter** sınıfı örneği oluşturun ve **XLSX**'i giriş dosyası olarak yükleyin
+          -   Uygun **ConvertOptions** sınıfını örnekleyin, ör. (**PDF'ye dönüştürme için **PdfConvertOptions**, Word biçimlerine dönüştürme için **WordProcessingConvertOptions**, HTML'ye dönüştürme için **MarkupConvertOptions**, PowerPoint biçimlerine dönüştürme için **PresentationConvertOptions**)
+          -   PDF/HTML/PPTX veya DOCX belge formatına dönüştürmek için **Converter** sınıfı örneğinin **Convert** yöntemini çağırın
+          
+      title_right: "Tüm Belgeyi veya Belirli Sayfaları Dönüştür"
+      content_right: |
+          Java için belge dönüştürme API'sini kullanmak, Excel'den diğer dosya biçimlerine dönüştürme yapmak için Microsoft Office gibi herhangi bir harici uygulamanın yüklenmesini gerektirmediğinden çok basittir ve platformdan bağımsızdır. Çeşitli sayfa numaralarına dayalı olarak istediğiniz sayfaların bir listesini seçin veya ardışık bir sayfa aralığını desteklenen belge biçimlerinden birine dönüştürün.
+          
+          Dosya dönüştürme işlemi sırasında korumalı belgelerdeki yorumları, ek açıklamaları, filigranları ve parolaları yönetmek için genişletilmiş seçenekleri kullanarak kaynak belgeleri yükleyin. Ayrıca, esnek bir belge işleme özellikleri seti kullanarak dönüştürülen belgelerin görünümünü özelleştirebilirsiniz.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Parola Korumalı OTS'yi PNG'ye Dönüştür"
       content_left: |

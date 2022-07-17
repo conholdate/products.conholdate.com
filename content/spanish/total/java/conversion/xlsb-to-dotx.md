@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Convierta Excel a PDF/Word/HTML/PPTX"
+      content_left: |
+          Convierta su hoja de cálculo de Excel a otros formatos de documentos populares como PDF, HTML, presentaciones de PowerPoint y formatos de archivo de procesamiento de texto en Java. Cargue el archivo de hoja de cálculo Excel de origen (XLS, XLSX) y guárdelo como un documento convertido en una variedad de formatos de archivo compatibles.
+
+          -   Cree una nueva instancia de la clase **Converter** y cargue **XLSX** como archivo de entrada
+          -   Cree una instancia de la clase **ConvertOptions** adecuada, p. (**PdfConvertOptions** para conversión a PDF, **WordProcessingConvertOptions** para conversión a formatos de Word, **MarkupConvertOptions** para conversión a HTML, **PresentationConvertOptions** para conversión a formatos de PowerPoint)
+          -   Llame al método **Convert** de la instancia de la clase **Converter** para la conversión a formato de documento PDF/HTML/PPTX o DOCX
+          
+      title_right: "Convertir todo el documento o páginas específicas"
+      content_right: |
+          El uso de la API de conversión de documentos para Java es muy simple e independiente de la plataforma, ya que no requiere la instalación de aplicaciones externas como Microsoft Office para realizar conversiones de Excel a otros formatos de archivo. Elija una lista de páginas deseadas en función de varios números de página o convierta un rango consecutivo de páginas a uno de los formatos de documentos admitidos.
+          
+          Cargue documentos de origen usando opciones extendidas para administrar comentarios, anotaciones, marcas de agua y contraseñas dentro de documentos protegidos durante el proceso de conversión de archivos. También puede personalizar la apariencia de los documentos convertidos utilizando un conjunto flexible de funciones de manipulación de documentos.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Convierta XLSB protegido por contraseña a DOTX"
       content_left: |
