@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Konvertieren Sie Excel in PDF/Word/HTML/PPTX"
+      content_left: |
+          Konvertieren Sie Ihr Excel-Arbeitsblatt in andere gängige Dokumentformate wie PDF, HTML, PowerPoint-Präsentationen und Textverarbeitungsdateiformate in Java. Laden Sie die Excel-Quelltabellendatei (XLS, XLSX) und speichern Sie sie als konvertiertes Dokument in einer Vielzahl von unterstützten Dateiformaten.
+
+          -   **Converter**-Objekt erstellen und die XLSX-Quelldatei daran übergeben
+          -   Instanziieren Sie die richtige Klasse **ConvertOptions**, z. (**PdfConvertOptions** für die Konvertierung in PDF, **WordProcessingConvertOptions** für die Konvertierung in Word-Formate, **MarkupConvertOptions** für die Konvertierung in HTML, **PresentationConvertOptions** für die Konvertierung in PowerPoint-Formate)
+          -   Rufen Sie die **Convert**-Methode der **Converter**-Klasseninstanz für die Konvertierung in das PDF/HTML/PPTX- oder DOCX-Dokumentformat auf
+          
+      title_right: "Konvertieren Sie das ganze Dokument oder bestimmte Seiten"
+      content_right: |
+          Die Verwendung der Dokumentkonvertierungs-API für Java ist sehr einfach und plattformunabhängig, da keine externen Anwendungen wie Microsoft Office installiert werden müssen, um Konvertierungen von Excel in andere Dateiformate durchzuführen. Wählen Sie eine Liste gewünschter Seiten basierend auf unterschiedlichen Seitenzahlen aus oder konvertieren Sie einen fortlaufenden Seitenbereich in eines der unterstützten Dokumentformate.
+          
+          Laden Sie Quelldokumente mit erweiterten Optionen zum Verwalten von Kommentaren, Anmerkungen, Wasserzeichen und Passwörtern in geschützten Dokumenten während des Dateikonvertierungsprozesses. Sie können auch das Erscheinungsbild der konvertierten Dokumente mithilfe eines flexiblen Satzes von Dokumentbearbeitungsfunktionen anpassen.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Konvertieren Sie passwortgeschütztes XLS in JPEG"
       content_left: |

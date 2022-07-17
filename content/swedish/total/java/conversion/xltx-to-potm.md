@@ -42,6 +42,23 @@ content:
           
       gisthash: "675fd7fb45acf595fd9f872593eb2899"
       gistfile: "excel-worksheet-to-pdf-conversion.java"
+
+    - title_left: "Konvertera Excel till PDF/Word/HTML/PPTX"
+      content_left: |
+          Konvertera ditt Excel-kalkylblad till andra populära dokumentformat som PDF, HTML, PowerPoint-presentationer och ordbehandlingsfilformat i Java. Ladda källfilen för Excel-kalkylark (XLS, XLSX) och spara den som ett konverterat dokument i en mängd olika filformat som stöds.
+
+          -   Skapa en ny instans av **Converter**-klassen och ladda **XLSX** som indatafil
+          -   Instantiera rätt **ConvertOptions**-klass, t.ex. (**PdfConvertOptions** för konvertering till PDF, **WordProcessingConvertOptions** för konvertering till Word-format, **MarkupConvertOptions** för konvertering till HTML, **PresentationConvertOptions** för konvertering till PowerPoint-format)
+          -   Anropa **Convert** för klassinstansen **Converter** för konvertering till PDF/HTML/PPTX- eller DOCX-dokumentformat
+          
+      title_right: "Konvertera hela dokumentet eller specifika sidor"
+      content_right: |
+          Att använda dokumentkonverterings-API för Java är mycket enkelt och plattformsoberoende eftersom det inte kräver att några externa applikationer som Microsoft Office installeras för att utföra konverteringar från Excel till andra filformat. Välj en lista med önskade sidor baserat på olika sidnummer eller konvertera en rad sidor i följd till ett av de dokumentformat som stöds.
+          
+          Ladda källdokument med utökade alternativ för att hantera kommentarer, anteckningar, vattenstämplar och lösenord i skyddade dokument under filkonverteringsprocessen. Du kan också anpassa utseendet på de konverterade dokumenten med hjälp av en flexibel uppsättning dokumenthanteringsfunktioner.
+          
+      gisthash: "675fd7fb45acf595fd9f872593eb2899"
+      gistfile: "excel-to-pdf-word-html-powerpoint-conversion.java"
           
     - title_left: "Konvertera lösenordsskyddad XLTX till POTM"
       content_left: |
