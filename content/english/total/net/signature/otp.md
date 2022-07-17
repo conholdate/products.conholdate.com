@@ -4,7 +4,7 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "total/net/signature/otp/"
-other_out_formats: "PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CMX BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT"
+other_out_formats: "PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CMX BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT IMAGE"
 ad_headline: "Digitally Sign OTP | .NET"
 ad_description: "Add, edit, search, verify & delete digital signatures from OTP in C# .NET"
 
@@ -48,7 +48,7 @@ content:
 
           -   Instantiate **Signature** with input document
           -   Instantiate **DigitalSearchOptions** object as per requirements and specified search options
-          -   Call Search method of Signature class instance and pass DigitalSearchOptions to it
+          -   Call **Search** method of **Signature** class instance and pass **DigitalSearchOptions** to it
         
       title_right: "Sign, Verify, Update & Delete Signatures"
       content_right: |
@@ -66,7 +66,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CDR BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT
+    other_out_formats: PDF WORD EXCEL DOC DOCX DOCM DOT DOTM DOTX XLS XLSB XLSM XLSX XLTM XLTX PPT PPTX PPS PPSX POTX POTM CDR BMP JPEG GIF PNG WEBP TIFF WMF PSD SVG ODP OTP ODS OTS ODT OTT IMAGE
 ############################# Back to top ###############################
 back_to_top:
   enable: true
