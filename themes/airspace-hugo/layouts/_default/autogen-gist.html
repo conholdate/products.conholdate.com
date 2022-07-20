@@ -120,25 +120,9 @@
             <h2>{{T "popular"}} {{ T $feature }} {{ T "options"}}</h2>
         </div>
         <div class="row formats mt-20">
-            {{ if .auto }}
-                {{ range site.RegularPages }}
-                    {{ if  and (in .File.Dir $family) (in .File.Dir $platform ) ( in .File.Dir $feature )  (not ( in .File $slug)) }} 
-                    {{ $pathsegment := (path.Split (strings.TrimRight "/" .RelPermalink))  }}
-                    <div class="col-sm-3 col-md-3">
-                        <h4>
-                        <a href="{{ .RelPermalink }}">
-                            {{ if and (in $pathsegment "-to-") (eq $feature "conversion" ) }}
-                            Convert {{ upper (index (split $pathsegment.File "-to-") 0) }} to {{ upper (index (split $pathsegment.File "-to-") 1) }}
-                            {{ else }}
-                            {{ upper $pathsegment.File }} {{ $feature | humanize }}
-                            {{ end }}</a>
-                        </h4>
-                    </div>
-                    {{ end }}
-                {{ end }}
-            {{ else if and (ne $other_out_formats "") (ne $other_out_formats nil) }}
-                {{ $other_out_formats := (split $other_out_formats " ") }}
-                {{ range $other_out_formats }}
+            {{ if and (ne $other_out_formats "") (ne $other_out_formats nil) }}
+                {{ $other_out_formats := (shuffle (split $other_out_formats " ")) }}
+                {{ range first 16 $other_out_formats }}
                     {{ $formatdetails := (index $formats .) }}
                     {{ $absURL := ""}}
                     <div class="col-sm-3 col-md-3">
@@ -155,8 +139,8 @@
                     </div>
                 {{ end }}
             {{ else if and (ne $other_in_formats "") (ne $other_in_formats nil) }}
-                {{ $other_in_formats := (split $other_in_formats " ") }}
-                {{ range $other_in_formats }}
+            {{ $other_in_formats := (shuffle (split $other_in_formats " ")) }}
+            {{ range first 16 $other_in_formats }}
                     {{ $formatdetails := (index $formats .) }}
                     {{ $absURL := ""}}
                     <div class="col-sm-3 col-md-3">
@@ -230,7 +214,7 @@
 <!-- ############ BACK 2 TOP ############ -->
 {{ with .Params.back_to_top }}
 {{ if .enable }}
-{{- partial "back2top.html" . -}}
+{{- partialCached "back2top.html" . -}}
 {{ end }}
 
 {{ end }}
