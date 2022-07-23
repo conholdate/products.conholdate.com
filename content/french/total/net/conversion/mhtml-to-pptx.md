@@ -4,17 +4,17 @@ layout: "autogen-gist"
 date: 2021-10-02T14:22:14+03:00
 draft: false
 path: "fr/total/net/conversion/mhtml-to-pptx/"
-other_out_formats: "PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF"
+other_out_formats: "PDF Word Excel Image DOC DOCM DOCX DOT DOTM DOTX RTF TXT RTF HTML HTM MHT MHTML XLS XLSX XLSM XLSB XLT XLTX XLTM TSV CSV XLAM FODS DIF SXC PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS PSD PSB SVG SVGZ XPS TEX BMP PNG GIF JPEG JPG TIFF WEBP JP2 ICO DCM WMF EMZ WMZ TGA MD EPUB FODP DICOM"
 ad_headline: "Convertir MHTML en PPTX | .NET"
-ad_description: "La solution de conversion de documents MHTML en PPTX la plus précise pour vos applications .NET."
+ad_description: "La solution de conversion de documents MHTML vers PPTX la plus précise pour vos applications .NET."
 
 ############################# Head ############################
-head_title: "Convertir MHTML en PPTX en C# VB.NET ASP.NET | Conversion de documents"
-head_description: "Exemple de code pour convertir MHTML en PPTX et plus de 100 autres formats de fichiers dans les applications .NET (C#, VB.NET, ASP.NET et .NET Core). Affichez le document PPTX converti en tant que visualiseur HTML."
+head_title: "MHTML-to-PPTX.NET - Convertir MHTML en PPTX en C# .NET"
+head_description: "API de conversion C# .NET MHTML vers PPTX. Convertissez MHTML en PDF, Word, Excel, PowerPoint, images et plus de 100 autres formats de fichiers dans les applications .NET (C#, VB.NET, ASP.NET et .NET Core)."
 
 ############################# Header ############################
-title: "Convertir un fichier MHTML en PPTX en C# .NET"
-description: "Convertissez par programmation MHTML en PPTX dans les applications C# .NET à l'aide des fonctionnalités flexibles du document conversion pour personnaliser le document résultant. Convertissez le document complet d'un format de fichier à un autre ou choisissez des pages sélectives d'un document source en fonction des numéros de page ou des plages de pages et convertissez facilement en un format de document pris en charge."
+title: "Convertir MHTML en PPTX en C# .NET Core"
+description: "API de conversion de documents et d'images C# .NET pour convertir MHTML en PPTX dans les applications C# .NET. Travaillez avec les fonctionnalités avancées de conversion de documents pour personnaliser l'apparence du document converti. Convertissez facilement tous les formats de fichiers Web populaires vers et depuis des documents Word, des feuilles de calcul Excel, des présentations PowerPoint, des PDF, Photoshop, des livres électroniques et des images. Convertissez par programmation le document complet ou choisissez certaines pages spécifiques du fichier de document source en fonction des numéros de page ou des plages de pages sélectifs et convertissez facilement en une large gamme de formats de document pris en charge."
 
 ############################# SubMenu ############################
 submenu:
@@ -24,53 +24,51 @@ submenu:
 content:
     enable: true
     block:
-    - title_left: "Conversion de MHTML en PPTX en C# .NET"
+    - title_left: "Convertir MHTML en PPTX en C# .NET"
       content_left: |
-          Suivez ces étapes simples pour convertir MHTML en PPTX en C# .NET. Affichez le document PPTX converti au format HTML sans utiliser de logiciel externe.
+          Suivez ces étapes simples pour la conversion de MHTML en PPTX dans .NET. Affichez le document PPTX converti tel quel ou rendez-le et affichez-le au format HTML, PDF ou une image sans utiliser de logiciel externe.
 
           -   Créer un objet **Converter** pour convertir le document MHTML
           -   Définir les options de conversion pour le format PPTX
           -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion en PPTX
-          -   Définir les options du visualiseur HTML
-          -   Créer un objet **Viewer** pour afficher le PPTX converti en HTML
+          -   Définir les options de la visionneuse **PDF** (PdfViewOptions), **JPG** (JpgViewOptions), **PNG** (PngViewOptions) ou **HTML** (HtmlViewOptions)
+          -   Créez un objet **Viewer** pour afficher le PPTX converti au format HTML, PDF ou image
           
       title_right: "Téléchargements et instructions d'installation"
       content_right: |
-          Vous avez besoin des espaces de noms `GroupDocs.Conversion` et `GroupDocs.Viewer` pour convertir entre un large éventail de types de documents populaires tels que PDF, Microsoft Word, Excel, PowerPoint, Project, Outlook, HTML, diagrammes et formats de fichiers image. Explorez d'autres [API .NET pour les documents Office](https://products.conholdate.com/fr/total/net/) proposés par Conholdate.Total.
+          Vous avez besoin des espaces de noms `GroupDocs.Conversion` et `GroupDocs.Viewer` pour convertir les formats de fichiers Word en une large gamme d'images et de types de documents tels que PDF, Microsoft Office (Word, Excel, PowerPoint, Project, Outlook), OpenDocument, HTML et Schémas CAO. Découvrez d'autres [API .NET pour les documents Office](https://products.conholdate.com/fr/total/net/) proposées par Conholdate.Total.
           
-          Obtenez les fichiers d'assemblage respectifs à partir des [téléchargements](https://downloads.conholdate.com/total/net) ou récupérez l'ensemble du package à partir de [Nuget](https://www.nuget.org/packages/Conholdate.Total/) pour ajouter "Conholdate.Total" directement dans votre espace de travail.
+          Obtenez les fichiers d'assemblage respectifs à partir des [téléchargements](https://downloads.conholdate.com/total/net) ou récupérez l'ensemble du package à partir de [NuGet](https://www.nuget.org/packages/Conholdate.Total/) pour ajouter `Conholdate.Total for .NET` directement dans votre espace de travail.
           
-      gisthash: "e1a86529e1c97d75d902b382bdb5e7f9"
-      gistfile: "conversion-word-en-pdf.cs"
+      gisthash: "c93008180c287d2c0e630c3a87099946"
+      gistfile: "html-to-word-docx-conversion.cs"
 
-    - title_left: "Ajouter un filigrane au PPTX converti en C#"
+    - title_left: "Convertir HTML en PDF en C# .NET"
       content_left: |
-          Convertissez avec précision des documents (MHTML en PPTX) exactement comme le fichier d'origine et appliquez des filigranes de texte ou d'image aux pages de document converties à l'aide de C# .NET.
+          Convertissez avec précision votre document Web HTML5 en fichier PDF dans n'importe quel type d'applications .NET (C#, ASP.NET, VB.NET et .NET Core) en trois lignes de code simples.
 
-          -   Créer un objet **Converter** pour convertir le document MHTML
-          -   Créer une nouvelle instance de la classe **WatermarkOptions**
-          -   Spécifiez les propriétés du filigrane (couleur, largeur, texte, image, etc.)
-          -   Instanciez la bonne classe **ConvertOptions**
-          -   Définir la propriété **Watermark** de l'instance **ConvertOptions**
-          -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion en PPTX
+          La conversion en fichiers HTML est également prise en charge à l'aide d'options avancées telles que la mise en page fixe pour positionner avec précision les éléments HTML et gérer le niveau de zoom du document converti en pourcentage.
+
+          -   Charger le fichier **HTML** source
+          -   Définir les options de conversion pour le format **PDF**
+          -   Convertir le format **HTML** au format **PDF**
         
       title_right: "Extraction d'informations sur les documents sources"
       content_right: |
-          La fonction d'extraction d'informations sur les documents permet non seulement d'obtenir les informations de base sur le fichier du document source, mais elle prend également en charge l'extraction de certaines informations précieuses spécifiques au format de fichier, telles que les dates de début et de fin du projet d'un fichier Microsoft Project, toute restriction d'impression sur un document PDF, liste des dossiers contenus dans un fichier de données Outlook, etc. 
+          La fonction d'extraction d'informations sur les documents permet non seulement d'obtenir les informations de base sur le fichier du document source, mais elle prend également en charge l'extraction de certaines informations précieuses spécifiques au format de fichier, telles que les dates de début et de fin du projet d'un fichier Microsoft Project, toute restriction d'impression sur un document PDF, liste des dossiers contenus dans un fichier de données Outlook, etc.
 
           Convertissez les formats de fichiers de documents populaires sur différents systèmes d'exploitation tels que Windows, Linux ou macOS tout en utilisant des plates-formes telles que Windows Azure, Mono et Xamarin.
           
-      gisthash: "1b50a428b27632b65e97850e10b6551c"
-      gistfile: "convertir-word-to-pdf-et-ajouter-texte-filigrane-to-converted-pdf.cs"
+      gisthash: "4f311c07ae9ee691b8afb7960aa6c806"
+      gistfile: "html-to-pdf-conversion.cs"
 
-    - title_left: "Convertir un Word protégé par mot de passe en PDF"
+    - title_left: "Convertir un fichier JSON en Excel en C# .NET"
       content_left: |
-          La conversion de documents protégés par mot de passe est facilitée dans .NET. Ajoutez simplement quelques lignes de code C # pour convertir avec précision un document Word protégé par mot de passe en fichier PDF sans utiliser de logiciel externe.
+          La conversion d'un fichier JSON en Excel dans .NET est désormais plus facile avec Conholdate.Total pour les API .NET. Utilisez le fichier JSON comme source de données et convertissez-le précisément au format de fichier de feuille de calcul Excel en ajoutant quelques lignes de code C # sans utiliser de logiciel externe.
 
-          -   Définissez Func **LoadOptions** et définissez le mot de passe à partir des options de chargement spécifiques au document
-          -   Créer un objet **Converter** pour convertir un document Word
-          -   Instancier la classe **PdfConvertOptions**
-          -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion en PDF
+          -   Créer un objet **Converter** pour convertir le fichier JSON
+          -   Instancier la classe **SpreadsheetConvertOptions**
+          -   Appelez la méthode **Convert** de l'instance de classe **Converter** pour la conversion en XLSX
           
       title_right: "Charger et convertir des documents situés à distance"
       content_right: |
@@ -78,8 +76,8 @@ content:
           
           Les API Conholdate.Total pour .NET sont natives pour Windows Forms, ASP.NET, WPF, WCF ou tout type d'application basée sur .NET Framework 2.0 ou version ultérieure.
           
-      gisthash: "96b04fde76a58bf60ff71274010c7fb0"
-      gistfile: "convertir-mot-protégé-par-mot-de-passe-en-pdf.cs"
+      gisthash: "7864dd1c0c16ca647722d18664d5c84a"
+      gistfile: "json-to-excel-spreadsheet-conversion.cs"
 
 ############################# About Formats ############################
 about_formats:
@@ -88,7 +86,7 @@ about_formats:
 more_formats:
     enable: true
     auto: false
-    other_out_formats: PDF DOCX DOT DOTX DOTM TXT RTF HTML MHTML XLS XLSX XLSM XLT XLTX XLTM CSV DIF PPT PPTX PPS PPSX POT POTX POTM ODT OTT OTP ODP ODS EMZ WMZ SVGZ TEX DCM WMF BMP PNG GIF JPEG TIFF
+    other_out_formats: PDF Word Excel Image DOC DOCM DOCX DOT DOTM DOTX RTF TXT RTF HTML HTM MHT MHTML XLS XLSX XLSM XLSB XLT XLTX XLTM TSV CSV XLAM FODS DIF SXC PPT PPTX PPTM PPS PPSX PPSM POT POTX POTM ODT OTT OTP ODP ODS PSD PSB SVG SVGZ XPS TEX BMP PNG GIF JPEG JPG TIFF WEBP JP2 ICO DCM WMF EMZ WMZ TGA MD EPUB FODP DICOM
 ############################# Back to top ###############################
 back_to_top:
   enable: true
